@@ -23,6 +23,7 @@ Migrating the modules to use the new authentication libraries ([MSAL](https://gi
 Some projects have been started to help with the migration of your code base:
 
 |Name|Description|
+|---|---|
 |[Graph PowerShell Conversion Analyzer](https://graphpowershell.merill.net)|A website to conveniently convert your code - just paste in the snippet using the old modules and see the magic happen.|
 |[PSAzureMigrationAdvisor](https://github.com/FriedrichWeinmann/PSAzureMigrationAdvisor)|PowerShell-based toolkit to search code in need of migration and how to convert it. Includes integration tools to help scanning GitHub or Azure DevOps Services repositories.|
 
