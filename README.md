@@ -1,14 +1,30 @@
-# Project
+# AzureAD to MSGraph migration data
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+Welcome to the project to help you get your PowerShell modules migrated from the old [MSOnline](https://www.powershellgallery.com/packages/MSOnline) and [AzureAD](https://www.powershellgallery.com/packages/AzureAD) modules to the new [Microsoft Graph Modules](https://github.com/microsoftgraph/msgraph-sdk-powershell).
 
-As the maintainer of this project, please make a few updates:
+In this Repository we maintain the data used to inform various tools as well as online documentation.
+Below you can find both documentation and resources to understand what is happening, why, and how to best go about your own migration.
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+## Why is this happening, where do I get more information?
+
+The API backing the affected PowerShell modules (MSOnline, AzureAD, AzureADPreview) is being retired in favor of the Microsoft Graph API. Furthermore, the authentication libraries ([ADAL](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet)) used by the affected modules are being deprecated.
+
+Migrating the modules to use the new authentication libraries ([MSAL](https://github.com/AzureAD/microsoft-authentication-library-for-dotnet)) would be a major engineering effort, as would be transporting the commands to the new API (which does not have identical endpoints), while there are already commands available for use with the Graph API. Only to end up with having two sets of modules doing the same to be maintained going forward.
+
+> Official Documentation
+
++ [Announcement](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/azure-ad-change-management-simplified/ba-p/2967456)
++ [Migration Guide](https://docs.microsoft.com/en-us/powershell/microsoftgraph/migration-steps?view=graph-powershell-beta)
++ [Mapping to old to the new commands](https://docs.microsoft.com/en-us/powershell/microsoftgraph/azuread-msoline-cmdlet-map?view=graph-powershell-beta)
++ [Mapping Command to permissions](https://docs.microsoft.com/en-us/powershell/microsoftgraph/find-mg-graph-command?view=graph-powershell-beta)
+
+## Migration Tools
+
+Some projects have been started to help with the migration of your code base:
+
+|Name|Description|
+|[Graph PowerShell Conversion Analyzer](https://graphpowershell.merill.net)|A website to conveniently convert your code - just paste in the snippet using the old modules and see the magic happen.|
+|[PSAzureMigrationAdvisor](https://github.com/FriedrichWeinmann/PSAzureMigrationAdvisor)|PowerShell-based toolkit to search code in need of migration and how to convert it. Includes integration tools to help scanning GitHub or Azure DevOps Services repositories.|
 
 ## Contributing
 
