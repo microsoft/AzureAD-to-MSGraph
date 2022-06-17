@@ -9,6 +9,7 @@
 
 > Scopes Needed (any one)
 
+|Type|Scopes|
 |---|---|
 |Application|Policy.ReadWrite.PermissionGrant|
 |Delegate|Policy.ReadWrite.PermissionGrant|

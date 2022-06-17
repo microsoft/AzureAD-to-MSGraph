@@ -422,6 +422,7 @@ function Export-CommandDocumentation {
 
 > Scopes Needed (any one)
 
+|Type|Scopes|
 |---|---|
 |Application|{0}|
 |Delegate|{1}|

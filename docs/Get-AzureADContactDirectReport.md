@@ -9,6 +9,7 @@
 
 > Scopes Needed (any one)
 
+|Type|Scopes|
 |---|---|
 |Application|Directory.Read.All, Group.Read.All, OrgContact.Read.All|
 |Delegate|Directory.Read.All, Group.Read.All, OrgContact.Read.All|

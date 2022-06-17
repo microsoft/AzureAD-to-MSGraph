@@ -9,6 +9,7 @@
 
 > Scopes Needed (any one)
 
+|Type|Scopes|
 |---|---|
 |Application|Policy.Read.All|
 |Delegate|Policy.Read.All|

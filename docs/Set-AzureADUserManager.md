@@ -9,6 +9,7 @@
 
 > Scopes Needed (any one)
 
+|Type|Scopes|
 |---|---|
 |Application|Directory.ReadWrite.All, User.ReadWrite.All|
 |Delegate|Directory.AccessAsUser.All, Directory.ReadWrite.All, User.ReadWrite.All|

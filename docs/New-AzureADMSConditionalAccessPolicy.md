@@ -9,6 +9,7 @@
 
 > Scopes Needed (any one)
 
+|Type|Scopes|
 |---|---|
 |Application|Application.Read.All, Policy.Read.All, Policy.ReadWrite.ConditionalAccess|
 |Delegate|Application.Read.All, Policy.Read.All, Policy.ReadWrite.ConditionalAccess|

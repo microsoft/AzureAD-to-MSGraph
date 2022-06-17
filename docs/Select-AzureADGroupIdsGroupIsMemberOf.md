@@ -9,6 +9,7 @@
 
 > Scopes Needed (any one)
 
+|Type|Scopes|
 |---|---|
 |Application|Group.Read.All, GroupMember.Read.All|
 |Delegate|Group.Read.All, GroupMember.Read.All|

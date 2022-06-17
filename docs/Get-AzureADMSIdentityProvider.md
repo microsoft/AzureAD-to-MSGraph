@@ -9,6 +9,7 @@
 
 > Scopes Needed (any one)
 
+|Type|Scopes|
 |---|---|
 |Application|IdentityProvider.Read.All, IdentityProvider.ReadWrite.All|
 |Delegate|IdentityProvider.Read.All, IdentityProvider.ReadWrite.All|

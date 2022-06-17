@@ -9,6 +9,7 @@
 
 > Scopes Needed (any one)
 
+|Type|Scopes|
 |---|---|
 |Application|RoleManagement.ReadWrite.Directory|
 |Delegate|Directory.AccessAsUser.All, RoleManagement.ReadWrite.Directory|
