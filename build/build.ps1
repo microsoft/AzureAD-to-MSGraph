@@ -112,7 +112,7 @@ function New-CommandMappingData {
 		$param.Target = $moduleName
 
 		Invoke-PSFProtectedCommand @param -Action "Importing Module: $moduleName" -ScriptBlock {
-			Import-Module -Name $moduleName -ErrorAction Stop -Force
+			Import-Module -Name $moduleName -ErrorAction Stop -Force -Scope Global
 		}
 
 		foreach ($commandObject in Get-Command -Module $moduleName) {
@@ -175,7 +175,7 @@ function New-ParameterTable {
 		$data[$parameter.Name] = [PSCustomObject]@{
 			Name       = $parameter.Name
 			NewName    = ''
-			OldType    = $parameter.ParameterType.FullName
+			OldType    = $parameter.ParameterType.FullName -replace ',.+' -replace '`1\[\[',"/"
 			NewType    = ''
 			MsgInfo    = ''
 			MsgWarning = ''
@@ -204,7 +204,7 @@ function Update-ParameterTable {
 		$newParameter = $firstCommand.Parameters.$parameterName
 		if (-not $newParameter) { continue }
 		$Table[$parameterName].NewName = $newParameter.Name
-		$Table[$parameterName].NewType = $newParameter.ParameterType.FullName
+		$Table[$parameterName].NewType = $newParameter.ParameterType.FullName -replace ',.+' -replace '`1\[\[',"/"
 	}
 }
 
@@ -281,7 +281,7 @@ function Set-CommandData {
 
 		if ($parameter.NewName -and $parameter.NewName -ne $paramDefinition.NewName) {
 			$paramDefinition.NewName = $parameter.NewName
-			$paramDefinition.NewType = $Command.NewCommandObject.Parameters.$($parameter.NewName).ParameterType.FullName
+			$paramDefinition.NewType = $Command.NewCommandObject.Parameters.$($parameter.NewName).ParameterType.FullName -replace ',.+' -replace '`1\[\[',"/"
 		}
 		if ($parameter.MsgInfo) { $paramDefinition.MsgInfo = $parameter.MsgInfo }
 		if ($parameter.MsgWarning) { $paramDefinition.MsgWarning = $parameter.MsgWarning }
@@ -316,7 +316,7 @@ function Add-CalculatedCommandData {
 			'Scopes' {
 				if (-not $commandItem.NewCommand -or $commandItem.NewCommandModule -notlike 'Microsoft.Graph.*') { continue }
 
-				$commandInstances = Find-MgGraphCommand -Command $commandItem.NewCommand
+				$commandInstances = Find-MgGraphCommand -Command $commandItem.NewCommand -ErrorAction Ignore
 
 				if (-not $commandItem.ScopesApplication) {
 					$commandItem.ScopesApplication = $commandInstances.Permissions.Name | Where-Object {
@@ -332,7 +332,7 @@ function Add-CalculatedCommandData {
 			'ApiUrl' {
 				if (-not $commandItem.NewCommand -or $commandItem.NewCommandModule -notlike 'Microsoft.Graph.*') { continue }
 
-				$commandInstances = Find-MgGraphCommand -Command $commandItem.NewCommand
+				$commandInstances = Find-MgGraphCommand -Command $commandItem.NewCommand -ErrorAction Ignore
 				$commandItem.LinkApi = $commandInstances.Uri | Sort-Object -Unique
 
 				#TODO: Add resolving API url to API documentation url
@@ -354,14 +354,14 @@ function Export-CommandData {
 
 	# Timestamp the data
 	$timestamp = Get-Date
-	$timestamp | Export-PSFClixml -Path "$Path/timestamp.clidat"
+	$timestamp | Export-PSFClixml -Path "$Path/timestamp.clidat" 
 	$timestamp | ConvertTo-Json | Set-Content -Path "$Path/timestamp.json"
 
-	$CommandData | Export-PSFClixml -Path "$Path/all.clidat" -Depth 5
-	$CommandData | ConvertTo-Json -Compress -Depth 5 | Set-Content "$Path/all.json"
+	$CommandData | Select-Object -ExcludeProperty CommandObject, NewCommandObject | Export-PSFClixml -Path "$Path/all.clidat" -Depth 5
+	$CommandData | Select-Object -ExcludeProperty CommandObject, NewCommandObject | ConvertTo-Json -Compress -Depth 5 | Set-Content "$Path/all.json"
 
 	foreach ($commandItem in $CommandData) {
-		$commandItem  | ConvertTo-Json -Compress -Depth 5 | Set-Content "$Path/commands/$($commandItem.Name).json"
+		$commandItem | Select-Object -ExcludeProperty CommandObject, NewCommandObject | ConvertTo-Json -Compress -Depth 5 | Set-Content "$Path/commands/$($commandItem.Name).json"
 	}
 
 	$properties = 'Name', 'Module', 'NewCommand as GraphCmdName', 'NewModule as GraphModuleName', 'ScopesApplication as GraphScopesApplication', 'ScopesDelegate as GraphScopesDelegate', 'ApiUri'
@@ -392,6 +392,8 @@ function Export-CommandDocumentation {
 
 		#region Data
 		$text += @'
+
+
 ## Data
 
 + AAD Command: [{0}]({1})
@@ -471,12 +473,15 @@ function Export-CommandDocumentation {
 			foreach ($parameter in $commandItem.Parameters.Values) {
 				$info = @()
 				foreach ($message in $parameter.MsgInfo) {
+					if (-not $message) { continue }
 					$info += "[info] $message"
 				}
 				foreach ($message in $parameter.MsgWarning) {
+					if (-not $message) { continue }
 					$info += "[warning] $message"
 				}
 				foreach ($message in $parameter.MsgError) {
+					if (-not $message) { continue }
 					$info += "[error] $message"
 				}
 				$text += @'

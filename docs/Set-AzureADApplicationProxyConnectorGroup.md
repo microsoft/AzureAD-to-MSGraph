@@ -1,0 +1,22 @@
+# Set-AzureADApplicationProxyConnectorGroup ()
+
+## Data
+
++ AAD Command: [Set-AzureADApplicationProxyConnectorGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADApplicationProxyConnectorGroup)
++ AAD Module: AzureAD
++ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Module: 
+
+> Scopes Needed (any one)
+
+|---|---|
+|Application||
+|Delegate||
+
+## Parameters
+
+|AAD Name|Graph Name|AAD Type|Graph Type|Infos|
+|---|---|---|---|---|
+|Id||System.String|||
+|Name||Microsoft.Open.MSGraph.Model.Name|||
+
