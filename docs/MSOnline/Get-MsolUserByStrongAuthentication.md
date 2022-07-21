@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-MsolUserByStrongAuthentication](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Get-MsolUserByStrongAuthentication)
 + AAD Module: MSOnline
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: []()
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -20,11 +20,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|MaxResults||System.Int32|||
-|TenantId||System.Nullable/System.Guid|||
+|Requirements||Microsoft.Online.Administration.StrongAuthenticationRequirement[]|||
+|All||System.Management.Automation.SwitchParameter|||
 |SearchString||System.String|||
 |RequirementUnsetOnly||System.Management.Automation.SwitchParameter|||
-|All||System.Management.Automation.SwitchParameter|||
-|Requirements||Microsoft.Online.Administration.StrongAuthenticationRequirement[]|||
+|TenantId||System.Nullable/System.Guid|||
+|MaxResults||System.Int32|||
 |RoleObjectId||System.Nullable/System.Guid|||
 

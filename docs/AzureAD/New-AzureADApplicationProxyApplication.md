@@ -6,7 +6,7 @@
 
 + AAD Command: [New-AzureADApplicationProxyApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADApplicationProxyApplication)
 + AAD Module: AzureAD
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: []()
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -22,13 +22,13 @@
 |---|---|---|---|---|
 |ApplicationServerTimeout||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ApplicationServerTimeoutEnum|||
 |IsPersistentCookieEnabled||System.Nullable/System.Boolean|||
+|DisplayName||System.String|||
 |IsSecureCookieEnabled||System.Nullable/System.Boolean|||
-|ExternalAuthenticationType||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ExternalAuthenticationTypeEnum|||
 |InternalUrl||System.String|||
 |IsTranslateLinksInBodyEnabled||System.Nullable/System.Boolean|||
+|ExternalAuthenticationType||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ExternalAuthenticationTypeEnum|||
 |ExternalUrl||System.String|||
 |IsTranslateHostHeaderEnabled||System.Nullable/System.Boolean|||
 |ConnectorGroupId||System.String|||
 |IsHttpOnlyCookieEnabled||System.Nullable/System.Boolean|||
-|DisplayName||System.String|||
 

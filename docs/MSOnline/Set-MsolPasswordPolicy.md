@@ -6,7 +6,7 @@
 
 + AAD Command: [Set-MsolPasswordPolicy](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Set-MsolPasswordPolicy)
 + AAD Module: MSOnline
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: []()
 + Graph Module: 
 
 > Scopes Needed (any one)

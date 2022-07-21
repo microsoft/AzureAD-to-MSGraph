@@ -6,7 +6,7 @@
 
 + AAD Command: [New-AzureADMSCustomSecurityAttributeDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSCustomSecurityAttributeDefinition)
 + AAD Module: AzureADPreview
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: [](), []()
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -24,8 +24,8 @@
 |Type||System.String|||
 |Status||System.String|||
 |IsSearchable||System.Nullable/System.Boolean|||
-|Description||System.String|||
 |AttributeSet||System.String|||
+|Description||System.String|||
 |UsePreDefinedValuesOnly||System.Nullable/System.Boolean|||
 |Name||System.String|||
 

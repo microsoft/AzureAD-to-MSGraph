@@ -23,7 +23,7 @@
 |GroupObjectId||System.Guid|||
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
 |TenantId||System.Nullable/System.Guid|||
-|SearchString||System.String|||
-|MemberObjectTypes||System.String[]|||
 |MaxResults||System.Int32|||
+|MemberObjectTypes||System.String[]|||
+|SearchString||System.String|||
 

@@ -21,8 +21,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |NewUserPrincipalName||System.String|||
+|UserPrincipalName||System.String|||
 |AutoReconcileProxyConflicts||System.Management.Automation.SwitchParameter|||
 |TenantId||System.Nullable/System.Guid|||
-|UserPrincipalName||System.String|||
 |ObjectId||System.Guid|||
 

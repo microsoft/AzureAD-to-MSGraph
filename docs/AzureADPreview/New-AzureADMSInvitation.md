@@ -21,11 +21,11 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |InvitedUserMessageInfo|InvitedUserMessageInfo|Microsoft.Open.MSGraph.Model.InvitedUserMessageInfo|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphInvitedUserMessageInfo||
-|InvitedUserDisplayName|InvitedUserDisplayName|System.String|System.String||
+|SendInvitationMessage|SendInvitationMessage|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ResetRedemption||System.Nullable/System.Boolean|||
 |InviteRedirectUrl|InviteRedirectUrl|System.String|System.String||
 |InvitedUserEmailAddress|InvitedUserEmailAddress|System.String|System.String||
 |InvitedUserType|InvitedUserType|System.String|System.String||
-|SendInvitationMessage|SendInvitationMessage|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|InvitedUserDisplayName|InvitedUserDisplayName|System.String|System.String||
 |InvitedUser|InvitedUser|Microsoft.Open.MSGraph.Model.User|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphUser1||
 

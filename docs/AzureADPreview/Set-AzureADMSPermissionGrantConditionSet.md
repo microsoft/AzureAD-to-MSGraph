@@ -6,8 +6,8 @@
 
 + AAD Command: [Set-AzureADMSPermissionGrantConditionSet](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSPermissionGrantConditionSet)
 + AAD Module: AzureADPreview
-+ Graph Command: [System.Object[]](https://docs.microsoft.com/en-us/powershell/module/System.Object[]/System.Object[])
-+ Graph Module: System.Object[]
++ Graph Command: [Update-MgPolicyPermissionGrantPolicyInclude](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Update-MgPolicyPermissionGrantPolicyInclude), [Update-MgPolicyPermissionGrantPolicyExclude](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Update-MgPolicyPermissionGrantPolicyExclude)
++ Graph Module: Microsoft.Graph.Identity.SignIns
 
 > Scopes Needed (any one)
 
@@ -24,11 +24,11 @@
 |ClientApplicationsFromVerifiedPublisherOnly|ClientApplicationsFromVerifiedPublisherOnly|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |PolicyId||System.String|||
 |PermissionType|PermissionType|System.String|System.String||
-|ClientApplicationIds|ClientApplicationIds|System.Collections.Generic.List/System.String|System.String[]||
+|ResourceApplication|ResourceApplication|System.String|System.String||
 |PermissionClassification|PermissionClassification|System.String|System.String||
 |ClientApplicationPublisherIds|ClientApplicationPublisherIds|System.Collections.Generic.List/System.String|System.String[]||
+|ClientApplicationIds|ClientApplicationIds|System.Collections.Generic.List/System.String|System.String[]||
 |Id|Id|System.String|System.String||
 |ClientApplicationTenantIds|ClientApplicationTenantIds|System.Collections.Generic.List/System.String|System.String[]||
-|ResourceApplication|ResourceApplication|System.String|System.String||
 |ConditionSetType||System.String|||
 

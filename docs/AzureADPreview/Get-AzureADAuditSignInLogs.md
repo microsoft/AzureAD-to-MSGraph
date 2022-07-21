@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-AzureADAuditSignInLogs](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADAuditSignInLogs)
 + AAD Module: AzureADPreview
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: [](), []()
 + Graph Module: 
 
 > Scopes Needed (any one)

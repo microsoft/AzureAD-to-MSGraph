@@ -28,7 +28,6 @@
 |PreferredLanguage|PreferredLanguage|System.String|System.String||
 |FacsimileTelephoneNumber||System.String|||
 |PasswordPolicies|PasswordPolicies|System.String|System.String||
-|Mobile||System.String|||
 |ConsentProvidedForMinor|ConsentProvidedForMinor|System.String|System.String||
 |StreetAddress|StreetAddress|System.String|System.String||
 |Country|Country|System.String|System.String||
@@ -46,6 +45,7 @@
 |Department|Department|System.String|System.String||
 |City|City|System.String|System.String||
 |TelephoneNumber||System.String|||
+|Mobile||System.String|||
 |ImmutableId||System.String|||
 |State|State|System.String|System.String||
 |Surname|Surname|System.String|System.String||

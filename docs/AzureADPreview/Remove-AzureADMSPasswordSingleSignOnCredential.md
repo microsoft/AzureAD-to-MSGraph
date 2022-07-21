@@ -6,7 +6,7 @@
 
 + AAD Command: [Remove-AzureADMSPasswordSingleSignOnCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSPasswordSingleSignOnCredential)
 + AAD Module: AzureADPreview
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: [](), []()
 + Graph Module: 
 
 > Scopes Needed (any one)

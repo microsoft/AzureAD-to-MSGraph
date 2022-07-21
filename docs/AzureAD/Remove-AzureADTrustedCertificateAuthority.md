@@ -6,7 +6,7 @@
 
 + AAD Command: [Remove-AzureADTrustedCertificateAuthority](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADTrustedCertificateAuthority)
 + AAD Module: AzureAD
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: []()
 + Graph Module: 
 
 > Scopes Needed (any one)

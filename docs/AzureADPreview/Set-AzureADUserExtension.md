@@ -21,7 +21,7 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |ExtensionValue||System.String|||
-|ObjectId||System.String|||
-|ExtensionName||System.String|||
 |ExtensionNameValues||System.Collections.Generic.Dictionary`2[[System.String|||
+|ExtensionName||System.String|||
+|ObjectId||System.String|||
 

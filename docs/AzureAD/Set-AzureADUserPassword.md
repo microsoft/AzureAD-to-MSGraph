@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|ObjectId||System.String|||
 |Password||System.Security.SecureString|||
 |ForceChangePasswordNextLogin||System.Boolean|||
-|ObjectId||System.String|||
 |EnforceChangePasswordPolicy||System.Boolean|||
 

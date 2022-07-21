@@ -6,7 +6,7 @@
 
 + AAD Command: [Set-MsolDirSyncFeature](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Set-MsolDirSyncFeature)
 + AAD Module: MSOnline
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: []()
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -21,7 +21,7 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Feature||System.String|||
-|Force||System.Management.Automation.SwitchParameter|||
 |TenantId||System.Nullable/System.Guid|||
+|Force||System.Management.Automation.SwitchParameter|||
 |Enable||System.Boolean|||
 

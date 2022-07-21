@@ -20,9 +20,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Department||System.String|||
-|UsageLocation||System.String|||
 |ObjectId||System.Guid|||
+|UsageLocation||System.String|||
+|Department||System.String|||
+|LicenseReconciliationNeededOnly||System.Management.Automation.SwitchParameter|||
 |HasErrorsOnly||System.Management.Automation.SwitchParameter|||
 |City||System.String|||
 |TenantId||System.Nullable/System.Guid|||
@@ -30,7 +31,6 @@
 |ReturnDeletedUsers||System.Management.Automation.SwitchParameter|||
 |EnabledFilter||System.Nullable/Microsoft.Online.Administration.UserEnabledFilter|||
 |Country||System.String|||
-|LicenseReconciliationNeededOnly||System.Management.Automation.SwitchParameter|||
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
 |SearchString||System.String|||
 |State||System.String|||

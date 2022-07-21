@@ -27,7 +27,7 @@
 |Oauth2AllowUrlPathMatching||System.Nullable/System.Boolean|||
 |InformationalUrls||Microsoft.Open.AzureAD.Model.InformationalUrl|||
 |DisplayName|DisplayName|System.String|System.String||
-|AllowPassthroughUsers||System.Nullable/System.Boolean|||
+|ReplyUrls||System.Collections.Generic.List/System.String|||
 |AvailableToOtherTenants||System.Nullable/System.Boolean|||
 |IsDeviceOnlyAuthSupported|IsDeviceOnlyAuthSupported|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |SignInAudience|SignInAudience|System.String|System.String||
@@ -45,11 +45,11 @@
 |PublisherDomain|PublisherDomain|System.String|System.String||
 |IdentifierUris|IdentifierUris|System.Collections.Generic.List/System.String|System.String[]||
 |KnownClientApplications||System.Collections.Generic.List/System.String|||
-|ReplyUrls||System.Collections.Generic.List/System.String|||
 |Homepage||System.String|||
 |AddIns|AddIns|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.AddIn|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAddIn[]||
 |WwwHomepage||System.String|||
 |Oauth2Permissions||System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.OAuth2Permission|||
+|AllowPassthroughUsers||System.Nullable/System.Boolean|||
 |AllowGuestsSignIn||System.Nullable/System.Boolean|||
 |SamlMetadataUrl||System.String|||
 |PasswordCredentials|PasswordCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.PasswordCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordCredential[]||

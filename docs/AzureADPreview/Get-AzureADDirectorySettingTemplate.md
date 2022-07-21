@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-AzureADDirectorySettingTemplate](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDirectorySettingTemplate)
 + AAD Module: AzureADPreview
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: [](), []()
 + Graph Module: 
 
 > Scopes Needed (any one)

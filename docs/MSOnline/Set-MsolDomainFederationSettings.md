@@ -6,7 +6,7 @@
 
 + AAD Command: [Set-MsolDomainFederationSettings](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Set-MsolDomainFederationSettings)
 + AAD Module: MSOnline
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: []()
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -22,18 +22,18 @@
 |---|---|---|---|---|
 |SigningCertificateUpdateStatus||Microsoft.Online.Administration.SigningCertificateUpdateStatus|||
 |ActiveLogOnUri||System.String|||
-|NextSigningCertificate||System.String|||
 |FederationBrandName||System.String|||
-|DefaultInteractiveAuthenticationMethod||System.String|||
+|NextSigningCertificate||System.String|||
 |LogOffUri||System.String|||
 |MetadataExchangeUri||System.String|||
 |TenantId||System.Nullable/System.Guid|||
 |PreferredAuthenticationProtocol||System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|||
-|OpenIdConnectDiscoveryEndpoint||System.String|||
-|SupportsMfa||System.Nullable/System.Boolean|||
 |PassiveLogOnUri||System.String|||
+|OpenIdConnectDiscoveryEndpoint||System.String|||
 |IssuerUri||System.String|||
 |SigningCertificate||System.String|||
+|DefaultInteractiveAuthenticationMethod||System.String|||
+|SupportsMfa||System.Nullable/System.Boolean|||
 |PromptLoginBehavior||System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|||
 |DomainName||System.String|||
 

@@ -6,7 +6,7 @@
 
 + AAD Command: [Convert-MsolDomainToStandard](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Convert-MsolDomainToStandard)
 + AAD Module: MSOnline
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: []()
 + Graph Module: 
 
 > Scopes Needed (any one)

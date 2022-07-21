@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|IsDefaultForCloudRedirections||System.Nullable/System.Boolean|||
-|SupportedServices|SupportedServices|System.Collections.Generic.List/System.String|System.String[]||
 |IsDefault|IsDefault|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|SupportedServices|SupportedServices|System.Collections.Generic.List/System.String|System.String[]||
+|IsDefaultForCloudRedirections||System.Nullable/System.Boolean|||
 |Name||System.String|||
 

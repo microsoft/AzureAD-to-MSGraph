@@ -6,7 +6,7 @@
 
 + AAD Command: [New-AzureADMSRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSRoleDefinition)
 + AAD Module: AzureAD
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: [](), []()
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -22,9 +22,9 @@
 |---|---|---|---|---|
 |TemplateId||System.String|||
 |DisplayName||System.String|||
-|IsEnabled||System.Nullable/System.Boolean|||
 |ResourceScopes||System.Collections.Generic.List/System.String|||
 |Description||System.String|||
+|IsEnabled||System.Nullable/System.Boolean|||
 |RolePermissions||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.RolePermission|||
 |Version||System.String|||
 

@@ -6,8 +6,8 @@
 
 + AAD Command: [Get-AzureADMSPermissionGrantConditionSet](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSPermissionGrantConditionSet)
 + AAD Module: AzureADPreview
-+ Graph Command: [System.Object[]](https://docs.microsoft.com/en-us/powershell/module/System.Object[]/System.Object[])
-+ Graph Module: System.Object[]
++ Graph Command: [Get-MgPolicyPermissionGrantPolicyInclude](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Get-MgPolicyPermissionGrantPolicyInclude), [Get-MgPolicyPermissionGrantPolicyExclude](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Get-MgPolicyPermissionGrantPolicyExclude)
++ Graph Module: Microsoft.Graph.Identity.SignIns
 
 > Scopes Needed (any one)
 

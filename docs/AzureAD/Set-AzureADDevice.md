@@ -23,10 +23,10 @@
 |ObjectId||System.String|||
 |DeviceTrustType||System.String|||
 |IsCompliant|IsCompliant|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|DevicePhysicalIds||System.Collections.Generic.List/System.String|||
-|IsManaged|IsManaged|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |DeviceMetadata|DeviceMetadata|System.String|System.String||
+|IsManaged|IsManaged|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |DeviceId|DeviceId|System.String|System.String||
+|DevicePhysicalIds||System.Collections.Generic.List/System.String|||
 |AlternativeSecurityIds|AlternativeSecurityIds|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.AlternativeSecurityId|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAlternativeSecurityId[]||
 |DeviceOSVersion||System.String|||
 |DisplayName|DisplayName|System.String|System.String||

@@ -20,11 +20,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Department|Department|System.String|System.String||
-|PostalCode|PostalCode|System.String|System.String||
-|StrongPasswordRequired||System.Nullable/System.Boolean|||
+|FirstName||System.String|||
+|StrongAuthenticationRequirements||Microsoft.Online.Administration.StrongAuthenticationRequirement[]|||
 |Office||System.String|||
-|DisplayName|DisplayName|System.String|System.String||
+|City|City|System.String|System.String||
+|AlternateEmailAddresses||System.String[]|||
 |PreferredLanguage|PreferredLanguage|System.String|System.String||
 |SoftDeletionTimestamp||System.Nullable/System.DateTime|||
 |StreetAddress|StreetAddress|System.String|System.String||
@@ -36,20 +36,20 @@
 |AlternateMobilePhones||System.String[]|||
 |UsageLocation|UsageLocation|System.String|System.String||
 |ObjectId||System.Nullable/System.Guid|||
-|PasswordNeverExpires||System.Nullable/System.Boolean|||
+|DisplayName|DisplayName|System.String|System.String||
+|StrongPasswordRequired||System.Nullable/System.Boolean|||
 |MobilePhone|MobilePhone|System.String|System.String||
 |Fax||System.String|||
 |BlockCredential||System.Nullable/System.Boolean|||
 |Title||System.String|||
 |UserType|UserType|System.Nullable/Microsoft.Online.Administration.UserType|System.String||
-|City|City|System.String|System.String||
+|Department|Department|System.String|System.String||
 |PreferredDataLocation||System.String|||
-|FirstName||System.String|||
 |ImmutableId||System.String|||
+|PasswordNeverExpires||System.Nullable/System.Boolean|||
+|PostalCode|PostalCode|System.String|System.String||
 |State|State|System.String|System.String||
-|AlternateEmailAddresses||System.String[]|||
 |LastName||System.String|||
 |LastPasswordChangeTimestamp||System.Nullable/System.DateTime|||
 |PhoneNumber||System.String|||
-|StrongAuthenticationRequirements||Microsoft.Online.Administration.StrongAuthenticationRequirement[]|||
 

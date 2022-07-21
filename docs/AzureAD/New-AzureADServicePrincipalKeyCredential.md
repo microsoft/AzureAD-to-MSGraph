@@ -6,8 +6,8 @@
 
 + AAD Command: [New-AzureADServicePrincipalKeyCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADServicePrincipalKeyCredential)
 + AAD Module: AzureAD
-+ Graph Command: [System.Object[]](https://docs.microsoft.com/en-us/powershell/module/System.Object[]/System.Object[])
-+ Graph Module: System.Object[]
++ Graph Command: [New-MgPolicyPermissionGrantPolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/New-MgPolicyPermissionGrantPolicy), [Add-MgServicePrincipalKey](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Add-MgServicePrincipalKey)
++ Graph Module: Microsoft.Graph.Applications, Microsoft.Graph.Identity.SignIns
 
 > Scopes Needed (any one)
 
@@ -23,8 +23,8 @@
 |StartDate||System.Nullable/System.DateTime|||
 |Value||System.String|||
 |Type||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyType|||
-|CustomKeyIdentifier||System.String|||
-|ObjectId||System.String|||
 |EndDate||System.Nullable/System.DateTime|||
+|ObjectId||System.String|||
+|CustomKeyIdentifier||System.String|||
 |Usage||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyUsage|||
 

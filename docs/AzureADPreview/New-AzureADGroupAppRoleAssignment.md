@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Id|Id|System.String|System.String||
 |PrincipalId|PrincipalId|System.String|System.String||
-|ObjectId||System.String|||
 |ResourceId|ResourceId|System.String|System.String||
+|ObjectId||System.String|||
+|Id|Id|System.String|System.String||
 

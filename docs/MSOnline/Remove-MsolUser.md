@@ -20,9 +20,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|ObjectId||System.Guid|||
 |RemoveFromRecycleBin||System.Management.Automation.SwitchParameter|||
+|UserPrincipalName||System.String|||
 |Force||System.Management.Automation.SwitchParameter|||
 |TenantId||System.Nullable/System.Guid|||
-|UserPrincipalName||System.String|||
-|ObjectId||System.Guid|||
 

@@ -21,14 +21,14 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |StartDate||System.Nullable/System.DateTime|||
-|ServicePrincipalNames|ServicePrincipalNames|System.String[]|System.String[]||
-|Type||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialType|||
-|EndDate||System.Nullable/System.DateTime|||
+|Value||System.String|||
 |DisplayName|DisplayName|System.String|System.String||
+|EndDate||System.Nullable/System.DateTime|||
 |TenantId||System.Nullable/System.Guid|||
 |Addresses||Microsoft.Online.Administration.RedirectUri[]|||
-|Value||System.String|||
-|AppPrincipalId||System.Nullable/System.Guid|||
 |AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|ServicePrincipalNames|ServicePrincipalNames|System.String[]|System.String[]||
+|AppPrincipalId||System.Nullable/System.Guid|||
+|Type||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialType|||
 |Usage||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialUsage|||
 

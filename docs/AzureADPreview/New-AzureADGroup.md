@@ -22,7 +22,7 @@
 |---|---|---|---|---|
 |MailNickName|MailNickname|System.String|System.String||
 |MailEnabled|MailEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|SecurityEnabled|SecurityEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |DisplayName|DisplayName|System.String|System.String||
 |Description|Description|System.String|System.String||
+|SecurityEnabled|SecurityEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 

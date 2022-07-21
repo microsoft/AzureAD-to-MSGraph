@@ -24,6 +24,7 @@
 |AppId|AppId|System.String|System.String||
 |AlternativeNames|AlternativeNames|System.Collections.Generic.List/System.String|System.String[]||
 |ErrorUrl||System.String|||
+|ServicePrincipalType|ServicePrincipalType|System.String|System.String||
 |Homepage|Homepage|System.String|System.String||
 |AppRoleAssignmentRequired|AppRoleAssignmentRequired|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |LogoutUrl|LogoutUrl|System.String|System.String||
@@ -33,7 +34,6 @@
 |Tags|Tags|System.Collections.Generic.List/System.String|System.String[]||
 |ServicePrincipalNames|ServicePrincipalNames|System.Collections.Generic.List/System.String|System.String[]||
 |ReplyUrls|ReplyUrls|System.Collections.Generic.List/System.String|System.String[]||
-|AccountEnabled|AccountEnabled|System.String|System.Management.Automation.SwitchParameter||
 |PublisherName||System.String|||
-|ServicePrincipalType|ServicePrincipalType|System.String|System.String||
+|AccountEnabled|AccountEnabled|System.String|System.Management.Automation.SwitchParameter||
 

@@ -21,20 +21,20 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |SigningCertificateUpdateStatus||Microsoft.Online.Administration.SigningCertificateUpdateStatus|||
-|NextSigningCertificate||System.String|||
 |ActiveLogOnUri||System.String|||
-|DefaultInteractiveAuthenticationMethod||System.String|||
+|FederationBrandName||System.String|||
+|NextSigningCertificate||System.String|||
 |LogOffUri||System.String|||
 |MetadataExchangeUri||System.String|||
 |TenantId||System.Nullable/System.Guid|||
 |PreferredAuthenticationProtocol||System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|||
-|OpenIdConnectDiscoveryEndpoint||System.String|||
-|SupportsMfa||System.Nullable/System.Boolean|||
 |PassiveLogOnUri||System.String|||
+|OpenIdConnectDiscoveryEndpoint||System.String|||
 |IssuerUri||System.String|||
 |SigningCertificate||System.String|||
+|DefaultInteractiveAuthenticationMethod||System.String|||
 |ForceTakeover||Microsoft.Online.Administration.ForceTakeoverOption|||
+|SupportsMfa||System.Nullable/System.Boolean|||
 |PromptLoginBehavior||System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|||
 |DomainName||System.String|||
-|FederationBrandName||System.String|||
 

@@ -20,11 +20,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
+|DisplayName|DisplayName|System.String|System.String||
 |AppId|AppId|System.String|System.String||
 |AlternativeNames|AlternativeNames|System.Collections.Generic.List/System.String|System.String[]||
 |ErrorUrl||System.String|||
 |Homepage|Homepage|System.String|System.String||
+|ObjectId||System.String|||
 |AppRoleAssignmentRequired|AppRoleAssignmentRequired|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |LogoutUrl|LogoutUrl|System.String|System.String||
 |KeyCredentials|KeyCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.KeyCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphKeyCredential[]||
@@ -36,5 +37,4 @@
 |AccountEnabled|AccountEnabled|System.String|System.Management.Automation.SwitchParameter||
 |PublisherName||System.String|||
 |ServicePrincipalType|ServicePrincipalType|System.String|System.String||
-|DisplayName|DisplayName|System.String|System.String||
 

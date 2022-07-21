@@ -23,8 +23,8 @@
 |StartDate||System.Nullable/System.DateTime|||
 |Value||System.String|||
 |Type||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyType|||
-|CustomKeyIdentifier||System.String|||
-|ObjectId||System.String|||
 |EndDate||System.Nullable/System.DateTime|||
+|ObjectId||System.String|||
+|CustomKeyIdentifier||System.String|||
 |Usage||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyUsage|||
 

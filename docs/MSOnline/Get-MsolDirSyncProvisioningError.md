@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-MsolDirSyncProvisioningError](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Get-MsolDirSyncProvisioningError)
 + AAD Module: MSOnline
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: []()
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -22,11 +22,11 @@
 |---|---|---|---|---|
 |SortDirection||Microsoft.Online.Administration.SortDirection|||
 |SortField||Microsoft.Online.Administration.SortField|||
-|PropertyName||System.String|||
+|All||System.Management.Automation.SwitchParameter|||
 |ErrorCategory||System.String|||
 |TenantId||System.Nullable/System.Guid|||
-|SearchString||System.String|||
-|PropertyValue||System.String|||
-|All||System.Management.Automation.SwitchParameter|||
 |MaxResults||System.Int32|||
+|PropertyValue||System.String|||
+|SearchString||System.String|||
+|PropertyName||System.String|||
 

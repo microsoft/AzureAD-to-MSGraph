@@ -6,7 +6,7 @@
 
 + AAD Command: [Redo-MsolProvisionGroup](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Redo-MsolProvisionGroup)
 + AAD Module: MSOnline
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: []()
 + Graph Module: 
 
 > Scopes Needed (any one)

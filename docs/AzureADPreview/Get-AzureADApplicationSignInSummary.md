@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-AzureADApplicationSignInSummary](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationSignInSummary)
 + AAD Module: AzureADPreview
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: [](), []()
 + Graph Module: 
 
 > Scopes Needed (any one)

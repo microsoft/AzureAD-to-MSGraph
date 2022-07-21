@@ -6,7 +6,7 @@
 
 + AAD Command: [New-AzureADMSAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSAdministrativeUnitMember)
 + AAD Module: AzureADPreview
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: [](), []()
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -29,8 +29,8 @@
 |Id||System.String|||
 |OdataType||System.String|||
 |MembershipRuleProcessingState||System.String|||
-|IsAssignableToRole||System.Nullable/System.Boolean|||
 |MailEnabled||System.Nullable/System.Boolean|||
+|IsAssignableToRole||System.Nullable/System.Boolean|||
 |MailNickname||System.String|||
 |Visibility||System.String|||
 |Description||System.String|||

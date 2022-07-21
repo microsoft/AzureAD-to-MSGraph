@@ -6,7 +6,7 @@
 
 + AAD Command: [Reset-MsolStrongAuthenticationMethodByUpn](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Reset-MsolStrongAuthenticationMethodByUpn)
 + AAD Module: MSOnline
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: []()
 + Graph Module: 
 
 > Scopes Needed (any one)

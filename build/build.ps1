@@ -310,7 +310,10 @@ function Add-CalculatedCommandData {
 			}
 			'CommandUrl' {
 				$commandItem.LinkOldCommand = 'https://docs.microsoft.com/en-us/powershell/module/{0}/{1}' -f $commandItem.Module, $commandItem.Name
-				$commandItem.LinkNewCommand = 'https://docs.microsoft.com/en-us/powershell/module/{0}/{1}' -f $commandItem.NewCommandModule, $commandItem.NewCommand
+				$commandItem.LinkNewCommand = foreach ($number in 0..(@($commandItem.NewCommand).Count)) {
+					if (-not @($commandItem.NewCommand)[$number]) { continue }
+					'https://docs.microsoft.com/en-us/powershell/module/{0}/{1}' -f @($commandItem.NewCommandModule)[$number], @($commandItem.NewCommand)[$number]
+				}
 			}
 			'Scopes' {
 				if (-not $commandItem.NewCommand -or $commandItem.NewCommandModule -notlike 'Microsoft.Graph.*') { continue }
@@ -403,6 +406,10 @@ function Export-CommandDocumentation {
 "@
 	
 			#region Data
+			$destinationEntry = foreach ($number in 0..(@($commandItem.NewCommand).Count - 1)) {
+				'[{0}]({1})' -f @($commandItem.NewCommand)[$number], @($commandItem.LinkNewCommand)[$number]
+			}
+
 			$text += @'
 
 
@@ -410,10 +417,10 @@ function Export-CommandDocumentation {
 
 + AAD Command: [{0}]({1})
 + AAD Module: {2}
-+ Graph Command: [{3}]({4})
-+ Graph Module: {5}
++ Graph Command: {3}
++ Graph Module: {4}
 
-'@ -f $commandItem.Name, $commandItem.LinkOldCommand, $commandItem.Module, $commandItem.NewCommand, $commandItem.LinkNewCommand, $commandItem.NewCommandModule
+'@ -f $commandItem.Name, $commandItem.LinkOldCommand, $commandItem.Module, ($destinationEntry -join ", "), ($commandItem.NewCommandModule | Sort-Object -Unique | Join-String ", ")
 	
 			if ($commandItem.LinkApiDocs) {
 				$text += @'
@@ -528,7 +535,12 @@ For more information about the new cmdlets, see [Get started with the Microsoft 
 {1}
 '@
 		$commandLines = foreach ($commandItem in $module.Group | Sort-Object Name) {
-			'|[{0}]({1})|[{2}]({3})|[Migrating {0}](https://github.com/microsoft/AzureAD-to-MSGraph/blob/main/docs/{4}/{0}.md)|' -f $commandItem.Name, $commandItem.LinkOldCommand, $commandItem.NewCommand, $commandItem.LinkNewCommand, $module.Name
+			$sourceEntry = '[{0}]({1})' -f $commandItem.Name, $commandItem.LinkOldCommand
+			$destinationEntry = foreach ($number in 0..(@($commandItem.NewCommand).Count - 1)) {
+				if (-not @($commandItem.NewCommand)[$number]) { continue }
+				'[{0}]({1})' -f @($commandItem.NewCommand)[$number], @($commandItem.LinkNewCommand)[$number]
+			}
+			'|{0}|{1}|[Migrating {0}](https://github.com/microsoft/AzureAD-to-MSGraph/blob/main/docs/{2}/{3}.md)|' -f $sourceEntry, ($destinationEntry -join "`n"), $module.Name, $commandItem.Name
 		}
 		$moduleText -f $module.Name, ($commandLines -join "`n")
 	}

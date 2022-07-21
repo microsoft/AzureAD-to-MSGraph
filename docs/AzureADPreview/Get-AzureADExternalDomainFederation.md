@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-AzureADExternalDomainFederation](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADExternalDomainFederation)
 + AAD Module: AzureADPreview
-+ Graph Command: [](https://docs.microsoft.com/en-us/powershell/module//)
++ Graph Command: [](), []()
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ExternalDomainName||System.String|||
 |Filter||System.String|||
 |Top||System.Nullable/System.Int32|||
 |All||System.Nullable/System.Boolean|||
+|ExternalDomainName||System.String|||
 
