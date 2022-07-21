@@ -7,11 +7,11 @@
 		'Microsoft.Graph'
 	)
 
-	# Modules to scann
+	# Modules to scan
 	ModulesToScan      = @(
 		'MSOnline'
 		'AzureAD'
-		#'AzureADPreview'
+		'AzureADPreview'
 	)
 
 	# Path to the baseline mapping file (relative to the scriptroot)

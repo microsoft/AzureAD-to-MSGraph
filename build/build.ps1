@@ -103,44 +103,67 @@ function New-CommandMappingData {
 		$MappingPath
 	)
 
-	$param = @{
-		EnableException = $true
-		PSCmdlet        = $PSCmdlet
-	}
-
 	$commandData = foreach ($moduleName in $Module) {
-		$param.Target = $moduleName
+		$job = Start-Job -ArgumentList $moduleName -ScriptBlock {
+			param (
+				$ModuleName
+			)
 
-		Invoke-PSFProtectedCommand @param -Action "Importing Module: $moduleName" -ScriptBlock {
+			#region Functions
+			function New-ParameterTable {
+				[OutputType([hashtable])]
+				[CmdletBinding()]
+				param (
+					$CommandObject
+				)
+			
+				$common = 'Verbose', 'Debug', 'ErrorAction', 'WarningAction', 'InformationAction', 'ErrorVariable', 'WarningVariable', 'InformationVariable', 'OutVariable', 'OutBuffer', 'PipelineVariable', 'WhatIf', 'Confirm'
+				$data = @{ }
+			
+				foreach ($parameter in $CommandObject.Parameters.Values) {
+					if ($parameter.Name -in $common) { continue }
+					$data[$parameter.Name] = [PSCustomObject]@{
+						Name       = $parameter.Name
+						NewName    = ''
+						OldType    = $parameter.ParameterType.FullName -replace ',.+' -replace '`1\[\[',"/"
+						NewType    = ''
+						MsgInfo    = ''
+						MsgWarning = ''
+						MsgError   = ''
+					}
+				}
+			
+				$data
+			}
+			#endregion Functions
+
 			Import-Module -Name $moduleName -ErrorAction Stop -Force -Scope Global
-		}
 
-		foreach ($commandObject in Get-Command -Module $moduleName) {
-			[PSCustomObject]@{
-				CommandType       = $commandObject.CommandType
-				Name              = $commandObject.Name
-				Module            = $commandObject.ModuleName
-				CommandObject     = $commandObject
-				NewCommand        = @()
-				NewCommandObject  = $Null
-				NewCommandModule  = $null
-				Parameters        = New-ParameterTable -CommandObject $commandObject
-				LinkOldCommand    = ''
-				LinkNewCommand    = ''
-				LinkExamples      = ''
-				LinkApi           = ''
-				LinkApiDocs       = ''
-				ScopesApplication = @()
-				ScopesDelegate    = @()
-				MsgInfo           = ''
-				MsgWarning        = ''
-				MsgError          = ''
+			foreach ($commandObject in Get-Command -Module $moduleName) {
+				[PSCustomObject]@{
+					CommandType       = $commandObject.CommandType
+					Name              = $commandObject.Name
+					Module            = $commandObject.ModuleName
+					CommandObject     = $commandObject
+					NewCommand        = @()
+					NewCommandObject  = $Null
+					NewCommandModule  = $null
+					Parameters        = New-ParameterTable -CommandObject $commandObject
+					LinkOldCommand    = ''
+					LinkNewCommand    = ''
+					LinkExamples      = ''
+					LinkApi           = ''
+					LinkApiDocs       = ''
+					ScopesApplication = @()
+					ScopesDelegate    = @()
+					MsgInfo           = ''
+					MsgWarning        = ''
+					MsgError          = ''
+				}
 			}
 		}
-
-		Invoke-PSFProtectedCommand @param -Action "Removing Module: $moduleName" -ScriptBlock {
-			Remove-Module -Name $moduleName -ErrorAction Stop -Force
-		}
+		$job | Wait-Job | Receive-Job
+		$job | Remove-Job
 	}
 
 	if (-not $MappingPath) { return $commandData }
@@ -160,31 +183,7 @@ function New-CommandMappingData {
 
 	$commandData
 }
-function New-ParameterTable {
-	[OutputType([hashtable])]
-	[CmdletBinding()]
-	param (
-		$CommandObject
-	)
 
-	$common = 'Verbose', 'Debug', 'ErrorAction', 'WarningAction', 'InformationAction', 'ErrorVariable', 'WarningVariable', 'InformationVariable', 'OutVariable', 'OutBuffer', 'PipelineVariable', 'WhatIf', 'Confirm'
-	$data = @{ }
-
-	foreach ($parameter in $CommandObject.Parameters.Values) {
-		if ($parameter.Name -in $common) { continue }
-		$data[$parameter.Name] = [PSCustomObject]@{
-			Name       = $parameter.Name
-			NewName    = ''
-			OldType    = $parameter.ParameterType.FullName -replace ',.+' -replace '`1\[\[',"/"
-			NewType    = ''
-			MsgInfo    = ''
-			MsgWarning = ''
-			MsgError   = ''
-		}
-	}
-
-	$data
-}
 function Update-ParameterTable {
 	[CmdletBinding()]
 	param (
@@ -364,7 +363,7 @@ function Export-CommandData {
 		$commandItem | Select-Object -ExcludeProperty CommandObject, NewCommandObject | ConvertTo-Json -Compress -Depth 5 | Set-Content "$Path/commands/$($commandItem.Name).json"
 	}
 
-	$properties = 'Name', 'Module', 'NewCommand as GraphCmdName', 'NewModule as GraphModuleName', 'ScopesApplication as GraphScopesApplication', 'ScopesDelegate as GraphScopesDelegate', 'ApiUri'
+	$properties = 'Name', 'Module', 'NewCommand as GraphCmdName', 'NewCommandModule as GraphModuleName', 'ScopesApplication as GraphScopesApplication', 'ScopesDelegate as GraphScopesDelegate', 'ApiUri'
 	$CommandData | Select-PSFObject $properties | ConvertFrom-PSFArray | Export-Csv -Path "$Path/CommandMap.csv"
 
 	$paramData = foreach ($commandItem in $CommandData) {
@@ -387,11 +386,24 @@ function Export-CommandDocumentation {
 		$Path
 	)
 
-	foreach ($commandItem in $CommandData) {
-		$text = "# $($commandItem.Name) ($($commandItem.LinkApi -join " | "))"
+	Remove-Item -Path "$Path/*" -Force -Recurse
+	$byModule = $CommandData | Group-Object Module
 
-		#region Data
-		$text += @'
+	#region Create individual docs files
+	foreach ($module in $byModule) {
+		$moduleFolder = Join-Path -Path $Path -ChildPath $module.Name
+		$null = New-Item -Path $moduleFolder -ItemType Directory -Force
+
+
+		foreach ($commandItem in $module.Group) {
+			$text = @"
+# $($commandItem.Name)
+
+> $($commandItem.LinkApi -join " | ")
+"@
+	
+			#region Data
+			$text += @'
 
 
 ## Data
@@ -402,23 +414,23 @@ function Export-CommandDocumentation {
 + Graph Module: {5}
 
 '@ -f $commandItem.Name, $commandItem.LinkOldCommand, $commandItem.Module, $commandItem.NewCommand, $commandItem.LinkNewCommand, $commandItem.NewCommandModule
-
-		if ($commandItem.LinkApiDocs) {
-			$text += @'
+	
+			if ($commandItem.LinkApiDocs) {
+				$text += @'
 
 > [Api Reference]({0})
 
 '@ -f $commandItem.LinkApiDocs
-		}
-		if ($commandItem.LinkExamples) {
-			$text += @'
+			}
+			if ($commandItem.LinkExamples) {
+				$text += @'
 
 > [Examples for {0}]({1})
 
 '@ -f $commandItem.NewCommandName, $commandItem.LinkExamples
-		}
-
-		$text += @'
+			}
+	
+			$text += @'
 
 > Scopes Needed (any one)
 
@@ -428,11 +440,11 @@ function Export-CommandDocumentation {
 |Delegate|{1}|
 
 '@ -f ($commandItem.ScopesApplication -join ", "),($commandItem.ScopesDelegate -join ", ")
-		#endregion Data
-
-		#region Notes
-		if ($commandItem.MsgInfo -or $commandItem.MsgWarning -or $commandItem.MsgError) {
-			$text += @'
+			#endregion Data
+	
+			#region Notes
+			if ($commandItem.MsgInfo -or $commandItem.MsgWarning -or $commandItem.MsgError) {
+				$text += @'
 
 ## Notes
 
@@ -440,30 +452,30 @@ function Export-CommandDocumentation {
 |---|---|
 
 '@
-			if ($commandItem.MsgInfo) {
-				$text = @'
+				if ($commandItem.MsgInfo) {
+					$text = @'
 |Info|{0}|
 
 '@ -f $commandItem.MsgInfo
-			}
-			if ($commandItem.MsgWarning) {
-				$text = @'
+				}
+				if ($commandItem.MsgWarning) {
+					$text = @'
 |Warning|{0}|
 
 '@ -f $commandItem.MsgWarning
-			}
-			if ($commandItem.MsgError) {
-				$text = @'
+				}
+				if ($commandItem.MsgError) {
+					$text = @'
 |Error|{0}|
 
 '@ -f $commandItem.MsgError
+				}
 			}
-		}
-		#endregion Notes
-
-		#region Parameter
-		if ($commandItem.Parameters.Count -gt 0) {
-			$text += @'
+			#endregion Notes
+	
+			#region Parameter
+			if ($commandItem.Parameters.Count -gt 0) {
+				$text += @'
 
 ## Parameters
 
@@ -471,30 +483,58 @@ function Export-CommandDocumentation {
 |---|---|---|---|---|
 
 '@
-			foreach ($parameter in $commandItem.Parameters.Values) {
-				$info = @()
-				foreach ($message in $parameter.MsgInfo) {
-					if (-not $message) { continue }
-					$info += "[info] $message"
-				}
-				foreach ($message in $parameter.MsgWarning) {
-					if (-not $message) { continue }
-					$info += "[warning] $message"
-				}
-				foreach ($message in $parameter.MsgError) {
-					if (-not $message) { continue }
-					$info += "[error] $message"
-				}
-				$text += @'
+				foreach ($parameter in $commandItem.Parameters.Values) {
+					$info = @()
+					foreach ($message in $parameter.MsgInfo) {
+						if (-not $message) { continue }
+						$info += "[info] $message"
+					}
+					foreach ($message in $parameter.MsgWarning) {
+						if (-not $message) { continue }
+						$info += "[warning] $message"
+					}
+					foreach ($message in $parameter.MsgError) {
+						if (-not $message) { continue }
+						$info += "[error] $message"
+					}
+					$text += @'
 |{0}|{1}|{2}|{3}|{4}|
 
 '@ -f $parameter.Name, $parameter.NewName, $parameter.OldType, $parameter.NewType, ($info -join "`n")
+				}
 			}
+			#endregion Parameter
+	
+			$text | Set-Content -Path "$moduleFolder/$($commandItem.Name).md"
 		}
-		#endregion Parameter
-
-		$text | Set-Content -Path "$Path/$($commandItem.Name).md"
 	}
+	#endregion Create individual docs files
+
+	#region Create Summary Table
+	$mainText = @'
+# Find Azure AD and MSOnline cmdlets in Microsoft Graph PowerShell
+
+You can use this map of Azure AD PowerShell and MSOnline cmdlets to find the cmdlets that you need in the Microsoft Graph PowerShell SDK.
+For more information about the new cmdlets, see [Get started with the Microsoft Graph PowerShell SDK](https://docs.microsoft.com/en-us/powershell/microsoftgraph/get-started?view=graph-powershell-1.0).
+
+{0}
+'@
+	$moduleTexts = foreach ($module in $byModule | Sort-Object Name) {
+		$moduleText = @'
+## {0}
+
+|{0} cmdlet|Microsoft Graph PowerShell cmdlet|Migration Details and Advice|
+|---|---|---|
+{1}
+'@
+		$commandLines = foreach ($commandItem in $module.Group | Sort-Object Name) {
+			'|[{0}]({1})|[{2}]({3})|[Migrating {0}](https://github.com/microsoft/AzureAD-to-MSGraph/blob/main/docs/{4}/{0}.md)|' -f $commandItem.Name, $commandItem.LinkOldCommand, $commandItem.NewCommand, $commandItem.LinkNewCommand, $module.Name
+		}
+		$moduleText -f $module.Name, ($commandLines -join "`n")
+	}
+	$tableText = $mainText -f ($moduleTexts -join "`n`n")
+	$tableText | Set-Content -Path "$Path/index.md"
+	#endregion Create Summary Table
 }
 #endregion Functions
 
