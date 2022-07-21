@@ -21,12 +21,12 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |PartnerCompanyName||System.String|||
+|PartnerCommerceUrl||System.String|||
 |TenantId||System.Nullable/System.Guid|||
 |ObjectId||System.Nullable/System.Guid|||
-|PartnerSupportUrl||System.String|||
 |CompanyType||System.Nullable/Microsoft.Online.Administration.CompanyType|||
 |PartnerHelpUrl||System.String|||
 |PartnerSupportTelephones||System.String[]|||
-|PartnerCommerceUrl||System.String|||
 |PartnerSupportEmails||System.String[]|||
+|PartnerSupportUrl||System.String|||
 

@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName||System.String|||
-|CustomSecurityAttributes||System.Object|||
 |UserPrincipalName||System.String|||
+|CustomSecurityAttributes||System.Object|||
+|DisplayName||System.String|||
 

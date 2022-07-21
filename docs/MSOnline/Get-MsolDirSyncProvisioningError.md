@@ -22,11 +22,11 @@
 |---|---|---|---|---|
 |SortDirection||Microsoft.Online.Administration.SortDirection|||
 |SortField||Microsoft.Online.Administration.SortField|||
-|All||System.Management.Automation.SwitchParameter|||
+|PropertyName||System.String|||
 |ErrorCategory||System.String|||
 |TenantId||System.Nullable/System.Guid|||
 |MaxResults||System.Int32|||
 |PropertyValue||System.String|||
+|All||System.Management.Automation.SwitchParameter|||
 |SearchString||System.String|||
-|PropertyName||System.String|||
 

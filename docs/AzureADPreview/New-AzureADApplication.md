@@ -25,14 +25,14 @@
 |Oauth2RequirePostResponse|Oauth2RequirePostResponse|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Oauth2AllowUrlPathMatching||System.Nullable/System.Boolean|||
 |InformationalUrls||Microsoft.Open.AzureAD.Model.InformationalUrl|||
-|AllowGuestsSignIn||System.Nullable/System.Boolean|||
+|DisplayName|DisplayName|System.String|System.String||
 |SignInAudience|SignInAudience|System.String|System.String||
 |AllowPassthroughUsers||System.Nullable/System.Boolean|||
 |AvailableToOtherTenants||System.Nullable/System.Boolean|||
+|IdentifierUris|IdentifierUris|System.Collections.Generic.List/System.String|System.String[]||
 |IsDeviceOnlyAuthSupported|IsDeviceOnlyAuthSupported|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |LogoutUrl||System.String|||
 |OptionalClaims|OptionalClaims|Microsoft.Open.AzureAD.Model.OptionalClaims|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphOptionalClaims||
-|DisplayName|DisplayName|System.String|System.String||
 |ErrorUrl||System.String|||
 |PublicClient|PublicClient|System.Nullable/System.Boolean|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPublicClientApplication||
 |Oauth2AllowImplicitFlow||System.Nullable/System.Boolean|||
@@ -42,7 +42,7 @@
 |KeyCredentials|KeyCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.KeyCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphKeyCredential[]||
 |AppLogoUrl||System.String|||
 |PublisherDomain|PublisherDomain|System.String|System.String||
-|IdentifierUris|IdentifierUris|System.Collections.Generic.List/System.String|System.String[]||
+|AllowGuestsSignIn||System.Nullable/System.Boolean|||
 |KnownClientApplications||System.Collections.Generic.List/System.String|||
 |ReplyUrls||System.Collections.Generic.List/System.String|||
 |Homepage||System.String|||

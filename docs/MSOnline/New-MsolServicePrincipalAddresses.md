@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|AddressType||Microsoft.Online.Administration.AddressType|||
 |Address||System.String|||
+|AddressType||Microsoft.Online.Administration.AddressType|||
 

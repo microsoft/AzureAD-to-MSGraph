@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|AccountSkuId||System.String|||
 |DisabledPlans||System.Collections.Generic.List/System.String|||
+|AccountSkuId||System.String|||
 

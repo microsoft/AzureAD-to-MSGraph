@@ -21,7 +21,7 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Status||System.String|||
-|Id||System.String|||
 |UsePreDefinedValuesOnly||System.Nullable/System.Boolean|||
+|Id||System.String|||
 |Description||System.String|||
 

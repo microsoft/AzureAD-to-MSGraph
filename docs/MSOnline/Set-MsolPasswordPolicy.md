@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ValidityPeriod||System.Nullable/System.UInt32|||
 |DomainName||System.String|||
+|ValidityPeriod||System.Nullable/System.UInt32|||
 |NotificationDays||System.Nullable/System.UInt32|||
 |TenantId||System.Nullable/System.Guid|||
 

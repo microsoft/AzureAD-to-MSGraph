@@ -540,7 +540,7 @@ For more information about the new cmdlets, see [Get started with the Microsoft 
 				if (-not @($commandItem.NewCommand)[$number]) { continue }
 				'[{0}]({1})' -f @($commandItem.NewCommand)[$number], @($commandItem.LinkNewCommand)[$number]
 			}
-			'|{0}|{1}|[Migrating {0}](https://github.com/microsoft/AzureAD-to-MSGraph/blob/main/docs/{2}/{3}.md)|' -f $sourceEntry, ($destinationEntry -join "`n"), $module.Name, $commandItem.Name
+			'|{0}|{1}|[Migrating {3}](https://github.com/microsoft/AzureAD-to-MSGraph/blob/main/docs/{2}/{3}.md)|' -f $sourceEntry, ($destinationEntry -join "<br />"), $module.Name, $commandItem.Name
 		}
 		$moduleText -f $module.Name, ($commandLines -join "`n")
 	}

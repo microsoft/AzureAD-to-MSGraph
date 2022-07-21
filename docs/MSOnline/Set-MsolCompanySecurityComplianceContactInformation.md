@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SecurityComplianceNotificationEmails||System.String[]|||
 |TenantId||System.Nullable/System.Guid|||
+|SecurityComplianceNotificationEmails||System.String[]|||
 |SecurityComplianceNotificationPhones|SecurityComplianceNotificationPhones|System.String[]|System.String[]||
 

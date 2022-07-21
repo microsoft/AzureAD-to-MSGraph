@@ -20,9 +20,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ManagedBy||System.String|||
-|TenantId||System.Nullable/System.Guid|||
-|DisplayName|DisplayName|System.String|System.String||
 |ObjectId||System.Nullable/System.Guid|||
+|ManagedBy||System.String|||
+|DisplayName|DisplayName|System.String|System.String||
 |Description|Description|System.String|System.String||
+|TenantId||System.Nullable/System.Guid|||
 

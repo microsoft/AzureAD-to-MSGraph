@@ -30,9 +30,9 @@
 |DeviceOSVersion||System.String|||
 |SystemLabels|SystemLabels|System.Collections.Generic.List/System.String|System.String[]||
 |ApproximateLastLogonTimeStamp||System.Nullable/System.DateTime|||
-|ProfileType|ProfileType|System.String|System.String||
 |DeviceOSType||System.String|||
-|IsManaged|IsManaged|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|IsManaged|IsManaged|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|ProfileType|ProfileType|System.String|System.String||
 |DeviceObjectVersion||System.Nullable/System.Int32|||
 

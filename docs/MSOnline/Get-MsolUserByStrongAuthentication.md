@@ -21,10 +21,10 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Requirements||Microsoft.Online.Administration.StrongAuthenticationRequirement[]|||
-|All||System.Management.Automation.SwitchParameter|||
 |SearchString||System.String|||
-|RequirementUnsetOnly||System.Management.Automation.SwitchParameter|||
 |TenantId||System.Nullable/System.Guid|||
+|RequirementUnsetOnly||System.Management.Automation.SwitchParameter|||
+|All||System.Management.Automation.SwitchParameter|||
 |MaxResults||System.Int32|||
 |RoleObjectId||System.Nullable/System.Guid|||
 

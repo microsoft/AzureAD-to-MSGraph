@@ -23,17 +23,17 @@
 |ObjectId||System.String|||
 |DeviceTrustType||System.String|||
 |IsCompliant|IsCompliant|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|DevicePhysicalIds||System.Collections.Generic.List/System.String|||
-|AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|IsManaged|IsManaged|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |DeviceMetadata|DeviceMetadata|System.String|System.String||
+|IsManaged|IsManaged|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |DeviceId|DeviceId|System.String|System.String||
+|ProfileType|ProfileType|System.String|System.String||
+|DeviceObjectVersion||System.Nullable/System.Int32|||
 |AlternativeSecurityIds|AlternativeSecurityIds|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.AlternativeSecurityId|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAlternativeSecurityId[]||
 |DisplayName|DisplayName|System.String|System.String||
 |SystemLabels|SystemLabels|System.Collections.Generic.List/System.String|System.String[]||
 |ApproximateLastLogonTimeStamp||System.Nullable/System.DateTime|||
 |DeviceOSType||System.String|||
 |DeviceOSVersion||System.String|||
-|ProfileType|ProfileType|System.String|System.String||
-|DeviceObjectVersion||System.Nullable/System.Int32|||
+|AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|DevicePhysicalIds||System.Collections.Generic.List/System.String|||
 

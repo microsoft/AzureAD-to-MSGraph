@@ -29,11 +29,11 @@
 |MetadataExchangeUri||System.String|||
 |TenantId||System.Nullable/System.Guid|||
 |PreferredAuthenticationProtocol||System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|||
-|PassiveLogOnUri||System.String|||
-|OpenIdConnectDiscoveryEndpoint||System.String|||
-|IssuerUri||System.String|||
-|SigningCertificate||System.String|||
 |SupportsMfa||System.Nullable/System.Boolean|||
+|OpenIdConnectDiscoveryEndpoint||System.String|||
+|PassiveLogOnUri||System.String|||
+|SigningCertificate||System.String|||
+|IssuerUri||System.String|||
 |PromptLoginBehavior||System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|||
 |Authentication||Microsoft.Online.Administration.DomainAuthenticationType|||
 |DomainName||System.String|||

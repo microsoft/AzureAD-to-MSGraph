@@ -20,11 +20,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Filter||System.String|||
+|All||System.Nullable/System.Boolean|||
 |AppId||System.String|||
 |SearchString||System.String|||
 |Top||System.Nullable/System.Int32|||
 |Id||System.String|||
-|All||System.Nullable/System.Boolean|||
+|Filter||System.String|||
 |Expand||System.String|||
 

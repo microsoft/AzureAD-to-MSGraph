@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|View||System.Boolean|||
 |FileName||System.String|||
+|View||System.Boolean|||
 |FilePath||System.String|||
 |ObjectId||System.String|||
 

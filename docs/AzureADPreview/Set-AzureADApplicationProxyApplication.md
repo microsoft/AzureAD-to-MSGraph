@@ -20,12 +20,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ApplicationServerTimeout||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ApplicationServerTimeoutEnum|||
 |ExternalAuthenticationType||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ExternalAuthenticationTypeEnum|||
-|InternalUrl||System.String|||
+|IsTranslateLinksInBodyEnabled||System.Nullable/System.Boolean|||
 |ExternalUrl||System.String|||
 |ObjectId||System.String|||
+|InternalUrl||System.String|||
 |IsTranslateHostHeaderEnabled||System.Nullable/System.Boolean|||
 |ConnectorGroupId||System.String|||
-|IsTranslateLinksInBodyEnabled||System.Nullable/System.Boolean|||
+|ApplicationServerTimeout||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ApplicationServerTimeoutEnum|||
 

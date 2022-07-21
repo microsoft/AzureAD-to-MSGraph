@@ -20,15 +20,15 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ApplicationServerTimeout||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ApplicationServerTimeoutEnum|||
+|IsHttpOnlyCookieEnabled||System.Nullable/System.Boolean|||
 |IsPersistentCookieEnabled||System.Nullable/System.Boolean|||
 |IsSecureCookieEnabled||System.Nullable/System.Boolean|||
-|InternalUrl||System.String|||
-|ConnectorGroupId||System.String|||
+|ApplicationServerTimeout||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ApplicationServerTimeoutEnum|||
+|ExternalUrl||System.String|||
 |ObjectId||System.String|||
 |IsTranslateLinksInBodyEnabled||System.Nullable/System.Boolean|||
-|ExternalUrl||System.String|||
+|InternalUrl||System.String|||
 |IsTranslateHostHeaderEnabled||System.Nullable/System.Boolean|||
+|ConnectorGroupId||System.String|||
 |ExternalAuthenticationType||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ExternalAuthenticationTypeEnum|||
-|IsHttpOnlyCookieEnabled||System.Nullable/System.Boolean|||
 

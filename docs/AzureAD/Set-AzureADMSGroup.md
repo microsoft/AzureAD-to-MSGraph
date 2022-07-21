@@ -22,11 +22,11 @@
 |---|---|---|---|---|
 |DisplayName|DisplayName|System.String|System.String||
 |IsAssignableToRole|IsAssignableToRole|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|Id|Id|System.String|System.String||
+|MailEnabled|MailEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Description|Description|System.String|System.String||
 |GroupTypes|GroupTypes|System.Collections.Generic.List/System.String|System.String[]||
-|MailEnabled|MailEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |SecurityEnabled|SecurityEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Id|Id|System.String|System.String||
 |Visibility|Visibility|System.String|System.String||
 |MailNickname|MailNickname|System.String|System.String||
 

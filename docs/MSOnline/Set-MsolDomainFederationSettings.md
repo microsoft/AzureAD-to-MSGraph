@@ -22,18 +22,18 @@
 |---|---|---|---|---|
 |SigningCertificateUpdateStatus||Microsoft.Online.Administration.SigningCertificateUpdateStatus|||
 |ActiveLogOnUri||System.String|||
-|FederationBrandName||System.String|||
 |NextSigningCertificate||System.String|||
+|FederationBrandName||System.String|||
+|DefaultInteractiveAuthenticationMethod||System.String|||
 |LogOffUri||System.String|||
 |MetadataExchangeUri||System.String|||
 |TenantId||System.Nullable/System.Guid|||
 |PreferredAuthenticationProtocol||System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|||
-|PassiveLogOnUri||System.String|||
-|OpenIdConnectDiscoveryEndpoint||System.String|||
-|IssuerUri||System.String|||
-|SigningCertificate||System.String|||
-|DefaultInteractiveAuthenticationMethod||System.String|||
 |SupportsMfa||System.Nullable/System.Boolean|||
+|OpenIdConnectDiscoveryEndpoint||System.String|||
+|PassiveLogOnUri||System.String|||
+|SigningCertificate||System.String|||
+|IssuerUri||System.String|||
 |PromptLoginBehavior||System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|||
 |DomainName||System.String|||
 

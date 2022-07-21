@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Feature||System.String|||
 |TenantId||System.Nullable/System.Guid|||
+|Feature||System.String|||
 

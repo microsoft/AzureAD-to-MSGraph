@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|UserPrincipalName||System.String|||
 |TenantId||System.Nullable/System.Guid|||
+|UserPrincipalName||System.String|||
 |ObjectId||System.Guid|||
 

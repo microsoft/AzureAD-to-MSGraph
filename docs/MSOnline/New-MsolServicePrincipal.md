@@ -22,13 +22,13 @@
 |---|---|---|---|---|
 |StartDate||System.Nullable/System.DateTime|||
 |Value||System.String|||
-|DisplayName|DisplayName|System.String|System.String||
+|Type||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialType|||
 |EndDate||System.Nullable/System.DateTime|||
 |TenantId||System.Nullable/System.Guid|||
 |Addresses||Microsoft.Online.Administration.RedirectUri[]|||
 |AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ServicePrincipalNames|ServicePrincipalNames|System.String[]|System.String[]||
 |AppPrincipalId||System.Nullable/System.Guid|||
-|Type||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialType|||
+|DisplayName|DisplayName|System.String|System.String||
 |Usage||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialUsage|||
 

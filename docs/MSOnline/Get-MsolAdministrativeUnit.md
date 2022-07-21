@@ -21,10 +21,10 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
-|SearchString||System.String|||
+|TenantId||System.Nullable/System.Guid|||
 |ObjectId||System.Guid|||
 |MaxResults||System.Int32|||
 |UserPrincipalName||System.String|||
 |UserObjectId||System.Nullable/System.Guid|||
-|TenantId||System.Nullable/System.Guid|||
+|SearchString||System.String|||
 

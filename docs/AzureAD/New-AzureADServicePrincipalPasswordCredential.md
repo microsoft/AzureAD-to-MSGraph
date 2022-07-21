@@ -22,7 +22,7 @@
 |---|---|---|---|---|
 |CustomKeyIdentifier||System.String|||
 |StartDate||System.Nullable/System.DateTime|||
-|EndDate||System.Nullable/System.DateTime|||
 |ObjectId||System.String|||
+|EndDate||System.Nullable/System.DateTime|||
 |Value||System.String|||
 

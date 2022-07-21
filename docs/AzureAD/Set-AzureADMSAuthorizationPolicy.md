@@ -23,8 +23,8 @@
 |BlockMsolPowerShell||System.Nullable/System.Boolean|||
 |AllowedToSignUpEmailBasedSubscriptions||System.Nullable/System.Boolean|||
 |AllowEmailVerifiedUsersToJoinOrganization||System.Nullable/System.Boolean|||
-|Description||System.String|||
 |DisplayName||System.String|||
+|Description||System.String|||
 |DefaultUserRolePermissions||Microsoft.Open.MSGraph.Model.DefaultUserRolePermissions|||
 |AllowedToUseSSPR||System.Nullable/System.Boolean|||
 

@@ -22,12 +22,12 @@
 |---|---|---|---|---|
 |Permissions|Permissions|System.Collections.Generic.List/System.String|System.String[]||
 |ClientApplicationsFromVerifiedPublisherOnly|ClientApplicationsFromVerifiedPublisherOnly|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|ResourceApplication|ResourceApplication|System.String|System.String||
+|PolicyId||System.String|||
 |PermissionType|PermissionType|System.String|System.String||
 |PermissionClassification|PermissionClassification|System.String|System.String||
-|PolicyId||System.String|||
 |ClientApplicationPublisherIds|ClientApplicationPublisherIds|System.Collections.Generic.List/System.String|System.String[]||
 |ClientApplicationIds|ClientApplicationIds|System.Collections.Generic.List/System.String|System.String[]||
+|ResourceApplication|ResourceApplication|System.String|System.String||
 |ClientApplicationTenantIds|ClientApplicationTenantIds|System.Collections.Generic.List/System.String|System.String[]||
 |ConditionSetType||System.String|||
 

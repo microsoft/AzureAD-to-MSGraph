@@ -33,8 +33,8 @@
 |SamlMetadataUrl||System.String|||
 |Tags|Tags|System.Collections.Generic.List/System.String|System.String[]||
 |DisplayName|DisplayName|System.String|System.String||
-|AccountEnabled|AccountEnabled|System.String|System.Management.Automation.SwitchParameter||
+|ReplyUrls|ReplyUrls|System.Collections.Generic.List/System.String|System.String[]||
 |ServicePrincipalNames|ServicePrincipalNames|System.Collections.Generic.List/System.String|System.String[]||
 |PublisherName||System.String|||
-|ReplyUrls|ReplyUrls|System.Collections.Generic.List/System.String|System.String[]||
+|AccountEnabled|AccountEnabled|System.String|System.Management.Automation.SwitchParameter||
 

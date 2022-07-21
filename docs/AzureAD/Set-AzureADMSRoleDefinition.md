@@ -21,9 +21,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |TemplateId||System.String|||
-|IsEnabled||System.Nullable/System.Boolean|||
 |DisplayName||System.String|||
 |ResourceScopes||System.Collections.Generic.List/System.String|||
+|IsEnabled||System.Nullable/System.Boolean|||
 |Description||System.String|||
 |RolePermissions||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.RolePermission|||
 |Id||System.String|||

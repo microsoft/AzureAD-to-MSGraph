@@ -20,15 +20,15 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|MaxResults||System.Int32|||
 |GroupType||System.Nullable/Microsoft.Online.Administration.GroupType|||
 |HasErrorsOnly||System.Management.Automation.SwitchParameter|||
 |TenantId||System.Nullable/System.Guid|||
 |ObjectId||System.Guid|||
-|HasLicenseErrorsOnly||System.Nullable/System.Boolean|||
+|SearchString||System.String|||
 |IsAgentRole||System.Management.Automation.SwitchParameter|||
 |UserPrincipalName||System.String|||
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
-|MaxResults||System.Int32|||
+|HasLicenseErrorsOnly||System.Nullable/System.Boolean|||
 |UserObjectId||System.Nullable/System.Guid|||
-|SearchString||System.String|||
 

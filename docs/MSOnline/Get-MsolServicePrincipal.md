@@ -25,6 +25,6 @@
 |ObjectId||System.Guid|||
 |SearchString||System.String|||
 |AppPrincipalId||System.Guid|||
-|MaxResults||System.Int32|||
 |ServicePrincipalName||System.String|||
+|MaxResults||System.Int32|||
 

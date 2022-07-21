@@ -22,10 +22,10 @@
 |---|---|---|---|---|
 |ReturnRegisteredOwners||System.Management.Automation.SwitchParameter|||
 |LogonTimeBefore||System.DateTime|||
+|All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
 |IncludeSystemManagedDevices||System.Management.Automation.SwitchParameter|||
 |DeviceId||System.Guid|||
 |ObjectId||System.Guid|||
 |RegisteredOwnerUpn||System.String|||
-|All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
 |Name||System.String|||
 

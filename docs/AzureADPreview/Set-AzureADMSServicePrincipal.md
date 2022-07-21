@@ -26,6 +26,7 @@
 |Homepage||System.String|||
 |AppRoleAssignmentRequired||System.Nullable/System.Boolean|||
 |LogoutUrl||System.String|||
+|PreferredTokenSigningKeyThumbprint||System.String|||
 |Id||System.String|||
 |KeyCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.MsKeyCredential|||
 |PasswordCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.MsPasswordCredential|||
@@ -35,7 +36,6 @@
 |ErrorUrl||System.String|||
 |ServicePrincipalNames||System.Collections.Generic.List/System.String|||
 |ReplyUrls||System.Collections.Generic.List/System.String|||
-|AccountEnabled||System.String|||
 |PublisherName||System.String|||
-|PreferredTokenSigningKeyThumbprint||System.String|||
+|AccountEnabled||System.String|||
 

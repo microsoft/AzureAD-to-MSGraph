@@ -23,8 +23,8 @@
 |TemplateId||System.String|||
 |DisplayName||System.String|||
 |ResourceScopes||System.Collections.Generic.List/System.String|||
-|Description||System.String|||
 |IsEnabled||System.Nullable/System.Boolean|||
+|Description||System.String|||
 |RolePermissions||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.RolePermission|||
 |Version||System.String|||
 

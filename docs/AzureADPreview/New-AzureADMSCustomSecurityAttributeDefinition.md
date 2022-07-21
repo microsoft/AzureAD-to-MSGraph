@@ -21,11 +21,11 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |IsCollection||System.Nullable/System.Boolean|||
+|UsePreDefinedValuesOnly||System.Nullable/System.Boolean|||
 |Type||System.String|||
 |Status||System.String|||
 |IsSearchable||System.Nullable/System.Boolean|||
-|AttributeSet||System.String|||
 |Description||System.String|||
-|UsePreDefinedValuesOnly||System.Nullable/System.Boolean|||
+|AttributeSet||System.String|||
 |Name||System.String|||
 

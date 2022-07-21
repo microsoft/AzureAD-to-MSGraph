@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|ObjectId||System.String|||
 |SingleSignOnMode||System.Nullable/Microsoft.Open.MSGraph.Model.OnPremisesPublishingSingleSignOnObject+SingleSignOnModeEnum|||
 |KerberosInternalApplicationServicePrincipalName||System.String|||
-|ObjectId||System.String|||
 |KerberosDelegatedLoginIdentity||System.Nullable/Microsoft.Open.MSGraph.Model.OnPremisesPublishingKerberosSignOnSettingsObject+KerberosSignOnMappingAttributeTypeEnum|||
 

@@ -33,7 +33,8 @@
 |StrongAuthenticationMethods||Microsoft.Online.Administration.StrongAuthenticationMethod[]|||
 |TenantId||System.Nullable/System.Guid|||
 |StsRefreshTokensValidFrom||System.Nullable/System.DateTime|||
-|AlternateMobilePhones||System.String[]|||
+|LastName||System.String|||
+|ImmutableId||System.String|||
 |UsageLocation|UsageLocation|System.String|System.String||
 |ObjectId||System.Nullable/System.Guid|||
 |DisplayName|DisplayName|System.String|System.String||
@@ -41,15 +42,14 @@
 |MobilePhone|MobilePhone|System.String|System.String||
 |Fax||System.String|||
 |BlockCredential||System.Nullable/System.Boolean|||
-|Title||System.String|||
 |UserType|UserType|System.Nullable/Microsoft.Online.Administration.UserType|System.String||
 |Department|Department|System.String|System.String||
 |PreferredDataLocation||System.String|||
-|ImmutableId||System.String|||
+|AlternateMobilePhones||System.String[]|||
+|Title||System.String|||
 |PasswordNeverExpires||System.Nullable/System.Boolean|||
 |PostalCode|PostalCode|System.String|System.String||
 |State|State|System.String|System.String||
-|LastName||System.String|||
 |LastPasswordChangeTimestamp||System.Nullable/System.DateTime|||
 |PhoneNumber||System.String|||
 

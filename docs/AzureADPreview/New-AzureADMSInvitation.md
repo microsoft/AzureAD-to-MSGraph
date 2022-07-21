@@ -22,9 +22,9 @@
 |---|---|---|---|---|
 |InvitedUserMessageInfo|InvitedUserMessageInfo|Microsoft.Open.MSGraph.Model.InvitedUserMessageInfo|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphInvitedUserMessageInfo||
 |SendInvitationMessage|SendInvitationMessage|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|ResetRedemption||System.Nullable/System.Boolean|||
-|InviteRedirectUrl|InviteRedirectUrl|System.String|System.String||
 |InvitedUserEmailAddress|InvitedUserEmailAddress|System.String|System.String||
+|InviteRedirectUrl|InviteRedirectUrl|System.String|System.String||
+|ResetRedemption||System.Nullable/System.Boolean|||
 |InvitedUserType|InvitedUserType|System.String|System.String||
 |InvitedUserDisplayName|InvitedUserDisplayName|System.String|System.String||
 |InvitedUser|InvitedUser|Microsoft.Open.MSGraph.Model.User|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphUser1||

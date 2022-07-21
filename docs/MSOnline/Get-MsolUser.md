@@ -20,20 +20,20 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.Guid|||
-|UsageLocation||System.String|||
 |Department||System.String|||
-|LicenseReconciliationNeededOnly||System.Management.Automation.SwitchParameter|||
+|UsageLocation||System.String|||
+|ObjectId||System.Guid|||
 |HasErrorsOnly||System.Management.Automation.SwitchParameter|||
-|City||System.String|||
+|SearchString||System.String|||
 |TenantId||System.Nullable/System.Guid|||
 |UserPrincipalName||System.String|||
 |ReturnDeletedUsers||System.Management.Automation.SwitchParameter|||
+|City||System.String|||
+|State||System.String|||
 |EnabledFilter||System.Nullable/Microsoft.Online.Administration.UserEnabledFilter|||
 |Country||System.String|||
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
-|SearchString||System.String|||
-|State||System.String|||
+|LicenseReconciliationNeededOnly||System.Management.Automation.SwitchParameter|||
 |Title||System.String|||
 |Synchronized||System.Management.Automation.SwitchParameter|||
 |MaxResults||System.Int32|||

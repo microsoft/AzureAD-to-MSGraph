@@ -24,11 +24,11 @@
 |BlockMsolPowerShell||System.Nullable/System.Boolean|||
 |AllowedToSignUpEmailBasedSubscriptions||System.Nullable/System.Boolean|||
 |EnabledPreviewFeatures||System.Collections.Generic.List/System.String|||
-|PermissionGrantPolicyIdsAssignedToDefaultUserRole||System.Collections.Generic.List/System.String|||
 |AllowEmailVerifiedUsersToJoinOrganization||System.Nullable/System.Boolean|||
+|PermissionGrantPolicyIdsAssignedToDefaultUserRole||System.Collections.Generic.List/System.String|||
+|AllowedToUseSSPR||System.Nullable/System.Boolean|||
 |DisplayName||System.String|||
 |Description||System.String|||
 |Id||System.String|||
 |DefaultUserRolePermissions||Microsoft.Open.MSGraph.Model.DefaultUserRolePermissions|||
-|AllowedToUseSSPR||System.Nullable/System.Boolean|||
 
