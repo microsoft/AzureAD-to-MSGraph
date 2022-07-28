@@ -249,7 +249,7 @@ Get-MsolDirSyncConfiguration,
 Get-MsolDirSyncFeatures,
 Get-MsolDirSyncProvisioningError,
 Get-MsolDomain,Get-MgDomain
-Get-MsolDomainFederationSettings,
+Get-MsolDomainFederationSettings,Get-MgDomainFederationConfiguration
 Get-MsolDomainVerificationDns,Get-MgDomainVerificationDnsRecord
 Get-MsolFederationProperty,
 Get-MsolGroup,Get-MgGroup
@@ -309,8 +309,8 @@ Set-MsolDirSyncConfiguration,
 Set-MsolDirSyncEnabled,
 Set-MsolDirSyncFeature,
 Set-MsolDomain,Update-MgDomain
-Set-MsolDomainAuthentication,
-Set-MsolDomainFederationSettings,
+Set-MsolDomainAuthentication,Update-MgDomain
+Set-MsolDomainFederationSettings,Update-MgDomainFederationConfiguration
 Set-MsolGroup,Update-MgGroup
 Set-MsolPartnerInformation,
 Set-MsolPasswordPolicy,
