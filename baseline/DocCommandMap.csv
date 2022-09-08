@@ -160,7 +160,7 @@ New-AzureADMSGroup,New-MgGroup
 New-AzureADMSGroupLifecyclePolicy,New-MgGroupLifecyclePolicy
 Remove-AzureADGroup,Remove-MgGroup
 Remove-AzureADGroupAppRoleAssignment,Remove-MgGroupAppRoleAssignment
-Remove-AzureADGroupMember,
+Remove-AzureADGroupMember,Remove-MgGroupMemberByRef
 Remove-AzureADGroupOwner,
 Remove-AzureADMSGroup,Remove-MgGroup
 Remove-AzureADMSGroupLifecyclePolicy,Remove-MgGroupLifecyclePolicy
