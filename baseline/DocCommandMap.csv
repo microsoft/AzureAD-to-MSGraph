@@ -263,7 +263,7 @@ Get-MsolRoleMember,Get-MgDirectoryRoleMember
 Get-MsolScopedRoleMember,Get-MgDirectoryRoleScopedMember
 Get-MsolServicePrincipal,Get-MgServicePrincipal
 Get-MsolServicePrincipalCredential,
-Get-MsolSubscription,Get-MgSubscription
+Get-MsolSubscription,Get-MgSubscribedSku
 Get-MsolUser,Get-MgUser
 Get-MsolUserByStrongAuthentication,
 Get-MsolUserRole,Get-MgUserMemberOf
