@@ -20,12 +20,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|RoleDefinitionId||System.String|||
+|Id||System.String|||
+|UserEligibleSettings||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedRuleSetting|||
 |AdminMemberSettings||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedRuleSetting|||
 |UserMemberSettings||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedRuleSetting|||
-|RoleDefinitionId||System.String|||
-|UserEligibleSettings||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedRuleSetting|||
 |AdminEligibleSettings||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedRuleSetting|||
-|ResourceId||System.String|||
 |ProviderId||System.String|||
-|Id||System.String|||
+|ResourceId||System.String|||
 

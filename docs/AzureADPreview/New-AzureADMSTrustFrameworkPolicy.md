@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|OutputFilePath||System.String|||
 |Content||System.String|||
+|OutputFilePath||System.String|||
 |InputFilePath||System.String|||
 

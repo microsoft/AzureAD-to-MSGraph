@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RoleMemberInfo||Microsoft.Open.AzureAD.Model.RoleMemberInfo|||
 |RoleObjectId||System.String|||
-|AdministrativeUnitObjectId||System.String|||
 |ObjectId||System.String|||
+|RoleMemberInfo||Microsoft.Open.AzureAD.Model.RoleMemberInfo|||
+|AdministrativeUnitObjectId||System.String|||
 

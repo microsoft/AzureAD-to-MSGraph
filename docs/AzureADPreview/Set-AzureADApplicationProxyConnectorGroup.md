@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Id||System.String|||
 |Name||Microsoft.Open.MSGraph.Model.Name|||
+|Id||System.String|||
 

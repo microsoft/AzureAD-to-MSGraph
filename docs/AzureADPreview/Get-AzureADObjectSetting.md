@@ -20,9 +20,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|TargetType||System.String|||
-|Top||System.Nullable/System.Int32|||
 |Id||System.String|||
-|TargetObjectId||System.String|||
+|Top||System.Nullable/System.Int32|||
+|TargetType||System.String|||
 |All||System.Nullable/System.Boolean|||
+|TargetObjectId||System.String|||
 

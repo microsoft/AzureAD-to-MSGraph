@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|AccidentalDeletionThreshold||System.UInt32|||
 |TenantId||System.Nullable/System.Guid|||
+|AccidentalDeletionThreshold||System.UInt32|||
 |Force||System.Management.Automation.SwitchParameter|||
 

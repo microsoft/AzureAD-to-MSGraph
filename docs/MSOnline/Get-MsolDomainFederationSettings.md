@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-MsolDomainFederationSettings](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Get-MsolDomainFederationSettings)
 + AAD Module: MSOnline
-+ Graph Command: []()
++ Graph Command: [Get-MgDomainFederationConfiguration](https://docs.microsoft.com/en-us/powershell/module//Get-MgDomainFederationConfiguration)
 + Graph Module: 
 
 > Scopes Needed (any one)

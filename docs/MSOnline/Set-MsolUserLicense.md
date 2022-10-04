@@ -20,10 +20,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|AddLicenses|AddLicenses|System.String[]|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAssignedLicense[]||
-|TenantId||System.Nullable/System.Guid|||
-|ObjectId||System.Guid|||
 |RemoveLicenses|RemoveLicenses|System.String[]|System.String[]||
+|ObjectId||System.Guid|||
 |LicenseOptions||Microsoft.Online.Administration.LicenseOption[]|||
+|AddLicenses|AddLicenses|System.String[]|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAssignedLicense[]||
 |UserPrincipalName||System.String|||
+|TenantId||System.Nullable/System.Guid|||
 

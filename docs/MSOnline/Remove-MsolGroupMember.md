@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|GroupMemberObjectId||System.Nullable/System.Guid|||
-|GroupMemberType||Microsoft.Online.Administration.GroupMemberType|||
-|GroupObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
+|GroupMemberObjectId||System.Nullable/System.Guid|||
+|GroupObjectId||System.Guid|||
+|GroupMemberType||Microsoft.Online.Administration.GroupMemberType|||
 

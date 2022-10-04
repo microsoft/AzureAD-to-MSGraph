@@ -21,6 +21,6 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |PrincipalId||System.String|||
-|DirectoryScopeId||System.String|||
 |RoleDefinitionId||System.String|||
+|DirectoryScopeId||System.String|||
 

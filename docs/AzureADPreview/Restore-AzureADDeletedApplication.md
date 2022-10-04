@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
 |IdentifierUris||System.Collections.Generic.List/System.String|||
+|ObjectId||System.String|||
 

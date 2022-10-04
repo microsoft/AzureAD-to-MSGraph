@@ -21,9 +21,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Overwrite||System.Boolean|||
-|TenantId||System.Nullable/System.Guid|||
 |InitialDomain||System.String|||
-|IsDefault||System.Boolean|||
 |Location||System.String|||
+|IsDefault||System.Boolean|||
+|TenantId||System.Nullable/System.Guid|||
 |ServiceType||System.String|||
 

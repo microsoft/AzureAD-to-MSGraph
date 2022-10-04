@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ExternalDomainName||System.String|||
 |FederationSettings||Microsoft.Open.AzureAD.Model.DomainFederationSettings|||
+|ExternalDomainName||System.String|||
 
