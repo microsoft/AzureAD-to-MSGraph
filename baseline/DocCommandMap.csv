@@ -247,7 +247,7 @@ Get-MsolDevice,Get-MgDevice
 Get-MsolDeviceRegistrationServicePolicy,Get-MgPolicyDeviceRegistrationPolicy
 Get-MsolDirSyncConfiguration,Get-MgDirectoryOnPremisSynchronization
 Get-MsolDirSyncFeatures,
-Get-MsolDirSyncProvisioningError,Get-MgGroup, Get-MgContact, Get-MgUser
+Get-MsolDirSyncProvisioningError,
 Get-MsolDomain,Get-MgDomain
 Get-MsolDomainFederationSettings,Get-MgDomainFederationConfiguration
 Get-MsolDomainVerificationDns,Get-MgDomainVerificationDnsRecord
