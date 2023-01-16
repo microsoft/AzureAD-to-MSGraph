@@ -20,11 +20,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|Description||System.String|||
 |BlockMsolPowerShell||System.Nullable/System.Boolean|||
+|DisplayName||System.String|||
+|AllowedToUseSSPR||System.Nullable/System.Boolean|||
 |AllowedToSignUpEmailBasedSubscriptions||System.Nullable/System.Boolean|||
 |AllowEmailVerifiedUsersToJoinOrganization||System.Nullable/System.Boolean|||
-|DisplayName||System.String|||
-|Description||System.String|||
 |DefaultUserRolePermissions||Microsoft.Open.MSGraph.Model.DefaultUserRolePermissions|||
-|AllowedToUseSSPR||System.Nullable/System.Boolean|||
 

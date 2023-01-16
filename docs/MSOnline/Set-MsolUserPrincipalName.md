@@ -20,10 +20,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|NewUserPrincipalName||System.String|||
-|NewPassword||System.String|||
-|TenantId||System.Nullable/System.Guid|||
 |ObjectId||System.Guid|||
+|NewPassword||System.String|||
+|NewUserPrincipalName||System.String|||
 |UserPrincipalName|UserPrincipalName|System.String|System.String||
+|TenantId||System.Nullable/System.Guid|||
 |ImmutableId||System.String|||
 

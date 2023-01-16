@@ -2,7 +2,7 @@
 
 Welcome to the project to help you get your PowerShell modules migrated from the old [MSOnline](https://www.powershellgallery.com/packages/MSOnline) and [AzureAD](https://www.powershellgallery.com/packages/AzureAD) modules to the new [Microsoft Graph Modules](https://github.com/microsoftgraph/msgraph-sdk-powershell).
 
-In this Repository we maintain the data used to inform various tools as well as online documentation.
+In this repository we maintain the data used to inform various tools as well as online documentation.
 Below you can find both documentation and resources to understand what is happening, why, and how to best go about your own migration.
 
 ## Why is this happening, where do I get more information?

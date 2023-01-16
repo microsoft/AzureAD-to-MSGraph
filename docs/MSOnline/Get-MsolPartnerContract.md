@@ -21,8 +21,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |MaxResults||System.Int32|||
+|TenantId||System.Nullable/System.Guid|||
 |SearchKey||Microsoft.Online.Administration.PartnerContractSearchKey|||
 |DomainName||System.String|||
-|TenantId||System.Nullable/System.Guid|||
 |All||System.Management.Automation.SwitchParameter|||
 

@@ -20,15 +20,15 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|Description||System.String|||
 |GuestUserRoleId||System.String|||
 |BlockMsolPowerShell||System.Nullable/System.Boolean|||
-|AllowedToSignUpEmailBasedSubscriptions||System.Nullable/System.Boolean|||
-|EnabledPreviewFeatures||System.Collections.Generic.List/System.String|||
-|AllowEmailVerifiedUsersToJoinOrganization||System.Nullable/System.Boolean|||
-|PermissionGrantPolicyIdsAssignedToDefaultUserRole||System.Collections.Generic.List/System.String|||
-|AllowedToUseSSPR||System.Nullable/System.Boolean|||
-|DisplayName||System.String|||
-|Description||System.String|||
-|Id||System.String|||
 |DefaultUserRolePermissions||Microsoft.Open.MSGraph.Model.DefaultUserRolePermissions|||
+|DisplayName||System.String|||
+|EnabledPreviewFeatures||System.Collections.Generic.List/System.String|||
+|PermissionGrantPolicyIdsAssignedToDefaultUserRole||System.Collections.Generic.List/System.String|||
+|AllowedToSignUpEmailBasedSubscriptions||System.Nullable/System.Boolean|||
+|AllowEmailVerifiedUsersToJoinOrganization||System.Nullable/System.Boolean|||
+|AllowedToUseSSPR||System.Nullable/System.Boolean|||
+|Id||System.String|||
 

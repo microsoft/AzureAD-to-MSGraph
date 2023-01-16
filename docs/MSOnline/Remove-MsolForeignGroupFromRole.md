@@ -21,7 +21,7 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |ForeignCompanyObjectId||System.Guid|||
-|ForeignGroupObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
+|ForeignGroupObjectId||System.Guid|||
 |RoleObjectId||System.Guid|||
 

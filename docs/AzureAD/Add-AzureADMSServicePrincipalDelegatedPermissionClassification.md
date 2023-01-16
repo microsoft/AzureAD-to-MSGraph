@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ServicePrincipalId|ServicePrincipalId|System.String|System.String||
-|PermissionName|PermissionName|System.String|System.String||
 |Classification|Classification|System.Nullable/Microsoft.Open.MSGraph.Model.DelegatedPermissionClassification+ClassificationEnum|System.String||
+|PermissionName|PermissionName|System.String|System.String||
+|ServicePrincipalId|ServicePrincipalId|System.String|System.String||
 |PermissionId|PermissionId|System.String|System.String||
 

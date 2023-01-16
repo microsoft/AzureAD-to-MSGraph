@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Top||System.Nullable/System.Int32|||
 |ObjectId||System.String|||
+|Top||System.Nullable/System.Int32|||
 |All||System.Nullable/System.Boolean|||
 

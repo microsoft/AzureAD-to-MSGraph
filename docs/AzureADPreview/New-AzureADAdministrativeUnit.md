@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Description||System.String|||
 |DisplayName||System.String|||
+|Description||System.String|||
 

@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SubscriptionId|SubscriptionId|System.Guid|System.String||
 |TenantId||System.Nullable/System.Guid|||
+|SubscriptionId|SubscriptionId|System.Guid|System.String||
 

@@ -20,9 +20,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.Guid|||
-|NewUserPrincipalName||System.String|||
 |AutoReconcileProxyConflicts||System.Management.Automation.SwitchParameter|||
-|UserPrincipalName||System.String|||
+|ObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
+|UserPrincipalName||System.String|||
+|NewUserPrincipalName||System.String|||
 

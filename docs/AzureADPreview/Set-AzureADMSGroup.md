@@ -20,16 +20,16 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|LabelId||System.String|||
-|DisplayName|DisplayName|System.String|System.String||
-|IsAssignableToRole|IsAssignableToRole|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|Id|Id|System.String|System.String||
-|MembershipRuleProcessingState|MembershipRuleProcessingState|System.String|System.String||
-|MembershipRule|MembershipRule|System.String|System.String||
 |Description|Description|System.String|System.String||
-|GroupTypes|GroupTypes|System.Collections.Generic.List/System.String|System.String[]||
-|MailEnabled|MailEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |SecurityEnabled|SecurityEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Visibility|Visibility|System.String|System.String||
+|IsAssignableToRole|IsAssignableToRole|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|MailEnabled|MailEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |MailNickname|MailNickname|System.String|System.String||
+|Id|Id|System.String|System.String||
+|GroupTypes|GroupTypes|System.Collections.Generic.List/System.String|System.String[]||
+|DisplayName|DisplayName|System.String|System.String||
+|MembershipRule|MembershipRule|System.String|System.String||
+|MembershipRuleProcessingState|MembershipRuleProcessingState|System.String|System.String||
+|LabelId||System.String|||
 

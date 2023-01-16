@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Feature||System.String|||
 |TenantId||System.Nullable/System.Guid|||
-|Force||System.Management.Automation.SwitchParameter|||
+|Feature||System.String|||
 |Enable||System.Boolean|||
+|Force||System.Management.Automation.SwitchParameter|||
 
