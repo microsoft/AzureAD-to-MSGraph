@@ -320,28 +320,15 @@ Set-MsolUserLicense,Set-MgUserLicense
 Set-MsolUserPassword,Reset-MgUserAuthenticationMethodPassword
 Set-MsolUserPrincipalName,Update-MgUser
 Update-MsolFederatedDomain,
-Get-AzureADMSAuthorizationPolicy, Get-MgPolicyAuthorizationPolicy
-Get-AzureADMSGroupPermissionGrant, Get-MgGroupPermissionGrant
+Get-AzureADMSAuthorizationPolicy,Get-MgPolicyAuthorizationPolicy
+Get-AzureADMSGroupPermissionGrant,Get-MgGroupPermissionGrant
 Get-AzureADMSRoleAssignment,Get-MgRoleManagementDirectoryRoleAssignment
 Get-AzureADMSRoleDefinition,Get-MgRoleManagementDirectoryRoleDefinition
-Get-AzureADServicePrincipalKeyCredential,get-mgserviceprincipal
+Get-AzureADServicePrincipalKeyCredential,Get-MgServicePrincipal
 New-AzureADMSPermissionGrantPolicy,New-MgPolicyPermissionGrantPolicy
-New-AzureADMSRoleAssignment, New-MgRoleManagementDirectoryRoleAssignment
+New-AzureADMSRoleAssignment,New-MgRoleManagementDirectoryRoleAssignment
 New-AzureADMSRoleDefinition,New-MgRoleManagementDirectoryRoleDefinition
 Remove-AzureADMSRoleAssignment,Remove-MgRoleManagementDirectoryRoleAssignment
 Remove-AzureADMSRoleDefinition,Remove-MgRoleManagementDirectoryRoleDefinition
 Set-AzureADMSAuthorizationPolicy,Update-MgPolicyAuthorizationPolicy
 Set-AzureADMSRoleDefinition,Update-MgRoleManagementDirectoryRoleDefinition
-
-
-
-
-
-
-
-
-
-
-
-
-
