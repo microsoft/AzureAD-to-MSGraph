@@ -244,8 +244,8 @@ Get-MsolCompanyAllowedDataLocation,
 Get-MsolCompanyInformation,Get-MgOrganization
 Get-MsolContact,Get-MgContact
 Get-MsolDevice,Get-MgDevice
-Get-MsolDeviceRegistrationServicePolicy,
-Get-MsolDirSyncConfiguration,
+Get-MsolDeviceRegistrationServicePolicy,Get-MgPolicyDeviceRegistrationPolicy
+Get-MsolDirSyncConfiguration,Get-MgDirectoryOnPremisSynchronization
 Get-MsolDirSyncFeatures,
 Get-MsolDirSyncProvisioningError,Get-MgGroup, Get-MgContact, Get-MgUser
 Get-MsolDomain,Get-MgDomain
