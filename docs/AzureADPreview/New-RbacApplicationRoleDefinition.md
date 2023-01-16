@@ -20,13 +20,13 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|TemplateId||System.String|||
-|DisplayName||System.String|||
-|IsEnabled||System.Nullable/System.Boolean|||
-|AppId||System.String|||
-|ResourceScopes||System.Collections.Generic.List/System.String|||
 |Description||System.String|||
-|RolePermissions||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.RolePermission|||
+|ResourceScopes||System.Collections.Generic.List/System.String|||
+|AppId||System.String|||
+|TemplateId||System.String|||
 |Version||System.String|||
 |InheritsPermissionsFrom||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.DirectoryRoleDefinition|||
+|DisplayName||System.String|||
+|RolePermissions||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.RolePermission|||
+|IsEnabled||System.Nullable/System.Boolean|||
 

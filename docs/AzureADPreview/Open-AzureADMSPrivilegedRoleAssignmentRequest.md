@@ -21,11 +21,11 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |SubjectId||System.String|||
-|Type||System.String|||
 |RoleDefinitionId||System.String|||
-|Reason||System.String|||
-|ResourceId||System.String|||
-|ProviderId||System.String|||
-|AssignmentState||System.String|||
 |Schedule||Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedSchedule|||
+|Reason||System.String|||
+|AssignmentState||System.String|||
+|Type||System.String|||
+|ProviderId||System.String|||
+|ResourceId||System.String|||
 

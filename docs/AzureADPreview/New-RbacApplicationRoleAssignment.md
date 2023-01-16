@@ -20,9 +20,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|AppId||System.String|||
 |PrincipalId||System.String|||
-|DirectoryScopeId||System.String|||
-|AppScopeId||System.String|||
 |RoleDefinitionId||System.String|||
+|AppId||System.String|||
+|AppScopeId||System.String|||
+|DirectoryScopeId||System.String|||
 

@@ -6,7 +6,7 @@
 
 + AAD Command: [Set-MsolDomainFederationSettings](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Set-MsolDomainFederationSettings)
 + AAD Module: MSOnline
-+ Graph Command: []()
++ Graph Command: [Update-MgDomainFederationConfiguration](https://docs.microsoft.com/en-us/powershell/module//Update-MgDomainFederationConfiguration)
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -20,20 +20,20 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SigningCertificateUpdateStatus||Microsoft.Online.Administration.SigningCertificateUpdateStatus|||
-|ActiveLogOnUri||System.String|||
-|NextSigningCertificate||System.String|||
-|FederationBrandName||System.String|||
-|DefaultInteractiveAuthenticationMethod||System.String|||
-|LogOffUri||System.String|||
-|MetadataExchangeUri||System.String|||
-|TenantId||System.Nullable/System.Guid|||
-|PreferredAuthenticationProtocol||System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|||
-|SupportsMfa||System.Nullable/System.Boolean|||
-|OpenIdConnectDiscoveryEndpoint||System.String|||
-|PassiveLogOnUri||System.String|||
-|SigningCertificate||System.String|||
-|IssuerUri||System.String|||
 |PromptLoginBehavior||System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|||
+|DefaultInteractiveAuthenticationMethod||System.String|||
+|OpenIdConnectDiscoveryEndpoint||System.String|||
+|MetadataExchangeUri||System.String|||
+|PassiveLogOnUri||System.String|||
+|SigningCertificateUpdateStatus||Microsoft.Online.Administration.SigningCertificateUpdateStatus|||
+|NextSigningCertificate||System.String|||
+|SupportsMfa||System.Nullable/System.Boolean|||
 |DomainName||System.String|||
+|PreferredAuthenticationProtocol||System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|||
+|LogOffUri||System.String|||
+|SigningCertificate||System.String|||
+|FederationBrandName||System.String|||
+|IssuerUri||System.String|||
+|ActiveLogOnUri||System.String|||
+|TenantId||System.Nullable/System.Guid|||
 

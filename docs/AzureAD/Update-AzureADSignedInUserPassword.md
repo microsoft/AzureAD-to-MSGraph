@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|CurrentPassword|CurrentPassword|System.Security.SecureString|System.String||
 |NewPassword|NewPassword|System.Security.SecureString|System.String||
+|CurrentPassword|CurrentPassword|System.Security.SecureString|System.String||
 

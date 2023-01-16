@@ -20,18 +20,18 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|Id||System.String|||
+|OdataType||System.String|||
+|Description||System.String|||
 |DisplayName||System.String|||
 |MembershipRule||System.String|||
+|IsAssignableToRole||System.Nullable/System.Boolean|||
+|MailEnabled||System.Nullable/System.Boolean|||
+|Visibility||System.String|||
 |GroupTypes||System.Collections.Generic.List/System.String|||
 |SecurityEnabled||System.Nullable/System.Boolean|||
 |ProxyAddresses||System.Collections.Generic.List/System.String|||
-|AssignedLabels||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AssignedLabel|||
-|Id||System.String|||
-|OdataType||System.String|||
 |MembershipRuleProcessingState||System.String|||
-|MailEnabled||System.Nullable/System.Boolean|||
-|IsAssignableToRole||System.Nullable/System.Boolean|||
+|AssignedLabels||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AssignedLabel|||
 |MailNickname||System.String|||
-|Visibility||System.String|||
-|Description||System.String|||
 

@@ -20,13 +20,13 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PartnerCompanyName||System.String|||
-|PartnerCommerceUrl||System.String|||
-|TenantId||System.Nullable/System.Guid|||
-|ObjectId||System.Nullable/System.Guid|||
-|CompanyType||System.Nullable/Microsoft.Online.Administration.CompanyType|||
-|PartnerHelpUrl||System.String|||
 |PartnerSupportTelephones||System.String[]|||
+|PartnerCompanyName||System.String|||
 |PartnerSupportEmails||System.String[]|||
 |PartnerSupportUrl||System.String|||
+|PartnerHelpUrl||System.String|||
+|CompanyType||System.Nullable/Microsoft.Online.Administration.CompanyType|||
+|PartnerCommerceUrl||System.String|||
+|ObjectId||System.Nullable/System.Guid|||
+|TenantId||System.Nullable/System.Guid|||
 

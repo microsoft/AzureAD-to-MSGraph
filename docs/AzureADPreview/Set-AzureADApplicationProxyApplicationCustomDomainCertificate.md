@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|ObjectId||System.String|||
 |Password||System.Security.SecureString|||
 |PfxFilePath||System.String|||
-|ObjectId||System.String|||
 

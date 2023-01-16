@@ -20,9 +20,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|CustomKeyIdentifier||System.String|||
-|StartDate||System.Nullable/System.DateTime|||
 |EndDate||System.Nullable/System.DateTime|||
+|StartDate||System.Nullable/System.DateTime|||
 |ObjectId||System.String|||
 |Value||System.String|||
+|CustomKeyIdentifier||System.String|||
 

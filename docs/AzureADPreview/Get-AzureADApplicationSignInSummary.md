@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Filter||System.String|||
 |Top||System.Nullable/System.Int32|||
+|Filter||System.String|||
 |Days||System.Nullable/System.Int32|||
 

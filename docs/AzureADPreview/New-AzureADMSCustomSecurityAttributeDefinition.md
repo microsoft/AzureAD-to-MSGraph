@@ -20,12 +20,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|IsCollection||System.Nullable/System.Boolean|||
-|UsePreDefinedValuesOnly||System.Nullable/System.Boolean|||
-|Type||System.String|||
-|Status||System.String|||
-|IsSearchable||System.Nullable/System.Boolean|||
 |Description||System.String|||
-|AttributeSet||System.String|||
+|UsePreDefinedValuesOnly||System.Nullable/System.Boolean|||
+|Status||System.String|||
 |Name||System.String|||
+|IsCollection||System.Nullable/System.Boolean|||
+|IsSearchable||System.Nullable/System.Boolean|||
+|Type||System.String|||
+|AttributeSet||System.String|||
 

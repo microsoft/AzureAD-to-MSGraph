@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|AssignedLicenses||Microsoft.Open.AzureAD.Model.AssignedLicenses|||
 |ObjectId||System.String|||
+|AssignedLicenses||Microsoft.Open.AzureAD.Model.AssignedLicenses|||
 

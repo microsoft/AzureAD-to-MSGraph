@@ -22,6 +22,6 @@
 |---|---|---|---|---|
 |Filter||System.String|||
 |Top||System.Nullable/System.Int32|||
-|All||System.Nullable/System.Boolean|||
 |ExternalDomainName||System.String|||
+|All||System.Nullable/System.Boolean|||
 

@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ExtensionPropertyId|ExtensionPropertyId|System.String|System.String||
 |ObjectId||System.String|||
+|ExtensionPropertyId|ExtensionPropertyId|System.String|System.String||
 

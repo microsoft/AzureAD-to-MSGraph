@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ScopedRoleMembershipId||System.String|||
 |ObjectId||System.String|||
+|ScopedRoleMembershipId||System.String|||
 
