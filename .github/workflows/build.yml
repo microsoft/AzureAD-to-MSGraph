@@ -1,0 +1,24 @@
+﻿on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Prerequisites
+      run: .\build\prerequisites.ps1
+      shell: powershell
+    - name: Build Docs
+      run: .\build\build.ps1
+      shell: powershell
+    - name: Update Repository
+      run: .\build\update-repo.ps1 -PatAccount $env:PATACCOUNT -GitToken $env:GITHUBPAT -AccountName Microsoft -RepositoryName AzureAD-to-MSGraph -Message "Docs Update [no ci]"
+      shell: powershell
+      env:
+        GITHUBPAT: ${{ secrets.GITHUBPAT }}
+        PATACCOUNT: ${{ secrets.PATACCOUNT }}

@@ -1,0 +1,1 @@
+﻿Install-Module PSFramework -Scope CurrentUser -Force
