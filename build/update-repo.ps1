@@ -18,7 +18,11 @@ param (
 
 $repositoryRoot = Split-Path $PSScriptRoot
 Push-Location -Path $repositoryRoot
-git add .
-git commit -a -m $Message
-git push "https://$GitToken@github.com/$AccountName/$RepositoryName.git"
-Pop-Location
+try {
+	git add .
+	git commit -a -m $Message
+	git push "https://FriedrichWeinmann:$GitToken@github.com/$AccountName/$RepositoryName.git"
+}
+finally {
+	Pop-Location
+}
