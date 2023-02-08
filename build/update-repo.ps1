@@ -2,6 +2,10 @@
 param (
 	[Parameter(Mandatory = $true)]
 	[string]
+	$TokenAccount,
+
+	[Parameter(Mandatory = $true)]
+	[string]
 	$GitToken,
 
 	[Parameter(Mandatory = $true)]
@@ -21,7 +25,7 @@ Push-Location -Path $repositoryRoot
 try {
 	git add .
 	git commit -a -m $Message
-	git push "https://FriedrichWeinmann:$GitToken@github.com/$AccountName/$RepositoryName.git"
+	git push "https://$($TokenAccount):$GitToken@github.com/$AccountName/$RepositoryName.git"
 }
 finally {
 	Pop-Location
