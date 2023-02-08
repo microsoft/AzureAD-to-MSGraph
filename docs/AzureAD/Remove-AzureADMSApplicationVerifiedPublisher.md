@@ -1,20 +1,20 @@
 # Remove-AzureADMSApplicationVerifiedPublisher
 
-> 
+> /applications/{application-id}/unsetVerifiedPublisher
 
 ## Data
 
 + AAD Command: [Remove-AzureADMSApplicationVerifiedPublisher](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSApplicationVerifiedPublisher)
 + AAD Module: AzureAD
-+ Graph Command: []()
-+ Graph Module: 
++ Graph Command: [Clear-MgApplicationVerifiedPublisher](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Clear-MgApplicationVerifiedPublisher)
++ Graph Module: Microsoft.Graph.Applications
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Application.ReadWrite.All|
+|Delegate|Application.ReadWrite.All|
 
 ## Parameters
 

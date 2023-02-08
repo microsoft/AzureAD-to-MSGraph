@@ -1,6 +1,6 @@
 # Select-AzureADGroupIdsServicePrincipalIsMemberOf
 
-> /servicePrincipals/{servicePrincipal-id}/memberOf
+> /servicePrincipals/{servicePrincipal-id}/memberOf | /servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}
 
 ## Data
 
@@ -14,12 +14,12 @@
 |Type|Scopes|
 |---|---|
 |Application|Application.Read.All, Application.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All|
-|Delegate|Application.Read.All, Application.ReadWrite.All, Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All|
+|Delegate|Application.Read.All, Application.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
 |GroupIdsForMembershipCheck||Microsoft.Open.AzureAD.Model.GroupIdsForMembershipCheck|||
+|ObjectId||System.String|||
 

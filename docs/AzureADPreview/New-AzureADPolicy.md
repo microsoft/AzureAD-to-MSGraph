@@ -20,10 +20,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|IsOrganizationDefault||System.Nullable/System.Boolean|||
 |Definition||System.Collections.Generic.List/System.String|||
-|KeyCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.KeyCredential|||
-|DisplayName||System.String|||
 |Type||System.String|||
 |AlternativeIdentifier||System.String|||
+|KeyCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.KeyCredential|||
+|DisplayName||System.String|||
+|IsOrganizationDefault||System.Nullable/System.Boolean|||
 

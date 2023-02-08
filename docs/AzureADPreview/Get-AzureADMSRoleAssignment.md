@@ -1,28 +1,28 @@
 # Get-AzureADMSRoleAssignment
 
-> 
+> /roleManagement/directory/roleAssignments | /roleManagement/directory/roleAssignments/{unifiedRoleAssignment-id}
 
 ## Data
 
 + AAD Command: [Get-AzureADMSRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSRoleAssignment)
 + AAD Module: AzureADPreview
-+ Graph Command: [](), []()
-+ Graph Module: 
++ Graph Command: [Get-MgRoleManagementDirectoryRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DeviceManagement.Enrolment/Get-MgRoleManagementDirectoryRoleAssignment)
++ Graph Module: Microsoft.Graph.DeviceManagement.Enrolment
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Directory.Read.All, Directory.ReadWrite.All, EntitlementManagement.Read.All, EntitlementManagement.ReadWrite.All, RoleManagement.Read.Directory, RoleManagement.ReadWrite.Directory|
+|Delegate|Directory.Read.All, Directory.ReadWrite.All, EntitlementManagement.Read.All, EntitlementManagement.ReadWrite.All, RoleManagement.Read.Directory, RoleManagement.ReadWrite.Directory|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Id||System.String|||
-|Filter||System.String|||
-|Top||System.Nullable/System.Int32|||
+|Top|Top|System.Nullable/System.Int32|System.Int32||
 |SearchString||System.String|||
-|All||System.Nullable/System.Boolean|||
+|Id||System.String|||
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Filter|Filter|System.String|System.String||
 

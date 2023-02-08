@@ -21,12 +21,12 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |State|State|System.String|System.String||
-|Conditions|Conditions|Microsoft.Open.MSGraph.Model.ConditionalAccessConditionSet|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphConditionalAccessConditionSet1||
+|Conditions|Conditions|Microsoft.Open.MSGraph.Model.ConditionalAccessConditionSet|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphConditionalAccessConditionSet||
 |ModifiedDateTime|ModifiedDateTime|System.String|System.DateTime||
-|PolicyId||System.String|||
 |GrantControls|GrantControls|Microsoft.Open.MSGraph.Model.ConditionalAccessGrantControls|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphConditionalAccessGrantControls||
-|DisplayName|DisplayName|System.String|System.String||
-|CreatedDateTime|CreatedDateTime|System.String|System.DateTime||
-|SessionControls|SessionControls|Microsoft.Open.MSGraph.Model.ConditionalAccessSessionControls|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphConditionalAccessSessionControls1||
+|PolicyId||System.String|||
+|SessionControls|SessionControls|Microsoft.Open.MSGraph.Model.ConditionalAccessSessionControls|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphConditionalAccessSessionControls||
 |Id|Id|System.String|System.String||
+|CreatedDateTime|CreatedDateTime|System.String|System.DateTime||
+|DisplayName|DisplayName|System.String|System.String||
 

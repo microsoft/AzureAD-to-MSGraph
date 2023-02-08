@@ -1,20 +1,20 @@
 # Remove-AzureADMSApplicationOwner
 
-> 
+> /applications/{application-id}/owners/{directoryObject-id}/$ref
 
 ## Data
 
 + AAD Command: [Remove-AzureADMSApplicationOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSApplicationOwner)
 + AAD Module: AzureADPreview
-+ Graph Command: []()
-+ Graph Module: 
++ Graph Command: [Remove-MgApplicationOwnerByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgApplicationOwnerByRef)
++ Graph Module: Microsoft.Graph.Applications
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Application.ReadWrite.All, Directory.ReadWrite.All|
+|Delegate|Application.ReadWrite.All, Directory.ReadWrite.All|
 
 ## Parameters
 

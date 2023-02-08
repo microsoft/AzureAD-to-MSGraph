@@ -14,14 +14,14 @@
 |Type|Scopes|
 |---|---|
 |Application|Directory.Read.All, Directory.ReadWrite.All|
-|Delegate|Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All|
+|Delegate|Directory.Read.All, Directory.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
 |Filter|Filter|System.String|System.String||
 |All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|ObjectId||System.String|||
 

@@ -21,7 +21,7 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Name||System.String|||
-|VerificationMethod||System.Nullable/Microsoft.Online.Administration.DomainVerificationMethod|||
 |TenantId||System.Nullable/System.Guid|||
+|VerificationMethod||System.Nullable/Microsoft.Online.Administration.DomainVerificationMethod|||
 |Authentication||System.Nullable/Microsoft.Online.Administration.DomainAuthenticationType|||
 

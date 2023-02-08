@@ -21,6 +21,6 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Id||System.String|||
-|Filter|Filter|System.String|System.String||
 |ServicePrincipalId|ServicePrincipalId|System.String|System.String||
+|Filter|Filter|System.String|System.String||
 

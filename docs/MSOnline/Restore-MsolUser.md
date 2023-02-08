@@ -1,13 +1,13 @@
 # Restore-MsolUser
 
-> /users/{user-id}/restore
+> 
 
 ## Data
 
 + AAD Command: [Restore-MsolUser](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Restore-MsolUser)
 + AAD Module: MSOnline
-+ Graph Command: [Restore-MgUser](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Restore-MgUser)
-+ Graph Module: Microsoft.Graph.Users.Actions
++ Graph Command: [Restore-MgUser](https://docs.microsoft.com/en-us/powershell/module//Restore-MgUser)
++ Graph Module: 
 
 > Scopes Needed (any one)
 
@@ -20,9 +20,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|AutoReconcileProxyConflicts||System.Management.Automation.SwitchParameter|||
-|ObjectId||System.Guid|||
-|TenantId||System.Nullable/System.Guid|||
 |UserPrincipalName||System.String|||
 |NewUserPrincipalName||System.String|||
+|TenantId||System.Nullable/System.Guid|||
+|AutoReconcileProxyConflicts||System.Management.Automation.SwitchParameter|||
+|ObjectId||System.Guid|||
 

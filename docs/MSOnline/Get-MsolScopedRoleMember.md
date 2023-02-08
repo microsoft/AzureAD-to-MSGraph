@@ -14,15 +14,15 @@
 |Type|Scopes|
 |---|---|
 |Application|Directory.Read.All, Directory.ReadWrite.All, RoleManagement.Read.Directory, RoleManagement.ReadWrite.Directory|
-|Delegate|Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All, RoleManagement.Read.Directory, RoleManagement.ReadWrite.Directory|
+|Delegate|Directory.Read.All, Directory.ReadWrite.All, RoleManagement.Read.Directory, RoleManagement.ReadWrite.Directory|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RoleObjectId||System.Guid|||
-|AdministrativeUnitObjectId||System.Nullable/System.Guid|||
-|TenantId||System.Nullable/System.Guid|||
-|MaxResults||System.Int32|||
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
+|MaxResults||System.Int32|||
+|TenantId||System.Nullable/System.Guid|||
+|AdministrativeUnitObjectId||System.Nullable/System.Guid|||
+|RoleObjectId||System.Guid|||
 

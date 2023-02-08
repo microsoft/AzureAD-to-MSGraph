@@ -1,13 +1,13 @@
 # Restore-AzureADMSDeletedDirectoryObject
 
-> /directoryObjects/{directoryObject-id}/restore
+> 
 
 ## Data
 
 + AAD Command: [Restore-AzureADMSDeletedDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Restore-AzureADMSDeletedDirectoryObject)
 + AAD Module: AzureADPreview
-+ Graph Command: [Restore-MgDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DirectoryObjects/Restore-MgDirectoryObject)
-+ Graph Module: Microsoft.Graph.DirectoryObjects
++ Graph Command: [Restore-MgDirectoryObject](https://docs.microsoft.com/en-us/powershell/module//Restore-MgDirectoryObject)
++ Graph Module: 
 
 > Scopes Needed (any one)
 

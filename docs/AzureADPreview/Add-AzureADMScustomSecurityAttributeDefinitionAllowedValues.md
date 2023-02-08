@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Id||System.String|||
-|IsActive||System.Nullable/System.Boolean|||
 |CustomSecurityAttributeDefinitionId||System.String|||
+|IsActive||System.Nullable/System.Boolean|||
+|Id||System.String|||
 

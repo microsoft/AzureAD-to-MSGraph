@@ -1,6 +1,6 @@
 # Remove-AzureADMSIdentityProvider
 
-> /identityProviders/{identityProvider-id}
+> /identity/identityProviders/{identityProviderBase-id}
 
 ## Data
 

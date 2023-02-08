@@ -13,8 +13,8 @@
 
 |Type|Scopes|
 |---|---|
-|Application|DeviceManagementServiceConfig.ReadWrite.All, Organization.ReadWrite.All|
-|Delegate|DeviceManagementServiceConfig.ReadWrite.All, Directory.AccessAsUser.All, Organization.ReadWrite.All|
+|Application|DeviceManagementConfiguration.ReadWrite.All, DeviceManagementServiceConfig.ReadWrite.All, Organization.ReadWrite.All|
+|Delegate|DeviceManagementConfiguration.ReadWrite.All, DeviceManagementServiceConfig.ReadWrite.All, Organization.ReadWrite.All|
 
 ## Parameters
 

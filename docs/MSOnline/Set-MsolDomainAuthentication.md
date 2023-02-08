@@ -1,12 +1,12 @@
 # Set-MsolDomainAuthentication
 
-> /domains/{domain-id}
+> /domains/{domain-id}/federationConfiguration
 
 ## Data
 
 + AAD Command: [Set-MsolDomainAuthentication](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Set-MsolDomainAuthentication)
 + AAD Module: MSOnline
-+ Graph Command: [Update-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Update-MgDomain)
++ Graph Command: [New-MgDomainFederationConfiguration](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/New-MgDomainFederationConfiguration)
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
 
 > Scopes Needed (any one)
@@ -20,21 +20,21 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SupportsMfa||System.Nullable/System.Boolean|||
-|PromptLoginBehavior||System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|||
+|SigningCertificate|SigningCertificate|System.String|System.String||
+|PromptLoginBehavior|PromptLoginBehavior|System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|System.String||
 |DefaultInteractiveAuthenticationMethod||System.String|||
-|OpenIdConnectDiscoveryEndpoint||System.String|||
-|MetadataExchangeUri||System.String|||
+|SigningCertificateUpdateStatus|SigningCertificateUpdateStatus|Microsoft.Online.Administration.SigningCertificateUpdateStatus|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphSigningCertificateUpdateStatus||
 |PassiveLogOnUri||System.String|||
-|SigningCertificateUpdateStatus||Microsoft.Online.Administration.SigningCertificateUpdateStatus|||
-|NextSigningCertificate||System.String|||
-|Authentication||Microsoft.Online.Administration.DomainAuthenticationType|||
-|DomainName||System.String|||
-|PreferredAuthenticationProtocol||System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|||
-|LogOffUri||System.String|||
-|SigningCertificate||System.String|||
-|FederationBrandName||System.String|||
-|IssuerUri||System.String|||
-|ActiveLogOnUri||System.String|||
 |TenantId||System.Nullable/System.Guid|||
+|OpenIdConnectDiscoveryEndpoint||System.String|||
+|LogOffUri||System.String|||
+|FederationBrandName||System.String|||
+|Authentication||Microsoft.Online.Administration.DomainAuthenticationType|||
+|PreferredAuthenticationProtocol|PreferredAuthenticationProtocol|System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|System.String||
+|ActiveLogOnUri||System.String|||
+|MetadataExchangeUri|MetadataExchangeUri|System.String|System.String||
+|DomainName||System.String|||
+|IssuerUri|IssuerUri|System.String|System.String||
+|NextSigningCertificate|NextSigningCertificate|System.String|System.String||
+|SupportsMfa||System.Nullable/System.Boolean|||
 

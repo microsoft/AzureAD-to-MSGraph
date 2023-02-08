@@ -14,7 +14,7 @@
 |Type|Scopes|
 |---|---|
 |Application|DelegatedPermissionGrant.ReadWrite.All, Directory.ReadWrite.All|
-|Delegate|DelegatedPermissionGrant.ReadWrite.All, Directory.AccessAsUser.All, Directory.ReadWrite.All|
+|Delegate|DelegatedPermissionGrant.ReadWrite.All, Directory.ReadWrite.All|
 
 ## Parameters
 

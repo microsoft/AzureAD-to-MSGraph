@@ -20,13 +20,13 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SearchString||System.String|||
 |MaxResults||System.Int32|||
+|All||System.Management.Automation.SwitchParameter|||
+|ErrorCategory||System.String|||
+|TenantId||System.Nullable/System.Guid|||
 |PropertyName||System.String|||
 |SortDirection||Microsoft.Online.Administration.SortDirection|||
-|ErrorCategory||System.String|||
 |SortField||Microsoft.Online.Administration.SortField|||
-|TenantId||System.Nullable/System.Guid|||
-|All||System.Management.Automation.SwitchParameter|||
+|SearchString||System.String|||
 |PropertyValue||System.String|||
 

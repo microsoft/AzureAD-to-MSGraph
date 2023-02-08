@@ -14,16 +14,16 @@
 |Type|Scopes|
 |---|---|
 |Application|RoleManagement.ReadWrite.Directory|
-|Delegate|Directory.AccessAsUser.All, RoleManagement.ReadWrite.Directory|
+|Delegate|RoleManagement.ReadWrite.Directory|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RoleName||System.String|||
-|RoleMemberEmailAddress||System.String|||
-|RoleObjectId||System.Guid|||
-|RoleMemberObjectId||System.Nullable/System.Guid|||
-|TenantId||System.Nullable/System.Guid|||
 |RoleMemberType||Microsoft.Online.Administration.RoleMemberType|||
+|RoleMemberEmailAddress||System.String|||
+|RoleMemberObjectId||System.Nullable/System.Guid|||
+|RoleObjectId||System.Guid|||
+|TenantId||System.Nullable/System.Guid|||
+|RoleName||System.String|||
 

@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PasswordSSOCredential||Microsoft.Open.MSGraph.Model.PasswordSSOCredentials|||
 |ObjectId||System.String|||
+|PasswordSSOCredential||Microsoft.Open.MSGraph.Model.PasswordSSOCredentials|||
 

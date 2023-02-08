@@ -14,7 +14,7 @@
 |Type|Scopes|
 |---|---|
 |Application|Group.ReadWrite.All|
-|Delegate|Directory.AccessAsUser.All, Group.ReadWrite.All|
+|Delegate|Group.ReadWrite.All|
 
 ## Parameters
 

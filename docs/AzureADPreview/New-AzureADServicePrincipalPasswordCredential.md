@@ -14,7 +14,7 @@
 |Type|Scopes|
 |---|---|
 |Application|Application.ReadWrite.All|
-|Delegate|Application.ReadWrite.All, Directory.AccessAsUser.All|
+|Delegate|Application.ReadWrite.All|
 
 ## Parameters
 
@@ -22,7 +22,7 @@
 |---|---|---|---|---|
 |EndDate||System.Nullable/System.DateTime|||
 |StartDate||System.Nullable/System.DateTime|||
-|ObjectId||System.String|||
 |Value||System.String|||
 |CustomKeyIdentifier||System.String|||
+|ObjectId||System.String|||
 

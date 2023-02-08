@@ -1,6 +1,6 @@
 # Get-AzureADMSIdentityProvider
 
-> /identityProviders | /identityProviders/{identityProvider-id}
+> /identity/identityProviders | /identity/identityProviders/{identityProviderBase-id}
 
 ## Data
 

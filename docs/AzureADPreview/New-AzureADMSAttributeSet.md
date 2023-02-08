@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Id||System.String|||
 |MaxAttributesPerSet||System.Nullable/System.Int32|||
+|Id||System.String|||
 |Description||System.String|||
 

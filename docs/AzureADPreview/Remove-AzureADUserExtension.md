@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ExtensionName||System.String|||
 |ExtensionNames||System.Collections.Generic.List/System.String|||
+|ExtensionName||System.String|||
 |ObjectId||System.String|||
 

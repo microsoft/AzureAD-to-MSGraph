@@ -20,10 +20,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ResultMessage||System.String|||
 |ExpirationDateTime||System.Nullable/System.DateTime|||
-|UserId||System.String|||
-|RoleId||System.String|||
+|ResultMessage||System.String|||
 |IsElevated||System.Nullable/System.Boolean|||
+|RoleId||System.String|||
 |Id||System.String|||
+|UserId||System.String|||
 

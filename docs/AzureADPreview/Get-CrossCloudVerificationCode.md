@@ -1,20 +1,20 @@
 # Get-CrossCloudVerificationCode
 
-> 
+> /domains/{domain-id}/verify
 
 ## Data
 
 + AAD Command: [Get-CrossCloudVerificationCode](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-CrossCloudVerificationCode)
 + AAD Module: AzureADPreview
-+ Graph Command: []()
-+ Graph Module: 
++ Graph Command: [Confirm-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Confirm-MgDomain)
++ Graph Module: Microsoft.Graph.Identity.DirectoryManagement
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Domain.ReadWrite.All|
+|Delegate|Domain.ReadWrite.All|
 
 ## Parameters
 

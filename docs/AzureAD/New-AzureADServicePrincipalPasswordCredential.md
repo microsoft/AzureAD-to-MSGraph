@@ -14,15 +14,15 @@
 |Type|Scopes|
 |---|---|
 |Application|Application.ReadWrite.All|
-|Delegate|Application.ReadWrite.All, Directory.AccessAsUser.All|
+|Delegate|Application.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |EndDate||System.Nullable/System.DateTime|||
-|ObjectId||System.String|||
-|CustomKeyIdentifier||System.String|||
-|StartDate||System.Nullable/System.DateTime|||
 |Value||System.String|||
+|StartDate||System.Nullable/System.DateTime|||
+|CustomKeyIdentifier||System.String|||
+|ObjectId||System.String|||
 

@@ -1,26 +1,26 @@
 # Enable-MsolDevice
 
-> 
+> /devices/{device-id}
 
 ## Data
 
 + AAD Command: [Enable-MsolDevice](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Enable-MsolDevice)
 + AAD Module: MSOnline
-+ Graph Command: []()
-+ Graph Module: 
++ Graph Command: [Update-MgDevice](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Update-MgDevice)
++ Graph Module: Microsoft.Graph.Identity.DirectoryManagement
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
 |Application||
-|Delegate||
+|Delegate|Directory.AccessAsUser.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |ObjectId||System.Guid|||
-|DeviceId||System.Guid|||
+|DeviceId|DeviceId|System.Guid|System.String||
 |Force||System.Management.Automation.SwitchParameter|||
 

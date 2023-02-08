@@ -1,28 +1,28 @@
 # Remove-MsolServicePrincipalCredential
 
-> 
+> /servicePrincipals/{servicePrincipal-id}/removeKey
 
 ## Data
 
 + AAD Command: [Remove-MsolServicePrincipalCredential](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Remove-MsolServicePrincipalCredential)
 + AAD Module: MSOnline
-+ Graph Command: []()
-+ Graph Module: 
++ Graph Command: [Remove-MgServicePrincipalKey](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgServicePrincipalKey)
++ Graph Module: Microsoft.Graph.Applications
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Application.ReadWrite.All, Directory.ReadWrite.All|
+|Delegate|Application.ReadWrite.All, Directory.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ServicePrincipalName||System.String|||
-|ObjectId||System.Guid|||
-|TenantId||System.Nullable/System.Guid|||
 |KeyIds||System.Guid[]|||
 |AppPrincipalId||System.Guid|||
+|TenantId||System.Nullable/System.Guid|||
+|ObjectId||System.Guid|||
+|ServicePrincipalName||System.String|||
 

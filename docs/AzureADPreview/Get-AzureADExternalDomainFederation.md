@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Filter||System.String|||
 |Top||System.Nullable/System.Int32|||
 |ExternalDomainName||System.String|||
+|Filter||System.String|||
 |All||System.Nullable/System.Boolean|||
 

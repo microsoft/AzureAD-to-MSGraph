@@ -1,6 +1,6 @@
 # Select-AzureADGroupIdsGroupIsMemberOf
 
-> /groups/{group-id}/memberOf
+> /groups/{group-id}/memberOf | /groups/{group-id}/memberOf/{directoryObject-id}
 
 ## Data
 
@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
 |GroupIdsForMembershipCheck||Microsoft.Open.AzureAD.Model.GroupIdsForMembershipCheck|||
+|ObjectId||System.String|||
 

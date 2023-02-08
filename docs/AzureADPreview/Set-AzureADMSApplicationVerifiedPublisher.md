@@ -1,20 +1,20 @@
 # Set-AzureADMSApplicationVerifiedPublisher
 
-> 
+> /applications/{application-id}/setVerifiedPublisher
 
 ## Data
 
 + AAD Command: [Set-AzureADMSApplicationVerifiedPublisher](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSApplicationVerifiedPublisher)
 + AAD Module: AzureADPreview
-+ Graph Command: []()
-+ Graph Module: 
++ Graph Command: [Set-MgApplicationVerifiedPublisher](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Set-MgApplicationVerifiedPublisher)
++ Graph Module: Microsoft.Graph.Applications
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Application.ReadWrite.All|
+|Delegate|Application.ReadWrite.All|
 
 ## Parameters
 

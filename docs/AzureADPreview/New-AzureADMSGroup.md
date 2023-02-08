@@ -14,21 +14,21 @@
 |Type|Scopes|
 |---|---|
 |Application|Directory.ReadWrite.All, Group.ReadWrite.All|
-|Delegate|Directory.AccessAsUser.All, Directory.ReadWrite.All, Group.ReadWrite.All|
+|Delegate|Directory.ReadWrite.All, Group.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Description|Description|System.String|System.String||
-|SecurityEnabled|SecurityEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|Visibility|Visibility|System.String|System.String||
-|IsAssignableToRole|IsAssignableToRole|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|MailEnabled|MailEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|MailNickname|MailNickname|System.String|System.String||
+|LabelId||System.String|||
 |GroupTypes|GroupTypes|System.Collections.Generic.List/System.String|System.String[]||
-|DisplayName|DisplayName|System.String|System.String||
+|SecurityEnabled|SecurityEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|MailNickname|MailNickname|System.String|System.String||
 |MembershipRule|MembershipRule|System.String|System.String||
 |MembershipRuleProcessingState|MembershipRuleProcessingState|System.String|System.String||
-|LabelId||System.String|||
+|MailEnabled|MailEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Description|Description|System.String|System.String||
+|DisplayName|DisplayName|System.String|System.String||
+|IsAssignableToRole|IsAssignableToRole|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Visibility|Visibility|System.String|System.String||
 

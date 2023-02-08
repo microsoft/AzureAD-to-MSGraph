@@ -1,20 +1,20 @@
 # New-MsolServicePrincipalAddresses
 
-> 
+> /servicePrincipals
 
 ## Data
 
 + AAD Command: [New-MsolServicePrincipalAddresses](https://docs.microsoft.com/en-us/powershell/module/MSOnline/New-MsolServicePrincipalAddresses)
 + AAD Module: MSOnline
-+ Graph Command: []()
-+ Graph Module: 
++ Graph Command: [New-MgServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/New-MgServicePrincipal)
++ Graph Module: Microsoft.Graph.Applications
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Application.ReadWrite.All|
+|Delegate|Application.ReadWrite.All|
 
 ## Parameters
 

@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|SearchString||System.String|||
 |Id||System.String|||
 |Filter||System.String|||
-|SearchString||System.String|||
 

@@ -1,6 +1,6 @@
 # Select-AzureADGroupIdsUserIsMemberOf
 
-> /users/{user-id}/memberOf
+> /users/{user-id}/memberOf | /users/{user-id}/memberOf/{directoryObject-id}
 
 ## Data
 
@@ -14,7 +14,7 @@
 |Type|Scopes|
 |---|---|
 |Application|Directory.Read.All, Directory.ReadWrite.All, GroupMember.Read.All|
-|Delegate|Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All, GroupMember.Read.All, User.Read|
+|Delegate|Directory.Read.All, Directory.ReadWrite.All, GroupMember.Read.All, User.Read|
 
 ## Parameters
 

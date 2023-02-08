@@ -1,28 +1,28 @@
 # Get-MsolServicePrincipalCredential
 
-> 
+> /servicePrincipals | /servicePrincipals/{servicePrincipal-id}
 
 ## Data
 
 + AAD Command: [Get-MsolServicePrincipalCredential](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Get-MsolServicePrincipalCredential)
 + AAD Module: MSOnline
-+ Graph Command: []()
-+ Graph Module: 
++ Graph Command: [Get-MgServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipal)
++ Graph Module: Microsoft.Graph.Applications
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Application.Read.All, Application.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All|
+|Delegate|Application.Read.All, Application.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ServicePrincipalName||System.String|||
 |ObjectId||System.Guid|||
-|TenantId||System.Nullable/System.Guid|||
 |AppPrincipalId||System.Guid|||
+|TenantId||System.Nullable/System.Guid|||
 |ReturnKeyValues||System.Nullable/System.Boolean|||
+|ServicePrincipalName||System.String|||
 

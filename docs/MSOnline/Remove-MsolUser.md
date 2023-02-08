@@ -13,16 +13,16 @@
 
 |Type|Scopes|
 |---|---|
-|Application|DeviceManagementApps.ReadWrite.All, DeviceManagementManagedDevices.ReadWrite.All, DeviceManagementServiceConfig.ReadWrite.All, User.ReadWrite.All|
-|Delegate|DeviceManagementApps.ReadWrite.All, DeviceManagementManagedDevices.ReadWrite.All, DeviceManagementServiceConfig.ReadWrite.All, User.ReadWrite.All|
+|Application|DeviceManagementApps.ReadWrite.All, DeviceManagementConfiguration.ReadWrite.All, DeviceManagementManagedDevices.ReadWrite.All, DeviceManagementServiceConfig.ReadWrite.All, User.ReadWrite.All|
+|Delegate|DeviceManagementApps.ReadWrite.All, DeviceManagementConfiguration.ReadWrite.All, DeviceManagementManagedDevices.ReadWrite.All, DeviceManagementServiceConfig.ReadWrite.All, User.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.Guid|||
-|TenantId||System.Nullable/System.Guid|||
-|RemoveFromRecycleBin||System.Management.Automation.SwitchParameter|||
 |UserPrincipalName||System.String|||
 |Force||System.Management.Automation.SwitchParameter|||
+|TenantId||System.Nullable/System.Guid|||
+|ObjectId||System.Guid|||
+|RemoveFromRecycleBin||System.Management.Automation.SwitchParameter|||
 

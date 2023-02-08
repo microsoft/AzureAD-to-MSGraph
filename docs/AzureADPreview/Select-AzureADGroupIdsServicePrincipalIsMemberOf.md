@@ -1,6 +1,6 @@
 # Select-AzureADGroupIdsServicePrincipalIsMemberOf
 
-> /servicePrincipals/{servicePrincipal-id}/memberOf
+> /servicePrincipals/{servicePrincipal-id}/memberOf | /servicePrincipals/{servicePrincipal-id}/memberOf/{directoryObject-id}
 
 ## Data
 
@@ -14,7 +14,7 @@
 |Type|Scopes|
 |---|---|
 |Application|Application.Read.All, Application.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All|
-|Delegate|Application.Read.All, Application.ReadWrite.All, Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All|
+|Delegate|Application.Read.All, Application.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All|
 
 ## Parameters
 

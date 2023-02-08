@@ -1,29 +1,29 @@
 # Set-MsolUserPassword
 
-> 
+> /users/{user-id}/authentication/methods/{authenticationMethod-id}/resetPassword
 
 ## Data
 
 + AAD Command: [Set-MsolUserPassword](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Set-MsolUserPassword)
 + AAD Module: MSOnline
-+ Graph Command: [Reset-MgUserAuthenticationMethodPassword](https://docs.microsoft.com/en-us/powershell/module//Reset-MgUserAuthenticationMethodPassword)
-+ Graph Module: 
++ Graph Command: [Reset-MgUserAuthenticationMethodPassword](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Reset-MgUserAuthenticationMethodPassword)
++ Graph Module: Microsoft.Graph.Users.Actions
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|UserAuthenticationMethod.ReadWrite.All|
+|Delegate|UserAuthenticationMethod.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.Guid|||
-|NewPassword||System.String|||
-|ForceChangePassword||System.Nullable/System.Boolean|||
-|UserPrincipalName||System.String|||
-|TenantId||System.Nullable/System.Guid|||
 |ForceChangePasswordOnly||System.Nullable/System.Boolean|||
+|TenantId||System.Nullable/System.Guid|||
+|UserPrincipalName||System.String|||
+|ForceChangePassword||System.Nullable/System.Boolean|||
+|NewPassword|NewPassword|System.String|System.String||
+|ObjectId||System.Guid|||
 

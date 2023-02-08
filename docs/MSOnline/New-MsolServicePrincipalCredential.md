@@ -1,32 +1,32 @@
 # New-MsolServicePrincipalCredential
 
-> 
+> /servicePrincipals/{servicePrincipal-id}/addKey
 
 ## Data
 
 + AAD Command: [New-MsolServicePrincipalCredential](https://docs.microsoft.com/en-us/powershell/module/MSOnline/New-MsolServicePrincipalCredential)
 + AAD Module: MSOnline
-+ Graph Command: []()
-+ Graph Module: 
++ Graph Command: [Add-MgServicePrincipalKey](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Add-MgServicePrincipalKey)
++ Graph Module: Microsoft.Graph.Applications
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Application.ReadWrite.All, Directory.ReadWrite.All|
+|Delegate|Application.ReadWrite.All, Directory.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|StartDate||System.Nullable/System.DateTime|||
 |Usage||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialUsage|||
-|AppPrincipalId||System.Guid|||
-|ObjectId||System.Guid|||
-|ServicePrincipalName||System.String|||
-|Value||System.String|||
-|EndDate||System.Nullable/System.DateTime|||
-|TenantId||System.Nullable/System.Guid|||
 |Type||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialType|||
+|TenantId||System.Nullable/System.Guid|||
+|ServicePrincipalName||System.String|||
+|ObjectId||System.Guid|||
+|Value||System.String|||
+|AppPrincipalId||System.Guid|||
+|EndDate||System.Nullable/System.DateTime|||
+|StartDate||System.Nullable/System.DateTime|||
 

@@ -1,20 +1,20 @@
 # Get-AzureADTrustedCertificateAuthority
 
-> 
+> /organization/{organization-id}/certificateBasedAuthConfiguration | /organization/{organization-id}/certificateBasedAuthConfiguration/{certificateBasedAuthConfiguration-id}
 
 ## Data
 
 + AAD Command: [Get-AzureADTrustedCertificateAuthority](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADTrustedCertificateAuthority)
 + AAD Module: AzureAD
-+ Graph Command: []()
-+ Graph Module: 
++ Graph Command: [Get-MgOrganizationCertificateBasedAuthConfiguration](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Get-MgOrganizationCertificateBasedAuthConfiguration)
++ Graph Module: Microsoft.Graph.Identity.SignIns
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Organization.Read.All, Organization.ReadWrite.All|
+|Delegate|Organization.Read.All, Organization.ReadWrite.All|
 
 ## Parameters
 

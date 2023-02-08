@@ -13,15 +13,15 @@
 
 |Type|Scopes|
 |---|---|
-|Application|AppRoleAssignment.ReadWrite.All, Directory.ReadWrite.All|
-|Delegate|AppRoleAssignment.ReadWrite.All, Directory.AccessAsUser.All, Directory.ReadWrite.All|
+|Application|Application.Read.All, AppRoleAssignment.ReadWrite.All, Directory.Read.All|
+|Delegate|Application.Read.All, AppRoleAssignment.ReadWrite.All, Directory.Read.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Id|Id|System.String|System.String||
-|PrincipalId|PrincipalId|System.String|System.String||
-|ResourceId|ResourceId|System.String|System.String||
 |ObjectId||System.String|||
+|PrincipalId|PrincipalId|System.String|System.String||
+|Id|Id|System.String|System.String||
+|ResourceId|ResourceId|System.String|System.String||
 

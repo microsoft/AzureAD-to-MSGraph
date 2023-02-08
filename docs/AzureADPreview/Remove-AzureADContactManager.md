@@ -1,13 +1,13 @@
 # Remove-AzureADContactManager
 
-> /contacts/{orgContact-id}/manager/$ref
+> 
 
 ## Data
 
 + AAD Command: [Remove-AzureADContactManager](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADContactManager)
 + AAD Module: AzureADPreview
-+ Graph Command: [Remove-MgContactManagerByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Remove-MgContactManagerByRef)
-+ Graph Module: Microsoft.Graph.Identity.DirectoryManagement
++ Graph Command: [Remove-MgContactManagerByRef](https://docs.microsoft.com/en-us/powershell/module//Remove-MgContactManagerByRef)
++ Graph Module: 
 
 > Scopes Needed (any one)
 

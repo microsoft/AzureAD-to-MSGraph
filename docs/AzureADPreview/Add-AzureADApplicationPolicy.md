@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RefObjectId||System.String|||
 |Id||System.String|||
+|RefObjectId||System.String|||
 

@@ -14,13 +14,13 @@
 |Type|Scopes|
 |---|---|
 |Application|RoleManagement.ReadWrite.Directory|
-|Delegate|Directory.AccessAsUser.All, RoleManagement.ReadWrite.Directory|
+|Delegate|RoleManagement.ReadWrite.Directory|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |AdministrativeUnitObjectId||System.Guid|||
-|TenantId||System.Nullable/System.Guid|||
 |AdministrativeUnitMemberObjectId||System.Nullable/System.Guid|||
+|TenantId||System.Nullable/System.Guid|||
 

@@ -20,9 +20,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|Status||System.Nullable/Microsoft.Online.Administration.DomainStatus|||
 |TenantId||System.Nullable/System.Guid|||
 |Capability||System.Nullable/Microsoft.Online.Administration.DomainCapabilities|||
 |DomainName||System.String|||
 |Authentication||System.Nullable/Microsoft.Online.Administration.DomainAuthenticationType|||
-|Status||System.Nullable/Microsoft.Online.Administration.DomainStatus|||
 

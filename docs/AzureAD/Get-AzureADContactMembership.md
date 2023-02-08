@@ -1,6 +1,6 @@
 # Get-AzureADContactMembership
 
-> /contacts/{orgContact-id}/memberOf
+> /contacts/{orgContact-id}/memberOf | /contacts/{orgContact-id}/memberOf/{directoryObject-id}
 
 ## Data
 
@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
 |All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|ObjectId||System.String|||
 

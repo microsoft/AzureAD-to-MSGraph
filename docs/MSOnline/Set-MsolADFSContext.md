@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Computer||System.String|||
 |ADFSUserCredentials||System.Management.Automation.PSCredential|||
 |LogFile||System.String|||
+|Computer||System.String|||
 

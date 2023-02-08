@@ -14,12 +14,12 @@
 |Type|Scopes|
 |---|---|
 |Application|DelegatedPermissionGrant.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All|
-|Delegate|DelegatedPermissionGrant.ReadWrite.All, Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All|
+|Delegate|DelegatedPermissionGrant.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Top|Top|System.Nullable/System.Int32|System.Int32||
 |All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Top|Top|System.Nullable/System.Int32|System.Int32||
 

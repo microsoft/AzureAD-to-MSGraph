@@ -14,17 +14,17 @@
 |Type|Scopes|
 |---|---|
 |Application|AdministrativeUnit.ReadWrite.All|
-|Delegate|AdministrativeUnit.ReadWrite.All, Directory.AccessAsUser.All|
+|Delegate|AdministrativeUnit.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Description|Description|System.String|System.String||
-|MembershipType||System.String|||
-|IsMemberManagementRestricted||System.Nullable/System.Boolean|||
-|DisplayName|DisplayName|System.String|System.String||
 |MembershipRule||System.String|||
+|MembershipType||System.String|||
 |MembershipRuleProcessingState||System.String|||
+|IsMemberManagementRestricted||System.Nullable/System.Boolean|||
 |Id|Id|System.String|System.String||
+|Description|Description|System.String|System.String||
+|DisplayName|DisplayName|System.String|System.String||
 

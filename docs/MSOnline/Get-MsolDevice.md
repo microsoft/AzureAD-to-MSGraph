@@ -1,6 +1,6 @@
 # Get-MsolDevice
 
-> /devices
+> /devices | /devices/{device-id}
 
 ## Data
 
@@ -13,19 +13,19 @@
 
 |Type|Scopes|
 |---|---|
-|Application|Device.Read.All, Directory.ReadWrite.All|
-|Delegate|Device.Read.All, Directory.AccessAsUser.All, Directory.ReadWrite.All|
+|Application|Device.Read.All, Directory.ReadWrite.All, Directory.Read.All|
+|Delegate|Device.Read.All, Directory.ReadWrite.All, Directory.Read.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RegisteredOwnerUpn||System.String|||
-|DeviceId||System.Guid|||
 |IncludeSystemManagedDevices||System.Management.Automation.SwitchParameter|||
-|ObjectId||System.Guid|||
-|Name||System.String|||
-|ReturnRegisteredOwners||System.Management.Automation.SwitchParameter|||
+|RegisteredOwnerUpn||System.String|||
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
+|Name||System.String|||
+|ObjectId||System.Guid|||
+|ReturnRegisteredOwners||System.Management.Automation.SwitchParameter|||
 |LogonTimeBefore||System.DateTime|||
+|DeviceId|DeviceId|System.Guid|System.String||
 

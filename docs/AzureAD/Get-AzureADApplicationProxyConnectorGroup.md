@@ -20,9 +20,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Id||System.String|||
-|Filter||System.String|||
-|Top||System.Nullable/System.Int32|||
 |SearchString||System.String|||
+|Top||System.Nullable/System.Int32|||
+|Id||System.String|||
 |All||System.Nullable/System.Boolean|||
+|Filter||System.String|||
 

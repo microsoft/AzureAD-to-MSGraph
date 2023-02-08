@@ -20,15 +20,15 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|IsTranslateLinksInBodyEnabled||System.Nullable/System.Boolean|||
-|ExternalUrl||System.String|||
-|ExternalAuthenticationType||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ExternalAuthenticationTypeEnum|||
-|ApplicationServerTimeout||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ApplicationServerTimeoutEnum|||
-|ObjectId||System.String|||
-|ConnectorGroupId||System.String|||
-|IsPersistentCookieEnabled||System.Nullable/System.Boolean|||
 |InternalUrl||System.String|||
+|IsSecureCookieEnabled||System.Nullable/System.Boolean|||
+|ObjectId||System.String|||
 |IsHttpOnlyCookieEnabled||System.Nullable/System.Boolean|||
 |IsTranslateHostHeaderEnabled||System.Nullable/System.Boolean|||
-|IsSecureCookieEnabled||System.Nullable/System.Boolean|||
+|ApplicationServerTimeout||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ApplicationServerTimeoutEnum|||
+|IsPersistentCookieEnabled||System.Nullable/System.Boolean|||
+|ExternalUrl||System.String|||
+|ExternalAuthenticationType||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ExternalAuthenticationTypeEnum|||
+|IsTranslateLinksInBodyEnabled||System.Nullable/System.Boolean|||
+|ConnectorGroupId||System.String|||
 

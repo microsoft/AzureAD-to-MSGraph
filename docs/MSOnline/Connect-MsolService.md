@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Credential||System.Management.Automation.PSCredential|||
+|AzureEnvironment||Microsoft.Online.Administration.Automation.AzureEnvironment|||
 |AdGraphAccessToken||System.String|||
 |MsGraphAccessToken||System.String|||
-|AzureEnvironment||Microsoft.Online.Administration.Automation.AzureEnvironment|||
+|Credential||System.Management.Automation.PSCredential|||
 

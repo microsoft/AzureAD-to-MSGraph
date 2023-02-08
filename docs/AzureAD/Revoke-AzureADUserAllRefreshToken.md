@@ -6,7 +6,7 @@
 
 + AAD Command: [Revoke-AzureADUserAllRefreshToken](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Revoke-AzureADUserAllRefreshToken)
 + AAD Module: AzureAD
-+ Graph Command: [Invoke-MgInvalidateUserRefreshTokenByRef](https://docs.microsoft.com/en-us/powershell/module//Invoke-MgInvalidateUserRefreshTokenByRef)
++ Graph Command: [Invoke-MgInvalidateUserRefreshToken](https://docs.microsoft.com/en-us/powershell/module//Invoke-MgInvalidateUserRefreshToken)
 + Graph Module: 
 
 > Scopes Needed (any one)

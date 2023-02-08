@@ -13,14 +13,14 @@
 
 |Type|Scopes|
 |---|---|
-|Application|DeviceManagementServiceConfig.ReadWrite.All, Organization.ReadWrite.All|
-|Delegate|DeviceManagementServiceConfig.ReadWrite.All, Directory.AccessAsUser.All, Organization.ReadWrite.All|
+|Application|DeviceManagementConfiguration.ReadWrite.All, DeviceManagementServiceConfig.ReadWrite.All, Organization.ReadWrite.All|
+|Delegate|DeviceManagementConfiguration.ReadWrite.All, DeviceManagementServiceConfig.ReadWrite.All, Organization.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|TenantId||System.Nullable/System.Guid|||
-|MarketingNotificationEmails|MarketingNotificationEmails|System.String[]|System.String[]||
 |TechnicalNotificationEmails||System.String[]|||
+|MarketingNotificationEmails|MarketingNotificationEmails|System.String[]|System.String[]||
+|TenantId||System.Nullable/System.Guid|||
 

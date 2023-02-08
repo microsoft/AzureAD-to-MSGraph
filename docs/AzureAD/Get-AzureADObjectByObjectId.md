@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Types|Types|System.Collections.Generic.List/System.String|System.String[]||
 |ObjectIds||System.Collections.Generic.List/System.String|||
+|Types|Types|System.Collections.Generic.List/System.String|System.String[]||
 

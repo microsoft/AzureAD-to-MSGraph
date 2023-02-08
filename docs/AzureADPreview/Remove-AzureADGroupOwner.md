@@ -1,20 +1,20 @@
 # Remove-AzureADGroupOwner
 
-> 
+> /groups/{group-id}/owners/{directoryObject-id}/$ref
 
 ## Data
 
 + AAD Command: [Remove-AzureADGroupOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADGroupOwner)
 + AAD Module: AzureADPreview
-+ Graph Command: []()
-+ Graph Module: 
++ Graph Command: [Remove-MgGroupOwnerByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Remove-MgGroupOwnerByRef)
++ Graph Module: Microsoft.Graph.Groups
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Directory.ReadWrite.All, Group.ReadWrite.All|
+|Delegate|Directory.ReadWrite.All, Group.ReadWrite.All|
 
 ## Parameters
 

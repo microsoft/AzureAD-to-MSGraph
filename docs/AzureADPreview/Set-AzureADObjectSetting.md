@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Id||System.String|||
-|TargetObjectId||System.String|||
 |DirectorySetting||Microsoft.Open.MSGraph.Model.DirectorySetting|||
 |TargetType||System.String|||
+|Id||System.String|||
+|TargetObjectId||System.String|||
 

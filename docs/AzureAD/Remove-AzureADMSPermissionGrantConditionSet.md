@@ -13,14 +13,14 @@
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Policy.ReadWrite.PermissionGrant|
+|Delegate|Policy.ReadWrite.PermissionGrant|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Id||System.String|||
-|ConditionSetType||System.String|||
 |PolicyId||System.String|||
+|ConditionSetType||System.String|||
+|Id||System.String|||
 

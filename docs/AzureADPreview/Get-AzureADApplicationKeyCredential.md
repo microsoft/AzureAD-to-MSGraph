@@ -1,20 +1,20 @@
 # Get-AzureADApplicationKeyCredential
 
-> 
+> /applications | /applications/{application-id}
 
 ## Data
 
 + AAD Command: [Get-AzureADApplicationKeyCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationKeyCredential)
 + AAD Module: AzureADPreview
-+ Graph Command: []()
-+ Graph Module: 
++ Graph Command: [Get-MgApplication](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgApplication)
++ Graph Module: Microsoft.Graph.Applications
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Application.Read.All, Application.ReadWrite.All, Directory.Read.All|
+|Delegate|Application.Read.All, Application.ReadWrite.All, Directory.Read.All|
 
 ## Parameters
 

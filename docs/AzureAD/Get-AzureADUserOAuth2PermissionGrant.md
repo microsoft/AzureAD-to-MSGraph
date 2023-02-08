@@ -1,6 +1,6 @@
 # Get-AzureADUserOAuth2PermissionGrant
 
-> /users/{user-id}/oauth2PermissionGrants
+> /users/{user-id}/oauth2PermissionGrants | /users/{user-id}/oauth2PermissionGrants/{oAuth2PermissionGrant-id}
 
 ## Data
 
@@ -13,14 +13,14 @@
 
 |Type|Scopes|
 |---|---|
-|Application|DelegatedPermissionGrant.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All|
-|Delegate|DelegatedPermissionGrant.ReadWrite.All, Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All|
+|Application|DelegatedPermissionGrant.ReadWrite.All, Directory.Read.All|
+|Delegate|DelegatedPermissionGrant.ReadWrite.All, Directory.Read.All, User.ReadBasic.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
 |All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|ObjectId||System.String|||
 

@@ -14,16 +14,16 @@
 |Type|Scopes|
 |---|---|
 |Application|Directory.Read.All, Directory.ReadWrite.All, RoleManagement.Read.Directory, RoleManagement.ReadWrite.Directory|
-|Delegate|Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All, RoleManagement.Read.Directory, RoleManagement.ReadWrite.Directory|
+|Delegate|Directory.Read.All, Directory.ReadWrite.All, RoleManagement.Read.Directory, RoleManagement.ReadWrite.Directory|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SearchString||System.String|||
 |MaxResults||System.Int32|||
-|MemberObjectTypes||System.String[]|||
+|All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
 |TenantId||System.Nullable/System.Guid|||
 |RoleObjectId||System.Guid|||
-|All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
+|SearchString||System.String|||
+|MemberObjectTypes||System.String[]|||
 

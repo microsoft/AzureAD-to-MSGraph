@@ -14,21 +14,21 @@
 |Type|Scopes|
 |---|---|
 |Application|Directory.Read.All, Directory.ReadWrite.All, Group.Read.All, Group.ReadWrite.All, GroupMember.Read.All|
-|Delegate|Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All, Group.Read.All, Group.ReadWrite.All, GroupMember.Read.All|
+|Delegate|Directory.Read.All, Directory.ReadWrite.All, Group.Read.All, Group.ReadWrite.All, GroupMember.Read.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|TenantId||System.Nullable/System.Guid|||
-|SearchString||System.String|||
+|MaxResults||System.Int32|||
+|IsAgentRole||System.Management.Automation.SwitchParameter|||
 |HasLicenseErrorsOnly||System.Nullable/System.Boolean|||
-|ObjectId||System.Guid|||
+|All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
+|HasErrorsOnly||System.Management.Automation.SwitchParameter|||
+|TenantId||System.Nullable/System.Guid|||
 |GroupType||System.Nullable/Microsoft.Online.Administration.GroupType|||
 |UserPrincipalName||System.String|||
-|MaxResults||System.Int32|||
-|HasErrorsOnly||System.Management.Automation.SwitchParameter|||
-|All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
-|IsAgentRole||System.Management.Automation.SwitchParameter|||
+|SearchString||System.String|||
 |UserObjectId||System.Nullable/System.Guid|||
+|ObjectId||System.Guid|||
 

@@ -14,12 +14,12 @@
 |Type|Scopes|
 |---|---|
 |Application|AppRoleAssignment.ReadWrite.All|
-|Delegate|AppRoleAssignment.ReadWrite.All, Directory.AccessAsUser.All|
+|Delegate|AppRoleAssignment.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
 |AppRoleAssignmentId|AppRoleAssignmentId|System.String|System.String||
+|ObjectId||System.String|||
 

@@ -1,6 +1,6 @@
 # Select-AzureADGroupIdsContactIsMemberOf
 
-> /contacts/{orgContact-id}/memberOf
+> /contacts/{orgContact-id}/memberOf | /contacts/{orgContact-id}/memberOf/{directoryObject-id}
 
 ## Data
 

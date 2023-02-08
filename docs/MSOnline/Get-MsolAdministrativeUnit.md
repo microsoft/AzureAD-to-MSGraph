@@ -14,17 +14,17 @@
 |Type|Scopes|
 |---|---|
 |Application|AdministrativeUnit.Read.All, AdministrativeUnit.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All|
-|Delegate|AdministrativeUnit.Read.All, AdministrativeUnit.ReadWrite.All, Directory.AccessAsUser.All, Directory.Read.All, Directory.ReadWrite.All|
+|Delegate|AdministrativeUnit.Read.All, AdministrativeUnit.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SearchString||System.String|||
 |MaxResults||System.Int32|||
-|ObjectId||System.Guid|||
-|UserPrincipalName||System.String|||
-|TenantId||System.Nullable/System.Guid|||
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
+|TenantId||System.Nullable/System.Guid|||
+|UserPrincipalName||System.String|||
+|SearchString||System.String|||
 |UserObjectId||System.Nullable/System.Guid|||
+|ObjectId||System.Guid|||
 

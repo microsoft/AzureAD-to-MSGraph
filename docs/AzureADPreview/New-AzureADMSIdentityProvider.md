@@ -1,6 +1,6 @@
 # New-AzureADMSIdentityProvider
 
-> /identityProviders
+> /identity/identityProviders
 
 ## Data
 
@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Type|Type|System.String|System.String||
-|ClientId|ClientId|System.String|System.String||
-|Name|Name|System.String|System.String||
-|ClientSecret|ClientSecret|System.String|System.String||
+|Type||System.String|||
+|Name||System.String|||
+|ClientId||System.String|||
+|ClientSecret||System.String|||
 

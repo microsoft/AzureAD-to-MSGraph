@@ -14,17 +14,17 @@
 |Type|Scopes|
 |---|---|
 |Application|Application.ReadWrite.All|
-|Delegate|Application.ReadWrite.All, Directory.AccessAsUser.All|
+|Delegate|Application.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|ObjectId||System.Nullable/System.Guid|||
-|Addresses||Microsoft.Online.Administration.RedirectUri[]|||
-|AppPrincipalId||System.Nullable/System.Guid|||
-|TenantId||System.Nullable/System.Guid|||
-|DisplayName|DisplayName|System.String|System.String||
 |ServicePrincipalNames|ServicePrincipalNames|System.String[]|System.String[]||
+|TenantId||System.Nullable/System.Guid|||
+|AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Addresses||Microsoft.Online.Administration.RedirectUri[]|||
+|DisplayName|DisplayName|System.String|System.String||
+|AppPrincipalId||System.Nullable/System.Guid|||
+|ObjectId||System.Nullable/System.Guid|||
 

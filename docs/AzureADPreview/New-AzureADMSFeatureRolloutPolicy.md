@@ -20,10 +20,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Description||System.String|||
-|AppliesTo||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.MsDirectoryObject|||
-|DisplayName||System.String|||
-|Feature||System.Nullable/Microsoft.Open.MSGraph.Model.MsFeatureRolloutPolicy+FeatureEnum|||
-|IsEnabled||System.Nullable/System.Boolean|||
 |IsAppliedToOrganization||System.Nullable/System.Boolean|||
+|AppliesTo||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.MsDirectoryObject|||
+|Feature||System.Nullable/Microsoft.Open.MSGraph.Model.MsFeatureRolloutPolicy+FeatureEnum|||
+|Description||System.String|||
+|IsEnabled||System.Nullable/System.Boolean|||
+|DisplayName||System.String|||
 

@@ -20,9 +20,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RoleObjectId||System.Guid|||
+|RoleMemberObjectId||System.Nullable/System.Guid|||
 |AdministrativeUnitObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
-|RoleMemberObjectId||System.Nullable/System.Guid|||
 |RoleMemberUserPrincipalName||System.String|||
+|RoleObjectId||System.Guid|||
 

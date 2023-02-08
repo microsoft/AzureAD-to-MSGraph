@@ -21,13 +21,13 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |ApplicationId||System.String|||
-|LogLevel||Microsoft.Open.Azure.AD.CommonLibrary.LogLevel|||
-|Credential||System.Management.Automation.PSCredential|||
-|LogFilePath||System.String|||
-|AzureEnvironmentName||Microsoft.Open.Azure.AD.CommonLibrary.AzureEnvironment+EnvironmentName|||
-|AccountId||System.String|||
-|TenantId|TenantId|System.String|System.String||
 |CertificateThumbprint|CertificateThumbprint|System.String|System.String||
-|AadAccessToken||System.String|||
+|AzureEnvironmentName||Microsoft.Open.Azure.AD.CommonLibrary.AzureEnvironment+EnvironmentName|||
+|LogFilePath||System.String|||
 |MsAccessToken||System.String|||
+|AadAccessToken||System.String|||
+|TenantId|TenantId|System.String|System.String||
+|Credential||System.Management.Automation.PSCredential|||
+|LogLevel||Microsoft.Open.Azure.AD.CommonLibrary.LogLevel|||
+|AccountId||System.String|||
 

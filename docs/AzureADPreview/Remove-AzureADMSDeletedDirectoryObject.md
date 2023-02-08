@@ -13,8 +13,8 @@
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate|Directory.AccessAsUser.All|
+|Application|Application.ReadWrite.All, Group.ReadWrite.All, User.ReadWrite.All|
+|Delegate|Application.ReadWrite.All, Group.ReadWrite.All, User.ReadWrite.All|
 
 ## Parameters
 

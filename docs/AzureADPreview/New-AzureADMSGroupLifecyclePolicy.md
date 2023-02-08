@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ManagedGroupTypes|ManagedGroupTypes|System.String|System.String||
 |AlternateNotificationEmails|AlternateNotificationEmails|System.String|System.String||
+|ManagedGroupTypes|ManagedGroupTypes|System.String|System.String||
 |GroupLifetimeInDays|GroupLifetimeInDays|System.Nullable/System.Int32|System.Int32||
 

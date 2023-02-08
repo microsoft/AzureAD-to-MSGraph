@@ -14,14 +14,14 @@
 |Type|Scopes|
 |---|---|
 |Application|Application.ReadWrite.All|
-|Delegate|Application.ReadWrite.All, Directory.AccessAsUser.All|
+|Delegate|Application.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ServicePrincipalName||System.String|||
 |ObjectId||System.Guid|||
-|TenantId||System.Nullable/System.Guid|||
 |AppPrincipalId||System.Guid|||
+|TenantId||System.Nullable/System.Guid|||
+|ServicePrincipalName||System.String|||
 

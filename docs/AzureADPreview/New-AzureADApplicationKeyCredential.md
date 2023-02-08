@@ -13,18 +13,18 @@
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Application.ReadWrite.All, Directory.ReadWrite.All|
+|Delegate|Application.ReadWrite.All, Directory.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|StartDate||System.Nullable/System.DateTime|||
 |Usage||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyUsage|||
-|ObjectId||System.String|||
-|Value||System.String|||
-|EndDate||System.Nullable/System.DateTime|||
-|CustomKeyIdentifier||System.String|||
 |Type||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyType|||
+|Value||System.String|||
+|CustomKeyIdentifier||System.String|||
+|StartDate||System.Nullable/System.DateTime|||
+|EndDate||System.Nullable/System.DateTime|||
+|ObjectId||System.String|||
 

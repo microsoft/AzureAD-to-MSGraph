@@ -14,12 +14,12 @@
 |Type|Scopes|
 |---|---|
 |Application|Directory.ReadWrite.All, User.ReadWrite.All|
-|Delegate|Directory.AccessAsUser.All, Directory.ReadWrite.All, User.ReadWrite.All|
+|Delegate|Directory.ReadWrite.All, User.ReadWrite.All|
 
 ## Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RefObjectId||System.String|||
 |ObjectId||System.String|||
+|RefObjectId||System.String|||
 

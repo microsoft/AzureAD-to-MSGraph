@@ -13,8 +13,8 @@
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Policy.ReadWrite.PermissionGrant|
+|Delegate|Policy.ReadWrite.PermissionGrant|
 
 ## Parameters
 

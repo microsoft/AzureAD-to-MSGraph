@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Id||System.String|||
-|Status||System.String|||
 |UsePreDefinedValuesOnly||System.Nullable/System.Boolean|||
 |Description||System.String|||
+|Id||System.String|||
+|Status||System.String|||
 

@@ -21,9 +21,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |RemoveLicenses|RemoveLicenses|System.String[]|System.String[]||
-|ObjectId||System.Guid|||
-|LicenseOptions||Microsoft.Online.Administration.LicenseOption[]|||
 |AddLicenses|AddLicenses|System.String[]|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAssignedLicense[]||
-|UserPrincipalName||System.String|||
 |TenantId||System.Nullable/System.Guid|||
+|LicenseOptions||Microsoft.Online.Administration.LicenseOption[]|||
+|UserPrincipalName||System.String|||
+|ObjectId||System.Guid|||
 
