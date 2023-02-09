@@ -337,7 +337,7 @@ function Add-CalculatedCommandData {
 			'ApiUrl' {
 				if (-not $commandItem.NewCommand -or $commandItem.NewCommandModule -notlike 'Microsoft.Graph.*') { continue }
 
-				$commandInstances = Find-MgGraphCommand -Command $commandItem.NewCommand -ErrorAction Ignore
+				$commandInstances = Find-MgGraphCommand -Command $commandItem.NewCommand -ErrorAction SilentlyContinue
 				$commandItem.LinkApi = $commandInstances.Uri | Sort-Object -Unique
 
 				#TODO: Add resolving API url to API documentation url
