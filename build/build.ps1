@@ -26,7 +26,10 @@ param (
 	$Install,
 
 	[switch]
-	$PassThru
+	$PassThru,
+
+	[string[]]
+	$ExportType = @('Json','CSV','CliXml')
 )
 
 #region Error Handling
@@ -318,7 +321,7 @@ function Add-CalculatedCommandData {
 			'Scopes' {
 				if (-not $commandItem.NewCommand -or $commandItem.NewCommandModule -notlike 'Microsoft.Graph.*') { continue }
 
-				$commandInstances = Find-MgGraphCommand -Command $commandItem.NewCommand -ErrorAction Ignore
+				$commandInstances = Find-MgGraphCommand -Command $commandItem.NewCommand -ErrorAction SilentlyContinue
 
 				if (-not $commandItem.ScopesApplication) {
 					$commandItem.ScopesApplication = $commandInstances.Permissions.Name | Where-Object {
@@ -349,36 +352,46 @@ function Export-CommandData {
 		$CommandData,
 
 		[string]
-		$Path
+		$Path,
+
+		[AllowEmptyCollection()]
+		[AllowNull()]
+		[string[]]
+		$ExportType
 	)
 
-	Remove-Item -Path "$Path/*.json", "$Path/*.clixml", "$Path/*.clidat", "$Path/commands/*.json"
-
+	
 	# Timestamp the data
 	$timestamp = Get-Date
-	$timestamp | Export-PSFClixml -Path "$Path/timestamp.clidat" 
-	$timestamp | ConvertTo-Json | Set-Content -Path "$Path/timestamp.json"
 
-	$CommandData | Select-Object -ExcludeProperty CommandObject, NewCommandObject | Export-PSFClixml -Path "$Path/all.clidat" -Depth 5
-	$CommandData | Select-Object -ExcludeProperty CommandObject, NewCommandObject | ConvertTo-Json -Compress -Depth 5 | Set-Content "$Path/all.json"
+	if ($ExportType -contains 'Json') {
+		Remove-Item -Path "$Path/*.json", "$Path/commands/*.json"
+		$timestamp | ConvertTo-Json | Set-Content -Path "$Path/timestamp.json"
+		$CommandData | Select-Object -ExcludeProperty CommandObject, NewCommandObject | ConvertTo-Json -Compress -Depth 5 | Set-Content "$Path/all.json"
 
-	foreach ($commandItem in $CommandData) {
-		$commandItem | Select-Object -ExcludeProperty CommandObject, NewCommandObject | ConvertTo-Json -Compress -Depth 5 | Set-Content "$Path/commands/$($commandItem.Name).json"
-	}
-
-	$properties = 'Name', 'Module', 'NewCommand as GraphCmdName', 'NewCommandModule as GraphModuleName', 'ScopesApplication as GraphScopesApplication', 'ScopesDelegate as GraphScopesDelegate', 'ApiUri'
-	$CommandData | Select-PSFObject $properties | ConvertFrom-PSFArray | Export-Csv -Path "$Path/CommandMap.csv"
-
-	$paramData = foreach ($commandItem in $CommandData) {
-		$commandHash = $commandItem | Select-PSFObject $properties | ConvertTo-PSFHashTable
-		foreach ($parameter in $commandItem.Parameters.Values) {
-			$commandClone = $commandHash.Clone()
-			$commandClone.AadParamName = $parameter.Name
-			$commandClone.GraphParamName = $parameter.NewName
-			[PSCustomObject]$commandClone
+		foreach ($commandItem in $CommandData) {
+			$commandItem | Select-Object -ExcludeProperty CommandObject, NewCommandObject | ConvertTo-Json -Compress -Depth 5 | Set-Content "$Path/commands/$($commandItem.Name).json"
 		}
 	}
-	$paramData | Select-PSFObject Name, Module, GraphCmdName, GraphModuleName, AadParamName, GraphParamName, GraphScopesApplication, GraphScopesDelegate, ApiUri | Export-Csv -Path "$Path/ParamMap.csv"
+	if ($ExportType -contains 'CliXml') {
+		Remove-Item -Path "$Path/*.clixml", "$Path/*.clidat"
+		$timestamp | Export-PSFClixml -Path "$Path/timestamp.clidat" 
+		$CommandData | Select-Object -ExcludeProperty CommandObject, NewCommandObject | Export-PSFClixml -Path "$Path/all.clidat" -Depth 5
+	}
+	if ($ExportType -contains 'CSV') {
+		$properties = 'Name', 'Module', 'NewCommand as GraphCmdName', 'NewCommandModule as GraphModuleName', 'ScopesApplication as GraphScopesApplication', 'ScopesDelegate as GraphScopesDelegate', 'ApiUri'
+		$CommandData | Select-PSFObject $properties | ConvertFrom-PSFArray | Export-Csv -Path "$Path/CommandMap.csv"
+		$paramData = foreach ($commandItem in $CommandData) {
+			$commandHash = $commandItem | Select-PSFObject $properties | ConvertTo-PSFHashTable
+			foreach ($parameter in $commandItem.Parameters.Values) {
+				$commandClone = $commandHash.Clone()
+				$commandClone.AadParamName = $parameter.Name
+				$commandClone.GraphParamName = $parameter.NewName
+				[PSCustomObject]$commandClone
+			}
+		}
+		$paramData | Select-PSFObject Name, Module, GraphCmdName, GraphModuleName, AadParamName, GraphParamName, GraphScopesApplication, GraphScopesDelegate, ApiUri | Export-Csv -Path "$Path/ParamMap.csv"
+	}
 }
 function Export-CommandDocumentation {
 	[CmdletBinding()]
@@ -554,6 +567,6 @@ if ($Install) { Install-ScriptModule -Name $script:config.ModulesToInstall }
 $commandData = New-CommandMappingData -Module $script:config.ModulesToScan -MappingPath "$($script:ScriptRoot)/$($script:config.PathBaseline)"
 Update-MappingData -CommandData $commandData -DefinitionPath "$($script:ScriptRoot)/$($script:config.PathDefinitions)"
 Add-CalculatedCommandData -CommandData $commandData -Type ExampleUrl, CommandUrl, Scopes, ApiUrl
-Export-CommandData -CommandData $commandData -Path "$($script:ScriptRoot)/$($script:config.PathExport)"
+Export-CommandData -CommandData $commandData -Path "$($script:ScriptRoot)/$($script:config.PathExport)" -ExportType $ExportType
 Export-CommandDocumentation -CommandData $commandData -Path "$($script:ScriptRoot)/$($script:config.PathDocs)"
 if ($PassThru) { $commandData }
