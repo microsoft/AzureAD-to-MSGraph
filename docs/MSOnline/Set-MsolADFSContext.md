@@ -6,7 +6,7 @@
 
 + AAD Command: [Set-MsolADFSContext](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Set-MsolADFSContext)
 + AAD Module: MSOnline
-+ Graph Command: []()
++ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
 + Graph Module: 
 
 > Scopes Needed (any one)

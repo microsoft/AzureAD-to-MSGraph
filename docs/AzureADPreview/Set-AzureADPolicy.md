@@ -6,7 +6,7 @@
 
 + AAD Command: [Set-AzureADPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADPolicy)
 + AAD Module: AzureADPreview
-+ Graph Command: [](), []()
++ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=)), []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -20,11 +20,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Definition||System.Collections.Generic.List/System.String|||
-|Id||System.String|||
-|Type||System.String|||
-|AlternativeIdentifier||System.String|||
 |KeyCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.KeyCredential|||
-|DisplayName||System.String|||
+|Definition||System.Collections.Generic.List/System.String|||
+|AlternativeIdentifier||System.String|||
+|Type||System.String|||
 |IsOrganizationDefault||System.Nullable/System.Boolean|||
+|Id||System.String|||
+|DisplayName||System.String|||
 

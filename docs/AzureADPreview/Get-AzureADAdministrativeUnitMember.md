@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-AzureADAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADAdministrativeUnitMember)
 + AAD Module: AzureADPreview
-+ Graph Command: [](), []()
++ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=)), []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Top||System.Nullable/System.Int32|||
 |All||System.Nullable/System.Boolean|||
 |ObjectId||System.String|||
+|Top||System.Nullable/System.Int32|||
 

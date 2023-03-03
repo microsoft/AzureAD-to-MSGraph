@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-MsolGroupMember](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Get-MsolGroupMember)
 + AAD Module: MSOnline
-+ Graph Command: [Get-MgGroupMember](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Get-MgGroupMember)
++ Graph Command: [Get-MgGroupMember](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Get-MgGroupMember) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgGroupMember))
 + Graph Module: Microsoft.Graph.Groups
 
 > Scopes Needed (any one)
@@ -20,10 +20,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|MaxResults||System.Int32|||
-|All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
-|TenantId||System.Nullable/System.Guid|||
-|SearchString||System.String|||
 |GroupObjectId||System.Guid|||
+|TenantId||System.Nullable/System.Guid|||
+|MaxResults||System.Int32|||
+|SearchString||System.String|||
+|All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
 |MemberObjectTypes||System.String[]|||
 

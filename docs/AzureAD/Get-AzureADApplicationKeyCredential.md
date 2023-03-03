@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-AzureADApplicationKeyCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationKeyCredential)
 + AAD Module: AzureAD
-+ Graph Command: [Get-MgApplication](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgApplication)
++ Graph Command: [Get-MgApplication](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgApplication) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgApplication))
 + Graph Module: Microsoft.Graph.Applications
 
 > Scopes Needed (any one)

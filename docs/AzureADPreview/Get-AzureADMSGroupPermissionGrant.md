@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-AzureADMSGroupPermissionGrant](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSGroupPermissionGrant)
 + AAD Module: AzureADPreview
-+ Graph Command: [Get-MgGroupPermissionGrant](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Get-MgGroupPermissionGrant)
++ Graph Command: [Get-MgGroupPermissionGrant](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Get-MgGroupPermissionGrant) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgGroupPermissionGrant))
 + Graph Module: Microsoft.Graph.Groups
 
 > Scopes Needed (any one)

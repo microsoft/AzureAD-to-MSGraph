@@ -420,7 +420,7 @@ function Export-CommandDocumentation {
 	
 			#region Data
 			$destinationEntry = foreach ($number in 0..(@($commandItem.NewCommand).Count - 1)) {
-				'[{0}]({1})' -f @($commandItem.NewCommand)[$number], @($commandItem.LinkNewCommand)[$number]
+				'[{0}]({1}) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q={0}))' -f @($commandItem.NewCommand)[$number], @($commandItem.LinkNewCommand)[$number]
 			}
 
 			$text += @'

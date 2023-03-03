@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-AzureADObjectSetting](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADObjectSetting)
 + AAD Module: AzureADPreview
-+ Graph Command: [](), []()
++ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=)), []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -20,9 +20,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Top||System.Nullable/System.Int32|||
+|All||System.Nullable/System.Boolean|||
 |TargetType||System.String|||
 |Id||System.String|||
 |TargetObjectId||System.String|||
-|All||System.Nullable/System.Boolean|||
+|Top||System.Nullable/System.Int32|||
 

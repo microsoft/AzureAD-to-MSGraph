@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-AzureADServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADServicePrincipal)
 + AAD Module: AzureADPreview
-+ Graph Command: [Get-MgServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipal)
++ Graph Command: [Get-MgServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipal) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgServicePrincipal))
 + Graph Module: Microsoft.Graph.Applications
 
 > Scopes Needed (any one)
@@ -20,9 +20,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Top|Top|System.Nullable/System.Int32|System.Int32||
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Filter|Filter|System.String|System.String||
 |SearchString||System.String|||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
+|Top|Top|System.Nullable/System.Int32|System.Int32||
 

@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-MsolServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Get-MsolServicePrincipal)
 + AAD Module: MSOnline
-+ Graph Command: [Get-MgServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipal)
++ Graph Command: [Get-MgServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipal) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgServicePrincipal))
 + Graph Module: Microsoft.Graph.Applications
 
 > Scopes Needed (any one)
@@ -20,11 +20,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|MaxResults||System.Int32|||
-|All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
-|ServicePrincipalName||System.String|||
 |TenantId||System.Nullable/System.Guid|||
-|SearchString||System.String|||
-|AppPrincipalId||System.Guid|||
 |ObjectId||System.Guid|||
+|ServicePrincipalName||System.String|||
+|MaxResults||System.Int32|||
+|SearchString||System.String|||
+|All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
+|AppPrincipalId||System.Guid|||
 

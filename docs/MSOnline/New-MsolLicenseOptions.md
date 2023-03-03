@@ -6,7 +6,7 @@
 
 + AAD Command: [New-MsolLicenseOptions](https://docs.microsoft.com/en-us/powershell/module/MSOnline/New-MsolLicenseOptions)
 + AAD Module: MSOnline
-+ Graph Command: [Set-MgUserLicense](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Set-MgUserLicense)
++ Graph Command: [Set-MgUserLicense](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Set-MgUserLicense) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Set-MgUserLicense))
 + Graph Module: Microsoft.Graph.Users.Actions
 
 > Scopes Needed (any one)

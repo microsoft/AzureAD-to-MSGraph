@@ -6,7 +6,7 @@
 
 + AAD Command: [Add-AzureADScopedRoleMembership](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADScopedRoleMembership)
 + AAD Module: AzureADPreview
-+ Graph Command: [](), []()
++ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=)), []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -22,6 +22,6 @@
 |---|---|---|---|---|
 |ObjectId||System.String|||
 |AdministrativeUnitObjectId||System.String|||
-|RoleMemberInfo||Microsoft.Open.AzureAD.Model.RoleMemberInfo|||
 |RoleObjectId||System.String|||
+|RoleMemberInfo||Microsoft.Open.AzureAD.Model.RoleMemberInfo|||
 

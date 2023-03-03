@@ -6,7 +6,7 @@
 
 + AAD Command: [Set-MsolUserLicense](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Set-MsolUserLicense)
 + AAD Module: MSOnline
-+ Graph Command: [Set-MgUserLicense](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Set-MgUserLicense)
++ Graph Command: [Set-MgUserLicense](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Set-MgUserLicense) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Set-MgUserLicense))
 + Graph Module: Microsoft.Graph.Users.Actions
 
 > Scopes Needed (any one)
@@ -20,10 +20,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RemoveLicenses|RemoveLicenses|System.String[]|System.String[]||
 |AddLicenses|AddLicenses|System.String[]|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAssignedLicense[]||
 |TenantId||System.Nullable/System.Guid|||
-|LicenseOptions||Microsoft.Online.Administration.LicenseOption[]|||
-|UserPrincipalName||System.String|||
 |ObjectId||System.Guid|||
+|UserPrincipalName||System.String|||
+|LicenseOptions||Microsoft.Online.Administration.LicenseOption[]|||
+|RemoveLicenses|RemoveLicenses|System.String[]|System.String[]||
 

@@ -6,7 +6,7 @@
 
 + AAD Command: [Set-AzureADDomain](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADDomain)
 + AAD Module: AzureADPreview
-+ Graph Command: [Update-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Update-MgDomain)
++ Graph Command: [Update-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Update-MgDomain) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgDomain))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
 
 > Scopes Needed (any one)
@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SupportedServices|SupportedServices|System.Collections.Generic.List/System.String|System.String[]||
 |IsDefaultForCloudRedirections||System.Nullable/System.Boolean|||
 |Name||System.String|||
 |IsDefault|IsDefault|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|SupportedServices|SupportedServices|System.Collections.Generic.List/System.String|System.String[]||
 

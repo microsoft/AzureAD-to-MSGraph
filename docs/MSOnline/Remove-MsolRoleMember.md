@@ -6,7 +6,7 @@
 
 + AAD Command: [Remove-MsolRoleMember](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Remove-MsolRoleMember)
 + AAD Module: MSOnline
-+ Graph Command: []()
++ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -20,10 +20,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RoleMemberType||Microsoft.Online.Administration.RoleMemberType|||
-|RoleMemberEmailAddress||System.String|||
-|RoleMemberObjectId||System.Nullable/System.Guid|||
 |RoleObjectId||System.Guid|||
+|RoleMemberType||Microsoft.Online.Administration.RoleMemberType|||
 |TenantId||System.Nullable/System.Guid|||
 |RoleName||System.String|||
+|RoleMemberObjectId||System.Nullable/System.Guid|||
+|RoleMemberEmailAddress||System.String|||
 

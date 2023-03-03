@@ -6,7 +6,7 @@
 
 + AAD Command: [New-AzureADApplicationPasswordCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADApplicationPasswordCredential)
 + AAD Module: AzureAD
-+ Graph Command: [Add-MgApplicationPassword](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Add-MgApplicationPassword)
++ Graph Command: [Add-MgApplicationPassword](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Add-MgApplicationPassword) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Add-MgApplicationPassword))
 + Graph Module: Microsoft.Graph.Applications
 
 > Scopes Needed (any one)
@@ -20,9 +20,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|EndDate||System.Nullable/System.DateTime|||
-|Value||System.String|||
 |StartDate||System.Nullable/System.DateTime|||
+|Value||System.String|||
+|EndDate||System.Nullable/System.DateTime|||
 |CustomKeyIdentifier||System.String|||
 |ObjectId||System.String|||
 

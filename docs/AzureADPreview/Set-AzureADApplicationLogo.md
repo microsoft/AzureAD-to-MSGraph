@@ -6,7 +6,7 @@
 
 + AAD Command: [Set-AzureADApplicationLogo](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADApplicationLogo)
 + AAD Module: AzureADPreview
-+ Graph Command: [Set-MgApplicationLogo](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Set-MgApplicationLogo)
++ Graph Command: [Set-MgApplicationLogo](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Set-MgApplicationLogo) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Set-MgApplicationLogo))
 + Graph Module: Microsoft.Graph.Applications
 
 > Scopes Needed (any one)
@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|ObjectId||System.String|||
 |ImageByteArray||System.Byte[]|||
 |FileStream||System.IO.Stream|||
 |FilePath||System.String|||
-|ObjectId||System.String|||
 

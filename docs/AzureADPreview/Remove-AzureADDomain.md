@@ -6,7 +6,7 @@
 
 + AAD Command: [Remove-AzureADDomain](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADDomain)
 + AAD Module: AzureADPreview
-+ Graph Command: [Remove-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Remove-MgDomain)
++ Graph Command: [Remove-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Remove-MgDomain) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgDomain))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
 
 > Scopes Needed (any one)

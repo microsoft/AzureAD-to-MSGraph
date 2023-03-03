@@ -6,7 +6,7 @@
 
 + AAD Command: [Reset-AzureADMSLifeCycleGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Reset-AzureADMSLifeCycleGroup)
 + AAD Module: AzureADPreview
-+ Graph Command: [Invoke-MgRenewGroup](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Invoke-MgRenewGroup)
++ Graph Command: [Invoke-MgRenewGroup](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Invoke-MgRenewGroup) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Invoke-MgRenewGroup))
 + Graph Module: Microsoft.Graph.Groups
 
 > Scopes Needed (any one)

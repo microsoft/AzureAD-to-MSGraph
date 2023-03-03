@@ -6,7 +6,7 @@
 
 + AAD Command: [Set-MsolUserPassword](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Set-MsolUserPassword)
 + AAD Module: MSOnline
-+ Graph Command: [Reset-MgUserAuthenticationMethodPassword](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Reset-MgUserAuthenticationMethodPassword)
++ Graph Command: [Reset-MgUserAuthenticationMethodPassword](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Reset-MgUserAuthenticationMethodPassword) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Reset-MgUserAuthenticationMethodPassword))
 + Graph Module: Microsoft.Graph.Users.Actions
 
 > Scopes Needed (any one)
@@ -20,10 +20,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|NewPassword|NewPassword|System.String|System.String||
 |ForceChangePasswordOnly||System.Nullable/System.Boolean|||
 |TenantId||System.Nullable/System.Guid|||
+|ObjectId||System.Guid|||
 |UserPrincipalName||System.String|||
 |ForceChangePassword||System.Nullable/System.Boolean|||
-|NewPassword|NewPassword|System.String|System.String||
-|ObjectId||System.Guid|||
 

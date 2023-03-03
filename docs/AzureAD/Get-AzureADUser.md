@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-AzureADUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADUser)
 + AAD Module: AzureAD
-+ Graph Command: [Get-MgUser](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUser)
++ Graph Command: [Get-MgUser](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUser) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUser))
 + Graph Module: Microsoft.Graph.Users
 
 > Scopes Needed (any one)
@@ -20,9 +20,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Filter|Filter|System.String|System.String||
 |SearchString||System.String|||
 |ObjectId||System.String|||
-|Filter|Filter|System.String|System.String||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 

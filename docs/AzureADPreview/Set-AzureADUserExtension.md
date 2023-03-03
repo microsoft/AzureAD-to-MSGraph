@@ -6,7 +6,7 @@
 
 + AAD Command: [Set-AzureADUserExtension](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADUserExtension)
 + AAD Module: AzureADPreview
-+ Graph Command: [Update-MgUserExtension](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Update-MgUserExtension)
++ Graph Command: [Update-MgUserExtension](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Update-MgUserExtension) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgUserExtension))
 + Graph Module: Microsoft.Graph.Users
 
 > Scopes Needed (any one)
@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ExtensionValue||System.String|||
-|ExtensionNameValues||System.Collections.Generic.Dictionary`2[[System.String|||
 |ExtensionName||System.String|||
+|ExtensionNameValues||System.Collections.Generic.Dictionary`2[[System.String|||
 |ObjectId||System.String|||
+|ExtensionValue||System.String|||
 

@@ -6,7 +6,7 @@
 
 + AAD Command: [Set-AzureADUserPassword](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADUserPassword)
 + AAD Module: AzureAD
-+ Graph Command: [Update-MgUserPassword](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Update-MgUserPassword)
++ Graph Command: [Update-MgUserPassword](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Update-MgUserPassword) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgUserPassword))
 + Graph Module: Microsoft.Graph.Users.Actions
 
 > Scopes Needed (any one)
@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|ForceChangePasswordNextLogin||System.Boolean|||
+|Password||System.Security.SecureString|||
 |ObjectId||System.String|||
 |EnforceChangePasswordPolicy||System.Boolean|||
-|Password||System.Security.SecureString|||
-|ForceChangePasswordNextLogin||System.Boolean|||
 

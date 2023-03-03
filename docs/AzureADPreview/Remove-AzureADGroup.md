@@ -6,7 +6,7 @@
 
 + AAD Command: [Remove-AzureADGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADGroup)
 + AAD Module: AzureADPreview
-+ Graph Command: [Remove-MgGroup](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Remove-MgGroup)
++ Graph Command: [Remove-MgGroup](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Remove-MgGroup) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgGroup))
 + Graph Module: Microsoft.Graph.Groups
 
 > Scopes Needed (any one)

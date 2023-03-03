@@ -6,7 +6,7 @@
 
 + AAD Command: [Remove-AzureADMSPasswordSingleSignOnCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSPasswordSingleSignOnCredential)
 + AAD Module: AzureADPreview
-+ Graph Command: [](), []()
++ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=)), []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
 |PasswordSSOObjectId||Microsoft.Open.MSGraph.Model.PasswordSSOObjectId|||
+|ObjectId||System.String|||
 

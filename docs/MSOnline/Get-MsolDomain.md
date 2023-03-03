@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-MsolDomain](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Get-MsolDomain)
 + AAD Module: MSOnline
-+ Graph Command: [Get-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDomain)
++ Graph Command: [Get-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDomain) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDomain))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
 
 > Scopes Needed (any one)
@@ -20,9 +20,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Status||System.Nullable/Microsoft.Online.Administration.DomainStatus|||
-|TenantId||System.Nullable/System.Guid|||
 |Capability||System.Nullable/Microsoft.Online.Administration.DomainCapabilities|||
 |DomainName||System.String|||
+|TenantId||System.Nullable/System.Guid|||
 |Authentication||System.Nullable/Microsoft.Online.Administration.DomainAuthenticationType|||
+|Status||System.Nullable/Microsoft.Online.Administration.DomainStatus|||
 

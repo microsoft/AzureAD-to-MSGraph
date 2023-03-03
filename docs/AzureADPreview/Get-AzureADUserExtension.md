@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-AzureADUserExtension](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADUserExtension)
 + AAD Module: AzureADPreview
-+ Graph Command: [Get-MgUserExtension](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUserExtension)
++ Graph Command: [Get-MgUserExtension](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUserExtension) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUserExtension))
 + Graph Module: Microsoft.Graph.Users
 
 > Scopes Needed (any one)

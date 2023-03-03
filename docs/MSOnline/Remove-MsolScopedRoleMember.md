@@ -6,7 +6,7 @@
 
 + AAD Command: [Remove-MsolScopedRoleMember](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Remove-MsolScopedRoleMember)
 + AAD Module: MSOnline
-+ Graph Command: [Remove-MgDirectoryRoleScopedMember](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Remove-MgDirectoryRoleScopedMember)
++ Graph Command: [Remove-MgDirectoryRoleScopedMember](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Remove-MgDirectoryRoleScopedMember) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgDirectoryRoleScopedMember))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
 
 > Scopes Needed (any one)
@@ -21,8 +21,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |RoleMemberObjectId||System.Nullable/System.Guid|||
-|AdministrativeUnitObjectId||System.Guid|||
-|TenantId||System.Nullable/System.Guid|||
 |RoleMemberUserPrincipalName||System.String|||
+|TenantId||System.Nullable/System.Guid|||
+|AdministrativeUnitObjectId||System.Guid|||
 |RoleObjectId||System.Guid|||
 

@@ -6,7 +6,7 @@
 
 + AAD Command: [Set-AzureADUserThumbnailPhoto](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADUserThumbnailPhoto)
 + AAD Module: AzureAD
-+ Graph Command: [Set-MgUserPhotoContent](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Set-MgUserPhotoContent)
++ Graph Command: [Set-MgUserPhotoContent](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Set-MgUserPhotoContent) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Set-MgUserPhotoContent))
 + Graph Module: Microsoft.Graph.Users
 
 > Scopes Needed (any one)
@@ -21,7 +21,7 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |ImageByteArray||System.Byte[]|||
+|ObjectId||System.String|||
 |FileStream||System.IO.Stream|||
 |FilePath||System.String|||
-|ObjectId||System.String|||
 

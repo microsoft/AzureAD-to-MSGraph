@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-AzureADMSRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSRoleDefinition)
 + AAD Module: AzureADPreview
-+ Graph Command: [Get-MgRoleManagementDirectoryRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DeviceManagement.Enrolment/Get-MgRoleManagementDirectoryRoleDefinition)
++ Graph Command: [Get-MgRoleManagementDirectoryRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DeviceManagement.Enrolment/Get-MgRoleManagementDirectoryRoleDefinition) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgRoleManagementDirectoryRoleDefinition))
 + Graph Module: Microsoft.Graph.DeviceManagement.Enrolment
 
 > Scopes Needed (any one)
@@ -20,9 +20,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Top|Top|System.Nullable/System.Int32|System.Int32||
 |SearchString||System.String|||
-|Id||System.String|||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Filter|Filter|System.String|System.String||
+|Top|Top|System.Nullable/System.Int32|System.Int32||
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Id||System.String|||
 

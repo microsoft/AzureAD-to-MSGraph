@@ -6,7 +6,7 @@
 
 + AAD Command: [New-MsolWellKnownGroup](https://docs.microsoft.com/en-us/powershell/module/MSOnline/New-MsolWellKnownGroup)
 + AAD Module: MSOnline
-+ Graph Command: []()
++ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|TenantId||System.Nullable/System.Guid|||
 |WellKnownGroupName||System.String|||
+|TenantId||System.Nullable/System.Guid|||
 

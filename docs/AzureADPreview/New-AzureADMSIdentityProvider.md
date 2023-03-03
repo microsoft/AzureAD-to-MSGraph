@@ -6,7 +6,7 @@
 
 + AAD Command: [New-AzureADMSIdentityProvider](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSIdentityProvider)
 + AAD Module: AzureADPreview
-+ Graph Command: [New-MgIdentityProvider](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/New-MgIdentityProvider)
++ Graph Command: [New-MgIdentityProvider](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/New-MgIdentityProvider) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgIdentityProvider))
 + Graph Module: Microsoft.Graph.Identity.SignIns
 
 > Scopes Needed (any one)
@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Type||System.String|||
-|Name||System.String|||
 |ClientId||System.String|||
+|Name||System.String|||
 |ClientSecret||System.String|||
+|Type||System.String|||
 

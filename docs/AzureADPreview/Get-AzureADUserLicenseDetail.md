@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-AzureADUserLicenseDetail](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADUserLicenseDetail)
 + AAD Module: AzureADPreview
-+ Graph Command: [Get-MgUserLicenseDetail](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUserLicenseDetail)
++ Graph Command: [Get-MgUserLicenseDetail](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUserLicenseDetail) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUserLicenseDetail))
 + Graph Module: Microsoft.Graph.Users
 
 > Scopes Needed (any one)

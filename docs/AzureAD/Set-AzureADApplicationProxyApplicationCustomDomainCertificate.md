@@ -6,7 +6,7 @@
 
 + AAD Command: [Set-AzureADApplicationProxyApplicationCustomDomainCertificate](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADApplicationProxyApplicationCustomDomainCertificate)
 + AAD Module: AzureAD
-+ Graph Command: []()
++ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -21,6 +21,6 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |PfxFilePath||System.String|||
-|Password||System.Security.SecureString|||
 |ObjectId||System.String|||
+|Password||System.Security.SecureString|||
 

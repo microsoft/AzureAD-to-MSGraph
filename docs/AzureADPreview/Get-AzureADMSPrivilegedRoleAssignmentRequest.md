@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-AzureADMSPrivilegedRoleAssignmentRequest](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSPrivilegedRoleAssignmentRequest)
 + AAD Module: AzureADPreview
-+ Graph Command: [](), []()
++ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=)), []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Top||System.Nullable/System.Int32|||
-|Id||System.String|||
-|ProviderId||System.String|||
 |Filter||System.String|||
+|Top||System.Nullable/System.Int32|||
+|ProviderId||System.String|||
+|Id||System.String|||
 

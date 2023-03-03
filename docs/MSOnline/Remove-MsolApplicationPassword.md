@@ -6,7 +6,7 @@
 
 + AAD Command: [Remove-MsolApplicationPassword](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Remove-MsolApplicationPassword)
 + AAD Module: MSOnline
-+ Graph Command: [Remove-MgApplicationPassword](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgApplicationPassword)
++ Graph Command: [Remove-MgApplicationPassword](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgApplicationPassword) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgApplicationPassword))
 + Graph Module: Microsoft.Graph.Applications
 
 > Scopes Needed (any one)
@@ -21,6 +21,6 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |UserPrincipalName||System.String|||
-|PasswordId||System.String|||
 |TenantId||System.Nullable/System.Guid|||
+|PasswordId||System.String|||
 

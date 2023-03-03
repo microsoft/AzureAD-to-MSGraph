@@ -6,7 +6,7 @@
 
 + AAD Command: [Set-AzureADApplicationProxyConnector](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADApplicationProxyConnector)
 + AAD Module: AzureAD
-+ Graph Command: []()
++ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
 + Graph Module: 
 
 > Scopes Needed (any one)

@@ -6,7 +6,7 @@
 
 + AAD Command: [New-AzureADMSRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSRoleAssignment)
 + AAD Module: AzureAD
-+ Graph Command: [New-MgRoleManagementDirectoryRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DeviceManagement.Enrolment/New-MgRoleManagementDirectoryRoleAssignment)
++ Graph Command: [New-MgRoleManagementDirectoryRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DeviceManagement.Enrolment/New-MgRoleManagementDirectoryRoleAssignment) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgRoleManagementDirectoryRoleAssignment))
 + Graph Module: Microsoft.Graph.DeviceManagement.Enrolment
 
 > Scopes Needed (any one)
@@ -21,6 +21,6 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |PrincipalId|PrincipalId|System.String|System.String||
-|DirectoryScopeId|DirectoryScopeId|System.String|System.String||
 |RoleDefinitionId|RoleDefinitionId|System.String|System.String||
+|DirectoryScopeId|DirectoryScopeId|System.String|System.String||
 

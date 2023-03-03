@@ -6,7 +6,7 @@
 
 + AAD Command: [Get-AzureADDomain](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDomain)
 + AAD Module: AzureADPreview
-+ Graph Command: [Get-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDomain)
++ Graph Command: [Get-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDomain) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDomain))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
 
 > Scopes Needed (any one)

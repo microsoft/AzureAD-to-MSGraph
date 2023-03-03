@@ -6,7 +6,7 @@
 
 + AAD Command: [Set-MsolUserPrincipalName](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Set-MsolUserPrincipalName)
 + AAD Module: MSOnline
-+ Graph Command: [Update-MgUser](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Update-MgUser)
++ Graph Command: [Update-MgUser](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Update-MgUser) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgUser))
 + Graph Module: Microsoft.Graph.Users
 
 > Scopes Needed (any one)
@@ -20,10 +20,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|NewUserPrincipalName||System.String|||
-|TenantId||System.Nullable/System.Guid|||
-|UserPrincipalName|UserPrincipalName|System.String|System.String||
-|ImmutableId||System.String|||
 |NewPassword||System.String|||
+|TenantId||System.Nullable/System.Guid|||
 |ObjectId||System.Guid|||
+|UserPrincipalName|UserPrincipalName|System.String|System.String||
+|NewUserPrincipalName||System.String|||
+|ImmutableId||System.String|||
 

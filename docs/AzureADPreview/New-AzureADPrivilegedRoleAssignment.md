@@ -6,7 +6,7 @@
 
 + AAD Command: [New-AzureADPrivilegedRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADPrivilegedRoleAssignment)
 + AAD Module: AzureADPreview
-+ Graph Command: [](), []()
++ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=)), []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -20,10 +20,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ExpirationDateTime||System.Nullable/System.DateTime|||
-|ResultMessage||System.String|||
-|IsElevated||System.Nullable/System.Boolean|||
-|RoleId||System.String|||
 |Id||System.String|||
+|RoleId||System.String|||
+|ExpirationDateTime||System.Nullable/System.DateTime|||
+|IsElevated||System.Nullable/System.Boolean|||
+|ResultMessage||System.String|||
 |UserId||System.String|||
 
