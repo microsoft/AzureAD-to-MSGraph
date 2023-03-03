@@ -1,7 +1,5 @@
 # Add-AzureADDeviceRegisteredUser
 
-> 
-
 ## Data
 
 + AAD Command: [Add-AzureADDeviceRegisteredUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADDeviceRegisteredUser)

@@ -1,7 +1,5 @@
 # Connect-AzureAD
 
-> 
-
 ## Data
 
 + AAD Command: [Connect-AzureAD](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Connect-AzureAD)
@@ -20,14 +18,14 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|ApplicationId||System.String|||
 |AccountId||System.String|||
 |CertificateThumbprint|CertificateThumbprint|System.String|System.String||
-|Credential||System.Management.Automation.PSCredential|||
+|AadAccessToken||System.String|||
+|LogFilePath||System.String|||
 |AzureEnvironmentName||Microsoft.Open.Azure.AD.CommonLibrary.AzureEnvironment+EnvironmentName|||
 |TenantId|TenantId|System.String|System.String||
 |MsAccessToken||System.String|||
-|LogFilePath||System.String|||
 |LogLevel||Microsoft.Open.Azure.AD.CommonLibrary.LogLevel|||
-|AadAccessToken||System.String|||
-|ApplicationId||System.String|||
+|Credential||System.Management.Automation.PSCredential|||
 

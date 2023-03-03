@@ -1,7 +1,5 @@
 # Remove-AzureADContactManager
 
-> 
-
 ## Data
 
 + AAD Command: [Remove-AzureADContactManager](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADContactManager)

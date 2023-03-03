@@ -21,7 +21,7 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |ForceChangePasswordNextLogin||System.Boolean|||
-|Password||System.Security.SecureString|||
 |ObjectId||System.String|||
+|Password||System.Security.SecureString|||
 |EnforceChangePasswordPolicy||System.Boolean|||
 

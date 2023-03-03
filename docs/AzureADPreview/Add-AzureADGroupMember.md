@@ -1,7 +1,5 @@
 # Add-AzureADGroupMember
 
-> 
-
 ## Data
 
 + AAD Command: [Add-AzureADGroupMember](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADGroupMember)

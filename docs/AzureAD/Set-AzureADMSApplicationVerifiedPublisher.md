@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SetVerifiedPublisherRequest||Microsoft.Open.MSGraph.Model.SetVerifiedPublisherRequest|||
 |AppObjectId||System.String|||
+|SetVerifiedPublisherRequest||Microsoft.Open.MSGraph.Model.SetVerifiedPublisherRequest|||
 

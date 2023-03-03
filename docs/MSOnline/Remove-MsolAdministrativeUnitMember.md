@@ -21,6 +21,6 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |AdministrativeUnitMemberObjectId||System.Nullable/System.Guid|||
-|TenantId||System.Nullable/System.Guid|||
 |AdministrativeUnitObjectId||System.Guid|||
+|TenantId||System.Nullable/System.Guid|||
 

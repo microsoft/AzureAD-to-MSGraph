@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|ExtensionValue||System.String|||
 |ExtensionName||System.String|||
 |ExtensionNameValues||System.Collections.Generic.Dictionary`2[[System.String|||
 |ObjectId||System.String|||
-|ExtensionValue||System.String|||
 

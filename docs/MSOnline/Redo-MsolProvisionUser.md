@@ -1,12 +1,10 @@
 # Redo-MsolProvisionUser
 
-> 
-
 ## Data
 
 + AAD Command: [Redo-MsolProvisionUser](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Redo-MsolProvisionUser)
 + AAD Module: MSOnline
-+ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)

@@ -20,10 +20,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RoleObjectId||System.Guid|||
-|RoleMemberType||Microsoft.Online.Administration.RoleMemberType|||
+|RoleMemberEmailAddress||System.String|||
 |TenantId||System.Nullable/System.Guid|||
 |RoleName||System.String|||
+|RoleObjectId||System.Guid|||
+|RoleMemberType||Microsoft.Online.Administration.RoleMemberType|||
 |RoleMemberObjectId||System.Nullable/System.Guid|||
-|RoleMemberEmailAddress||System.String|||
 

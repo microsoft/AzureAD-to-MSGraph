@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ClientId||System.String|||
+|Type||System.String|||
 |Name||System.String|||
 |ClientSecret||System.String|||
-|Type||System.String|||
+|ClientId||System.String|||
 

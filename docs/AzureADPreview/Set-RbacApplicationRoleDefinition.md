@@ -1,12 +1,10 @@
 # Set-RbacApplicationRoleDefinition
 
-> 
-
 ## Data
 
 + AAD Command: [Set-RbacApplicationRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-RbacApplicationRoleDefinition)
 + AAD Module: AzureADPreview
-+ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=)), []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -20,14 +18,14 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|DisplayName||System.String|||
+|AppId||System.String|||
+|TemplateId||System.String|||
+|IsEnabled||System.Nullable/System.Boolean|||
+|Description||System.String|||
+|ResourceScopes||System.Collections.Generic.List/System.String|||
+|Version||System.String|||
 |Id||System.String|||
 |RolePermissions||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.RolePermission|||
-|ResourceScopes||System.Collections.Generic.List/System.String|||
-|Description||System.String|||
-|IsEnabled||System.Nullable/System.Boolean|||
-|TemplateId||System.String|||
-|AppId||System.String|||
 |InheritsPermissionsFrom||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.DirectoryRoleDefinition|||
-|Version||System.String|||
-|DisplayName||System.String|||
 

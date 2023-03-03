@@ -1,12 +1,10 @@
 # Remove-AzureADAdministrativeUnitMember
 
-> 
-
 ## Data
 
 + AAD Command: [Remove-AzureADAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADAdministrativeUnitMember)
 + AAD Module: AzureADPreview
-+ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=)), []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)

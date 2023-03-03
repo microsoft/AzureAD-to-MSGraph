@@ -21,7 +21,7 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |DataType|DataType|System.String|System.String||
+|ObjectId||System.String|||
 |Name|Name|System.String|System.String||
 |TargetObjects|TargetObjects|System.Collections.Generic.List/System.String|System.String[]||
-|ObjectId||System.String|||
 

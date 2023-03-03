@@ -20,15 +20,15 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|DisplayName|DisplayName|System.String|System.String||
 |Addresses||Microsoft.Online.Administration.RedirectUri[]|||
+|Type||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialType|||
+|Value||System.String|||
 |EndDate||System.Nullable/System.DateTime|||
+|Usage||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialUsage|||
 |ServicePrincipalNames|ServicePrincipalNames|System.String[]|System.String[]||
 |TenantId||System.Nullable/System.Guid|||
-|Usage||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialUsage|||
-|AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|Type||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialType|||
 |StartDate||System.Nullable/System.DateTime|||
-|Value||System.String|||
 |AppPrincipalId||System.Nullable/System.Guid|||
-|DisplayName|DisplayName|System.String|System.String||
+|AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 

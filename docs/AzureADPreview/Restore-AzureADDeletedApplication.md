@@ -1,7 +1,5 @@
 # Restore-AzureADDeletedApplication
 
-> 
-
 ## Data
 
 + AAD Command: [Restore-AzureADDeletedApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Restore-AzureADDeletedApplication)

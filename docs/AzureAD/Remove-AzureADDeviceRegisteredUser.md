@@ -1,12 +1,10 @@
 # Remove-AzureADDeviceRegisteredUser
 
-> 
-
 ## Data
 
 + AAD Command: [Remove-AzureADDeviceRegisteredUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADDeviceRegisteredUser)
 + AAD Module: AzureAD
-+ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)

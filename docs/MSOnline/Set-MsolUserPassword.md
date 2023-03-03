@@ -20,10 +20,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|NewPassword|NewPassword|System.String|System.String||
 |ForceChangePasswordOnly||System.Nullable/System.Boolean|||
-|TenantId||System.Nullable/System.Guid|||
-|ObjectId||System.Guid|||
-|UserPrincipalName||System.String|||
 |ForceChangePassword||System.Nullable/System.Boolean|||
+|UserPrincipalName||System.String|||
+|ObjectId||System.Guid|||
+|TenantId||System.Nullable/System.Guid|||
+|NewPassword|NewPassword|System.String|System.String||
 

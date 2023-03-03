@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|TenantId||System.Nullable/System.Guid|||
-|VerificationMethod||System.Nullable/Microsoft.Online.Administration.DomainVerificationMethod|||
 |Name||System.String|||
+|VerificationMethod||System.Nullable/Microsoft.Online.Administration.DomainVerificationMethod|||
 |Authentication||System.Nullable/Microsoft.Online.Administration.DomainAuthenticationType|||
+|TenantId||System.Nullable/System.Guid|||
 

@@ -1,12 +1,10 @@
 # Get-AzureADMSPrivilegedResource
 
-> 
-
 ## Data
 
 + AAD Command: [Get-AzureADMSPrivilegedResource](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSPrivilegedResource)
 + AAD Module: AzureADPreview
-+ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=)), []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)

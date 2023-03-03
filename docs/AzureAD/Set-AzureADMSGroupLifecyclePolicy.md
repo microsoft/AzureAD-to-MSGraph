@@ -22,6 +22,6 @@
 |---|---|---|---|---|
 |AlternateNotificationEmails|AlternateNotificationEmails|System.String|System.String||
 |ManagedGroupTypes|ManagedGroupTypes|System.String|System.String||
-|Id|Id|System.String|System.String||
 |GroupLifetimeInDays|GroupLifetimeInDays|System.Nullable/System.Int32|System.Int32||
+|Id|Id|System.String|System.String||
 

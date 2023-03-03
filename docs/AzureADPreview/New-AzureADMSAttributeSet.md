@@ -1,12 +1,10 @@
 # New-AzureADMSAttributeSet
 
-> 
-
 ## Data
 
 + AAD Command: [New-AzureADMSAttributeSet](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSAttributeSet)
 + AAD Module: AzureADPreview
-+ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=)), []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)

@@ -1,7 +1,5 @@
 # Add-AzureADDeviceRegisteredUser
 
-> 
-
 ## Data
 
 + AAD Command: [Add-AzureADDeviceRegisteredUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADDeviceRegisteredUser)
@@ -20,6 +18,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
 |RefObjectId||System.String|||
+|ObjectId||System.String|||
 

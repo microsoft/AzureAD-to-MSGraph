@@ -1,7 +1,5 @@
 # Add-MsolGroupMember
 
-> 
-
 ## Data
 
 + AAD Command: [Add-MsolGroupMember](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Add-MsolGroupMember)
@@ -20,8 +18,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|GroupMemberObjectId||System.Nullable/System.Guid|||
 |GroupObjectId||System.Guid|||
-|TenantId||System.Nullable/System.Guid|||
 |GroupMemberType||Microsoft.Online.Administration.GroupMemberType|||
+|GroupMemberObjectId||System.Nullable/System.Guid|||
+|TenantId||System.Nullable/System.Guid|||
 

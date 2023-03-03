@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
-|TenantId||System.Nullable/System.Guid|||
-|AdministrativeUnitObjectId||System.Guid|||
 |MaxResults||System.Int32|||
+|AdministrativeUnitObjectId||System.Guid|||
+|TenantId||System.Nullable/System.Guid|||
+|All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
 

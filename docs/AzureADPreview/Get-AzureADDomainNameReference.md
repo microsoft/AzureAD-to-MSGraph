@@ -1,7 +1,5 @@
 # Get-AzureADDomainNameReference
 
-> 
-
 ## Data
 
 + AAD Command: [Get-AzureADDomainNameReference](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDomainNameReference)

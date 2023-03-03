@@ -21,14 +21,14 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |ConditionSetType||System.String|||
-|ClientApplicationsFromVerifiedPublisherOnly|ClientApplicationsFromVerifiedPublisherOnly|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|PolicyId||System.String|||
-|ResourceApplication|ResourceApplication|System.String|System.String||
-|ClientApplicationIds|ClientApplicationIds|System.Collections.Generic.List/System.String|System.String[]||
-|PermissionType|PermissionType|System.String|System.String||
-|PermissionClassification|PermissionClassification|System.String|System.String||
-|Id|Id|System.String|System.String||
 |ClientApplicationTenantIds|ClientApplicationTenantIds|System.Collections.Generic.List/System.String|System.String[]||
 |ClientApplicationPublisherIds|ClientApplicationPublisherIds|System.Collections.Generic.List/System.String|System.String[]||
+|ClientApplicationIds|ClientApplicationIds|System.Collections.Generic.List/System.String|System.String[]||
+|PermissionType|PermissionType|System.String|System.String||
 |Permissions|Permissions|System.Collections.Generic.List/System.String|System.String[]||
+|Id|Id|System.String|System.String||
+|PolicyId||System.String|||
+|ClientApplicationsFromVerifiedPublisherOnly|ClientApplicationsFromVerifiedPublisherOnly|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|PermissionClassification|PermissionClassification|System.String|System.String||
+|ResourceApplication|ResourceApplication|System.String|System.String||
 

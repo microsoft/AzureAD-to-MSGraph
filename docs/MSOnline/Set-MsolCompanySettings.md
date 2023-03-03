@@ -20,13 +20,13 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|UsersPermissionToCreateLOBAppsEnabled||System.Nullable/System.Boolean|||
+|UsersPermissionToReadOtherUsersEnabled||System.Nullable/System.Boolean|||
+|UsersPermissionToUserConsentToAppEnabled||System.Nullable/System.Boolean|||
+|AllowEmailVerifiedUsers||System.Nullable/System.Boolean|||
+|UsersPermissionToCreateGroupsEnabled||System.Nullable/System.Boolean|||
+|TenantId||System.Nullable/System.Guid|||
 |AllowAdHocSubscriptions||System.Nullable/System.Boolean|||
 |DefaultUsageLocation|DefaultUsageLocation|System.String|System.String||
-|TenantId||System.Nullable/System.Guid|||
-|UsersPermissionToUserConsentToAppEnabled||System.Nullable/System.Boolean|||
 |SelfServePasswordResetEnabled||System.Nullable/System.Boolean|||
-|UsersPermissionToCreateGroupsEnabled||System.Nullable/System.Boolean|||
-|UsersPermissionToCreateLOBAppsEnabled||System.Nullable/System.Boolean|||
-|AllowEmailVerifiedUsers||System.Nullable/System.Boolean|||
-|UsersPermissionToReadOtherUsersEnabled||System.Nullable/System.Boolean|||
 

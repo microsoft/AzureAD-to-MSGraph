@@ -1,7 +1,5 @@
 # Restore-AzureADMSDeletedDirectoryObject
 
-> 
-
 ## Data
 
 + AAD Command: [Restore-AzureADMSDeletedDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Restore-AzureADMSDeletedDirectoryObject)

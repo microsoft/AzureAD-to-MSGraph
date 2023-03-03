@@ -1,7 +1,5 @@
 # Restore-MsolUser
 
-> 
-
 ## Data
 
 + AAD Command: [Restore-MsolUser](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Restore-MsolUser)
@@ -20,9 +18,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|UserPrincipalName||System.String|||
-|TenantId||System.Nullable/System.Guid|||
-|NewUserPrincipalName||System.String|||
 |AutoReconcileProxyConflicts||System.Management.Automation.SwitchParameter|||
 |ObjectId||System.Guid|||
+|NewUserPrincipalName||System.String|||
+|UserPrincipalName||System.String|||
+|TenantId||System.Nullable/System.Guid|||
 

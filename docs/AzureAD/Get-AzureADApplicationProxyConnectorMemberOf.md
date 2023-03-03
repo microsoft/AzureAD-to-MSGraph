@@ -1,12 +1,10 @@
 # Get-AzureADApplicationProxyConnectorMemberOf
 
-> 
-
 ## Data
 
 + AAD Command: [Get-AzureADApplicationProxyConnectorMemberOf](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationProxyConnectorMemberOf)
 + AAD Module: AzureAD
-+ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)

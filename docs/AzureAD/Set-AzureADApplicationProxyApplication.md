@@ -1,12 +1,10 @@
 # Set-AzureADApplicationProxyApplication
 
-> 
-
 ## Data
 
 + AAD Command: [Set-AzureADApplicationProxyApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADApplicationProxyApplication)
 + AAD Module: AzureAD
-+ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -20,15 +18,15 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ApplicationServerTimeout||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ApplicationServerTimeoutEnum|||
-|IsPersistentCookieEnabled||System.Nullable/System.Boolean|||
-|IsTranslateLinksInBodyEnabled||System.Nullable/System.Boolean|||
-|ObjectId||System.String|||
-|ExternalAuthenticationType||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ExternalAuthenticationTypeEnum|||
-|ConnectorGroupId||System.String|||
-|ExternalUrl||System.String|||
-|IsHttpOnlyCookieEnabled||System.Nullable/System.Boolean|||
-|InternalUrl||System.String|||
-|IsSecureCookieEnabled||System.Nullable/System.Boolean|||
 |IsTranslateHostHeaderEnabled||System.Nullable/System.Boolean|||
+|IsSecureCookieEnabled||System.Nullable/System.Boolean|||
+|IsHttpOnlyCookieEnabled||System.Nullable/System.Boolean|||
+|IsPersistentCookieEnabled||System.Nullable/System.Boolean|||
+|ConnectorGroupId||System.String|||
+|ObjectId||System.String|||
+|InternalUrl||System.String|||
+|IsTranslateLinksInBodyEnabled||System.Nullable/System.Boolean|||
+|ApplicationServerTimeout||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ApplicationServerTimeoutEnum|||
+|ExternalUrl||System.String|||
+|ExternalAuthenticationType||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ExternalAuthenticationTypeEnum|||
 

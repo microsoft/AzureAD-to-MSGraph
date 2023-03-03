@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|Force||System.Management.Automation.SwitchParameter|||
 |ObjectId||System.Guid|||
 |DeviceId|DeviceId|System.Guid|System.String||
-|Force||System.Management.Automation.SwitchParameter|||
 

@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
 |AppRoleAssignmentId|AppRoleAssignmentId|System.String|System.String||
+|ObjectId||System.String|||
 

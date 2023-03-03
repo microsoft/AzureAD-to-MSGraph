@@ -29,7 +29,7 @@ param (
 	$PassThru,
 
 	[string[]]
-	$ExportType = @('Json','CSV','CliXml')
+	$ExportType = @('Json', 'CSV', 'CliXml')
 )
 
 #region Error Handling
@@ -128,7 +128,7 @@ function New-CommandMappingData {
 					$data[$parameter.Name] = [PSCustomObject]@{
 						Name       = $parameter.Name
 						NewName    = ''
-						OldType    = $parameter.ParameterType.FullName -replace ',.+' -replace '`1\[\[',"/"
+						OldType    = $parameter.ParameterType.FullName -replace ',.+' -replace '`1\[\[', "/"
 						NewType    = ''
 						MsgInfo    = ''
 						MsgWarning = ''
@@ -206,7 +206,7 @@ function Update-ParameterTable {
 		$newParameter = $firstCommand.Parameters.$parameterName
 		if (-not $newParameter) { continue }
 		$Table[$parameterName].NewName = $newParameter.Name
-		$Table[$parameterName].NewType = $newParameter.ParameterType.FullName -replace ',.+' -replace '`1\[\[',"/"
+		$Table[$parameterName].NewType = $newParameter.ParameterType.FullName -replace ',.+' -replace '`1\[\[', "/"
 	}
 }
 
@@ -234,6 +234,7 @@ function Set-CommandData {
 	[CmdletBinding()]
 	param (
 		$Command,
+
 		[hashtable]
 		$Update,
 
@@ -283,7 +284,7 @@ function Set-CommandData {
 
 		if ($parameter.NewName -and $parameter.NewName -ne $paramDefinition.NewName) {
 			$paramDefinition.NewName = $parameter.NewName
-			$paramDefinition.NewType = $Command.NewCommandObject.Parameters.$($parameter.NewName).ParameterType.FullName -replace ',.+' -replace '`1\[\[',"/"
+			$paramDefinition.NewType = $Command.NewCommandObject.Parameters.$($parameter.NewName).ParameterType.FullName -replace ',.+' -replace '`1\[\[', "/"
 		}
 		if ($parameter.MsgInfo) { $paramDefinition.MsgInfo = $parameter.MsgInfo }
 		if ($parameter.MsgWarning) { $paramDefinition.MsgWarning = $parameter.MsgWarning }
@@ -382,7 +383,7 @@ function Export-CommandData {
 		$properties = 'Name', 'Module', 'NewCommand as GraphCmdName', 'NewCommandModule as GraphModuleName', 'ScopesApplication as GraphScopesApplication', 'ScopesDelegate as GraphScopesDelegate', 'ApiUri'
 		$CommandData | Select-PSFObject $properties | ConvertFrom-PSFArray | Export-Csv -Path "$Path/CommandMap.csv"
 		$paramData = foreach ($commandItem in $CommandData) {
-			$commandHash = $commandItem | Select-PSFObject $properties | ConvertTo-PSFHashTable
+			$commandHash = $commandItem | Select-PSFObject $properties | ConvertTo-PSFHashtable
 			foreach ($parameter in $commandItem.Parameters.Values) {
 				$commandClone = $commandHash.Clone()
 				$commandClone.AadParamName = $parameter.Name
@@ -417,9 +418,15 @@ function Export-CommandDocumentation {
 
 > $($commandItem.LinkApi -join " | ")
 "@
+			if (-not ($commandItem.LinkApi | Remove-PSFNull)) {
+				$text = @"
+# $($commandItem.Name)
+"@
+			}
 	
 			#region Data
 			$destinationEntry = foreach ($number in 0..(@($commandItem.NewCommand).Count - 1)) {
+				if (-not @($commandItem.NewCommand)[$number]) { continue }
 				'[{0}]({1}) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q={0}))' -f @($commandItem.NewCommand)[$number], @($commandItem.LinkNewCommand)[$number]
 			}
 
@@ -459,7 +466,7 @@ function Export-CommandDocumentation {
 |Application|{0}|
 |Delegate|{1}|
 
-'@ -f ($commandItem.ScopesApplication -join ", "),($commandItem.ScopesDelegate -join ", ")
+'@ -f ($commandItem.ScopesApplication -join ", "), ($commandItem.ScopesDelegate -join ", ")
 			#endregion Data
 	
 			#region Notes
@@ -560,6 +567,33 @@ For more information about the new cmdlets, see [Get started with the Microsoft 
 	$tableText = $mainText -f ($moduleTexts -join "`n`n")
 	$tableText | Set-Content -Path "$Path/index.md"
 	#endregion Create Summary Table
+
+	#region Create Concatenated Docs
+	$allEntries = foreach ($moduleFolder in Get-ChildItem $Path -Directory) {
+		$moduleEntries = [System.Collections.ArrayList]@()
+
+		foreach ($file in Get-ChildItem -LiteralPath $moduleFolder.FullName) {
+			$content = [System.IO.File]::ReadAllLines($file.FullName) -replace '^## ', '### ' -replace '^# ', '## ' -join "`n"
+			$null = $moduleEntries.Add($content)
+		}
+
+		$moduleRaw = @'
+# {0}
+
+{1}
+'@
+		$moduleText = $moduleRaw -f $moduleFolder.Name, ($moduleEntries -join "`n")
+		$moduleText | Set-Content -Path "$Path/$($moduleFolder.Name).md"
+		$moduleText
+	}
+	$allRaw = @'
+# Mapping AZureAD, AzureADPreview & MSOnline commands to Microsoft Graph commands
+
+{0}
+'@
+	$allText = $allRaw -f ($allEntries -join "`n`n")
+	$allText | Set-Content -Path "$Path/allcommands.md"
+	#endregion Create Concatenated Docs
 }
 #endregion Functions
 

@@ -20,12 +20,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Id|Id|System.String|System.String||
-|IpRanges||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.IpRange|||
-|PolicyId||System.String|||
 |DisplayName|DisplayName|System.String|System.String||
-|CountriesAndRegions||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.CountriesAndRegion|||
+|IpRanges||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.IpRange|||
 |OdataType||System.String|||
+|Id|Id|System.String|System.String||
+|CountriesAndRegions||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.CountriesAndRegion|||
+|PolicyId||System.String|||
 |IsTrusted||System.Nullable/System.Boolean|||
 |IncludeUnknownCountriesAndRegions||System.Nullable/System.Boolean|||
 

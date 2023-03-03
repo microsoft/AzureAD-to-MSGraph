@@ -20,10 +20,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|GroupObjectId||System.Guid|||
-|TenantId||System.Nullable/System.Guid|||
-|MaxResults||System.Int32|||
-|SearchString||System.String|||
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
 |MemberObjectTypes||System.String[]|||
+|SearchString||System.String|||
+|TenantId||System.Nullable/System.Guid|||
+|GroupObjectId||System.Guid|||
+|MaxResults||System.Int32|||
 

@@ -1,7 +1,5 @@
 # Add-AzureADGroupMember
 
-> 
-
 ## Data
 
 + AAD Command: [Add-AzureADGroupMember](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADGroupMember)
@@ -20,6 +18,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
 |RefObjectId||System.String|||
+|ObjectId||System.String|||
 

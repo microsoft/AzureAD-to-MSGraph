@@ -20,23 +20,23 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|UserPrincipalName||System.String|||
-|UsageLocation||System.String|||
-|State||System.String|||
-|Synchronized||System.Management.Automation.SwitchParameter|||
-|UnlicensedUsersOnly||System.Management.Automation.SwitchParameter|||
-|ReturnDeletedUsers||System.Management.Automation.SwitchParameter|||
-|All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
-|Department||System.String|||
-|ObjectId||System.Guid|||
-|HasErrorsOnly||System.Management.Automation.SwitchParameter|||
-|Country||System.String|||
-|City||System.String|||
-|DomainName||System.String|||
-|EnabledFilter||System.Nullable/Microsoft.Online.Administration.UserEnabledFilter|||
-|LicenseReconciliationNeededOnly||System.Management.Automation.SwitchParameter|||
-|SearchString||System.String|||
-|TenantId||System.Nullable/System.Guid|||
 |Title||System.String|||
+|EnabledFilter||System.Nullable/Microsoft.Online.Administration.UserEnabledFilter|||
+|UnlicensedUsersOnly||System.Management.Automation.SwitchParameter|||
+|ObjectId||System.Guid|||
+|LicenseReconciliationNeededOnly||System.Management.Automation.SwitchParameter|||
+|UsageLocation||System.String|||
+|HasErrorsOnly||System.Management.Automation.SwitchParameter|||
+|Synchronized||System.Management.Automation.SwitchParameter|||
+|DomainName||System.String|||
+|TenantId||System.Nullable/System.Guid|||
 |MaxResults||System.Int32|||
+|State||System.String|||
+|UserPrincipalName||System.String|||
+|All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
+|ReturnDeletedUsers||System.Management.Automation.SwitchParameter|||
+|City||System.String|||
+|Department||System.String|||
+|Country||System.String|||
+|SearchString||System.String|||
 

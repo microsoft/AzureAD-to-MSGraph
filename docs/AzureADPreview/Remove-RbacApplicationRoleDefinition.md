@@ -1,12 +1,10 @@
 # Remove-RbacApplicationRoleDefinition
 
-> 
-
 ## Data
 
 + AAD Command: [Remove-RbacApplicationRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-RbacApplicationRoleDefinition)
 + AAD Module: AzureADPreview
-+ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=)), []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -20,6 +18,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Id||System.String|||
 |AppId||System.String|||
+|Id||System.String|||
 

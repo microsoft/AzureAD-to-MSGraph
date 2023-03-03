@@ -1,7 +1,5 @@
 # Disconnect-AzureAD
 
-> 
-
 ## Data
 
 + AAD Command: [Disconnect-AzureAD](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Disconnect-AzureAD)

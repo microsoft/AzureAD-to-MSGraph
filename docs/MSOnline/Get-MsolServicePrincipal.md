@@ -20,11 +20,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|TenantId||System.Nullable/System.Guid|||
-|ObjectId||System.Guid|||
-|ServicePrincipalName||System.String|||
-|MaxResults||System.Int32|||
-|SearchString||System.String|||
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
+|ObjectId||System.Guid|||
+|SearchString||System.String|||
+|ServicePrincipalName||System.String|||
+|TenantId||System.Nullable/System.Guid|||
 |AppPrincipalId||System.Guid|||
+|MaxResults||System.Int32|||
 

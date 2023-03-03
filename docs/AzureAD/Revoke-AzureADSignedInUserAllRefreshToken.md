@@ -1,7 +1,5 @@
 # Revoke-AzureADSignedInUserAllRefreshToken
 
-> 
-
 ## Data
 
 + AAD Command: [Revoke-AzureADSignedInUserAllRefreshToken](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Revoke-AzureADSignedInUserAllRefreshToken)

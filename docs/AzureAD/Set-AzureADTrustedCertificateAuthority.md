@@ -1,12 +1,10 @@
 # Set-AzureADTrustedCertificateAuthority
 
-> 
-
 ## Data
 
 + AAD Command: [Set-AzureADTrustedCertificateAuthority](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADTrustedCertificateAuthority)
 + AAD Module: AzureAD
-+ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)

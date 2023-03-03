@@ -1,7 +1,5 @@
 # Get-AzureADCurrentSessionInfo
 
-> 
-
 ## Data
 
 + AAD Command: [Get-AzureADCurrentSessionInfo](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADCurrentSessionInfo)

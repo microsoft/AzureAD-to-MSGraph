@@ -20,11 +20,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.Nullable/System.Guid|||
-|AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |DisplayName|DisplayName|System.String|System.String||
-|TenantId||System.Nullable/System.Guid|||
-|ServicePrincipalNames|ServicePrincipalNames|System.String[]|System.String[]||
 |Addresses||Microsoft.Online.Administration.RedirectUri[]|||
+|ObjectId||System.Nullable/System.Guid|||
+|ServicePrincipalNames|ServicePrincipalNames|System.String[]|System.String[]||
+|TenantId||System.Nullable/System.Guid|||
 |AppPrincipalId||System.Nullable/System.Guid|||
+|AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 

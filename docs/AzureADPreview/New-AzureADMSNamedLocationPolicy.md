@@ -20,11 +20,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Id|Id|System.String|System.String||
-|IpRanges||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.IpRange|||
 |DisplayName|DisplayName|System.String|System.String||
+|IpRanges||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.IpRange|||
+|IncludeUnknownCountriesAndRegions||System.Nullable/System.Boolean|||
 |CountriesAndRegions||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.CountriesAndRegion|||
 |OdataType||System.String|||
+|Id|Id|System.String|System.String||
 |IsTrusted||System.Nullable/System.Boolean|||
-|IncludeUnknownCountriesAndRegions||System.Nullable/System.Boolean|||
 

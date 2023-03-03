@@ -1,12 +1,10 @@
 # Get-MsolCompanyAllowedDataLocation
 
-> 
-
 ## Data
 
 + AAD Command: [Get-MsolCompanyAllowedDataLocation](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Get-MsolCompanyAllowedDataLocation)
 + AAD Module: MSOnline
-+ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)

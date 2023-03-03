@@ -1,7 +1,5 @@
 # Revoke-AzureADUserAllRefreshToken
 
-> 
-
 ## Data
 
 + AAD Command: [Revoke-AzureADUserAllRefreshToken](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Revoke-AzureADUserAllRefreshToken)

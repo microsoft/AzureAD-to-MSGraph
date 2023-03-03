@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PasswordFile||System.String|||
 |DomainName||System.String|||
+|PasswordFile||System.String|||
 |SkipUserConversion||System.Boolean|||
 

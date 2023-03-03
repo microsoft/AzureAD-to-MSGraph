@@ -1,7 +1,5 @@
 # Get-MsolDirSyncConfiguration
 
-> 
-
 ## Data
 
 + AAD Command: [Get-MsolDirSyncConfiguration](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Get-MsolDirSyncConfiguration)

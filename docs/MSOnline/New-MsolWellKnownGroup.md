@@ -1,12 +1,10 @@
 # New-MsolWellKnownGroup
 
-> 
-
 ## Data
 
 + AAD Command: [New-MsolWellKnownGroup](https://docs.microsoft.com/en-us/powershell/module/MSOnline/New-MsolWellKnownGroup)
 + AAD Module: MSOnline
-+ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)

@@ -22,7 +22,7 @@
 |---|---|---|---|---|
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
 |DomainName||System.String|||
-|TenantId||System.Nullable/System.Guid|||
-|SearchKey||Microsoft.Online.Administration.PartnerContractSearchKey|||
 |MaxResults||System.Int32|||
+|SearchKey||Microsoft.Online.Administration.PartnerContractSearchKey|||
+|TenantId||System.Nullable/System.Guid|||
 

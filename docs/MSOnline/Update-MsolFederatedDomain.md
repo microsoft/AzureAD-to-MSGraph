@@ -1,12 +1,10 @@
 # Update-MsolFederatedDomain
 
-> 
-
 ## Data
 
 + AAD Command: [Update-MsolFederatedDomain](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Update-MsolFederatedDomain)
 + AAD Module: MSOnline
-+ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -20,6 +18,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DomainName||System.String|||
 |SupportMultipleDomain||System.Management.Automation.SwitchParameter|||
+|DomainName||System.String|||
 

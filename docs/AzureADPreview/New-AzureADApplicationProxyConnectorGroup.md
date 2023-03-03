@@ -1,12 +1,10 @@
 # New-AzureADApplicationProxyConnectorGroup
 
-> 
-
 ## Data
 
 + AAD Command: [New-AzureADApplicationProxyConnectorGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADApplicationProxyConnectorGroup)
 + AAD Module: AzureADPreview
-+ Graph Command: []() ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)
