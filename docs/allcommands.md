@@ -1,4 +1,4 @@
-# Mapping AZureAD, AzureADPreview & MSOnline commands to Microsoft Graph commands
+# Mapping AzureAD, AzureADPreview & MSOnline commands to Microsoft Graph commands
 
 # AzureAD
 

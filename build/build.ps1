@@ -587,7 +587,7 @@ For more information about the new cmdlets, see [Get started with the Microsoft 
 		$moduleText
 	}
 	$allRaw = @'
-# Mapping AZureAD, AzureADPreview & MSOnline commands to Microsoft Graph commands
+# Mapping AzureAD, AzureADPreview & MSOnline commands to Microsoft Graph commands
 
 {0}
 '@
