@@ -4,7 +4,7 @@
 
 + AAD Command: [Add-AzureADDeviceRegisteredUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADDeviceRegisteredUser)
 + AAD Module: AzureADPreview
-+ Graph Command: [New-MgDeviceRegisteredUserByRef](https://docs.microsoft.com/en-us/powershell/module//New-MgDeviceRegisteredUserByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgDeviceRegisteredUserByRef))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)

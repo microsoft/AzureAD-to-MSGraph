@@ -102,7 +102,7 @@
 
 + AAD Command: [Add-AzureADDeviceRegisteredUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADDeviceRegisteredUser)
 + AAD Module: AzureADPreview
-+ Graph Command: [New-MgDeviceRegisteredUserByRef](https://docs.microsoft.com/en-us/powershell/module//New-MgDeviceRegisteredUserByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgDeviceRegisteredUserByRef))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -5303,7 +5303,7 @@
 
 + AAD Command: [Remove-AzureADContactManager](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADContactManager)
 + AAD Module: AzureADPreview
-+ Graph Command: [Remove-MgContactManagerByRef](https://docs.microsoft.com/en-us/powershell/module//Remove-MgContactManagerByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgContactManagerByRef))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)
@@ -6645,19 +6645,21 @@
 
 ## Restore-AzureADDeletedApplication
 
+> /directory/deletedItems/{directoryObject-id}/restore
+
 ### Data
 
 + AAD Command: [Restore-AzureADDeletedApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Restore-AzureADDeletedApplication)
 + AAD Module: AzureADPreview
-+ Graph Command: [Restore-MgApplication](https://docs.microsoft.com/en-us/powershell/module//Restore-MgApplication) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Restore-MgApplication))
-+ Graph Module: 
++ Graph Command: [Restore-MgDirectoryDeletedItem](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Restore-MgDirectoryDeletedItem) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Restore-MgDirectoryDeletedItem))
++ Graph Module: Microsoft.Graph.Identity.DirectoryManagement
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|AdministrativeUnit.ReadWrite.All, Application.ReadWrite.All, Group.ReadWrite.All, User.ReadWrite.All|
+|Delegate|AdministrativeUnit.ReadWrite.All, Application.ReadWrite.All, Group.ReadWrite.All, User.ReadWrite.All|
 
 ### Parameters
 
@@ -6668,19 +6670,21 @@
 
 ## Restore-AzureADMSDeletedDirectoryObject
 
+> /directory/deletedItems/{directoryObject-id}/restore
+
 ### Data
 
 + AAD Command: [Restore-AzureADMSDeletedDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Restore-AzureADMSDeletedDirectoryObject)
 + AAD Module: AzureADPreview
-+ Graph Command: [Restore-MgDirectoryObject](https://docs.microsoft.com/en-us/powershell/module//Restore-MgDirectoryObject) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Restore-MgDirectoryObject))
-+ Graph Module: 
++ Graph Command: [Restore-MgDirectoryDeletedItem](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Restore-MgDirectoryDeletedItem) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Restore-MgDirectoryDeletedItem))
++ Graph Module: Microsoft.Graph.Identity.DirectoryManagement
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|AdministrativeUnit.ReadWrite.All, Application.ReadWrite.All, Group.ReadWrite.All, User.ReadWrite.All|
+|Delegate|AdministrativeUnit.ReadWrite.All, Application.ReadWrite.All, Group.ReadWrite.All, User.ReadWrite.All|
 
 ### Parameters
 

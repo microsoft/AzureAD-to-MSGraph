@@ -4,7 +4,7 @@
 
 + AAD Command: [Remove-AzureADContactManager](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADContactManager)
 + AAD Module: AzureAD
-+ Graph Command: [Remove-MgContactManagerByRef](https://docs.microsoft.com/en-us/powershell/module//Remove-MgContactManagerByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgContactManagerByRef))
++ Graph Command: 
 + Graph Module: 
 
 > Scopes Needed (any one)
