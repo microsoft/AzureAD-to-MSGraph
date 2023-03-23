@@ -18,12 +18,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RoleDefinitionId||System.String|||
-|Type||System.String|||
-|SubjectId||System.String|||
+|AssignmentState||System.String|||
 |ProviderId||System.String|||
 |Reason||System.String|||
 |ResourceId||System.String|||
+|RoleDefinitionId||System.String|||
 |Schedule||Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedSchedule|||
-|AssignmentState||System.String|||
+|SubjectId||System.String|||
+|Type||System.String|||
 

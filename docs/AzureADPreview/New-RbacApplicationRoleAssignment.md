@@ -18,9 +18,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DirectoryScopeId||System.String|||
-|RoleDefinitionId||System.String|||
-|AppScopeId||System.String|||
 |AppId||System.String|||
+|AppScopeId||System.String|||
+|DirectoryScopeId||System.String|||
 |PrincipalId||System.String|||
+|RoleDefinitionId||System.String|||
 

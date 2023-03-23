@@ -18,7 +18,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ServiceType||System.String|||
 |Enable||System.Boolean|||
+|ServiceType||System.String|||
 |TenantId||System.Nullable/System.Guid|||
 

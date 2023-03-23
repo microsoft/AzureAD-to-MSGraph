@@ -18,10 +18,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Filter||System.String|||
-|Select||System.String|||
 |All||System.Nullable/System.Boolean|||
-|SearchString||System.String|||
-|Top||System.Nullable/System.Int32|||
+|Filter||System.String|||
 |Id||System.String|||
+|SearchString||System.String|||
+|Select||System.String|||
+|Top||System.Nullable/System.Int32|||
 

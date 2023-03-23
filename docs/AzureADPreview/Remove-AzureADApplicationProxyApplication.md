@@ -18,6 +18,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RemoveADApplication||System.Nullable/System.Boolean|||
 |ObjectId||System.String|||
+|RemoveADApplication||System.Nullable/System.Boolean|||
 

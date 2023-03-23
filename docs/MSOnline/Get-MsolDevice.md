@@ -20,12 +20,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|LogonTimeBefore||System.DateTime|||
-|IncludeSystemManagedDevices||System.Management.Automation.SwitchParameter|||
-|DeviceId|DeviceId|System.Guid|System.String||
-|RegisteredOwnerUpn||System.String|||
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
-|ObjectId||System.Guid|||
-|ReturnRegisteredOwners||System.Management.Automation.SwitchParameter|||
+|DeviceId|DeviceId|System.Guid|System.String||
+|IncludeSystemManagedDevices||System.Management.Automation.SwitchParameter|||
+|LogonTimeBefore||System.DateTime|||
 |Name||System.String|||
+|ObjectId||System.Guid|||
+|RegisteredOwnerUpn||System.String|||
+|ReturnRegisteredOwners||System.Management.Automation.SwitchParameter|||
 

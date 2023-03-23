@@ -20,15 +20,15 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName|DisplayName|System.String|System.String||
-|Addresses||Microsoft.Online.Administration.RedirectUri[]|||
-|Type||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialType|||
-|Value||System.String|||
-|EndDate||System.Nullable/System.DateTime|||
-|Usage||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialUsage|||
-|ServicePrincipalNames|ServicePrincipalNames|System.String[]|System.String[]||
-|TenantId||System.Nullable/System.Guid|||
-|StartDate||System.Nullable/System.DateTime|||
-|AppPrincipalId||System.Nullable/System.Guid|||
 |AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Addresses||Microsoft.Online.Administration.RedirectUri[]|||
+|AppPrincipalId||System.Nullable/System.Guid|||
+|DisplayName|DisplayName|System.String|System.String||
+|EndDate||System.Nullable/System.DateTime|||
+|ServicePrincipalNames|ServicePrincipalNames|System.String[]|System.String[]||
+|StartDate||System.Nullable/System.DateTime|||
+|TenantId||System.Nullable/System.Guid|||
+|Type||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialType|||
+|Usage||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialUsage|||
+|Value||System.String|||
 

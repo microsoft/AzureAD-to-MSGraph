@@ -20,11 +20,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|Description|Description|System.String|System.String||
 |DisplayName|DisplayName|System.String|System.String||
+|Id|Id|System.String|System.String||
+|IsMemberManagementRestricted||System.Nullable/System.Boolean|||
+|MembershipRule||System.String|||
 |MembershipRuleProcessingState||System.String|||
 |MembershipType||System.String|||
-|IsMemberManagementRestricted||System.Nullable/System.Boolean|||
-|Description|Description|System.String|System.String||
-|MembershipRule||System.String|||
-|Id|Id|System.String|System.String||
 

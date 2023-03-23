@@ -18,13 +18,13 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PartnerSupportUrl||System.String|||
-|PartnerHelpUrl||System.String|||
-|ObjectId||System.Nullable/System.Guid|||
-|PartnerCompanyName||System.String|||
-|TenantId||System.Nullable/System.Guid|||
-|PartnerSupportTelephones||System.String[]|||
 |CompanyType||System.Nullable/Microsoft.Online.Administration.CompanyType|||
-|PartnerSupportEmails||System.String[]|||
+|ObjectId||System.Nullable/System.Guid|||
 |PartnerCommerceUrl||System.String|||
+|PartnerCompanyName||System.String|||
+|PartnerHelpUrl||System.String|||
+|PartnerSupportEmails||System.String[]|||
+|PartnerSupportTelephones||System.String[]|||
+|PartnerSupportUrl||System.String|||
+|TenantId||System.Nullable/System.Guid|||
 

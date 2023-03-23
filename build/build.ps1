@@ -88,6 +88,20 @@ function Resolve-Command {
 			}
 
 			$script:__allCommands[$command] = $command | Get-Command -ErrorAction Ignore
+
+			# Handle Graph Beta
+			if (-not $script:__allCommands[$command]) {
+				try {
+					Select-MgProfile -Name beta
+					$script:__allCommands[$command] = $command | Get-Command -ErrorAction Ignore
+				}
+				catch { }
+				finally {
+					try { Select-MgProfile -Name 'v1.0' }
+					catch { }
+				}
+			}
+
 			if ($script:__allCommands[$command]) {
 				$script:__allCommands[$command]
 			}
@@ -510,7 +524,7 @@ function Export-CommandDocumentation {
 |---|---|---|---|---|
 
 '@
-				foreach ($parameter in $commandItem.Parameters.Values) {
+				foreach ($parameter in $commandItem.Parameters.Values | Sort-Object Name) {
 					$info = @()
 					foreach ($message in $parameter.MsgInfo) {
 						if (-not $message) { continue }

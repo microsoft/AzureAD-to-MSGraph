@@ -20,21 +20,21 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PassiveLogOnUri||System.String|||
-|PromptLoginBehavior||System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|||
-|FederationBrandName||System.String|||
-|MetadataExchangeUri||System.String|||
 |ActiveLogOnUri||System.String|||
-|SupportsMfa||System.Nullable/System.Boolean|||
-|LogOffUri||System.String|||
 |DefaultInteractiveAuthenticationMethod||System.String|||
 |DomainName||System.String|||
-|PreferredAuthenticationProtocol||System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|||
-|TenantId||System.Nullable/System.Guid|||
-|IssuerUri||System.String|||
+|FederationBrandName||System.String|||
 |ForceTakeover||Microsoft.Online.Administration.ForceTakeoverOption|||
+|IssuerUri||System.String|||
+|LogOffUri||System.String|||
+|MetadataExchangeUri||System.String|||
+|NextSigningCertificate||System.String|||
+|OpenIdConnectDiscoveryEndpoint||System.String|||
+|PassiveLogOnUri||System.String|||
+|PreferredAuthenticationProtocol||System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|||
+|PromptLoginBehavior||System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|||
 |SigningCertificate||System.String|||
 |SigningCertificateUpdateStatus||Microsoft.Online.Administration.SigningCertificateUpdateStatus|||
-|OpenIdConnectDiscoveryEndpoint||System.String|||
-|NextSigningCertificate||System.String|||
+|SupportsMfa||System.Nullable/System.Boolean|||
+|TenantId||System.Nullable/System.Guid|||
 

@@ -20,14 +20,14 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ConditionSetType||System.String|||
-|ClientApplicationTenantIds|ClientApplicationTenantIds|System.Collections.Generic.List/System.String|System.String[]||
-|ClientApplicationPublisherIds|ClientApplicationPublisherIds|System.Collections.Generic.List/System.String|System.String[]||
 |ClientApplicationIds|ClientApplicationIds|System.Collections.Generic.List/System.String|System.String[]||
-|PermissionType|PermissionType|System.String|System.String||
-|Permissions|Permissions|System.Collections.Generic.List/System.String|System.String[]||
-|PolicyId||System.String|||
+|ClientApplicationPublisherIds|ClientApplicationPublisherIds|System.Collections.Generic.List/System.String|System.String[]||
 |ClientApplicationsFromVerifiedPublisherOnly|ClientApplicationsFromVerifiedPublisherOnly|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|ClientApplicationTenantIds|ClientApplicationTenantIds|System.Collections.Generic.List/System.String|System.String[]||
+|ConditionSetType||System.String|||
 |PermissionClassification|PermissionClassification|System.String|System.String||
+|Permissions|Permissions|System.Collections.Generic.List/System.String|System.String[]||
+|PermissionType|PermissionType|System.String|System.String||
+|PolicyId||System.String|||
 |ResourceApplication|ResourceApplication|System.String|System.String||
 

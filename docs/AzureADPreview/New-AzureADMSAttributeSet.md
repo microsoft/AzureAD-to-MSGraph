@@ -19,6 +19,6 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Description||System.String|||
-|MaxAttributesPerSet||System.Nullable/System.Int32|||
 |Id||System.String|||
+|MaxAttributesPerSet||System.Nullable/System.Int32|||
 

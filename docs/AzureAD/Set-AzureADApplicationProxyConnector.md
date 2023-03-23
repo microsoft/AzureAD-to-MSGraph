@@ -18,6 +18,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Id||System.String|||
 |ConnectorGroupId||System.String|||
+|Id||System.String|||
 

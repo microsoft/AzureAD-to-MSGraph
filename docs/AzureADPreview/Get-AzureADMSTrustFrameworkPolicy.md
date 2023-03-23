@@ -18,6 +18,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|OutputFilePath||System.String|||
 |Id||System.String|||
+|OutputFilePath||System.String|||
 

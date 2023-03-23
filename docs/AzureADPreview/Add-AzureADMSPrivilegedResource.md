@@ -18,6 +18,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ProviderId||System.String|||
 |ExternalId||System.String|||
+|ProviderId||System.String|||
 

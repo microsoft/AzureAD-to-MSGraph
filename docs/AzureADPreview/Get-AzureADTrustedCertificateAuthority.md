@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|TrustedIssuerSki||System.String|||
 |TrustedIssuer||System.String|||
+|TrustedIssuerSki||System.String|||
 

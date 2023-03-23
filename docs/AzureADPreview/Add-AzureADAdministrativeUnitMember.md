@@ -18,6 +18,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RefObjectId||System.String|||
 |ObjectId||System.String|||
+|RefObjectId||System.String|||
 

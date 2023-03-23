@@ -18,13 +18,13 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SortDirection||Microsoft.Online.Administration.SortDirection|||
-|PropertyValue||System.String|||
 |All||System.Management.Automation.SwitchParameter|||
-|PropertyName||System.String|||
-|SearchString||System.String|||
 |ErrorCategory||System.String|||
-|TenantId||System.Nullable/System.Guid|||
-|SortField||Microsoft.Online.Administration.SortField|||
 |MaxResults||System.Int32|||
+|PropertyName||System.String|||
+|PropertyValue||System.String|||
+|SearchString||System.String|||
+|SortDirection||Microsoft.Online.Administration.SortDirection|||
+|SortField||Microsoft.Online.Administration.SortField|||
+|TenantId||System.Nullable/System.Guid|||
 

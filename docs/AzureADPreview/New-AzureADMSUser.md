@@ -19,6 +19,6 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |CustomSecurityAttributes||System.Object|||
-|UserPrincipalName||System.String|||
 |DisplayName||System.String|||
+|UserPrincipalName||System.String|||
 

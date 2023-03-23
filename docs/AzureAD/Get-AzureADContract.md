@@ -21,7 +21,7 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Filter|Filter|System.String|System.String||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|Filter|Filter|System.String|System.String||
 

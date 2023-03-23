@@ -20,20 +20,20 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PassiveLogOnUri||System.String|||
+|ActiveLogOnUri||System.String|||
+|DefaultInteractiveAuthenticationMethod||System.String|||
+|DomainName||System.String|||
 |FederationBrandName||System.String|||
+|IssuerUri|IssuerUri|System.String|System.String||
 |LogOffUri||System.String|||
 |MetadataExchangeUri|MetadataExchangeUri|System.String|System.String||
-|ActiveLogOnUri||System.String|||
-|SupportsMfa||System.Nullable/System.Boolean|||
-|DefaultInteractiveAuthenticationMethod||System.String|||
-|PromptLoginBehavior|PromptLoginBehavior|System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|System.String||
+|NextSigningCertificate|NextSigningCertificate|System.String|System.String||
+|OpenIdConnectDiscoveryEndpoint||System.String|||
+|PassiveLogOnUri||System.String|||
 |PreferredAuthenticationProtocol|PreferredAuthenticationProtocol|System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|System.String||
-|DomainName||System.String|||
-|IssuerUri|IssuerUri|System.String|System.String||
-|TenantId||System.Nullable/System.Guid|||
+|PromptLoginBehavior|PromptLoginBehavior|System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|System.String||
 |SigningCertificate|SigningCertificate|System.String|System.String||
 |SigningCertificateUpdateStatus|SigningCertificateUpdateStatus|Microsoft.Online.Administration.SigningCertificateUpdateStatus|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphSigningCertificateUpdateStatus||
-|OpenIdConnectDiscoveryEndpoint||System.String|||
-|NextSigningCertificate|NextSigningCertificate|System.String|System.String||
+|SupportsMfa||System.Nullable/System.Boolean|||
+|TenantId||System.Nullable/System.Guid|||
 

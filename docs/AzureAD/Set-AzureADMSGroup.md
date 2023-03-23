@@ -20,13 +20,13 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|IsAssignableToRole|IsAssignableToRole|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|SecurityEnabled|SecurityEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|Visibility|Visibility|System.String|System.String||
-|MailEnabled|MailEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Description|Description|System.String|System.String||
 |DisplayName|DisplayName|System.String|System.String||
-|MailNickname|MailNickname|System.String|System.String||
 |GroupTypes|GroupTypes|System.Collections.Generic.List/System.String|System.String[]||
 |Id|Id|System.String|System.String||
+|IsAssignableToRole|IsAssignableToRole|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|MailEnabled|MailEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|MailNickname|MailNickname|System.String|System.String||
+|SecurityEnabled|SecurityEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Visibility|Visibility|System.String|System.String||
 

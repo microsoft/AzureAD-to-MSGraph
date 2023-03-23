@@ -19,7 +19,7 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |AllowedToAzureAdJoin||System.Nullable/Microsoft.Online.Administration.Automation.DeviceRegistrationServicePolicy+Scope|||
-|MaximumDevicesPerUser||System.Nullable/System.Int32|||
 |AllowedToWorkplaceJoin||System.Nullable/Microsoft.Online.Administration.Automation.DeviceRegistrationServicePolicy+Scope|||
+|MaximumDevicesPerUser||System.Nullable/System.Int32|||
 |RequireMultiFactorAuth||System.Nullable/System.Boolean|||
 

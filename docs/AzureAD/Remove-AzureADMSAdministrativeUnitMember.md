@@ -20,6 +20,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|MemberId||System.String|||
 |Id||System.String|||
+|MemberId||System.String|||
 

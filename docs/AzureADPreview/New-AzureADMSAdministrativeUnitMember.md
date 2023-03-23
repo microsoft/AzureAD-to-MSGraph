@@ -18,18 +18,18 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ProxyAddresses||System.Collections.Generic.List/System.String|||
-|MailEnabled||System.Nullable/System.Boolean|||
-|SecurityEnabled||System.Nullable/System.Boolean|||
+|AssignedLabels||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AssignedLabel|||
+|Description||System.String|||
 |DisplayName||System.String|||
 |GroupTypes||System.Collections.Generic.List/System.String|||
-|Visibility||System.String|||
-|MembershipRule||System.String|||
-|IsAssignableToRole||System.Nullable/System.Boolean|||
-|MembershipRuleProcessingState||System.String|||
-|MailNickname||System.String|||
-|AssignedLabels||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AssignedLabel|||
 |Id||System.String|||
-|Description||System.String|||
+|IsAssignableToRole||System.Nullable/System.Boolean|||
+|MailEnabled||System.Nullable/System.Boolean|||
+|MailNickname||System.String|||
+|MembershipRule||System.String|||
+|MembershipRuleProcessingState||System.String|||
 |OdataType||System.String|||
+|ProxyAddresses||System.Collections.Generic.List/System.String|||
+|SecurityEnabled||System.Nullable/System.Boolean|||
+|Visibility||System.String|||
 

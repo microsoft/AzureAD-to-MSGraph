@@ -19,9 +19,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |ExpirationDateTime||System.Nullable/System.DateTime|||
-|RoleId||System.String|||
-|UserId||System.String|||
 |Id||System.String|||
 |IsElevated||System.Nullable/System.Boolean|||
 |ResultMessage||System.String|||
+|RoleId||System.String|||
+|UserId||System.String|||
 

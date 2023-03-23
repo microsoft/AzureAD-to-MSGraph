@@ -18,22 +18,22 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ErrorUrl||System.String|||
-|Tags||System.Collections.Generic.List/System.String|||
-|MicrosoftFirstParty||System.Nullable/System.Boolean|||
-|KeyCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.MsKeyCredential|||
-|Homepage||System.String|||
-|AppRoleAssignmentRequired||System.Nullable/System.Boolean|||
-|DisplayName||System.String|||
-|PreferredTokenSigningKeyThumbprint||System.String|||
 |AccountEnabled||System.String|||
-|ReplyUrls||System.Collections.Generic.List/System.String|||
 |AppId||System.String|||
-|PublisherName||System.String|||
-|Id||System.String|||
-|LogoutUrl||System.String|||
-|PasswordCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.MsPasswordCredential|||
+|AppRoleAssignmentRequired||System.Nullable/System.Boolean|||
 |CustomSecurityAttributes||System.Object|||
-|ServicePrincipalNames||System.Collections.Generic.List/System.String|||
+|DisplayName||System.String|||
+|ErrorUrl||System.String|||
+|Homepage||System.String|||
+|Id||System.String|||
+|KeyCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.MsKeyCredential|||
+|LogoutUrl||System.String|||
+|MicrosoftFirstParty||System.Nullable/System.Boolean|||
+|PasswordCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.MsPasswordCredential|||
+|PreferredTokenSigningKeyThumbprint||System.String|||
+|PublisherName||System.String|||
+|ReplyUrls||System.Collections.Generic.List/System.String|||
 |SamlMetadataUrl||System.String|||
+|ServicePrincipalNames||System.Collections.Generic.List/System.String|||
+|Tags||System.Collections.Generic.List/System.String|||
 

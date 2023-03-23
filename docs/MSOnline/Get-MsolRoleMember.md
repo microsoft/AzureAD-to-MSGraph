@@ -21,9 +21,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
+|MaxResults||System.Int32|||
 |MemberObjectTypes||System.String[]|||
+|RoleObjectId||System.Guid|||
 |SearchString||System.String|||
 |TenantId||System.Nullable/System.Guid|||
-|RoleObjectId||System.Guid|||
-|MaxResults||System.Int32|||
 

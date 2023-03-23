@@ -18,11 +18,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName||System.String|||
 |AppliesTo||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.MsDirectoryObject|||
-|IsEnabled||System.Nullable/System.Boolean|||
-|Feature||System.Nullable/Microsoft.Open.MSGraph.Model.MsFeatureRolloutPolicy+FeatureEnum|||
 |Description||System.String|||
-|IsAppliedToOrganization||System.Nullable/System.Boolean|||
+|DisplayName||System.String|||
+|Feature||System.Nullable/Microsoft.Open.MSGraph.Model.MsFeatureRolloutPolicy+FeatureEnum|||
 |Id||System.String|||
+|IsAppliedToOrganization||System.Nullable/System.Boolean|||
+|IsEnabled||System.Nullable/System.Boolean|||
 

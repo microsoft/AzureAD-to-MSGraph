@@ -19,7 +19,7 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Filter||System.String|||
-|Top||System.Nullable/System.Int32|||
-|ProviderId||System.String|||
 |Id||System.String|||
+|ProviderId||System.String|||
+|Top||System.Nullable/System.Int32|||
 

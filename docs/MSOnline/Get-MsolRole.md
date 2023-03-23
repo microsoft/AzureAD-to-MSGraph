@@ -21,6 +21,6 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |ObjectId||System.Guid|||
-|TenantId||System.Nullable/System.Guid|||
 |RoleName||System.String|||
+|TenantId||System.Nullable/System.Guid|||
 

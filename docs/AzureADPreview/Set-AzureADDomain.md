@@ -21,7 +21,7 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |IsDefault|IsDefault|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|IsDefaultForCloudRedirections||System.Nullable/System.Boolean|||
 |Name||System.String|||
 |SupportedServices|SupportedServices|System.Collections.Generic.List/System.String|System.String[]||
-|IsDefaultForCloudRedirections||System.Nullable/System.Boolean|||
 

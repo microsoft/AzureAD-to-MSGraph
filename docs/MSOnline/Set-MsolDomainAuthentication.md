@@ -20,21 +20,21 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PassiveLogOnUri||System.String|||
-|PromptLoginBehavior|PromptLoginBehavior|System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|System.String||
-|FederationBrandName||System.String|||
-|MetadataExchangeUri|MetadataExchangeUri|System.String|System.String||
-|Authentication||Microsoft.Online.Administration.DomainAuthenticationType|||
 |ActiveLogOnUri||System.String|||
-|SupportsMfa||System.Nullable/System.Boolean|||
-|LogOffUri||System.String|||
+|Authentication||Microsoft.Online.Administration.DomainAuthenticationType|||
 |DefaultInteractiveAuthenticationMethod||System.String|||
-|PreferredAuthenticationProtocol|PreferredAuthenticationProtocol|System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|System.String||
 |DomainName||System.String|||
+|FederationBrandName||System.String|||
 |IssuerUri|IssuerUri|System.String|System.String||
-|TenantId||System.Nullable/System.Guid|||
+|LogOffUri||System.String|||
+|MetadataExchangeUri|MetadataExchangeUri|System.String|System.String||
+|NextSigningCertificate|NextSigningCertificate|System.String|System.String||
+|OpenIdConnectDiscoveryEndpoint||System.String|||
+|PassiveLogOnUri||System.String|||
+|PreferredAuthenticationProtocol|PreferredAuthenticationProtocol|System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|System.String||
+|PromptLoginBehavior|PromptLoginBehavior|System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|System.String||
 |SigningCertificate|SigningCertificate|System.String|System.String||
 |SigningCertificateUpdateStatus|SigningCertificateUpdateStatus|Microsoft.Online.Administration.SigningCertificateUpdateStatus|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphSigningCertificateUpdateStatus||
-|OpenIdConnectDiscoveryEndpoint||System.String|||
-|NextSigningCertificate|NextSigningCertificate|System.String|System.String||
+|SupportsMfa||System.Nullable/System.Boolean|||
+|TenantId||System.Nullable/System.Guid|||
 

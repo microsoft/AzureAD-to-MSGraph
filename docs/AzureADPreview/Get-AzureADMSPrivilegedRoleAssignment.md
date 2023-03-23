@@ -18,9 +18,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ResourceId||System.String|||
 |Filter||System.String|||
-|Top||System.Nullable/System.Int32|||
-|ProviderId||System.String|||
 |Id||System.String|||
+|ProviderId||System.String|||
+|ResourceId||System.String|||
+|Top||System.Nullable/System.Int32|||
 

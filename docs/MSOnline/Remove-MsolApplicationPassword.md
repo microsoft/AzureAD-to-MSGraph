@@ -21,6 +21,6 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |PasswordId||System.String|||
-|UserPrincipalName||System.String|||
 |TenantId||System.Nullable/System.Guid|||
+|UserPrincipalName||System.String|||
 

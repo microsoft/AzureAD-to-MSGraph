@@ -18,8 +18,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|ForeignCompanyObjectId||System.Guid|||
 |ForeignGroupObjectId||System.Guid|||
 |RoleObjectId||System.Guid|||
-|ForeignCompanyObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
 

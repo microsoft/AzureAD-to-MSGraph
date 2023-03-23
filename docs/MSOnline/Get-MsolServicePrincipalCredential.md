@@ -20,9 +20,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ReturnKeyValues||System.Nullable/System.Boolean|||
-|ObjectId||System.Guid|||
-|ServicePrincipalName||System.String|||
 |AppPrincipalId||System.Guid|||
+|ObjectId||System.Guid|||
+|ReturnKeyValues||System.Nullable/System.Boolean|||
+|ServicePrincipalName||System.String|||
 |TenantId||System.Nullable/System.Guid|||
 

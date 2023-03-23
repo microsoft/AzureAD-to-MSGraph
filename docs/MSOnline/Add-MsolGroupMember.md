@@ -18,8 +18,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|GroupObjectId||System.Guid|||
-|GroupMemberType||Microsoft.Online.Administration.GroupMemberType|||
 |GroupMemberObjectId||System.Nullable/System.Guid|||
+|GroupMemberType||Microsoft.Online.Administration.GroupMemberType|||
+|GroupObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
 

@@ -20,10 +20,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Filter|Filter|System.String|System.String||
-|Select||System.String|||
 |All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|SearchString||System.String|||
-|Top|Top|System.Nullable/System.Int32|System.Int32||
+|Filter|Filter|System.String|System.String||
 |Id||System.String|||
+|SearchString||System.String|||
+|Select||System.String|||
+|Top|Top|System.Nullable/System.Int32|System.Int32||
 

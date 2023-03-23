@@ -18,14 +18,14 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ApplicationId||System.String|||
-|AccountId||System.String|||
-|CertificateThumbprint|CertificateThumbprint|System.String|System.String||
 |AadAccessToken||System.String|||
-|LogFilePath||System.String|||
+|AccountId||System.String|||
+|ApplicationId||System.String|||
 |AzureEnvironmentName||Microsoft.Open.Azure.AD.CommonLibrary.AzureEnvironment+EnvironmentName|||
-|TenantId|TenantId|System.String|System.String||
-|MsAccessToken||System.String|||
-|LogLevel||Microsoft.Open.Azure.AD.CommonLibrary.LogLevel|||
+|CertificateThumbprint|CertificateThumbprint|System.String|System.String||
 |Credential||System.Management.Automation.PSCredential|||
+|LogFilePath||System.String|||
+|LogLevel||Microsoft.Open.Azure.AD.CommonLibrary.LogLevel|||
+|MsAccessToken||System.String|||
+|TenantId|TenantId|System.String|System.String||
 

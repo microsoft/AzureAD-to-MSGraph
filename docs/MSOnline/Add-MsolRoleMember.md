@@ -21,9 +21,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |RoleMemberEmailAddress||System.String|||
-|TenantId||System.Nullable/System.Guid|||
+|RoleMemberObjectId||System.Nullable/System.Guid|||
+|RoleMemberType||Microsoft.Online.Administration.RoleMemberType|||
 |RoleName||System.String|||
 |RoleObjectId||System.Guid|||
-|RoleMemberType||Microsoft.Online.Administration.RoleMemberType|||
-|RoleMemberObjectId||System.Nullable/System.Guid|||
+|TenantId||System.Nullable/System.Guid|||
 

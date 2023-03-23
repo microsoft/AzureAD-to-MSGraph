@@ -46,9 +46,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|ForeignCompanyObjectId||System.Guid|||
 |ForeignGroupObjectId||System.Guid|||
 |RoleObjectId||System.Guid|||
-|ForeignCompanyObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
 
 ## Add-MsolGroupMember
@@ -71,9 +71,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|GroupObjectId||System.Guid|||
-|GroupMemberType||Microsoft.Online.Administration.GroupMemberType|||
 |GroupMemberObjectId||System.Nullable/System.Guid|||
+|GroupMemberType||Microsoft.Online.Administration.GroupMemberType|||
+|GroupObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
 
 ## Add-MsolRoleMember
@@ -99,11 +99,11 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |RoleMemberEmailAddress||System.String|||
-|TenantId||System.Nullable/System.Guid|||
+|RoleMemberObjectId||System.Nullable/System.Guid|||
+|RoleMemberType||Microsoft.Online.Administration.RoleMemberType|||
 |RoleName||System.String|||
 |RoleObjectId||System.Guid|||
-|RoleMemberType||Microsoft.Online.Administration.RoleMemberType|||
-|RoleMemberObjectId||System.Nullable/System.Guid|||
+|TenantId||System.Nullable/System.Guid|||
 
 ## Add-MsolScopedRoleMember
 
@@ -127,8 +127,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RoleMemberObjectId||System.Nullable/System.Guid|||
 |AdministrativeUnitObjectId||System.Guid|||
+|RoleMemberObjectId||System.Nullable/System.Guid|||
 |RoleMemberUserPrincipalName||System.String|||
 |RoleObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
@@ -155,23 +155,23 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PassiveLogOnUri||System.String|||
-|PromptLoginBehavior||System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|||
-|FederationBrandName||System.String|||
-|MetadataExchangeUri||System.String|||
 |ActiveLogOnUri||System.String|||
-|SupportsMfa||System.Nullable/System.Boolean|||
-|LogOffUri||System.String|||
 |DefaultInteractiveAuthenticationMethod||System.String|||
 |DomainName||System.String|||
-|PreferredAuthenticationProtocol||System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|||
-|TenantId||System.Nullable/System.Guid|||
-|IssuerUri||System.String|||
+|FederationBrandName||System.String|||
 |ForceTakeover||Microsoft.Online.Administration.ForceTakeoverOption|||
+|IssuerUri||System.String|||
+|LogOffUri||System.String|||
+|MetadataExchangeUri||System.String|||
+|NextSigningCertificate||System.String|||
+|OpenIdConnectDiscoveryEndpoint||System.String|||
+|PassiveLogOnUri||System.String|||
+|PreferredAuthenticationProtocol||System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|||
+|PromptLoginBehavior||System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|||
 |SigningCertificate||System.String|||
 |SigningCertificateUpdateStatus||Microsoft.Online.Administration.SigningCertificateUpdateStatus|||
-|OpenIdConnectDiscoveryEndpoint||System.String|||
-|NextSigningCertificate||System.String|||
+|SupportsMfa||System.Nullable/System.Boolean|||
+|TenantId||System.Nullable/System.Guid|||
 
 ## Confirm-MsolEmailVerifiedDomain
 
@@ -216,10 +216,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|MsGraphAccessToken||System.String|||
-|AzureEnvironment||Microsoft.Online.Administration.Automation.AzureEnvironment|||
 |AdGraphAccessToken||System.String|||
+|AzureEnvironment||Microsoft.Online.Administration.Automation.AzureEnvironment|||
 |Credential||System.Management.Automation.PSCredential|||
+|MsGraphAccessToken||System.String|||
 
 ## Convert-MsolDomainToFederated
 
@@ -243,8 +243,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SupportMultipleDomain||System.Management.Automation.SwitchParameter|||
 |DomainName||System.String|||
+|SupportMultipleDomain||System.Management.Automation.SwitchParameter|||
 
 ## Convert-MsolDomainToStandard
 
@@ -292,9 +292,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|UserPrincipalName||System.String|||
 |NewPassword||System.String|||
 |TenantId||System.Nullable/System.Guid|||
+|UserPrincipalName||System.String|||
 
 ## Disable-MsolDevice
 
@@ -318,9 +318,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|DeviceId|DeviceId|System.Guid|System.String||
 |Force||System.Management.Automation.SwitchParameter|||
 |ObjectId||System.Guid|||
-|DeviceId|DeviceId|System.Guid|System.String||
 
 ## Enable-MsolDevice
 
@@ -344,9 +344,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|DeviceId|DeviceId|System.Guid|System.String||
 |Force||System.Management.Automation.SwitchParameter|||
 |ObjectId||System.Guid|||
-|DeviceId|DeviceId|System.Guid|System.String||
 
 ## Get-MsolAccountSku
 
@@ -394,13 +394,13 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|UserObjectId||System.Nullable/System.Guid|||
-|UserPrincipalName||System.String|||
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
+|MaxResults||System.Int32|||
 |ObjectId||System.Guid|||
 |SearchString||System.String|||
 |TenantId||System.Nullable/System.Guid|||
-|MaxResults||System.Int32|||
+|UserObjectId||System.Nullable/System.Guid|||
+|UserPrincipalName||System.String|||
 
 ## Get-MsolAdministrativeUnitMember
 
@@ -424,10 +424,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|MaxResults||System.Int32|||
 |AdministrativeUnitObjectId||System.Guid|||
-|TenantId||System.Nullable/System.Guid|||
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
+|MaxResults||System.Int32|||
+|TenantId||System.Nullable/System.Guid|||
 
 ## Get-MsolCompanyAllowedDataLocation
 
@@ -497,12 +497,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|HasErrorsOnly||System.Nullable/System.Boolean|||
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
+|HasErrorsOnly||System.Nullable/System.Boolean|||
+|MaxResults||System.Int32|||
 |ObjectId||System.Guid|||
 |SearchString||System.String|||
 |TenantId||System.Nullable/System.Guid|||
-|MaxResults||System.Int32|||
 
 ## Get-MsolDevice
 
@@ -526,39 +526,43 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|LogonTimeBefore||System.DateTime|||
-|IncludeSystemManagedDevices||System.Management.Automation.SwitchParameter|||
-|DeviceId|DeviceId|System.Guid|System.String||
-|RegisteredOwnerUpn||System.String|||
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
-|ObjectId||System.Guid|||
-|ReturnRegisteredOwners||System.Management.Automation.SwitchParameter|||
+|DeviceId|DeviceId|System.Guid|System.String||
+|IncludeSystemManagedDevices||System.Management.Automation.SwitchParameter|||
+|LogonTimeBefore||System.DateTime|||
 |Name||System.String|||
+|ObjectId||System.Guid|||
+|RegisteredOwnerUpn||System.String|||
+|ReturnRegisteredOwners||System.Management.Automation.SwitchParameter|||
 
 ## Get-MsolDeviceRegistrationServicePolicy
+
+> /policies/deviceRegistrationPolicy
 
 ### Data
 
 + AAD Command: [Get-MsolDeviceRegistrationServicePolicy](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Get-MsolDeviceRegistrationServicePolicy)
 + AAD Module: MSOnline
-+ Graph Command: [Get-MgPolicyDeviceRegistrationPolicy](https://docs.microsoft.com/en-us/powershell/module//Get-MgPolicyDeviceRegistrationPolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgPolicyDeviceRegistrationPolicy))
-+ Graph Module: 
++ Graph Command: [Get-MgPolicyDeviceRegistrationPolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Get-MgPolicyDeviceRegistrationPolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgPolicyDeviceRegistrationPolicy))
++ Graph Module: Microsoft.Graph.Identity.SignIns
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Policy.Read.All|
+|Delegate|Policy.Read.All, Policy.ReadWrite.DeviceConfiguration|
 
 ## Get-MsolDirSyncConfiguration
+
+> /directory/onPremisesSynchronization | /directory/onPremisesSynchronization/{onPremisesDirectorySynchronization-id}
 
 ### Data
 
 + AAD Command: [Get-MsolDirSyncConfiguration](https://docs.microsoft.com/en-us/powershell/module/MSOnline/Get-MsolDirSyncConfiguration)
 + AAD Module: MSOnline
-+ Graph Command: [Get-MgDirectoryOnPremisSynchronization](https://docs.microsoft.com/en-us/powershell/module//Get-MgDirectoryOnPremisSynchronization) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDirectoryOnPremisSynchronization))
-+ Graph Module: 
++ Graph Command: [Get-MgDirectoryOnPremisSynchronization](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDirectoryOnPremisSynchronization) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDirectoryOnPremisSynchronization))
++ Graph Module: Microsoft.Graph.Identity.DirectoryManagement
 
 > Scopes Needed (any one)
 
@@ -616,15 +620,15 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SortDirection||Microsoft.Online.Administration.SortDirection|||
-|PropertyValue||System.String|||
 |All||System.Management.Automation.SwitchParameter|||
-|PropertyName||System.String|||
-|SearchString||System.String|||
 |ErrorCategory||System.String|||
-|TenantId||System.Nullable/System.Guid|||
-|SortField||Microsoft.Online.Administration.SortField|||
 |MaxResults||System.Int32|||
+|PropertyName||System.String|||
+|PropertyValue||System.String|||
+|SearchString||System.String|||
+|SortDirection||Microsoft.Online.Administration.SortDirection|||
+|SortField||Microsoft.Online.Administration.SortField|||
+|TenantId||System.Nullable/System.Guid|||
 
 ## Get-MsolDomain
 
@@ -648,10 +652,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DomainName||System.String|||
-|Status||System.Nullable/Microsoft.Online.Administration.DomainStatus|||
 |Authentication||System.Nullable/Microsoft.Online.Administration.DomainAuthenticationType|||
 |Capability||System.Nullable/Microsoft.Online.Administration.DomainCapabilities|||
+|DomainName||System.String|||
+|Status||System.Nullable/Microsoft.Online.Administration.DomainStatus|||
 |TenantId||System.Nullable/System.Guid|||
 
 ## Get-MsolDomainFederationSettings
@@ -725,8 +729,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SupportMultipleDomain||System.Management.Automation.SwitchParameter|||
 |DomainName||System.String|||
+|SupportMultipleDomain||System.Management.Automation.SwitchParameter|||
 
 ## Get-MsolGroup
 
@@ -750,17 +754,17 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|UserObjectId||System.Nullable/System.Guid|||
-|HasLicenseErrorsOnly||System.Nullable/System.Boolean|||
-|HasErrorsOnly||System.Management.Automation.SwitchParameter|||
-|UserPrincipalName||System.String|||
-|ObjectId||System.Guid|||
-|IsAgentRole||System.Management.Automation.SwitchParameter|||
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
-|SearchString||System.String|||
 |GroupType||System.Nullable/Microsoft.Online.Administration.GroupType|||
-|TenantId||System.Nullable/System.Guid|||
+|HasErrorsOnly||System.Management.Automation.SwitchParameter|||
+|HasLicenseErrorsOnly||System.Nullable/System.Boolean|||
+|IsAgentRole||System.Management.Automation.SwitchParameter|||
 |MaxResults||System.Int32|||
+|ObjectId||System.Guid|||
+|SearchString||System.String|||
+|TenantId||System.Nullable/System.Guid|||
+|UserObjectId||System.Nullable/System.Guid|||
+|UserPrincipalName||System.String|||
 
 ## Get-MsolGroupMember
 
@@ -785,11 +789,11 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
+|GroupObjectId||System.Guid|||
+|MaxResults||System.Int32|||
 |MemberObjectTypes||System.String[]|||
 |SearchString||System.String|||
 |TenantId||System.Nullable/System.Guid|||
-|GroupObjectId||System.Guid|||
-|MaxResults||System.Int32|||
 
 ## Get-MsolHasObjectsWithDirSyncProvisioningErrors
 
@@ -911,8 +915,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |ObjectId||System.Guid|||
-|TenantId||System.Nullable/System.Guid|||
 |RoleName||System.String|||
+|TenantId||System.Nullable/System.Guid|||
 
 ## Get-MsolRoleMember
 
@@ -937,11 +941,11 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
+|MaxResults||System.Int32|||
 |MemberObjectTypes||System.String[]|||
+|RoleObjectId||System.Guid|||
 |SearchString||System.String|||
 |TenantId||System.Nullable/System.Guid|||
-|RoleObjectId||System.Guid|||
-|MaxResults||System.Int32|||
 
 ## Get-MsolScopedRoleMember
 
@@ -965,11 +969,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|TenantId||System.Nullable/System.Guid|||
-|MaxResults||System.Int32|||
 |AdministrativeUnitObjectId||System.Nullable/System.Guid|||
-|RoleObjectId||System.Guid|||
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
+|MaxResults||System.Int32|||
+|RoleObjectId||System.Guid|||
+|TenantId||System.Nullable/System.Guid|||
 
 ## Get-MsolServicePrincipal
 
@@ -994,12 +998,12 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
+|AppPrincipalId||System.Guid|||
+|MaxResults||System.Int32|||
 |ObjectId||System.Guid|||
 |SearchString||System.String|||
 |ServicePrincipalName||System.String|||
 |TenantId||System.Nullable/System.Guid|||
-|AppPrincipalId||System.Guid|||
-|MaxResults||System.Int32|||
 
 ## Get-MsolServicePrincipalCredential
 
@@ -1023,10 +1027,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ReturnKeyValues||System.Nullable/System.Boolean|||
-|ObjectId||System.Guid|||
-|ServicePrincipalName||System.String|||
 |AppPrincipalId||System.Guid|||
+|ObjectId||System.Guid|||
+|ReturnKeyValues||System.Nullable/System.Boolean|||
+|ServicePrincipalName||System.String|||
 |TenantId||System.Nullable/System.Guid|||
 
 ## Get-MsolSubscription
@@ -1076,25 +1080,25 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Title||System.String|||
-|EnabledFilter||System.Nullable/Microsoft.Online.Administration.UserEnabledFilter|||
-|UnlicensedUsersOnly||System.Management.Automation.SwitchParameter|||
-|ObjectId||System.Guid|||
-|LicenseReconciliationNeededOnly||System.Management.Automation.SwitchParameter|||
-|UsageLocation||System.String|||
-|HasErrorsOnly||System.Management.Automation.SwitchParameter|||
-|Synchronized||System.Management.Automation.SwitchParameter|||
-|DomainName||System.String|||
-|TenantId||System.Nullable/System.Guid|||
-|MaxResults||System.Int32|||
-|State||System.String|||
-|UserPrincipalName||System.String|||
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
-|ReturnDeletedUsers||System.Management.Automation.SwitchParameter|||
 |City||System.String|||
-|Department||System.String|||
 |Country||System.String|||
+|Department||System.String|||
+|DomainName||System.String|||
+|EnabledFilter||System.Nullable/Microsoft.Online.Administration.UserEnabledFilter|||
+|HasErrorsOnly||System.Management.Automation.SwitchParameter|||
+|LicenseReconciliationNeededOnly||System.Management.Automation.SwitchParameter|||
+|MaxResults||System.Int32|||
+|ObjectId||System.Guid|||
+|ReturnDeletedUsers||System.Management.Automation.SwitchParameter|||
 |SearchString||System.String|||
+|State||System.String|||
+|Synchronized||System.Management.Automation.SwitchParameter|||
+|TenantId||System.Nullable/System.Guid|||
+|Title||System.String|||
+|UnlicensedUsersOnly||System.Management.Automation.SwitchParameter|||
+|UsageLocation||System.String|||
+|UserPrincipalName||System.String|||
 
 ## Get-MsolUserByStrongAuthentication
 
@@ -1120,11 +1124,11 @@
 |---|---|---|---|---|
 |All|All|System.Management.Automation.SwitchParameter|System.Management.Automation.SwitchParameter||
 |MaxResults||System.Int32|||
+|Requirements||Microsoft.Online.Administration.StrongAuthenticationRequirement[]|||
+|RequirementUnsetOnly||System.Management.Automation.SwitchParameter|||
+|RoleObjectId||System.Nullable/System.Guid|||
 |SearchString||System.String|||
 |TenantId||System.Nullable/System.Guid|||
-|RequirementUnsetOnly||System.Management.Automation.SwitchParameter|||
-|Requirements||Microsoft.Online.Administration.StrongAuthenticationRequirement[]|||
-|RoleObjectId||System.Nullable/System.Guid|||
 
 ## Get-MsolUserRole
 
@@ -1149,8 +1153,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |ObjectId||System.Guid|||
-|UserPrincipalName||System.String|||
 |TenantId||System.Nullable/System.Guid|||
+|UserPrincipalName||System.String|||
 
 ## New-MsolAdministrativeUnit
 
@@ -1200,10 +1204,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Name||System.String|||
-|VerificationMethod||System.Nullable/Microsoft.Online.Administration.DomainVerificationMethod|||
 |Authentication||System.Nullable/Microsoft.Online.Administration.DomainAuthenticationType|||
+|Name||System.String|||
 |TenantId||System.Nullable/System.Guid|||
+|VerificationMethod||System.Nullable/Microsoft.Online.Administration.DomainVerificationMethod|||
 
 ## New-MsolFederatedDomain
 
@@ -1225,8 +1229,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SupportMultipleDomain||System.Management.Automation.SwitchParameter|||
 |DomainName||System.String|||
+|SupportMultipleDomain||System.Management.Automation.SwitchParameter|||
 
 ## New-MsolGroup
 
@@ -1251,8 +1255,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Description|Description|System.String|System.String||
-|ManagedBy||System.String|||
 |DisplayName|DisplayName|System.String|System.String||
+|ManagedBy||System.String|||
 |TenantId||System.Nullable/System.Guid|||
 
 ## New-MsolLicenseOptions
@@ -1302,17 +1306,17 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName|DisplayName|System.String|System.String||
-|Addresses||Microsoft.Online.Administration.RedirectUri[]|||
-|Type||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialType|||
-|Value||System.String|||
-|EndDate||System.Nullable/System.DateTime|||
-|Usage||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialUsage|||
-|ServicePrincipalNames|ServicePrincipalNames|System.String[]|System.String[]||
-|TenantId||System.Nullable/System.Guid|||
-|StartDate||System.Nullable/System.DateTime|||
-|AppPrincipalId||System.Nullable/System.Guid|||
 |AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Addresses||Microsoft.Online.Administration.RedirectUri[]|||
+|AppPrincipalId||System.Nullable/System.Guid|||
+|DisplayName|DisplayName|System.String|System.String||
+|EndDate||System.Nullable/System.DateTime|||
+|ServicePrincipalNames|ServicePrincipalNames|System.String[]|System.String[]||
+|StartDate||System.Nullable/System.DateTime|||
+|TenantId||System.Nullable/System.Guid|||
+|Type||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialType|||
+|Usage||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialUsage|||
+|Value||System.String|||
 
 ## New-MsolServicePrincipalAddresses
 
@@ -1361,15 +1365,15 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|StartDate||System.Nullable/System.DateTime|||
-|Type||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialType|||
-|Value||System.String|||
-|ObjectId||System.Guid|||
-|Usage||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialUsage|||
-|TenantId||System.Nullable/System.Guid|||
-|ServicePrincipalName||System.String|||
-|EndDate||System.Nullable/System.DateTime|||
 |AppPrincipalId||System.Guid|||
+|EndDate||System.Nullable/System.DateTime|||
+|ObjectId||System.Guid|||
+|ServicePrincipalName||System.String|||
+|StartDate||System.Nullable/System.DateTime|||
+|TenantId||System.Nullable/System.Guid|||
+|Type||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialType|||
+|Usage||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialUsage|||
+|Value||System.String|||
 
 ## New-MsolUser
 
@@ -1393,41 +1397,41 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|State|State|System.String|System.String||
-|PreferredDataLocation|PreferredDataLocation|System.String|System.String||
-|SoftDeletionTimestamp||System.Nullable/System.DateTime|||
-|MobilePhone|MobilePhone|System.String|System.String||
-|Country|Country|System.String|System.String||
-|Office||System.String|||
-|LicenseOptions||Microsoft.Online.Administration.LicenseOption[]|||
-|Fax||System.String|||
-|Department|Department|System.String|System.String||
-|Password||System.String|||
+|AlternateEmailAddresses||System.String[]|||
+|AlternateMobilePhones||System.String[]|||
+|BlockCredential||System.Nullable/System.Boolean|||
 |City|City|System.String|System.String||
-|StrongAuthenticationRequirements||Microsoft.Online.Administration.StrongAuthenticationRequirement[]|||
+|Country|Country|System.String|System.String||
+|Department|Department|System.String|System.String||
+|DisplayName|DisplayName|System.String|System.String||
+|Fax||System.String|||
+|FirstName||System.String|||
+|ForceChangePassword||System.Nullable/System.Boolean|||
 |ImmutableId||System.String|||
 |LastName||System.String|||
-|AlternateEmailAddresses||System.String[]|||
-|BlockCredential||System.Nullable/System.Boolean|||
-|DisplayName|DisplayName|System.String|System.String||
-|AlternateMobilePhones||System.String[]|||
+|LastPasswordChangeTimestamp||System.Nullable/System.DateTime|||
 |LicenseAssignment||System.String[]|||
-|UserType|UserType|System.Nullable/Microsoft.Online.Administration.UserType|System.String||
-|UserPrincipalName|UserPrincipalName|System.String|System.String||
+|LicenseOptions||Microsoft.Online.Administration.LicenseOption[]|||
+|MobilePhone|MobilePhone|System.String|System.String||
+|Office||System.String|||
+|Password||System.String|||
 |PasswordNeverExpires||System.Nullable/System.Boolean|||
-|StrongPasswordRequired||System.Nullable/System.Boolean|||
-|StreetAddress|StreetAddress|System.String|System.String||
 |PhoneNumber||System.String|||
+|PostalCode|PostalCode|System.String|System.String||
+|PreferredDataLocation|PreferredDataLocation|System.String|System.String||
+|PreferredLanguage|PreferredLanguage|System.String|System.String||
+|SoftDeletionTimestamp||System.Nullable/System.DateTime|||
+|State|State|System.String|System.String||
+|StreetAddress|StreetAddress|System.String|System.String||
+|StrongAuthenticationMethods||Microsoft.Online.Administration.StrongAuthenticationMethod[]|||
+|StrongAuthenticationRequirements||Microsoft.Online.Administration.StrongAuthenticationRequirement[]|||
+|StrongPasswordRequired||System.Nullable/System.Boolean|||
 |StsRefreshTokensValidFrom||System.Nullable/System.DateTime|||
 |TenantId||System.Nullable/System.Guid|||
-|LastPasswordChangeTimestamp||System.Nullable/System.DateTime|||
-|ForceChangePassword||System.Nullable/System.Boolean|||
 |Title||System.String|||
-|FirstName||System.String|||
-|PreferredLanguage|PreferredLanguage|System.String|System.String||
-|StrongAuthenticationMethods||Microsoft.Online.Administration.StrongAuthenticationMethod[]|||
 |UsageLocation|UsageLocation|System.String|System.String||
-|PostalCode|PostalCode|System.String|System.String||
+|UserPrincipalName|UserPrincipalName|System.String|System.String||
+|UserType|UserType|System.Nullable/Microsoft.Online.Administration.UserType|System.String||
 
 ## New-MsolWellKnownGroup
 
@@ -1449,8 +1453,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|WellKnownGroupName||System.String|||
 |TenantId||System.Nullable/System.Guid|||
+|WellKnownGroupName||System.String|||
 
 ## Redo-MsolProvisionContact
 
@@ -1543,9 +1547,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|Force||System.Management.Automation.SwitchParameter|||
 |ObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
-|Force||System.Management.Automation.SwitchParameter|||
 
 ## Remove-MsolAdministrativeUnitMember
 
@@ -1596,8 +1600,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |PasswordId||System.String|||
-|UserPrincipalName||System.String|||
 |TenantId||System.Nullable/System.Guid|||
+|UserPrincipalName||System.String|||
 
 ## Remove-MsolContact
 
@@ -1621,9 +1625,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|Force||System.Management.Automation.SwitchParameter|||
 |ObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
-|Force||System.Management.Automation.SwitchParameter|||
 
 ## Remove-MsolDevice
 
@@ -1647,9 +1651,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|DeviceId|DeviceId|System.Guid|System.String||
 |Force||System.Management.Automation.SwitchParameter|||
 |ObjectId||System.Guid|||
-|DeviceId|DeviceId|System.Guid|System.String||
 
 ## Remove-MsolDomain
 
@@ -1674,8 +1678,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |DomainName||System.String|||
-|TenantId||System.Nullable/System.Guid|||
 |Force||System.Management.Automation.SwitchParameter|||
+|TenantId||System.Nullable/System.Guid|||
 
 ## Remove-MsolFederatedDomain
 
@@ -1697,8 +1701,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SupportMultipleDomain||System.Management.Automation.SwitchParameter|||
 |DomainName||System.String|||
+|SupportMultipleDomain||System.Management.Automation.SwitchParameter|||
 
 ## Remove-MsolForeignGroupFromRole
 
@@ -1720,9 +1724,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|ForeignCompanyObjectId||System.Guid|||
 |ForeignGroupObjectId||System.Guid|||
 |RoleObjectId||System.Guid|||
-|ForeignCompanyObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
 
 ## Remove-MsolGroup
@@ -1747,9 +1751,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|Force||System.Management.Automation.SwitchParameter|||
 |ObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
-|Force||System.Management.Automation.SwitchParameter|||
 
 ## Remove-MsolGroupMember
 
@@ -1773,9 +1777,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|GroupObjectId||System.Guid|||
-|GroupMemberType||Microsoft.Online.Administration.GroupMemberType|||
 |GroupMemberObjectId||System.Nullable/System.Guid|||
+|GroupMemberType||Microsoft.Online.Administration.GroupMemberType|||
+|GroupObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
 
 ## Remove-MsolRoleMember
@@ -1799,11 +1803,11 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |RoleMemberEmailAddress||System.String|||
-|TenantId||System.Nullable/System.Guid|||
+|RoleMemberObjectId||System.Nullable/System.Guid|||
+|RoleMemberType||Microsoft.Online.Administration.RoleMemberType|||
 |RoleName||System.String|||
 |RoleObjectId||System.Guid|||
-|RoleMemberType||Microsoft.Online.Administration.RoleMemberType|||
-|RoleMemberObjectId||System.Nullable/System.Guid|||
+|TenantId||System.Nullable/System.Guid|||
 
 ## Remove-MsolScopedRoleMember
 
@@ -1827,8 +1831,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RoleMemberObjectId||System.Nullable/System.Guid|||
 |AdministrativeUnitObjectId||System.Guid|||
+|RoleMemberObjectId||System.Nullable/System.Guid|||
 |RoleMemberUserPrincipalName||System.String|||
 |RoleObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
@@ -1882,8 +1886,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|KeyIds||System.Guid[]|||
 |AppPrincipalId||System.Guid|||
+|KeyIds||System.Guid[]|||
 |ObjectId||System.Guid|||
 |ServicePrincipalName||System.String|||
 |TenantId||System.Nullable/System.Guid|||
@@ -1910,11 +1914,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RemoveFromRecycleBin||System.Management.Automation.SwitchParameter|||
 |Force||System.Management.Automation.SwitchParameter|||
 |ObjectId||System.Guid|||
-|UserPrincipalName||System.String|||
+|RemoveFromRecycleBin||System.Management.Automation.SwitchParameter|||
 |TenantId||System.Nullable/System.Guid|||
+|UserPrincipalName||System.String|||
 
 ## Reset-MsolStrongAuthenticationMethodByUpn
 
@@ -1936,8 +1940,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|UserPrincipalName||System.String|||
 |TenantId||System.Nullable/System.Guid|||
+|UserPrincipalName||System.String|||
 
 ## Restore-MsolUser
 
@@ -1960,10 +1964,10 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |AutoReconcileProxyConflicts||System.Management.Automation.SwitchParameter|||
-|ObjectId||System.Guid|||
 |NewUserPrincipalName||System.String|||
-|UserPrincipalName||System.String|||
+|ObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
+|UserPrincipalName||System.String|||
 
 ## Set-MsolADFSContext
 
@@ -1985,8 +1989,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Computer||System.String|||
 |ADFSUserCredentials||System.Management.Automation.PSCredential|||
+|Computer||System.String|||
 |LogFile||System.String|||
 
 ## Set-MsolAdministrativeUnit
@@ -2012,8 +2016,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Description|Description|System.String|System.String||
-|ObjectId||System.Nullable/System.Guid|||
 |DisplayName|DisplayName|System.String|System.String||
+|ObjectId||System.Nullable/System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
 
 ## Set-MsolCompanyAllowedDataLocation
@@ -2036,12 +2040,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Overwrite||System.Boolean|||
+|InitialDomain||System.String|||
 |IsDefault||System.Boolean|||
 |Location||System.String|||
-|InitialDomain||System.String|||
-|TenantId||System.Nullable/System.Guid|||
+|Overwrite||System.Boolean|||
 |ServiceType||System.String|||
+|TenantId||System.Nullable/System.Guid|||
 
 ## Set-MsolCompanyContactInformation
 
@@ -2065,8 +2069,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|TechnicalNotificationEmails||System.String[]|||
 |MarketingNotificationEmails|MarketingNotificationEmails|System.String[]|System.String[]||
+|TechnicalNotificationEmails||System.String[]|||
 |TenantId||System.Nullable/System.Guid|||
 
 ## Set-MsolCompanyMultiNationalEnabled
@@ -2089,8 +2093,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ServiceType||System.String|||
 |Enable||System.Boolean|||
+|ServiceType||System.String|||
 |TenantId||System.Nullable/System.Guid|||
 
 ## Set-MsolCompanySecurityComplianceContactInformation
@@ -2115,8 +2119,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SecurityComplianceNotificationPhones|SecurityComplianceNotificationPhones|System.String[]|System.String[]||
 |SecurityComplianceNotificationEmails||System.String[]|||
+|SecurityComplianceNotificationPhones|SecurityComplianceNotificationPhones|System.String[]|System.String[]||
 |TenantId||System.Nullable/System.Guid|||
 
 ## Set-MsolCompanySettings
@@ -2141,15 +2145,15 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|AllowAdHocSubscriptions||System.Nullable/System.Boolean|||
+|AllowEmailVerifiedUsers||System.Nullable/System.Boolean|||
+|DefaultUsageLocation|DefaultUsageLocation|System.String|System.String||
+|SelfServePasswordResetEnabled||System.Nullable/System.Boolean|||
+|TenantId||System.Nullable/System.Guid|||
+|UsersPermissionToCreateGroupsEnabled||System.Nullable/System.Boolean|||
 |UsersPermissionToCreateLOBAppsEnabled||System.Nullable/System.Boolean|||
 |UsersPermissionToReadOtherUsersEnabled||System.Nullable/System.Boolean|||
 |UsersPermissionToUserConsentToAppEnabled||System.Nullable/System.Boolean|||
-|AllowEmailVerifiedUsers||System.Nullable/System.Boolean|||
-|UsersPermissionToCreateGroupsEnabled||System.Nullable/System.Boolean|||
-|TenantId||System.Nullable/System.Guid|||
-|AllowAdHocSubscriptions||System.Nullable/System.Boolean|||
-|DefaultUsageLocation|DefaultUsageLocation|System.String|System.String||
-|SelfServePasswordResetEnabled||System.Nullable/System.Boolean|||
 
 ## Set-MsolDeviceRegistrationServicePolicy
 
@@ -2172,8 +2176,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |AllowedToAzureAdJoin||System.Nullable/Microsoft.Online.Administration.Automation.DeviceRegistrationServicePolicy+Scope|||
-|MaximumDevicesPerUser||System.Nullable/System.Int32|||
 |AllowedToWorkplaceJoin||System.Nullable/Microsoft.Online.Administration.Automation.DeviceRegistrationServicePolicy+Scope|||
+|MaximumDevicesPerUser||System.Nullable/System.Int32|||
 |RequireMultiFactorAuth||System.Nullable/System.Boolean|||
 
 ## Set-MsolDirSyncConfiguration
@@ -2197,8 +2201,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |AccidentalDeletionThreshold||System.UInt32|||
-|TenantId||System.Nullable/System.Guid|||
 |Force||System.Management.Automation.SwitchParameter|||
+|TenantId||System.Nullable/System.Guid|||
 
 ## Set-MsolDirSyncEnabled
 
@@ -2223,8 +2227,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |EnableDirSync||System.Boolean|||
-|TenantId||System.Nullable/System.Guid|||
 |Force||System.Management.Automation.SwitchParameter|||
+|TenantId||System.Nullable/System.Guid|||
 
 ## Set-MsolDirSyncFeature
 
@@ -2247,9 +2251,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Enable||System.Boolean|||
-|TenantId||System.Nullable/System.Guid|||
 |Feature||System.String|||
 |Force||System.Management.Automation.SwitchParameter|||
+|TenantId||System.Nullable/System.Guid|||
 
 ## Set-MsolDomain
 
@@ -2299,23 +2303,23 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PassiveLogOnUri||System.String|||
-|PromptLoginBehavior|PromptLoginBehavior|System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|System.String||
-|FederationBrandName||System.String|||
-|MetadataExchangeUri|MetadataExchangeUri|System.String|System.String||
-|Authentication||Microsoft.Online.Administration.DomainAuthenticationType|||
 |ActiveLogOnUri||System.String|||
-|SupportsMfa||System.Nullable/System.Boolean|||
-|LogOffUri||System.String|||
+|Authentication||Microsoft.Online.Administration.DomainAuthenticationType|||
 |DefaultInteractiveAuthenticationMethod||System.String|||
-|PreferredAuthenticationProtocol|PreferredAuthenticationProtocol|System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|System.String||
 |DomainName||System.String|||
+|FederationBrandName||System.String|||
 |IssuerUri|IssuerUri|System.String|System.String||
-|TenantId||System.Nullable/System.Guid|||
+|LogOffUri||System.String|||
+|MetadataExchangeUri|MetadataExchangeUri|System.String|System.String||
+|NextSigningCertificate|NextSigningCertificate|System.String|System.String||
+|OpenIdConnectDiscoveryEndpoint||System.String|||
+|PassiveLogOnUri||System.String|||
+|PreferredAuthenticationProtocol|PreferredAuthenticationProtocol|System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|System.String||
+|PromptLoginBehavior|PromptLoginBehavior|System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|System.String||
 |SigningCertificate|SigningCertificate|System.String|System.String||
 |SigningCertificateUpdateStatus|SigningCertificateUpdateStatus|Microsoft.Online.Administration.SigningCertificateUpdateStatus|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphSigningCertificateUpdateStatus||
-|OpenIdConnectDiscoveryEndpoint||System.String|||
-|NextSigningCertificate|NextSigningCertificate|System.String|System.String||
+|SupportsMfa||System.Nullable/System.Boolean|||
+|TenantId||System.Nullable/System.Guid|||
 
 ## Set-MsolDomainFederationSettings
 
@@ -2339,22 +2343,22 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PassiveLogOnUri||System.String|||
+|ActiveLogOnUri||System.String|||
+|DefaultInteractiveAuthenticationMethod||System.String|||
+|DomainName||System.String|||
 |FederationBrandName||System.String|||
+|IssuerUri|IssuerUri|System.String|System.String||
 |LogOffUri||System.String|||
 |MetadataExchangeUri|MetadataExchangeUri|System.String|System.String||
-|ActiveLogOnUri||System.String|||
-|SupportsMfa||System.Nullable/System.Boolean|||
-|DefaultInteractiveAuthenticationMethod||System.String|||
-|PromptLoginBehavior|PromptLoginBehavior|System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|System.String||
+|NextSigningCertificate|NextSigningCertificate|System.String|System.String||
+|OpenIdConnectDiscoveryEndpoint||System.String|||
+|PassiveLogOnUri||System.String|||
 |PreferredAuthenticationProtocol|PreferredAuthenticationProtocol|System.Nullable/Microsoft.Online.Administration.AuthenticationProtocol|System.String||
-|DomainName||System.String|||
-|IssuerUri|IssuerUri|System.String|System.String||
-|TenantId||System.Nullable/System.Guid|||
+|PromptLoginBehavior|PromptLoginBehavior|System.Nullable/Microsoft.Online.Administration.PromptLoginBehavior|System.String||
 |SigningCertificate|SigningCertificate|System.String|System.String||
 |SigningCertificateUpdateStatus|SigningCertificateUpdateStatus|Microsoft.Online.Administration.SigningCertificateUpdateStatus|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphSigningCertificateUpdateStatus||
-|OpenIdConnectDiscoveryEndpoint||System.String|||
-|NextSigningCertificate|NextSigningCertificate|System.String|System.String||
+|SupportsMfa||System.Nullable/System.Boolean|||
+|TenantId||System.Nullable/System.Guid|||
 
 ## Set-MsolGroup
 
@@ -2379,9 +2383,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Description|Description|System.String|System.String||
+|DisplayName|DisplayName|System.String|System.String||
 |ManagedBy||System.String|||
 |ObjectId||System.Nullable/System.Guid|||
-|DisplayName|DisplayName|System.String|System.String||
 |TenantId||System.Nullable/System.Guid|||
 
 ## Set-MsolPartnerInformation
@@ -2404,15 +2408,15 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PartnerSupportUrl||System.String|||
-|PartnerHelpUrl||System.String|||
-|ObjectId||System.Nullable/System.Guid|||
-|PartnerCompanyName||System.String|||
-|TenantId||System.Nullable/System.Guid|||
-|PartnerSupportTelephones||System.String[]|||
 |CompanyType||System.Nullable/Microsoft.Online.Administration.CompanyType|||
-|PartnerSupportEmails||System.String[]|||
+|ObjectId||System.Nullable/System.Guid|||
 |PartnerCommerceUrl||System.String|||
+|PartnerCompanyName||System.String|||
+|PartnerHelpUrl||System.String|||
+|PartnerSupportEmails||System.String[]|||
+|PartnerSupportTelephones||System.String[]|||
+|PartnerSupportUrl||System.String|||
+|TenantId||System.Nullable/System.Guid|||
 
 ## Set-MsolPasswordPolicy
 
@@ -2436,8 +2440,8 @@
 |---|---|---|---|---|
 |DomainName||System.String|||
 |NotificationDays||System.Nullable/System.UInt32|||
-|ValidityPeriod||System.Nullable/System.UInt32|||
 |TenantId||System.Nullable/System.Guid|||
+|ValidityPeriod||System.Nullable/System.UInt32|||
 
 ## Set-MsolServicePrincipal
 
@@ -2461,13 +2465,13 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName|DisplayName|System.String|System.String||
+|AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Addresses||Microsoft.Online.Administration.RedirectUri[]|||
+|AppPrincipalId||System.Nullable/System.Guid|||
+|DisplayName|DisplayName|System.String|System.String||
 |ObjectId||System.Nullable/System.Guid|||
 |ServicePrincipalNames|ServicePrincipalNames|System.String[]|System.String[]||
 |TenantId||System.Nullable/System.Guid|||
-|AppPrincipalId||System.Nullable/System.Guid|||
-|AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Set-MsolUser
 
@@ -2491,38 +2495,38 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|State|State|System.String|System.String||
-|PreferredDataLocation|PreferredDataLocation|System.String|System.String||
-|SoftDeletionTimestamp||System.Nullable/System.DateTime|||
-|MobilePhone|MobilePhone|System.String|System.String||
-|Country|Country|System.String|System.String||
-|Office||System.String|||
-|PreferredLanguage|PreferredLanguage|System.String|System.String||
-|ObjectId||System.Nullable/System.Guid|||
-|Department|Department|System.String|System.String||
+|AlternateEmailAddresses||System.String[]|||
+|AlternateMobilePhones||System.String[]|||
+|BlockCredential||System.Nullable/System.Boolean|||
 |City|City|System.String|System.String||
-|StrongAuthenticationRequirements||Microsoft.Online.Administration.StrongAuthenticationRequirement[]|||
+|Country|Country|System.String|System.String||
+|Department|Department|System.String|System.String||
+|DisplayName|DisplayName|System.String|System.String||
+|Fax||System.String|||
+|FirstName||System.String|||
 |ImmutableId||System.String|||
 |LastName||System.String|||
-|AlternateEmailAddresses||System.String[]|||
-|BlockCredential||System.Nullable/System.Boolean|||
-|DisplayName|DisplayName|System.String|System.String||
-|AlternateMobilePhones||System.String[]|||
-|UserType|UserType|System.Nullable/Microsoft.Online.Administration.UserType|System.String||
-|UserPrincipalName|UserPrincipalName|System.String|System.String||
+|LastPasswordChangeTimestamp||System.Nullable/System.DateTime|||
+|MobilePhone|MobilePhone|System.String|System.String||
+|ObjectId||System.Nullable/System.Guid|||
+|Office||System.String|||
 |PasswordNeverExpires||System.Nullable/System.Boolean|||
-|StrongPasswordRequired||System.Nullable/System.Boolean|||
-|StreetAddress|StreetAddress|System.String|System.String||
 |PhoneNumber||System.String|||
+|PostalCode|PostalCode|System.String|System.String||
+|PreferredDataLocation|PreferredDataLocation|System.String|System.String||
+|PreferredLanguage|PreferredLanguage|System.String|System.String||
+|SoftDeletionTimestamp||System.Nullable/System.DateTime|||
+|State|State|System.String|System.String||
+|StreetAddress|StreetAddress|System.String|System.String||
+|StrongAuthenticationMethods||Microsoft.Online.Administration.StrongAuthenticationMethod[]|||
+|StrongAuthenticationRequirements||Microsoft.Online.Administration.StrongAuthenticationRequirement[]|||
+|StrongPasswordRequired||System.Nullable/System.Boolean|||
 |StsRefreshTokensValidFrom||System.Nullable/System.DateTime|||
 |TenantId||System.Nullable/System.Guid|||
-|LastPasswordChangeTimestamp||System.Nullable/System.DateTime|||
 |Title||System.String|||
-|FirstName||System.String|||
-|Fax||System.String|||
-|StrongAuthenticationMethods||Microsoft.Online.Administration.StrongAuthenticationMethod[]|||
 |UsageLocation|UsageLocation|System.String|System.String||
-|PostalCode|PostalCode|System.String|System.String||
+|UserPrincipalName|UserPrincipalName|System.String|System.String||
+|UserType|UserType|System.Nullable/Microsoft.Online.Administration.UserType|System.String||
 
 ## Set-MsolUserLicense
 
@@ -2546,12 +2550,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RemoveLicenses|RemoveLicenses|System.String[]|System.String[]||
-|UserPrincipalName||System.String|||
-|ObjectId||System.Guid|||
-|LicenseOptions||Microsoft.Online.Administration.LicenseOption[]|||
-|TenantId||System.Nullable/System.Guid|||
 |AddLicenses|AddLicenses|System.String[]|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAssignedLicense[]||
+|LicenseOptions||Microsoft.Online.Administration.LicenseOption[]|||
+|ObjectId||System.Guid|||
+|RemoveLicenses|RemoveLicenses|System.String[]|System.String[]||
+|TenantId||System.Nullable/System.Guid|||
+|UserPrincipalName||System.String|||
 
 ## Set-MsolUserPassword
 
@@ -2575,12 +2579,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ForceChangePasswordOnly||System.Nullable/System.Boolean|||
 |ForceChangePassword||System.Nullable/System.Boolean|||
-|UserPrincipalName||System.String|||
+|ForceChangePasswordOnly||System.Nullable/System.Boolean|||
+|NewPassword|NewPassword|System.String|System.String||
 |ObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
-|NewPassword|NewPassword|System.String|System.String||
+|UserPrincipalName||System.String|||
 
 ## Set-MsolUserPrincipalName
 
@@ -2604,12 +2608,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|UserPrincipalName|UserPrincipalName|System.String|System.String||
-|ObjectId||System.Guid|||
-|NewUserPrincipalName||System.String|||
 |ImmutableId||System.String|||
-|TenantId||System.Nullable/System.Guid|||
 |NewPassword||System.String|||
+|NewUserPrincipalName||System.String|||
+|ObjectId||System.Guid|||
+|TenantId||System.Nullable/System.Guid|||
+|UserPrincipalName|UserPrincipalName|System.String|System.String||
 
 ## Update-MsolFederatedDomain
 
@@ -2631,6 +2635,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SupportMultipleDomain||System.Management.Automation.SwitchParameter|||
 |DomainName||System.String|||
+|SupportMultipleDomain||System.Management.Automation.SwitchParameter|||
 

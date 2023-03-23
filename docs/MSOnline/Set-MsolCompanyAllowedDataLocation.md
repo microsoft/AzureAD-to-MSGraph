@@ -18,10 +18,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Overwrite||System.Boolean|||
+|InitialDomain||System.String|||
 |IsDefault||System.Boolean|||
 |Location||System.String|||
-|InitialDomain||System.String|||
-|TenantId||System.Nullable/System.Guid|||
+|Overwrite||System.Boolean|||
 |ServiceType||System.String|||
+|TenantId||System.Nullable/System.Guid|||
 

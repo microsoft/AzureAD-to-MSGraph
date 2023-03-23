@@ -18,12 +18,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Type||System.String|||
-|IsSearchable||System.Nullable/System.Boolean|||
-|Description||System.String|||
 |AttributeSet||System.String|||
-|UsePreDefinedValuesOnly||System.Nullable/System.Boolean|||
-|Name||System.String|||
+|Description||System.String|||
 |IsCollection||System.Nullable/System.Boolean|||
+|IsSearchable||System.Nullable/System.Boolean|||
+|Name||System.String|||
 |Status||System.String|||
+|Type||System.String|||
+|UsePreDefinedValuesOnly||System.Nullable/System.Boolean|||
 

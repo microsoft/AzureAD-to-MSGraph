@@ -18,10 +18,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName||System.String|||
 |AlternativeIdentifier||System.String|||
-|KeyCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.KeyCredential|||
-|IsOrganizationDefault||System.Nullable/System.Boolean|||
 |Definition||System.Collections.Generic.List/System.String|||
+|DisplayName||System.String|||
+|IsOrganizationDefault||System.Nullable/System.Boolean|||
+|KeyCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.KeyCredential|||
 |Type||System.String|||
 

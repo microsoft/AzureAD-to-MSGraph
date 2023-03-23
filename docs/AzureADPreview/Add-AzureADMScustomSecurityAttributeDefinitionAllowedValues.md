@@ -18,7 +18,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|IsActive||System.Nullable/System.Boolean|||
-|Id||System.String|||
 |CustomSecurityAttributeDefinitionId||System.String|||
+|Id||System.String|||
+|IsActive||System.Nullable/System.Boolean|||
 

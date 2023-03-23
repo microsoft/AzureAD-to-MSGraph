@@ -19,6 +19,6 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Description||System.String|||
-|ObjectId||System.String|||
 |DisplayName||System.String|||
+|ObjectId||System.String|||
 

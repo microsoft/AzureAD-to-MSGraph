@@ -18,6 +18,6 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SupportMultipleDomain||System.Management.Automation.SwitchParameter|||
 |DomainName||System.String|||
+|SupportMultipleDomain||System.Management.Automation.SwitchParameter|||
 

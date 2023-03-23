@@ -18,12 +18,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|IsTranslateHostHeaderEnabled||System.Nullable/System.Boolean|||
-|ConnectorGroupId||System.String|||
-|ObjectId||System.String|||
-|InternalUrl||System.String|||
-|IsTranslateLinksInBodyEnabled||System.Nullable/System.Boolean|||
 |ApplicationServerTimeout||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ApplicationServerTimeoutEnum|||
-|ExternalUrl||System.String|||
+|ConnectorGroupId||System.String|||
 |ExternalAuthenticationType||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ExternalAuthenticationTypeEnum|||
+|ExternalUrl||System.String|||
+|InternalUrl||System.String|||
+|IsTranslateHostHeaderEnabled||System.Nullable/System.Boolean|||
+|IsTranslateLinksInBodyEnabled||System.Nullable/System.Boolean|||
+|ObjectId||System.String|||
 

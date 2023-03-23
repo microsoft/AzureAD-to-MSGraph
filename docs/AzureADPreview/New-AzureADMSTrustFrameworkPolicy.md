@@ -18,7 +18,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|InputFilePath||System.String|||
 |Content||System.String|||
+|InputFilePath||System.String|||
 |OutputFilePath||System.String|||
 

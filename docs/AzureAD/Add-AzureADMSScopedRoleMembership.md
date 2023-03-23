@@ -21,7 +21,7 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |AdministrativeUnitId|AdministrativeUnitId|System.String|System.String||
+|Id|Id|System.String|System.String||
 |RoleId|RoleId|System.String|System.String||
 |RoleMemberInfo|RoleMemberInfo|Microsoft.Open.MSGraph.Model.MsRoleMemberInfo|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphIdentity||
-|Id|Id|System.String|System.String||
 

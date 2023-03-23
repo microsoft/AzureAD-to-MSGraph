@@ -19,6 +19,6 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |All||System.Nullable/System.Boolean|||
-|Top||System.Nullable/System.Int32|||
 |Filter||System.String|||
+|Top||System.Nullable/System.Int32|||
 

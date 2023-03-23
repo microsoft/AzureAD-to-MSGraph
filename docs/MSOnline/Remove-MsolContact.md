@@ -20,7 +20,7 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|Force||System.Management.Automation.SwitchParameter|||
 |ObjectId||System.Guid|||
 |TenantId||System.Nullable/System.Guid|||
-|Force||System.Management.Automation.SwitchParameter|||
 

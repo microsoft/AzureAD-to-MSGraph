@@ -20,6 +20,6 @@
 |---|---|---|---|---|
 |DomainName||System.String|||
 |NotificationDays||System.Nullable/System.UInt32|||
-|ValidityPeriod||System.Nullable/System.UInt32|||
 |TenantId||System.Nullable/System.Guid|||
+|ValidityPeriod||System.Nullable/System.UInt32|||
 

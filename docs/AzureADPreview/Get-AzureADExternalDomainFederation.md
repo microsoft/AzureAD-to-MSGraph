@@ -20,6 +20,6 @@
 |---|---|---|---|---|
 |All||System.Nullable/System.Boolean|||
 |ExternalDomainName||System.String|||
-|Top||System.Nullable/System.Int32|||
 |Filter||System.String|||
+|Top||System.Nullable/System.Int32|||
 

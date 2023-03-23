@@ -20,13 +20,13 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|StartDate||System.Nullable/System.DateTime|||
-|Type||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialType|||
-|Value||System.String|||
-|ObjectId||System.Guid|||
-|Usage||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialUsage|||
-|TenantId||System.Nullable/System.Guid|||
-|ServicePrincipalName||System.String|||
-|EndDate||System.Nullable/System.DateTime|||
 |AppPrincipalId||System.Guid|||
+|EndDate||System.Nullable/System.DateTime|||
+|ObjectId||System.Guid|||
+|ServicePrincipalName||System.String|||
+|StartDate||System.Nullable/System.DateTime|||
+|TenantId||System.Nullable/System.Guid|||
+|Type||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialType|||
+|Usage||System.Nullable/Microsoft.Online.Administration.ServicePrincipalCredentialUsage|||
+|Value||System.String|||
 

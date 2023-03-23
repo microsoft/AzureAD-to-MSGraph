@@ -18,10 +18,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Schedule||Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedSchedule|||
+|AssignmentState||System.String|||
+|Decision||System.String|||
+|Id||System.String|||
 |ProviderId||System.String|||
 |Reason||System.String|||
-|Id||System.String|||
-|Decision||System.String|||
-|AssignmentState||System.String|||
+|Schedule||Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedSchedule|||
 

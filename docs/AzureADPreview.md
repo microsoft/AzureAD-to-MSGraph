@@ -20,8 +20,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RefObjectId||System.String|||
 |ObjectId||System.String|||
+|RefObjectId||System.String|||
 
 ## Add-AzureADApplicationOwner
 
@@ -45,8 +45,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RefObjectId||System.String|||
 |ObjectId||System.String|||
+|RefObjectId||System.String|||
 
 ## Add-AzureADApplicationPolicy
 
@@ -68,8 +68,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RefObjectId||System.String|||
 |Id||System.String|||
+|RefObjectId||System.String|||
 
 ## Add-AzureADDeviceRegisteredOwner
 
@@ -93,8 +93,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RefObjectId||System.String|||
 |ObjectId||System.String|||
+|RefObjectId||System.String|||
 
 ## Add-AzureADDeviceRegisteredUser
 
@@ -116,8 +116,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RefObjectId||System.String|||
 |ObjectId||System.String|||
+|RefObjectId||System.String|||
 
 ## Add-AzureADDirectoryRoleMember
 
@@ -141,8 +141,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RefObjectId||System.String|||
 |ObjectId||System.String|||
+|RefObjectId||System.String|||
 
 ## Add-AzureADGroupMember
 
@@ -164,8 +164,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RefObjectId||System.String|||
 |ObjectId||System.String|||
+|RefObjectId||System.String|||
 
 ## Add-AzureADGroupOwner
 
@@ -189,8 +189,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RefObjectId||System.String|||
 |ObjectId||System.String|||
+|RefObjectId||System.String|||
 
 ## Add-AzureADMSAdministrativeUnitMember
 
@@ -214,8 +214,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RefObjectId||System.String|||
 |Id||System.String|||
+|RefObjectId||System.String|||
 
 ## Add-AzureADMSApplicationOwner
 
@@ -239,8 +239,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RefObjectId||System.String|||
 |ObjectId||System.String|||
+|RefObjectId||System.String|||
 
 ## Add-AzureADMScustomSecurityAttributeDefinitionAllowedValues
 
@@ -262,9 +262,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|IsActive||System.Nullable/System.Boolean|||
-|Id||System.String|||
 |CustomSecurityAttributeDefinitionId||System.String|||
+|Id||System.String|||
+|IsActive||System.Nullable/System.Boolean|||
 
 ## Add-AzureADMSFeatureRolloutPolicyDirectoryObject
 
@@ -286,8 +286,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RefObjectId||System.String|||
 |Id||System.String|||
+|RefObjectId||System.String|||
 
 ## Add-AzureADMSLifecyclePolicyGroup
 
@@ -334,8 +334,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ProviderId||System.String|||
 |ExternalId||System.String|||
+|ProviderId||System.String|||
 
 ## Add-AzureADMSScopedRoleMembership
 
@@ -360,9 +360,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |AdministrativeUnitId|AdministrativeUnitId|System.String|System.String||
+|Id|Id|System.String|System.String||
 |RoleId|RoleId|System.String|System.String||
 |RoleMemberInfo|RoleMemberInfo|Microsoft.Open.MSGraph.Model.MsRoleMemberInfo|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphIdentity||
-|Id|Id|System.String|System.String||
 
 ## Add-AzureADMSServicePrincipalDelegatedPermissionClassification
 
@@ -386,8 +386,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PermissionId|PermissionId|System.String|System.String||
 |Classification|Classification|System.Nullable/Microsoft.Open.MSGraph.Model.DelegatedPermissionClassification+ClassificationEnum|System.String||
+|PermissionId|PermissionId|System.String|System.String||
 |PermissionName|PermissionName|System.String|System.String||
 |ServicePrincipalId|ServicePrincipalId|System.String|System.String||
 
@@ -411,10 +411,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
 |AdministrativeUnitObjectId||System.String|||
-|RoleObjectId||System.String|||
+|ObjectId||System.String|||
 |RoleMemberInfo||Microsoft.Open.AzureAD.Model.RoleMemberInfo|||
+|RoleObjectId||System.String|||
 
 ## Add-AzureADServicePrincipalOwner
 
@@ -438,8 +438,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RefObjectId||System.String|||
 |ObjectId||System.String|||
+|RefObjectId||System.String|||
 
 ## Add-AzureADServicePrincipalPolicy
 
@@ -461,8 +461,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RefObjectId||System.String|||
 |Id||System.String|||
+|RefObjectId||System.String|||
 
 ## Close-AzureADMSPrivilegedRoleAssignmentRequest
 
@@ -484,8 +484,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ProviderId||System.String|||
 |Id||System.String|||
+|ProviderId||System.String|||
 
 ## Confirm-AzureADDomain
 
@@ -532,16 +532,16 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ApplicationId||System.String|||
-|AccountId||System.String|||
-|CertificateThumbprint|CertificateThumbprint|System.String|System.String||
 |AadAccessToken||System.String|||
-|LogFilePath||System.String|||
+|AccountId||System.String|||
+|ApplicationId||System.String|||
 |AzureEnvironmentName||Microsoft.Open.Azure.AD.CommonLibrary.AzureEnvironment+EnvironmentName|||
-|TenantId|TenantId|System.String|System.String||
-|MsAccessToken||System.String|||
-|LogLevel||Microsoft.Open.Azure.AD.CommonLibrary.LogLevel|||
+|CertificateThumbprint|CertificateThumbprint|System.String|System.String||
 |Credential||System.Management.Automation.PSCredential|||
+|LogFilePath||System.String|||
+|LogLevel||Microsoft.Open.Azure.AD.CommonLibrary.LogLevel|||
+|MsAccessToken||System.String|||
+|TenantId|TenantId|System.String|System.String||
 
 ## Disconnect-AzureAD
 
@@ -604,9 +604,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |All||System.Nullable/System.Boolean|||
+|Filter||System.String|||
 |ObjectId||System.String|||
 |Top||System.Nullable/System.Int32|||
-|Filter||System.String|||
 
 ## Get-AzureADAdministrativeUnitMember
 
@@ -628,9 +628,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All||System.Nullable/System.Boolean|||
 |ObjectId||System.String|||
 |Top||System.Nullable/System.Int32|||
-|All||System.Nullable/System.Boolean|||
 
 ## Get-AzureADApplication
 
@@ -654,11 +654,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Filter|Filter|System.String|System.String||
+|ObjectId||System.String|||
 |SearchString||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADApplicationExtensionProperty
 
@@ -731,9 +731,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |FileName||System.String|||
-|View||System.Boolean|||
 |FilePath||System.String|||
 |ObjectId||System.String|||
+|View||System.Boolean|||
 
 ## Get-AzureADApplicationOwner
 
@@ -757,9 +757,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADApplicationPasswordCredential
 
@@ -873,9 +873,9 @@
 |---|---|---|---|---|
 |All||System.Nullable/System.Boolean|||
 |Filter||System.String|||
+|Id||System.String|||
 |SearchString||System.String|||
 |Top||System.Nullable/System.Int32|||
-|Id||System.String|||
 
 ## Get-AzureADApplicationProxyConnectorGroup
 
@@ -899,9 +899,9 @@
 |---|---|---|---|---|
 |All||System.Nullable/System.Boolean|||
 |Filter||System.String|||
+|Id||System.String|||
 |SearchString||System.String|||
 |Top||System.Nullable/System.Int32|||
-|Id||System.String|||
 
 ## Get-AzureADApplicationProxyConnectorGroupMembers
 
@@ -925,8 +925,8 @@
 |---|---|---|---|---|
 |All||System.Nullable/System.Boolean|||
 |Filter||System.String|||
-|Top||System.Nullable/System.Int32|||
 |Id||System.String|||
+|Top||System.Nullable/System.Int32|||
 
 ## Get-AzureADApplicationProxyConnectorMemberOf
 
@@ -972,9 +972,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADApplicationSignInDetailedSummary
 
@@ -1019,9 +1019,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Top||System.Nullable/System.Int32|||
 |Days||System.Nullable/System.Int32|||
 |Filter||System.String|||
+|Top||System.Nullable/System.Int32|||
 
 ## Get-AzureADAuditDirectoryLogs
 
@@ -1044,8 +1044,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |All||System.Nullable/System.Boolean|||
-|Top||System.Nullable/System.Int32|||
 |Filter||System.String|||
+|Top||System.Nullable/System.Int32|||
 
 ## Get-AzureADAuditSignInLogs
 
@@ -1068,8 +1068,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |All||System.Nullable/System.Boolean|||
-|Top||System.Nullable/System.Int32|||
 |Filter||System.String|||
+|Top||System.Nullable/System.Int32|||
 
 ## Get-AzureADContact
 
@@ -1094,9 +1094,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Filter|Filter|System.String|System.String||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|Filter|Filter|System.String|System.String||
 
 ## Get-AzureADContactDirectReport
 
@@ -1120,9 +1120,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADContactManager
 
@@ -1170,9 +1170,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADContactThumbnailPhoto
 
@@ -1195,9 +1195,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |FileName||System.String|||
-|View||System.Boolean|||
 |FilePath||System.String|||
 |ObjectId||System.String|||
+|View||System.Boolean|||
 
 ## Get-AzureADContract
 
@@ -1222,9 +1222,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Filter|Filter|System.String|System.String||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|Filter|Filter|System.String|System.String||
 
 ## Get-AzureADCurrentSessionInfo
 
@@ -1265,9 +1265,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Filter|Filter|System.String|System.String||
 |SearchString||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|Filter|Filter|System.String|System.String||
 
 ## Get-AzureADDevice
 
@@ -1291,11 +1291,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Filter|Filter|System.String|System.String||
+|ObjectId||System.String|||
 |SearchString||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADDeviceConfiguration
 
@@ -1337,9 +1337,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADDeviceRegisteredUser
 
@@ -1363,9 +1363,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADDirectoryRole
 
@@ -1455,8 +1455,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |All||System.Nullable/System.Boolean|||
-|Top||System.Nullable/System.Int32|||
 |Id||System.String|||
+|Top||System.Nullable/System.Int32|||
 
 ## Get-AzureADDirectorySettingTemplate
 
@@ -1620,8 +1620,8 @@
 |---|---|---|---|---|
 |All||System.Nullable/System.Boolean|||
 |ExternalDomainName||System.String|||
-|Top||System.Nullable/System.Int32|||
 |Filter||System.String|||
+|Top||System.Nullable/System.Int32|||
 
 ## Get-AzureADGroup
 
@@ -1645,11 +1645,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Filter|Filter|System.String|System.String||
+|ObjectId||System.String|||
 |SearchString||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADGroupAppRoleAssignment
 
@@ -1673,9 +1673,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADGroupMember
 
@@ -1699,9 +1699,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADGroupOwner
 
@@ -1725,9 +1725,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADMSAdministrativeUnit
 
@@ -1753,8 +1753,8 @@
 |---|---|---|---|---|
 |All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Filter|Filter|System.String|System.String||
-|Top|Top|System.Nullable/System.Int32|System.Int32||
 |Id||System.String|||
+|Top|Top|System.Nullable/System.Int32|System.Int32||
 
 ## Get-AzureADMSAdministrativeUnitMember
 
@@ -1779,8 +1779,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|Top|Top|System.Nullable/System.Int32|System.Int32||
 |Id||System.String|||
+|Top|Top|System.Nullable/System.Int32|System.Int32||
 
 ## Get-AzureADMSApplication
 
@@ -1804,11 +1804,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Filter|Filter|System.String|System.String||
+|ObjectId||System.String|||
 |SearchString||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADMSApplicationExtensionProperty
 
@@ -1856,9 +1856,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADMSApplicationTemplate
 
@@ -1994,8 +1994,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Filter||System.String|||
 |CustomSecurityAttributeDefinitionId||System.String|||
+|Filter||System.String|||
 |Id||System.String|||
 
 ## Get-AzureADMSDeletedDirectoryObject
@@ -2046,9 +2046,9 @@
 |---|---|---|---|---|
 |All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Filter|Filter|System.String|System.String||
+|Id||System.String|||
 |SearchString||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|Id||System.String|||
 
 ## Get-AzureADMSFeatureRolloutPolicy
 
@@ -2071,8 +2071,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Filter||System.String|||
-|SearchString||System.String|||
 |Id||System.String|||
+|SearchString||System.String|||
 
 ## Get-AzureADMSGroup
 
@@ -2096,12 +2096,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Filter|Filter|System.String|System.String||
-|Select||System.String|||
 |All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|SearchString||System.String|||
-|Top|Top|System.Nullable/System.Int32|System.Int32||
+|Filter|Filter|System.String|System.String||
 |Id||System.String|||
+|SearchString||System.String|||
+|Select||System.String|||
+|Top|Top|System.Nullable/System.Int32|System.Int32||
 
 ## Get-AzureADMSGroupLifecyclePolicy
 
@@ -2243,8 +2243,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PasswordSSOObjectId||Microsoft.Open.MSGraph.Model.PasswordSSOObjectId|||
 |ObjectId||System.String|||
+|PasswordSSOObjectId||Microsoft.Open.MSGraph.Model.PasswordSSOObjectId|||
 
 ## Get-AzureADMSPermissionGrantConditionSet
 
@@ -2268,9 +2268,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PolicyId||System.String|||
 |ConditionSetType||System.String|||
 |Id||System.String|||
+|PolicyId||System.String|||
 
 ## Get-AzureADMSPermissionGrantPolicy
 
@@ -2317,9 +2317,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Filter||System.String|||
-|Top||System.Nullable/System.Int32|||
-|ProviderId||System.String|||
 |Id||System.String|||
+|ProviderId||System.String|||
+|Top||System.Nullable/System.Int32|||
 
 ## Get-AzureADMSPrivilegedRoleAssignment
 
@@ -2341,11 +2341,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ResourceId||System.String|||
 |Filter||System.String|||
-|Top||System.Nullable/System.Int32|||
-|ProviderId||System.String|||
 |Id||System.String|||
+|ProviderId||System.String|||
+|ResourceId||System.String|||
+|Top||System.Nullable/System.Int32|||
 
 ## Get-AzureADMSPrivilegedRoleAssignmentRequest
 
@@ -2368,9 +2368,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Filter||System.String|||
-|Top||System.Nullable/System.Int32|||
-|ProviderId||System.String|||
 |Id||System.String|||
+|ProviderId||System.String|||
+|Top||System.Nullable/System.Int32|||
 
 ## Get-AzureADMSPrivilegedRoleDefinition
 
@@ -2392,11 +2392,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ResourceId||System.String|||
 |Filter||System.String|||
-|Top||System.Nullable/System.Int32|||
-|ProviderId||System.String|||
 |Id||System.String|||
+|ProviderId||System.String|||
+|ResourceId||System.String|||
+|Top||System.Nullable/System.Int32|||
 
 ## Get-AzureADMSPrivilegedRoleSetting
 
@@ -2419,9 +2419,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Filter||System.String|||
-|Top||System.Nullable/System.Int32|||
-|ProviderId||System.String|||
 |Id||System.String|||
+|ProviderId||System.String|||
+|Top||System.Nullable/System.Int32|||
 
 ## Get-AzureADMSRoleAssignment
 
@@ -2447,9 +2447,9 @@
 |---|---|---|---|---|
 |All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Filter|Filter|System.String|System.String||
+|Id||System.String|||
 |SearchString||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|Id||System.String|||
 
 ## Get-AzureADMSRoleDefinition
 
@@ -2475,9 +2475,9 @@
 |---|---|---|---|---|
 |All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Filter|Filter|System.String|System.String||
+|Id||System.String|||
 |SearchString||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|Id||System.String|||
 
 ## Get-AzureADMSScopedRoleMembership
 
@@ -2524,12 +2524,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Filter||System.String|||
-|Select||System.String|||
 |All||System.Nullable/System.Boolean|||
-|SearchString||System.String|||
-|Top||System.Nullable/System.Int32|||
+|Filter||System.String|||
 |Id||System.String|||
+|SearchString||System.String|||
+|Select||System.String|||
+|Top||System.Nullable/System.Int32|||
 
 ## Get-AzureADMSServicePrincipalDelegatedPermissionClassification
 
@@ -2554,8 +2554,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Filter|Filter|System.String|System.String||
-|ServicePrincipalId|ServicePrincipalId|System.String|System.String||
 |Id||System.String|||
+|ServicePrincipalId|ServicePrincipalId|System.String|System.String||
 
 ## Get-AzureADMSTrustFrameworkPolicy
 
@@ -2577,8 +2577,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|OutputFilePath||System.String|||
 |Id||System.String|||
+|OutputFilePath||System.String|||
 
 ## Get-AzureADMSUser
 
@@ -2600,12 +2600,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Filter||System.String|||
-|Select||System.String|||
 |All||System.Nullable/System.Boolean|||
-|SearchString||System.String|||
-|Top||System.Nullable/System.Int32|||
+|Filter||System.String|||
 |Id||System.String|||
+|SearchString||System.String|||
+|Select||System.String|||
+|Top||System.Nullable/System.Int32|||
 
 ## Get-AzureADOAuth2PermissionGrant
 
@@ -2629,8 +2629,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Top|Top|System.Nullable/System.Int32|System.Int32||
 |All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Top|Top|System.Nullable/System.Int32|System.Int32||
 
 ## Get-AzureADObjectByObjectId
 
@@ -2677,11 +2677,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|TargetType||System.String|||
 |All||System.Nullable/System.Boolean|||
-|TargetObjectId||System.String|||
-|Top||System.Nullable/System.Int32|||
 |Id||System.String|||
+|TargetObjectId||System.String|||
+|TargetType||System.String|||
+|Top||System.Nullable/System.Int32|||
 
 ## Get-AzureADPolicy
 
@@ -2704,8 +2704,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |All||System.Nullable/System.Boolean|||
-|Top||System.Nullable/System.Int32|||
 |Id||System.String|||
+|Top||System.Nullable/System.Int32|||
 
 ## Get-AzureADPolicyAppliedObject
 
@@ -2773,8 +2773,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |All||System.Nullable/System.Boolean|||
-|Top||System.Nullable/System.Int32|||
 |Id||System.String|||
+|Top||System.Nullable/System.Int32|||
 
 ## Get-AzureADScopedRoleMembership
 
@@ -2796,8 +2796,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ScopedRoleMembershipId||System.String|||
 |ObjectId||System.String|||
+|ScopedRoleMembershipId||System.String|||
 
 ## Get-AzureADServiceAppRoleAssignedTo
 
@@ -2821,9 +2821,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADServiceAppRoleAssignment
 
@@ -2847,9 +2847,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADServicePrincipal
 
@@ -2873,11 +2873,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Filter|Filter|System.String|System.String||
+|ObjectId||System.String|||
 |SearchString||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADServicePrincipalCreatedObject
 
@@ -2901,9 +2901,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADServicePrincipalKeyCredential
 
@@ -2951,9 +2951,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADServicePrincipalOAuth2PermissionGrant
 
@@ -2977,9 +2977,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADServicePrincipalOwnedObject
 
@@ -3003,9 +3003,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADServicePrincipalOwner
 
@@ -3029,9 +3029,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADServicePrincipalPasswordCredential
 
@@ -3125,8 +3125,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Top|Top|System.Nullable/System.Int32|System.Int32||
 |All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Top|Top|System.Nullable/System.Int32|System.Int32||
 
 ## Get-AzureADTrustedCertificateAuthority
 
@@ -3150,8 +3150,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|TrustedIssuerSki||System.String|||
 |TrustedIssuer||System.String|||
+|TrustedIssuerSki||System.String|||
 
 ## Get-AzureADUser
 
@@ -3175,11 +3175,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Filter|Filter|System.String|System.String||
+|ObjectId||System.String|||
 |SearchString||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADUserAppRoleAssignment
 
@@ -3203,9 +3203,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADUserCreatedObject
 
@@ -3229,9 +3229,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADUserDirectReport
 
@@ -3255,9 +3255,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADUserExtension
 
@@ -3353,9 +3353,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADUserOAuth2PermissionGrant
 
@@ -3379,9 +3379,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADUserOwnedDevice
 
@@ -3405,9 +3405,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADUserOwnedObject
 
@@ -3431,9 +3431,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADUserRegisteredDevice
 
@@ -3457,9 +3457,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ObjectId||System.String|||
 |Top|Top|System.Nullable/System.Int32|System.Int32||
-|All|All|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Get-AzureADUserThumbnailPhoto
 
@@ -3484,9 +3484,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |FileName||System.String|||
-|View||System.Boolean|||
 |FilePath||System.String|||
 |ObjectId||System.String|||
+|View||System.Boolean|||
 
 ## Get-CrossCloudVerificationCode
 
@@ -3532,13 +3532,13 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All||System.Nullable/System.Boolean|||
 |AppId||System.String|||
 |Expand||System.String|||
 |Filter||System.String|||
-|All||System.Nullable/System.Boolean|||
+|Id||System.String|||
 |SearchString||System.String|||
 |Top||System.Nullable/System.Int32|||
-|Id||System.String|||
 
 ## Get-RbacApplicationRoleDefinition
 
@@ -3560,13 +3560,13 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|All||System.Nullable/System.Boolean|||
 |AppId||System.String|||
 |Expand||System.String|||
 |Filter||System.String|||
-|All||System.Nullable/System.Boolean|||
+|Id||System.String|||
 |SearchString||System.String|||
 |Top||System.Nullable/System.Int32|||
-|Id||System.String|||
 
 ## New-AzureADAdministrativeUnit
 
@@ -3588,8 +3588,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName||System.String|||
 |Description||System.String|||
+|DisplayName||System.String|||
 
 ## New-AzureADApplication
 
@@ -3613,40 +3613,40 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|LogoutUrl||System.String|||
-|KeyCredentials|KeyCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.KeyCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphKeyCredential[]||
-|Homepage||System.String|||
-|PublisherDomain|PublisherDomain|System.String|System.String||
-|Oauth2AllowUrlPathMatching||System.Nullable/System.Boolean|||
-|IsDisabled||System.Nullable/System.Boolean|||
-|InformationalUrls||Microsoft.Open.AzureAD.Model.InformationalUrl|||
-|ErrorUrl||System.String|||
-|Oauth2Permissions||System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.OAuth2Permission|||
-|WwwHomepage||System.String|||
-|PreAuthorizedApplications||System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.PreAuthorizedApplication|||
-|SamlMetadataUrl|SamlMetadataUrl|System.String|System.String||
-|RequiredResourceAccess|RequiredResourceAccess|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.RequiredResourceAccess|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphRequiredResourceAccess[]||
-|DisplayName|DisplayName|System.String|System.String||
-|IsDeviceOnlyAuthSupported|IsDeviceOnlyAuthSupported|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|ParentalControlSettings|ParentalControlSettings|Microsoft.Open.AzureAD.Model.ParentalControlSettings|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphParentalControlSettings||
-|PublicClient|PublicClient|System.Nullable/System.Boolean|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPublicClientApplication||
-|PasswordCredentials|PasswordCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.PasswordCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordCredential[]||
-|SignInAudience|SignInAudience|System.String|System.String||
-|IdentifierUris|IdentifierUris|System.Collections.Generic.List/System.String|System.String[]||
-|AllowGuestsSignIn||System.Nullable/System.Boolean|||
-|RecordConsentConditions||System.String|||
-|KnownClientApplications||System.Collections.Generic.List/System.String|||
-|AppRoles|AppRoles|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.AppRole|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAppRole[]||
-|AllowPassthroughUsers||System.Nullable/System.Boolean|||
-|ReplyUrls||System.Collections.Generic.List/System.String|||
-|AvailableToOtherTenants||System.Nullable/System.Boolean|||
-|AppLogoUrl||System.String|||
-|GroupMembershipClaims|GroupMembershipClaims|System.String|System.String||
-|OptionalClaims|OptionalClaims|Microsoft.Open.AzureAD.Model.OptionalClaims|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphOptionalClaims||
-|Oauth2RequirePostResponse|Oauth2RequirePostResponse|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|Oauth2AllowImplicitFlow||System.Nullable/System.Boolean|||
 |AddIns|AddIns|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.AddIn|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAddIn[]||
+|AllowGuestsSignIn||System.Nullable/System.Boolean|||
+|AllowPassthroughUsers||System.Nullable/System.Boolean|||
+|AppLogoUrl||System.String|||
+|AppRoles|AppRoles|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.AppRole|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAppRole[]||
+|AvailableToOtherTenants||System.Nullable/System.Boolean|||
+|DisplayName|DisplayName|System.String|System.String||
+|ErrorUrl||System.String|||
+|GroupMembershipClaims|GroupMembershipClaims|System.String|System.String||
+|Homepage||System.String|||
+|IdentifierUris|IdentifierUris|System.Collections.Generic.List/System.String|System.String[]||
+|InformationalUrls||Microsoft.Open.AzureAD.Model.InformationalUrl|||
+|IsDeviceOnlyAuthSupported|IsDeviceOnlyAuthSupported|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|IsDisabled||System.Nullable/System.Boolean|||
+|KeyCredentials|KeyCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.KeyCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphKeyCredential[]||
+|KnownClientApplications||System.Collections.Generic.List/System.String|||
+|LogoutUrl||System.String|||
+|Oauth2AllowImplicitFlow||System.Nullable/System.Boolean|||
+|Oauth2AllowUrlPathMatching||System.Nullable/System.Boolean|||
+|Oauth2Permissions||System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.OAuth2Permission|||
+|Oauth2RequirePostResponse|Oauth2RequirePostResponse|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|OptionalClaims|OptionalClaims|Microsoft.Open.AzureAD.Model.OptionalClaims|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphOptionalClaims||
 |OrgRestrictions||System.Collections.Generic.List/System.String|||
+|ParentalControlSettings|ParentalControlSettings|Microsoft.Open.AzureAD.Model.ParentalControlSettings|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphParentalControlSettings||
+|PasswordCredentials|PasswordCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.PasswordCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordCredential[]||
+|PreAuthorizedApplications||System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.PreAuthorizedApplication|||
+|PublicClient|PublicClient|System.Nullable/System.Boolean|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPublicClientApplication||
+|PublisherDomain|PublisherDomain|System.String|System.String||
+|RecordConsentConditions||System.String|||
+|ReplyUrls||System.Collections.Generic.List/System.String|||
+|RequiredResourceAccess|RequiredResourceAccess|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.RequiredResourceAccess|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphRequiredResourceAccess[]||
+|SamlMetadataUrl|SamlMetadataUrl|System.String|System.String||
+|SignInAudience|SignInAudience|System.String|System.String||
+|WwwHomepage||System.String|||
 
 ## New-AzureADApplicationExtensionProperty
 
@@ -3671,8 +3671,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |DataType|DataType|System.String|System.String||
-|ObjectId||System.String|||
 |Name|Name|System.String|System.String||
+|ObjectId||System.String|||
 |TargetObjects|TargetObjects|System.Collections.Generic.List/System.String|System.String[]||
 
 ## New-AzureADApplicationKeyCredential
@@ -3698,12 +3698,12 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |CustomKeyIdentifier||System.String|||
-|Type||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyType|||
-|Value||System.String|||
 |EndDate||System.Nullable/System.DateTime|||
-|Usage||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyUsage|||
 |ObjectId||System.String|||
 |StartDate||System.Nullable/System.DateTime|||
+|Type||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyType|||
+|Usage||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyUsage|||
+|Value||System.String|||
 
 ## New-AzureADApplicationPasswordCredential
 
@@ -3728,10 +3728,10 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |CustomKeyIdentifier||System.String|||
-|Value||System.String|||
 |EndDate||System.Nullable/System.DateTime|||
-|StartDate||System.Nullable/System.DateTime|||
 |ObjectId||System.String|||
+|StartDate||System.Nullable/System.DateTime|||
+|Value||System.String|||
 
 ## New-AzureADApplicationProxyApplication
 
@@ -3753,14 +3753,14 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|ApplicationServerTimeout||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ApplicationServerTimeoutEnum|||
 |ConnectorGroupId||System.String|||
 |DisplayName||System.String|||
-|InternalUrl||System.String|||
-|IsTranslateLinksInBodyEnabled||System.Nullable/System.Boolean|||
-|ApplicationServerTimeout||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ApplicationServerTimeoutEnum|||
-|ExternalUrl||System.String|||
-|IsTranslateHostHeaderEnabled||System.Nullable/System.Boolean|||
 |ExternalAuthenticationType||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ExternalAuthenticationTypeEnum|||
+|ExternalUrl||System.String|||
+|InternalUrl||System.String|||
+|IsTranslateHostHeaderEnabled||System.Nullable/System.Boolean|||
+|IsTranslateLinksInBodyEnabled||System.Nullable/System.Boolean|||
 
 ## New-AzureADApplicationProxyConnectorGroup
 
@@ -3806,21 +3806,21 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DeviceObjectVersion||System.Nullable/System.Int32|||
-|DeviceId|DeviceId|System.String|System.String||
-|DisplayName|DisplayName|System.String|System.String||
-|DeviceOSType||System.String|||
-|AlternativeSecurityIds|AlternativeSecurityIds|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.AlternativeSecurityId|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAlternativeSecurityId[]||
 |AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|AlternativeSecurityIds|AlternativeSecurityIds|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.AlternativeSecurityId|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAlternativeSecurityId[]||
 |ApproximateLastLogonTimeStamp||System.Nullable/System.DateTime|||
-|DeviceTrustType||System.String|||
-|DevicePhysicalIds||System.Collections.Generic.List/System.String|||
+|DeviceId|DeviceId|System.String|System.String||
+|DeviceMetadata|DeviceMetadata|System.String|System.String||
+|DeviceObjectVersion||System.Nullable/System.Int32|||
+|DeviceOSType||System.String|||
 |DeviceOSVersion||System.String|||
+|DevicePhysicalIds||System.Collections.Generic.List/System.String|||
+|DeviceTrustType||System.String|||
+|DisplayName|DisplayName|System.String|System.String||
+|IsCompliant|IsCompliant|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |IsManaged|IsManaged|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |ProfileType|ProfileType|System.String|System.String||
 |SystemLabels|SystemLabels|System.Collections.Generic.List/System.String|System.String[]||
-|DeviceMetadata|DeviceMetadata|System.String|System.String||
-|IsCompliant|IsCompliant|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## New-AzureADDirectorySetting
 
@@ -3867,9 +3867,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |IsDefault|IsDefault|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|IsDefaultForCloudRedirections||System.Nullable/System.Boolean|||
 |Name||System.String|||
 |SupportedServices|SupportedServices|System.Collections.Generic.List/System.String|System.String[]||
-|IsDefaultForCloudRedirections||System.Nullable/System.Boolean|||
 
 ## New-AzureADExternalDomainFederation
 
@@ -3891,8 +3891,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|FederationSettings||Microsoft.Open.AzureAD.Model.DomainFederationSettings|||
 |ExternalDomainName||System.String|||
+|FederationSettings||Microsoft.Open.AzureAD.Model.DomainFederationSettings|||
 
 ## New-AzureADGroup
 
@@ -3917,9 +3917,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Description|Description|System.String|System.String||
+|DisplayName|DisplayName|System.String|System.String||
 |MailEnabled|MailEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |MailNickName|MailNickname|System.String|System.String||
-|DisplayName|DisplayName|System.String|System.String||
 |SecurityEnabled|SecurityEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## New-AzureADGroupAppRoleAssignment
@@ -3944,9 +3944,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PrincipalId|PrincipalId|System.String|System.String||
-|ObjectId||System.String|||
 |Id|Id|System.String|System.String||
+|ObjectId||System.String|||
+|PrincipalId|PrincipalId|System.String|System.String||
 |ResourceId|ResourceId|System.String|System.String||
 
 ## New-AzureADMSAdministrativeUnit
@@ -3971,12 +3971,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|Description|Description|System.String|System.String||
 |DisplayName|DisplayName|System.String|System.String||
+|IsMemberManagementRestricted||System.Nullable/System.Boolean|||
+|MembershipRule||System.String|||
 |MembershipRuleProcessingState||System.String|||
 |MembershipType||System.String|||
-|IsMemberManagementRestricted||System.Nullable/System.Boolean|||
-|Description|Description|System.String|System.String||
-|MembershipRule||System.String|||
 
 ## New-AzureADMSAdministrativeUnitMember
 
@@ -3998,20 +3998,20 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ProxyAddresses||System.Collections.Generic.List/System.String|||
-|MailEnabled||System.Nullable/System.Boolean|||
-|SecurityEnabled||System.Nullable/System.Boolean|||
+|AssignedLabels||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AssignedLabel|||
+|Description||System.String|||
 |DisplayName||System.String|||
 |GroupTypes||System.Collections.Generic.List/System.String|||
-|Visibility||System.String|||
-|MembershipRule||System.String|||
-|IsAssignableToRole||System.Nullable/System.Boolean|||
-|MembershipRuleProcessingState||System.String|||
-|MailNickname||System.String|||
-|AssignedLabels||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AssignedLabel|||
 |Id||System.String|||
-|Description||System.String|||
+|IsAssignableToRole||System.Nullable/System.Boolean|||
+|MailEnabled||System.Nullable/System.Boolean|||
+|MailNickname||System.String|||
+|MembershipRule||System.String|||
+|MembershipRuleProcessingState||System.String|||
 |OdataType||System.String|||
+|ProxyAddresses||System.Collections.Generic.List/System.String|||
+|SecurityEnabled||System.Nullable/System.Boolean|||
+|Visibility||System.String|||
 
 ## New-AzureADMSApplication
 
@@ -4035,27 +4035,27 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|AddIns|AddIns|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AddIn|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAddIn[]||
+|Api|Api|Microsoft.Open.MSGraph.Model.ApiApplication|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphApiApplication||
+|AppRoles|AppRoles|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AppRole|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAppRole[]||
+|DisplayName|DisplayName|System.String|System.String||
 |GroupMembershipClaims|GroupMembershipClaims|System.String|System.String||
-|Tags|Tags|System.Collections.Generic.List/System.String|System.String[]||
+|IdentifierUris|IdentifierUris|System.Collections.Generic.List/System.String|System.String[]||
+|InformationalUrl||Microsoft.Open.MSGraph.Model.InformationalUrl|||
+|IsDeviceOnlyAuthSupported|IsDeviceOnlyAuthSupported|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|IsFallbackPublicClient|IsFallbackPublicClient|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|KeyCredentials|KeyCredentials|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.KeyCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphKeyCredential[]||
+|OptionalClaims|OptionalClaims|Microsoft.Open.MSGraph.Model.OptionalClaims|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphOptionalClaims||
+|OrgRestrictions||System.Collections.Generic.List/System.String|||
 |ParentalControlSettings|ParentalControlSettings|Microsoft.Open.MSGraph.Model.ParentalControlSettings|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphParentalControlSettings||
 |PasswordCredentials|PasswordCredentials|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.PasswordCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordCredential[]||
-|IsDeviceOnlyAuthSupported|IsDeviceOnlyAuthSupported|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|AddIns|AddIns|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AddIn|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAddIn[]||
-|PublicClient|PublicClient|Microsoft.Open.MSGraph.Model.PublicClientApplication|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPublicClientApplication||
-|IsFallbackPublicClient|IsFallbackPublicClient|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|DisplayName|DisplayName|System.String|System.String||
-|TokenEncryptionKeyId|TokenEncryptionKeyId|System.String|System.String||
-|KeyCredentials|KeyCredentials|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.KeyCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphKeyCredential[]||
-|IdentifierUris|IdentifierUris|System.Collections.Generic.List/System.String|System.String[]||
 |PreAuthorizedApplications||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.PreAuthorizedApplication|||
-|OrgRestrictions||System.Collections.Generic.List/System.String|||
-|InformationalUrl||Microsoft.Open.MSGraph.Model.InformationalUrl|||
-|AppRoles|AppRoles|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AppRole|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAppRole[]||
-|Api|Api|Microsoft.Open.MSGraph.Model.ApiApplication|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphApiApplication||
-|Web|Web|Microsoft.Open.MSGraph.Model.WebApplication|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphWebApplication||
-|SignInAudience|SignInAudience|System.String|System.String||
-|OptionalClaims|OptionalClaims|Microsoft.Open.MSGraph.Model.OptionalClaims|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphOptionalClaims||
+|PublicClient|PublicClient|Microsoft.Open.MSGraph.Model.PublicClientApplication|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPublicClientApplication||
 |RequiredResourceAccess|RequiredResourceAccess|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.RequiredResourceAccess|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphRequiredResourceAccess[]||
+|SignInAudience|SignInAudience|System.String|System.String||
+|Tags|Tags|System.Collections.Generic.List/System.String|System.String[]||
+|TokenEncryptionKeyId|TokenEncryptionKeyId|System.String|System.String||
+|Web|Web|Microsoft.Open.MSGraph.Model.WebApplication|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphWebApplication||
 
 ## New-AzureADMSApplicationExtensionProperty
 
@@ -4080,8 +4080,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |DataType|DataType|System.String|System.String||
-|ObjectId||System.String|||
 |Name|Name|System.String|System.String||
+|ObjectId||System.String|||
 |TargetObjects|TargetObjects|System.Collections.Generic.List/System.String|System.String[]||
 
 ## New-AzureADMSApplicationFromApplicationTemplate
@@ -4130,9 +4130,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |KeyCredential|KeyCredential|Microsoft.Open.MSGraph.Model.KeyCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphKeyCredential||
+|ObjectId||System.String|||
 |PasswordCredential|PasswordCredential|Microsoft.Open.MSGraph.Model.PasswordCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordCredential||
 |Proof|Proof|System.String|System.String||
-|ObjectId||System.String|||
 
 ## New-AzureADMSApplicationPassword
 
@@ -4156,8 +4156,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PasswordCredential|PasswordCredential|Microsoft.Open.MSGraph.Model.PasswordCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordCredential||
 |ObjectId||System.String|||
+|PasswordCredential|PasswordCredential|Microsoft.Open.MSGraph.Model.PasswordCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordCredential||
 
 ## New-AzureADMSAttributeSet
 
@@ -4180,8 +4180,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Description||System.String|||
-|MaxAttributesPerSet||System.Nullable/System.Int32|||
 |Id||System.String|||
+|MaxAttributesPerSet||System.Nullable/System.Int32|||
 
 ## New-AzureADMSConditionalAccessPolicy
 
@@ -4205,14 +4205,14 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName|DisplayName|System.String|System.String||
-|SessionControls|SessionControls|Microsoft.Open.MSGraph.Model.ConditionalAccessSessionControls|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphConditionalAccessSessionControls||
 |Conditions|Conditions|Microsoft.Open.MSGraph.Model.ConditionalAccessConditionSet|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphConditionalAccessConditionSet||
-|ModifiedDateTime|ModifiedDateTime|System.String|System.DateTime||
 |CreatedDateTime|CreatedDateTime|System.String|System.DateTime||
-|State|State|System.String|System.String||
-|Id|Id|System.String|System.String||
+|DisplayName|DisplayName|System.String|System.String||
 |GrantControls|GrantControls|Microsoft.Open.MSGraph.Model.ConditionalAccessGrantControls|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphConditionalAccessGrantControls||
+|Id|Id|System.String|System.String||
+|ModifiedDateTime|ModifiedDateTime|System.String|System.DateTime||
+|SessionControls|SessionControls|Microsoft.Open.MSGraph.Model.ConditionalAccessSessionControls|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphConditionalAccessSessionControls||
+|State|State|System.String|System.String||
 
 ## New-AzureADMSCustomSecurityAttributeDefinition
 
@@ -4234,14 +4234,14 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Type||System.String|||
-|IsSearchable||System.Nullable/System.Boolean|||
-|Description||System.String|||
 |AttributeSet||System.String|||
-|UsePreDefinedValuesOnly||System.Nullable/System.Boolean|||
-|Name||System.String|||
+|Description||System.String|||
 |IsCollection||System.Nullable/System.Boolean|||
+|IsSearchable||System.Nullable/System.Boolean|||
+|Name||System.String|||
 |Status||System.String|||
+|Type||System.String|||
+|UsePreDefinedValuesOnly||System.Nullable/System.Boolean|||
 
 ## New-AzureADMSFeatureRolloutPolicy
 
@@ -4263,12 +4263,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Description||System.String|||
 |AppliesTo||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.MsDirectoryObject|||
-|IsEnabled||System.Nullable/System.Boolean|||
-|Feature||System.Nullable/Microsoft.Open.MSGraph.Model.MsFeatureRolloutPolicy+FeatureEnum|||
+|Description||System.String|||
 |DisplayName||System.String|||
+|Feature||System.Nullable/Microsoft.Open.MSGraph.Model.MsFeatureRolloutPolicy+FeatureEnum|||
 |IsAppliedToOrganization||System.Nullable/System.Boolean|||
+|IsEnabled||System.Nullable/System.Boolean|||
 
 ## New-AzureADMSGroup
 
@@ -4292,17 +4292,17 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|MembershipRule|MembershipRule|System.String|System.String||
+|Description|Description|System.String|System.String||
 |DisplayName|DisplayName|System.String|System.String||
+|GroupTypes|GroupTypes|System.Collections.Generic.List/System.String|System.String[]||
+|IsAssignableToRole|IsAssignableToRole|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|LabelId||System.String|||
+|MailEnabled|MailEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|MailNickname|MailNickname|System.String|System.String||
+|MembershipRule|MembershipRule|System.String|System.String||
+|MembershipRuleProcessingState|MembershipRuleProcessingState|System.String|System.String||
 |SecurityEnabled|SecurityEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Visibility|Visibility|System.String|System.String||
-|MailEnabled|MailEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|IsAssignableToRole|IsAssignableToRole|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|Description|Description|System.String|System.String||
-|LabelId||System.String|||
-|MailNickname|MailNickname|System.String|System.String||
-|GroupTypes|GroupTypes|System.Collections.Generic.List/System.String|System.String[]||
-|MembershipRuleProcessingState|MembershipRuleProcessingState|System.String|System.String||
 
 ## New-AzureADMSGroupLifecyclePolicy
 
@@ -4326,9 +4326,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ManagedGroupTypes|ManagedGroupTypes|System.String|System.String||
-|GroupLifetimeInDays|GroupLifetimeInDays|System.Nullable/System.Int32|System.Int32||
 |AlternateNotificationEmails|AlternateNotificationEmails|System.String|System.String||
+|GroupLifetimeInDays|GroupLifetimeInDays|System.Nullable/System.Int32|System.Int32||
+|ManagedGroupTypes|ManagedGroupTypes|System.String|System.String||
 
 ## New-AzureADMSIdentityProvider
 
@@ -4352,10 +4352,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Type||System.String|||
-|Name||System.String|||
-|ClientSecret||System.String|||
 |ClientId||System.String|||
+|ClientSecret||System.String|||
+|Name||System.String|||
+|Type||System.String|||
 
 ## New-AzureADMSInvitation
 
@@ -4379,14 +4379,14 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ResetRedemption|ResetRedemption|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|InvitedUserEmailAddress|InvitedUserEmailAddress|System.String|System.String||
-|SendInvitationMessage|SendInvitationMessage|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |InvitedUser|InvitedUser|Microsoft.Open.MSGraph.Model.User|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphUser1||
 |InvitedUserDisplayName|InvitedUserDisplayName|System.String|System.String||
+|InvitedUserEmailAddress|InvitedUserEmailAddress|System.String|System.String||
 |InvitedUserMessageInfo|InvitedUserMessageInfo|Microsoft.Open.MSGraph.Model.InvitedUserMessageInfo|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphInvitedUserMessageInfo||
-|InviteRedirectUrl|InviteRedirectUrl|System.String|System.String||
 |InvitedUserType|InvitedUserType|System.String|System.String||
+|InviteRedirectUrl|InviteRedirectUrl|System.String|System.String||
+|ResetRedemption|ResetRedemption|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|SendInvitationMessage|SendInvitationMessage|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## New-AzureADMSNamedLocationPolicy
 
@@ -4410,13 +4410,13 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName|DisplayName|System.String|System.String||
-|IpRanges||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.IpRange|||
-|IncludeUnknownCountriesAndRegions||System.Nullable/System.Boolean|||
 |CountriesAndRegions||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.CountriesAndRegion|||
-|OdataType||System.String|||
+|DisplayName|DisplayName|System.String|System.String||
 |Id|Id|System.String|System.String||
+|IncludeUnknownCountriesAndRegions||System.Nullable/System.Boolean|||
+|IpRanges||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.IpRange|||
 |IsTrusted||System.Nullable/System.Boolean|||
+|OdataType||System.String|||
 
 ## New-AzureADMSPasswordSingleSignOnCredential
 
@@ -4438,8 +4438,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PasswordSSOCredential||Microsoft.Open.MSGraph.Model.PasswordSSOCredentials|||
 |ObjectId||System.String|||
+|PasswordSSOCredential||Microsoft.Open.MSGraph.Model.PasswordSSOCredentials|||
 
 ## New-AzureADMSPermissionGrantConditionSet
 
@@ -4463,16 +4463,16 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ClientApplicationTenantIds|ClientApplicationTenantIds|System.Collections.Generic.List/System.String|System.String[]||
-|Permissions|Permissions|System.Collections.Generic.List/System.String|System.String[]||
-|ConditionSetType||System.String|||
-|ClientApplicationPublisherIds|ClientApplicationPublisherIds|System.Collections.Generic.List/System.String|System.String[]||
 |ClientApplicationIds|ClientApplicationIds|System.Collections.Generic.List/System.String|System.String[]||
-|PermissionType|PermissionType|System.String|System.String||
-|ResourceApplication|ResourceApplication|System.String|System.String||
+|ClientApplicationPublisherIds|ClientApplicationPublisherIds|System.Collections.Generic.List/System.String|System.String[]||
 |ClientApplicationsFromVerifiedPublisherOnly|ClientApplicationsFromVerifiedPublisherOnly|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|ClientApplicationTenantIds|ClientApplicationTenantIds|System.Collections.Generic.List/System.String|System.String[]||
+|ConditionSetType||System.String|||
 |PermissionClassification|PermissionClassification|System.String|System.String||
+|Permissions|Permissions|System.Collections.Generic.List/System.String|System.String[]||
+|PermissionType|PermissionType|System.String|System.String||
 |PolicyId||System.String|||
+|ResourceApplication|ResourceApplication|System.String|System.String||
 
 ## New-AzureADMSPermissionGrantPolicy
 
@@ -4523,8 +4523,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |DirectoryScopeId|DirectoryScopeId|System.String|System.String||
-|RoleDefinitionId|RoleDefinitionId|System.String|System.String||
 |PrincipalId|PrincipalId|System.String|System.String||
+|RoleDefinitionId|RoleDefinitionId|System.String|System.String||
 
 ## New-AzureADMSRoleDefinition
 
@@ -4548,14 +4548,14 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName|DisplayName|System.String|System.String||
-|TemplateId|TemplateId|System.String|System.String||
-|IsEnabled|IsEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Description|Description|System.String|System.String||
-|ResourceScopes|ResourceScopes|System.Collections.Generic.List/System.String|System.String[]||
-|Version|Version|System.String|System.String||
-|RolePermissions|RolePermissions|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.RolePermission|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphUnifiedRolePermission[]||
+|DisplayName|DisplayName|System.String|System.String||
 |InheritsPermissionsFrom|InheritsPermissionsFrom|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.DirectoryRoleDefinition|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphUnifiedRoleDefinition1[]||
+|IsEnabled|IsEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|ResourceScopes|ResourceScopes|System.Collections.Generic.List/System.String|System.String[]||
+|RolePermissions|RolePermissions|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.RolePermission|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphUnifiedRolePermission[]||
+|TemplateId|TemplateId|System.String|System.String||
+|Version|Version|System.String|System.String||
 
 ## New-AzureADMSServicePrincipal
 
@@ -4593,8 +4593,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|InputFilePath||System.String|||
 |Content||System.String|||
+|InputFilePath||System.String|||
 |OutputFilePath||System.String|||
 
 ## New-AzureADMSUser
@@ -4618,8 +4618,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |CustomSecurityAttributes||System.Object|||
-|UserPrincipalName||System.String|||
 |DisplayName||System.String|||
+|UserPrincipalName||System.String|||
 
 ## New-AzureADObjectSetting
 
@@ -4665,11 +4665,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName||System.String|||
 |AlternativeIdentifier||System.String|||
-|KeyCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.KeyCredential|||
-|IsOrganizationDefault||System.Nullable/System.Boolean|||
 |Definition||System.Collections.Generic.List/System.String|||
+|DisplayName||System.String|||
+|IsOrganizationDefault||System.Nullable/System.Boolean|||
+|KeyCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.KeyCredential|||
 |Type||System.String|||
 
 ## New-AzureADPrivilegedRoleAssignment
@@ -4693,11 +4693,11 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |ExpirationDateTime||System.Nullable/System.DateTime|||
-|RoleId||System.String|||
-|UserId||System.String|||
 |Id||System.String|||
 |IsElevated||System.Nullable/System.Boolean|||
 |ResultMessage||System.String|||
+|RoleId||System.String|||
+|UserId||System.String|||
 
 ## New-AzureADServiceAppRoleAssignment
 
@@ -4721,9 +4721,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PrincipalId|PrincipalId|System.String|System.String||
-|ObjectId||System.String|||
 |Id|Id|System.String|System.String||
+|ObjectId||System.String|||
+|PrincipalId|PrincipalId|System.String|System.String||
 |ResourceId|ResourceId|System.String|System.String||
 
 ## New-AzureADServicePrincipal
@@ -4748,22 +4748,22 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ErrorUrl||System.String|||
-|Tags|Tags|System.Collections.Generic.List/System.String|System.String[]||
-|PasswordCredentials|PasswordCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.PasswordCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordCredential[]||
-|KeyCredentials|KeyCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.KeyCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphKeyCredential[]||
-|Homepage|Homepage|System.String|System.String||
-|AppRoleAssignmentRequired|AppRoleAssignmentRequired|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|ServicePrincipalType|ServicePrincipalType|System.String|System.String||
-|DisplayName|DisplayName|System.String|System.String||
 |AccountEnabled|AccountEnabled|System.String|System.Management.Automation.SwitchParameter||
-|ReplyUrls|ReplyUrls|System.Collections.Generic.List/System.String|System.String[]||
-|AppId|AppId|System.String|System.String||
-|PublisherName||System.String|||
-|LogoutUrl|LogoutUrl|System.String|System.String||
 |AlternativeNames|AlternativeNames|System.Collections.Generic.List/System.String|System.String[]||
+|AppId|AppId|System.String|System.String||
+|AppRoleAssignmentRequired|AppRoleAssignmentRequired|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|DisplayName|DisplayName|System.String|System.String||
+|ErrorUrl||System.String|||
+|Homepage|Homepage|System.String|System.String||
+|KeyCredentials|KeyCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.KeyCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphKeyCredential[]||
+|LogoutUrl|LogoutUrl|System.String|System.String||
+|PasswordCredentials|PasswordCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.PasswordCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordCredential[]||
+|PublisherName||System.String|||
+|ReplyUrls|ReplyUrls|System.Collections.Generic.List/System.String|System.String[]||
 |SamlMetadataUrl||System.String|||
 |ServicePrincipalNames|ServicePrincipalNames|System.Collections.Generic.List/System.String|System.String[]||
+|ServicePrincipalType|ServicePrincipalType|System.String|System.String||
+|Tags|Tags|System.Collections.Generic.List/System.String|System.String[]||
 
 ## New-AzureADServicePrincipalKeyCredential
 
@@ -4788,12 +4788,12 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |CustomKeyIdentifier||System.String|||
-|Type||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyType|||
-|Value||System.String|||
 |EndDate||System.Nullable/System.DateTime|||
-|Usage||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyUsage|||
 |ObjectId||System.String|||
 |StartDate||System.Nullable/System.DateTime|||
+|Type||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyType|||
+|Usage||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyUsage|||
+|Value||System.String|||
 
 ## New-AzureADServicePrincipalPasswordCredential
 
@@ -4818,10 +4818,10 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |CustomKeyIdentifier||System.String|||
-|Value||System.String|||
 |EndDate||System.Nullable/System.DateTime|||
-|StartDate||System.Nullable/System.DateTime|||
 |ObjectId||System.String|||
+|StartDate||System.Nullable/System.DateTime|||
+|Value||System.String|||
 
 ## New-AzureADTrustedCertificateAuthority
 
@@ -4867,40 +4867,40 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|State|State|System.String|System.String||
-|ShowInAddressList|ShowInAddressList|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|PasswordProfile|PasswordProfile|Microsoft.Open.AzureAD.Model.PasswordProfile|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordProfile||
-|Country|Country|System.String|System.String||
-|PhysicalDeliveryOfficeName||System.String|||
-|PreferredLanguage|PreferredLanguage|System.String|System.String||
-|OtherMails|OtherMails|System.Collections.Generic.List/System.String|System.String[]||
-|IsCompromised||System.Nullable/System.Boolean|||
-|MailNickName|MailNickname|System.String|System.String||
-|ConsentProvidedForMinor|ConsentProvidedForMinor|System.String|System.String||
-|Department|Department|System.String|System.String||
-|UserState||System.String|||
-|City|City|System.String|System.String||
-|UserType|UserType|System.String|System.String||
-|UserStateChangedOn||System.String|||
-|ImmutableId||System.String|||
+|AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |AgeGroup|AgeGroup|System.String|System.String||
+|City|City|System.String|System.String||
+|CompanyName|CompanyName|System.String|System.String||
+|ConsentProvidedForMinor|ConsentProvidedForMinor|System.String|System.String||
+|Country|Country|System.String|System.String||
+|CreationType|CreationType|System.String|System.String||
+|Department|Department|System.String|System.String||
 |DisplayName|DisplayName|System.String|System.String||
 |ExtensionProperty||System.Collections.Generic.Dictionary`2[[System.String|||
-|UserPrincipalName|UserPrincipalName|System.String|System.String||
-|Mobile||System.String|||
-|CreationType|CreationType|System.String|System.String||
-|StreetAddress|StreetAddress|System.String|System.String||
 |FacsimileTelephoneNumber||System.String|||
-|SignInNames||System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.SignInName|||
-|JobTitle|JobTitle|System.String|System.String||
-|PasswordPolicies|PasswordPolicies|System.String|System.String||
 |GivenName|GivenName|System.String|System.String||
-|AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|TelephoneNumber||System.String|||
-|Surname|Surname|System.String|System.String||
-|CompanyName|CompanyName|System.String|System.String||
-|UsageLocation|UsageLocation|System.String|System.String||
+|ImmutableId||System.String|||
+|IsCompromised||System.Nullable/System.Boolean|||
+|JobTitle|JobTitle|System.String|System.String||
+|MailNickName|MailNickname|System.String|System.String||
+|Mobile||System.String|||
+|OtherMails|OtherMails|System.Collections.Generic.List/System.String|System.String[]||
+|PasswordPolicies|PasswordPolicies|System.String|System.String||
+|PasswordProfile|PasswordProfile|Microsoft.Open.AzureAD.Model.PasswordProfile|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordProfile||
+|PhysicalDeliveryOfficeName||System.String|||
 |PostalCode|PostalCode|System.String|System.String||
+|PreferredLanguage|PreferredLanguage|System.String|System.String||
+|ShowInAddressList|ShowInAddressList|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|SignInNames||System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.SignInName|||
+|State|State|System.String|System.String||
+|StreetAddress|StreetAddress|System.String|System.String||
+|Surname|Surname|System.String|System.String||
+|TelephoneNumber||System.String|||
+|UsageLocation|UsageLocation|System.String|System.String||
+|UserPrincipalName|UserPrincipalName|System.String|System.String||
+|UserState||System.String|||
+|UserStateChangedOn||System.String|||
+|UserType|UserType|System.String|System.String||
 
 ## New-AzureADUserAppRoleAssignment
 
@@ -4924,9 +4924,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PrincipalId|PrincipalId|System.String|System.String||
-|ObjectId||System.String|||
 |Id|Id|System.String|System.String||
+|ObjectId||System.String|||
+|PrincipalId|PrincipalId|System.String|System.String||
 |ResourceId|ResourceId|System.String|System.String||
 
 ## New-RbacApplicationRoleAssignment
@@ -4949,11 +4949,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DirectoryScopeId||System.String|||
-|RoleDefinitionId||System.String|||
-|AppScopeId||System.String|||
 |AppId||System.String|||
+|AppScopeId||System.String|||
+|DirectoryScopeId||System.String|||
 |PrincipalId||System.String|||
+|RoleDefinitionId||System.String|||
 
 ## New-RbacApplicationRoleDefinition
 
@@ -4975,15 +4975,15 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName||System.String|||
 |AppId||System.String|||
-|TemplateId||System.String|||
-|IsEnabled||System.Nullable/System.Boolean|||
 |Description||System.String|||
-|ResourceScopes||System.Collections.Generic.List/System.String|||
-|Version||System.String|||
-|RolePermissions||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.RolePermission|||
+|DisplayName||System.String|||
 |InheritsPermissionsFrom||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.DirectoryRoleDefinition|||
+|IsEnabled||System.Nullable/System.Boolean|||
+|ResourceScopes||System.Collections.Generic.List/System.String|||
+|RolePermissions||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.RolePermission|||
+|TemplateId||System.String|||
+|Version||System.String|||
 
 ## Open-AzureADMSPrivilegedRoleAssignmentRequest
 
@@ -5005,14 +5005,14 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RoleDefinitionId||System.String|||
-|Type||System.String|||
-|SubjectId||System.String|||
+|AssignmentState||System.String|||
 |ProviderId||System.String|||
 |Reason||System.String|||
 |ResourceId||System.String|||
+|RoleDefinitionId||System.String|||
 |Schedule||Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedSchedule|||
-|AssignmentState||System.String|||
+|SubjectId||System.String|||
+|Type||System.String|||
 
 ## Remove-AzureADAdministrativeUnit
 
@@ -5155,8 +5155,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|OwnerId||System.String|||
 |ObjectId||System.String|||
+|OwnerId||System.String|||
 
 ## Remove-AzureADApplicationPasswordCredential
 
@@ -5203,8 +5203,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PolicyId||System.String|||
 |Id||System.String|||
+|PolicyId||System.String|||
 
 ## Remove-AzureADApplicationProxyApplication
 
@@ -5226,8 +5226,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RemoveADApplication||System.Nullable/System.Boolean|||
 |ObjectId||System.String|||
+|RemoveADApplication||System.Nullable/System.Boolean|||
 
 ## Remove-AzureADApplicationProxyApplicationConnectorGroup
 
@@ -5389,8 +5389,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|OwnerId||System.String|||
 |ObjectId||System.String|||
+|OwnerId||System.String|||
 
 ## Remove-AzureADDeviceRegisteredUser
 
@@ -5412,8 +5412,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|UserId||System.String|||
 |ObjectId||System.String|||
+|UserId||System.String|||
 
 ## Remove-AzureADDirectoryRoleMember
 
@@ -5604,8 +5604,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|OwnerId||System.String|||
 |ObjectId||System.String|||
+|OwnerId||System.String|||
 
 ## Remove-AzureADMSAdministrativeUnit
 
@@ -5727,8 +5727,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ObjectId||System.String|||
 |KeyId|KeyId|System.String|System.String||
+|ObjectId||System.String|||
 |Proof|Proof|System.String|System.String||
 
 ## Remove-AzureADMSApplicationOwner
@@ -5753,8 +5753,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|OwnerId||System.String|||
 |ObjectId||System.String|||
+|OwnerId||System.String|||
 
 ## Remove-AzureADMSApplicationPassword
 
@@ -6039,8 +6039,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PasswordSSOObjectId||Microsoft.Open.MSGraph.Model.PasswordSSOObjectId|||
 |ObjectId||System.String|||
+|PasswordSSOObjectId||Microsoft.Open.MSGraph.Model.PasswordSSOObjectId|||
 
 ## Remove-AzureADMSPermissionGrantConditionSet
 
@@ -6064,9 +6064,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PolicyId||System.String|||
 |ConditionSetType||System.String|||
 |Id||System.String|||
+|PolicyId||System.String|||
 
 ## Remove-AzureADMSPermissionGrantPolicy
 
@@ -6187,8 +6187,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ServicePrincipalId|ServicePrincipalId|System.String|System.String||
 |Id||System.String|||
+|ServicePrincipalId|ServicePrincipalId|System.String|System.String||
 
 ## Remove-AzureADMSTrustFrameworkPolicy
 
@@ -6256,9 +6256,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|TargetType||System.String|||
-|TargetObjectId||System.String|||
 |Id||System.String|||
+|TargetObjectId||System.String|||
+|TargetType||System.String|||
 
 ## Remove-AzureADPolicy
 
@@ -6302,8 +6302,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ScopedRoleMembershipId||System.String|||
 |ObjectId||System.String|||
+|ScopedRoleMembershipId||System.String|||
 
 ## Remove-AzureADServiceAppRoleAssignment
 
@@ -6401,8 +6401,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|OwnerId||System.String|||
 |ObjectId||System.String|||
+|OwnerId||System.String|||
 
 ## Remove-AzureADServicePrincipalPasswordCredential
 
@@ -6449,8 +6449,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PolicyId||System.String|||
 |Id||System.String|||
+|PolicyId||System.String|||
 
 ## Remove-AzureADTrustedCertificateAuthority
 
@@ -6690,35 +6690,39 @@
 
 ## Revoke-AzureADSignedInUserAllRefreshToken
 
+> /users/{user-id}/invalidateAllRefreshTokens
+
 ### Data
 
 + AAD Command: [Revoke-AzureADSignedInUserAllRefreshToken](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Revoke-AzureADSignedInUserAllRefreshToken)
 + AAD Module: AzureADPreview
-+ Graph Command: [Invoke-MgInvalidateUserRefreshToken](https://docs.microsoft.com/en-us/powershell/module//Invoke-MgInvalidateUserRefreshToken) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Invoke-MgInvalidateUserRefreshToken))
-+ Graph Module: 
++ Graph Command: [Invoke-MgInvalidateUserRefreshToken](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Invoke-MgInvalidateUserRefreshToken) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Invoke-MgInvalidateUserRefreshToken))
++ Graph Module: Microsoft.Graph.Users.Actions
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Directory.ReadWrite.All|
+|Delegate|Directory.ReadWrite.All, User.ReadWrite|
 
 ## Revoke-AzureADUserAllRefreshToken
+
+> /users/{user-id}/invalidateAllRefreshTokens
 
 ### Data
 
 + AAD Command: [Revoke-AzureADUserAllRefreshToken](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Revoke-AzureADUserAllRefreshToken)
 + AAD Module: AzureADPreview
-+ Graph Command: [Invoke-MgInvalidateUserRefreshToken](https://docs.microsoft.com/en-us/powershell/module//Invoke-MgInvalidateUserRefreshToken) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Invoke-MgInvalidateUserRefreshToken))
-+ Graph Module: 
++ Graph Command: [Invoke-MgInvalidateUserRefreshToken](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Invoke-MgInvalidateUserRefreshToken) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Invoke-MgInvalidateUserRefreshToken))
++ Graph Module: Microsoft.Graph.Users.Actions
 
 > Scopes Needed (any one)
 
 |Type|Scopes|
 |---|---|
-|Application||
-|Delegate||
+|Application|Directory.ReadWrite.All|
+|Delegate|Directory.ReadWrite.All, User.ReadWrite|
 
 ### Parameters
 
@@ -6847,8 +6851,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Description||System.String|||
-|ObjectId||System.String|||
 |DisplayName||System.String|||
+|ObjectId||System.String|||
 
 ## Set-AzureADApplication
 
@@ -6872,41 +6876,41 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|LogoutUrl||System.String|||
-|KeyCredentials|KeyCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.KeyCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphKeyCredential[]||
-|Homepage||System.String|||
-|PublisherDomain|PublisherDomain|System.String|System.String||
-|Oauth2AllowUrlPathMatching||System.Nullable/System.Boolean|||
-|ObjectId||System.String|||
-|IsDisabled||System.Nullable/System.Boolean|||
-|InformationalUrls||Microsoft.Open.AzureAD.Model.InformationalUrl|||
-|ErrorUrl||System.String|||
-|Oauth2Permissions||System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.OAuth2Permission|||
-|WwwHomepage||System.String|||
-|PreAuthorizedApplications||System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.PreAuthorizedApplication|||
-|SamlMetadataUrl|SamlMetadataUrl|System.String|System.String||
-|RequiredResourceAccess|RequiredResourceAccess|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.RequiredResourceAccess|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphRequiredResourceAccess[]||
-|DisplayName|DisplayName|System.String|System.String||
-|IsDeviceOnlyAuthSupported|IsDeviceOnlyAuthSupported|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|ParentalControlSettings|ParentalControlSettings|Microsoft.Open.AzureAD.Model.ParentalControlSettings|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphParentalControlSettings||
-|PublicClient|PublicClient|System.Nullable/System.Boolean|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPublicClientApplication||
-|PasswordCredentials|PasswordCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.PasswordCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordCredential[]||
-|SignInAudience|SignInAudience|System.String|System.String||
-|IdentifierUris|IdentifierUris|System.Collections.Generic.List/System.String|System.String[]||
-|AllowGuestsSignIn||System.Nullable/System.Boolean|||
-|RecordConsentConditions||System.String|||
-|KnownClientApplications||System.Collections.Generic.List/System.String|||
-|AppRoles|AppRoles|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.AppRole|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAppRole[]||
-|AllowPassthroughUsers||System.Nullable/System.Boolean|||
-|ReplyUrls||System.Collections.Generic.List/System.String|||
-|AvailableToOtherTenants||System.Nullable/System.Boolean|||
-|AppLogoUrl||System.String|||
-|GroupMembershipClaims|GroupMembershipClaims|System.String|System.String||
-|OptionalClaims|OptionalClaims|Microsoft.Open.AzureAD.Model.OptionalClaims|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphOptionalClaims||
-|Oauth2RequirePostResponse|Oauth2RequirePostResponse|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|Oauth2AllowImplicitFlow||System.Nullable/System.Boolean|||
 |AddIns|AddIns|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.AddIn|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAddIn[]||
+|AllowGuestsSignIn||System.Nullable/System.Boolean|||
+|AllowPassthroughUsers||System.Nullable/System.Boolean|||
+|AppLogoUrl||System.String|||
+|AppRoles|AppRoles|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.AppRole|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAppRole[]||
+|AvailableToOtherTenants||System.Nullable/System.Boolean|||
+|DisplayName|DisplayName|System.String|System.String||
+|ErrorUrl||System.String|||
+|GroupMembershipClaims|GroupMembershipClaims|System.String|System.String||
+|Homepage||System.String|||
+|IdentifierUris|IdentifierUris|System.Collections.Generic.List/System.String|System.String[]||
+|InformationalUrls||Microsoft.Open.AzureAD.Model.InformationalUrl|||
+|IsDeviceOnlyAuthSupported|IsDeviceOnlyAuthSupported|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|IsDisabled||System.Nullable/System.Boolean|||
+|KeyCredentials|KeyCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.KeyCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphKeyCredential[]||
+|KnownClientApplications||System.Collections.Generic.List/System.String|||
+|LogoutUrl||System.String|||
+|Oauth2AllowImplicitFlow||System.Nullable/System.Boolean|||
+|Oauth2AllowUrlPathMatching||System.Nullable/System.Boolean|||
+|Oauth2Permissions||System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.OAuth2Permission|||
+|Oauth2RequirePostResponse|Oauth2RequirePostResponse|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|ObjectId||System.String|||
+|OptionalClaims|OptionalClaims|Microsoft.Open.AzureAD.Model.OptionalClaims|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphOptionalClaims||
 |OrgRestrictions||System.Collections.Generic.List/System.String|||
+|ParentalControlSettings|ParentalControlSettings|Microsoft.Open.AzureAD.Model.ParentalControlSettings|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphParentalControlSettings||
+|PasswordCredentials|PasswordCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.PasswordCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordCredential[]||
+|PreAuthorizedApplications||System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.PreAuthorizedApplication|||
+|PublicClient|PublicClient|System.Nullable/System.Boolean|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPublicClientApplication||
+|PublisherDomain|PublisherDomain|System.String|System.String||
+|RecordConsentConditions||System.String|||
+|ReplyUrls||System.Collections.Generic.List/System.String|||
+|RequiredResourceAccess|RequiredResourceAccess|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.RequiredResourceAccess|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphRequiredResourceAccess[]||
+|SamlMetadataUrl|SamlMetadataUrl|System.String|System.String||
+|SignInAudience|SignInAudience|System.String|System.String||
+|WwwHomepage||System.String|||
 
 ## Set-AzureADApplicationLogo
 
@@ -6930,10 +6934,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|FileStream||System.IO.Stream|||
-|ObjectId||System.String|||
 |FilePath||System.String|||
+|FileStream||System.IO.Stream|||
 |ImageByteArray||System.Byte[]|||
+|ObjectId||System.String|||
 
 ## Set-AzureADApplicationProxyApplication
 
@@ -6955,14 +6959,14 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|IsTranslateHostHeaderEnabled||System.Nullable/System.Boolean|||
-|ConnectorGroupId||System.String|||
-|ObjectId||System.String|||
-|InternalUrl||System.String|||
-|IsTranslateLinksInBodyEnabled||System.Nullable/System.Boolean|||
 |ApplicationServerTimeout||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ApplicationServerTimeoutEnum|||
-|ExternalUrl||System.String|||
+|ConnectorGroupId||System.String|||
 |ExternalAuthenticationType||System.Nullable/Microsoft.Open.MSGraph.Model.ApplicationProxyApplicationObject+ExternalAuthenticationTypeEnum|||
+|ExternalUrl||System.String|||
+|InternalUrl||System.String|||
+|IsTranslateHostHeaderEnabled||System.Nullable/System.Boolean|||
+|IsTranslateLinksInBodyEnabled||System.Nullable/System.Boolean|||
+|ObjectId||System.String|||
 
 ## Set-AzureADApplicationProxyApplicationConnectorGroup
 
@@ -7031,10 +7035,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|KerberosDelegatedLoginIdentity||System.Nullable/Microsoft.Open.MSGraph.Model.OnPremisesPublishingKerberosSignOnSettingsObject+KerberosSignOnMappingAttributeTypeEnum|||
+|KerberosInternalApplicationServicePrincipalName||System.String|||
 |ObjectId||System.String|||
 |SingleSignOnMode||System.Nullable/Microsoft.Open.MSGraph.Model.OnPremisesPublishingSingleSignOnObject+SingleSignOnModeEnum|||
-|KerberosInternalApplicationServicePrincipalName||System.String|||
-|KerberosDelegatedLoginIdentity||System.Nullable/Microsoft.Open.MSGraph.Model.OnPremisesPublishingKerberosSignOnSettingsObject+KerberosSignOnMappingAttributeTypeEnum|||
 
 ## Set-AzureADApplicationProxyConnector
 
@@ -7056,8 +7060,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Id||System.String|||
 |ConnectorGroupId||System.String|||
+|Id||System.String|||
 
 ## Set-AzureADApplicationProxyConnectorGroup
 
@@ -7079,8 +7083,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Name||Microsoft.Open.MSGraph.Model.Name|||
 |Id||System.String|||
+|Name||Microsoft.Open.MSGraph.Model.Name|||
 
 ## Set-AzureADDevice
 
@@ -7104,22 +7108,22 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DeviceObjectVersion||System.Nullable/System.Int32|||
-|DeviceId|DeviceId|System.String|System.String||
-|ObjectId||System.String|||
-|DisplayName|DisplayName|System.String|System.String||
-|DeviceOSType||System.String|||
-|AlternativeSecurityIds|AlternativeSecurityIds|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.AlternativeSecurityId|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAlternativeSecurityId[]||
 |AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|AlternativeSecurityIds|AlternativeSecurityIds|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.AlternativeSecurityId|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAlternativeSecurityId[]||
 |ApproximateLastLogonTimeStamp||System.Nullable/System.DateTime|||
-|DeviceTrustType||System.String|||
-|DevicePhysicalIds||System.Collections.Generic.List/System.String|||
+|DeviceId|DeviceId|System.String|System.String||
+|DeviceMetadata|DeviceMetadata|System.String|System.String||
+|DeviceObjectVersion||System.Nullable/System.Int32|||
+|DeviceOSType||System.String|||
 |DeviceOSVersion||System.String|||
+|DevicePhysicalIds||System.Collections.Generic.List/System.String|||
+|DeviceTrustType||System.String|||
+|DisplayName|DisplayName|System.String|System.String||
+|IsCompliant|IsCompliant|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |IsManaged|IsManaged|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|ObjectId||System.String|||
 |ProfileType|ProfileType|System.String|System.String||
 |SystemLabels|SystemLabels|System.Collections.Generic.List/System.String|System.String[]||
-|DeviceMetadata|DeviceMetadata|System.String|System.String||
-|IsCompliant|IsCompliant|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Set-AzureADDirectorySetting
 
@@ -7167,9 +7171,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |IsDefault|IsDefault|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|IsDefaultForCloudRedirections||System.Nullable/System.Boolean|||
 |Name||System.String|||
 |SupportedServices|SupportedServices|System.Collections.Generic.List/System.String|System.String[]||
-|IsDefaultForCloudRedirections||System.Nullable/System.Boolean|||
 
 ## Set-AzureADGroup
 
@@ -7193,12 +7197,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName|DisplayName|System.String|System.String||
-|SecurityEnabled|SecurityEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|MailEnabled|MailEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|ObjectId||System.String|||
 |Description|Description|System.String|System.String||
+|DisplayName|DisplayName|System.String|System.String||
+|MailEnabled|MailEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |MailNickName|MailNickname|System.String|System.String||
+|ObjectId||System.String|||
+|SecurityEnabled|SecurityEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 
 ## Set-AzureADMSAdministrativeUnit
 
@@ -7222,13 +7226,13 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|Description|Description|System.String|System.String||
 |DisplayName|DisplayName|System.String|System.String||
+|Id|Id|System.String|System.String||
+|IsMemberManagementRestricted||System.Nullable/System.Boolean|||
+|MembershipRule||System.String|||
 |MembershipRuleProcessingState||System.String|||
 |MembershipType||System.String|||
-|IsMemberManagementRestricted||System.Nullable/System.Boolean|||
-|Description|Description|System.String|System.String||
-|MembershipRule||System.String|||
-|Id|Id|System.String|System.String||
 
 ## Set-AzureADMSApplication
 
@@ -7252,28 +7256,28 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|GroupMembershipClaims|GroupMembershipClaims|System.String|System.String||
-|PreAuthorizedApplications||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.PreAuthorizedApplication|||
-|ParentalControlSettings|ParentalControlSettings|Microsoft.Open.MSGraph.Model.ParentalControlSettings|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphParentalControlSettings||
-|PasswordCredentials|PasswordCredentials|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.PasswordCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordCredential[]||
-|KeyCredentials|KeyCredentials|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.KeyCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphKeyCredential[]||
-|IsDeviceOnlyAuthSupported|IsDeviceOnlyAuthSupported|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|ObjectId||System.String|||
 |AddIns|AddIns|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AddIn|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAddIn[]||
-|PublicClient|PublicClient|Microsoft.Open.MSGraph.Model.PublicClientApplication|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPublicClientApplication||
-|IsFallbackPublicClient|IsFallbackPublicClient|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|Tags|Tags|System.Collections.Generic.List/System.String|System.String[]||
-|TokenEncryptionKeyId|TokenEncryptionKeyId|System.String|System.String||
-|OrgRestrictions||System.Collections.Generic.List/System.String|||
-|IdentifierUris|IdentifierUris|System.Collections.Generic.List/System.String|System.String[]||
+|Api|Api|Microsoft.Open.MSGraph.Model.ApiApplication|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphApiApplication||
 |AppRoles|AppRoles|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AppRole|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphAppRole[]||
 |DisplayName|DisplayName|System.String|System.String||
+|GroupMembershipClaims|GroupMembershipClaims|System.String|System.String||
+|IdentifierUris|IdentifierUris|System.Collections.Generic.List/System.String|System.String[]||
 |InformationalUrl||Microsoft.Open.MSGraph.Model.InformationalUrl|||
-|Api|Api|Microsoft.Open.MSGraph.Model.ApiApplication|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphApiApplication||
-|Web|Web|Microsoft.Open.MSGraph.Model.WebApplication|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphWebApplication||
-|SignInAudience|SignInAudience|System.String|System.String||
+|IsDeviceOnlyAuthSupported|IsDeviceOnlyAuthSupported|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|IsFallbackPublicClient|IsFallbackPublicClient|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|KeyCredentials|KeyCredentials|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.KeyCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphKeyCredential[]||
+|ObjectId||System.String|||
 |OptionalClaims|OptionalClaims|Microsoft.Open.MSGraph.Model.OptionalClaims|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphOptionalClaims||
+|OrgRestrictions||System.Collections.Generic.List/System.String|||
+|ParentalControlSettings|ParentalControlSettings|Microsoft.Open.MSGraph.Model.ParentalControlSettings|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphParentalControlSettings||
+|PasswordCredentials|PasswordCredentials|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.PasswordCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordCredential[]||
+|PreAuthorizedApplications||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.PreAuthorizedApplication|||
+|PublicClient|PublicClient|Microsoft.Open.MSGraph.Model.PublicClientApplication|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPublicClientApplication||
 |RequiredResourceAccess|RequiredResourceAccess|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.RequiredResourceAccess|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphRequiredResourceAccess[]||
+|SignInAudience|SignInAudience|System.String|System.String||
+|Tags|Tags|System.Collections.Generic.List/System.String|System.String[]||
+|TokenEncryptionKeyId|TokenEncryptionKeyId|System.String|System.String||
+|Web|Web|Microsoft.Open.MSGraph.Model.WebApplication|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphWebApplication||
 
 ## Set-AzureADMSApplicationLogo
 
@@ -7322,8 +7326,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|SetVerifiedPublisherRequest||Microsoft.Open.MSGraph.Model.SetVerifiedPublisherRequest|||
 |AppObjectId||System.String|||
+|SetVerifiedPublisherRequest||Microsoft.Open.MSGraph.Model.SetVerifiedPublisherRequest|||
 
 ## Set-AzureADMSAttributeSet
 
@@ -7346,8 +7350,8 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Description||System.String|||
-|MaxAttributesPerSet||System.Nullable/System.Int32|||
 |Id||System.String|||
+|MaxAttributesPerSet||System.Nullable/System.Int32|||
 
 ## Set-AzureADMSAuthorizationPolicy
 
@@ -7371,17 +7375,17 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|AllowedToSignUpEmailBasedSubscriptions|AllowedToSignUpEmailBasedSubscriptions|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|AllowedToUseSSPR|AllowedToUseSspr|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|AllowEmailVerifiedUsersToJoinOrganization|AllowEmailVerifiedUsersToJoinOrganization|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |BlockMsolPowerShell|BlockMsolPowerShell|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|DefaultUserRolePermissions|DefaultUserRolePermissions|Microsoft.Open.MSGraph.Model.DefaultUserRolePermissions|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphDefaultUserRolePermissions||
+|Description|Description|System.String|System.String||
 |DisplayName|DisplayName|System.String|System.String||
 |EnabledPreviewFeatures||System.Collections.Generic.List/System.String|||
-|AllowedToUseSSPR|AllowedToUseSspr|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|PermissionGrantPolicyIdsAssignedToDefaultUserRole||System.Collections.Generic.List/System.String|||
-|AllowEmailVerifiedUsersToJoinOrganization|AllowEmailVerifiedUsersToJoinOrganization|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|Description|Description|System.String|System.String||
-|AllowedToSignUpEmailBasedSubscriptions|AllowedToSignUpEmailBasedSubscriptions|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |GuestUserRoleId|GuestUserRoleId|System.String|System.String||
 |Id|Id|System.String|System.String||
-|DefaultUserRolePermissions|DefaultUserRolePermissions|Microsoft.Open.MSGraph.Model.DefaultUserRolePermissions|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphDefaultUserRolePermissions||
+|PermissionGrantPolicyIdsAssignedToDefaultUserRole||System.Collections.Generic.List/System.String|||
 
 ## Set-AzureADMSConditionalAccessPolicy
 
@@ -7405,15 +7409,15 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName|DisplayName|System.String|System.String||
-|SessionControls|SessionControls|Microsoft.Open.MSGraph.Model.ConditionalAccessSessionControls|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphConditionalAccessSessionControls||
-|ModifiedDateTime|ModifiedDateTime|System.String|System.DateTime||
-|State|State|System.String|System.String||
-|CreatedDateTime|CreatedDateTime|System.String|System.DateTime||
 |Conditions|Conditions|Microsoft.Open.MSGraph.Model.ConditionalAccessConditionSet|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphConditionalAccessConditionSet||
-|PolicyId||System.String|||
-|Id|Id|System.String|System.String||
+|CreatedDateTime|CreatedDateTime|System.String|System.DateTime||
+|DisplayName|DisplayName|System.String|System.String||
 |GrantControls|GrantControls|Microsoft.Open.MSGraph.Model.ConditionalAccessGrantControls|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphConditionalAccessGrantControls||
+|Id|Id|System.String|System.String||
+|ModifiedDateTime|ModifiedDateTime|System.String|System.DateTime||
+|PolicyId||System.String|||
+|SessionControls|SessionControls|Microsoft.Open.MSGraph.Model.ConditionalAccessSessionControls|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphConditionalAccessSessionControls||
+|State|State|System.String|System.String||
 
 ## Set-AzureADMSCustomSecurityAttributeDefinition
 
@@ -7436,9 +7440,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Description||System.String|||
+|Id||System.String|||
 |Status||System.String|||
 |UsePreDefinedValuesOnly||System.Nullable/System.Boolean|||
-|Id||System.String|||
 
 ## Set-AzureADMSCustomSecurityAttributeDefinitionAllowedValue
 
@@ -7460,9 +7464,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|IsActive||System.Nullable/System.Boolean|||
-|Id||System.String|||
 |CustomSecurityAttributeDefinitionId||System.String|||
+|Id||System.String|||
+|IsActive||System.Nullable/System.Boolean|||
 
 ## Set-AzureADMSFeatureRolloutPolicy
 
@@ -7484,13 +7488,13 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName||System.String|||
 |AppliesTo||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.MsDirectoryObject|||
-|IsEnabled||System.Nullable/System.Boolean|||
-|Feature||System.Nullable/Microsoft.Open.MSGraph.Model.MsFeatureRolloutPolicy+FeatureEnum|||
 |Description||System.String|||
-|IsAppliedToOrganization||System.Nullable/System.Boolean|||
+|DisplayName||System.String|||
+|Feature||System.Nullable/Microsoft.Open.MSGraph.Model.MsFeatureRolloutPolicy+FeatureEnum|||
 |Id||System.String|||
+|IsAppliedToOrganization||System.Nullable/System.Boolean|||
+|IsEnabled||System.Nullable/System.Boolean|||
 
 ## Set-AzureADMSGroup
 
@@ -7514,18 +7518,18 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|MembershipRule|MembershipRule|System.String|System.String||
-|DisplayName|DisplayName|System.String|System.String||
-|SecurityEnabled|SecurityEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|Visibility|Visibility|System.String|System.String||
-|MailEnabled|MailEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|MembershipRuleProcessingState|MembershipRuleProcessingState|System.String|System.String||
 |Description|Description|System.String|System.String||
-|IsAssignableToRole|IsAssignableToRole|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|LabelId||System.String|||
-|MailNickname|MailNickname|System.String|System.String||
+|DisplayName|DisplayName|System.String|System.String||
 |GroupTypes|GroupTypes|System.Collections.Generic.List/System.String|System.String[]||
 |Id|Id|System.String|System.String||
+|IsAssignableToRole|IsAssignableToRole|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|LabelId||System.String|||
+|MailEnabled|MailEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|MailNickname|MailNickname|System.String|System.String||
+|MembershipRule|MembershipRule|System.String|System.String||
+|MembershipRuleProcessingState|MembershipRuleProcessingState|System.String|System.String||
+|SecurityEnabled|SecurityEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|Visibility|Visibility|System.String|System.String||
 
 ## Set-AzureADMSGroupLifecyclePolicy
 
@@ -7550,9 +7554,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |AlternateNotificationEmails|AlternateNotificationEmails|System.String|System.String||
-|ManagedGroupTypes|ManagedGroupTypes|System.String|System.String||
 |GroupLifetimeInDays|GroupLifetimeInDays|System.Nullable/System.Int32|System.Int32||
 |Id|Id|System.String|System.String||
+|ManagedGroupTypes|ManagedGroupTypes|System.String|System.String||
 
 ## Set-AzureADMSIdentityProvider
 
@@ -7576,11 +7580,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Type||System.String|||
-|Name||System.String|||
-|Id|Id|System.String|System.String||
-|ClientSecret||System.String|||
 |ClientId||System.String|||
+|ClientSecret||System.String|||
+|Id|Id|System.String|System.String||
+|Name||System.String|||
+|Type||System.String|||
 
 ## Set-AzureADMSNamedLocationPolicy
 
@@ -7604,14 +7608,14 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName|DisplayName|System.String|System.String||
-|IpRanges||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.IpRange|||
-|IncludeUnknownCountriesAndRegions||System.Nullable/System.Boolean|||
-|OdataType||System.String|||
 |CountriesAndRegions||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.CountriesAndRegion|||
-|PolicyId||System.String|||
-|IsTrusted||System.Nullable/System.Boolean|||
+|DisplayName|DisplayName|System.String|System.String||
 |Id|Id|System.String|System.String||
+|IncludeUnknownCountriesAndRegions||System.Nullable/System.Boolean|||
+|IpRanges||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.IpRange|||
+|IsTrusted||System.Nullable/System.Boolean|||
+|OdataType||System.String|||
+|PolicyId||System.String|||
 
 ## Set-AzureADMSPasswordSingleSignOnCredential
 
@@ -7633,8 +7637,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PasswordSSOCredential||Microsoft.Open.MSGraph.Model.PasswordSSOCredentials|||
 |ObjectId||System.String|||
+|PasswordSSOCredential||Microsoft.Open.MSGraph.Model.PasswordSSOCredentials|||
 
 ## Set-AzureADMSPermissionGrantConditionSet
 
@@ -7658,17 +7662,17 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ClientApplicationTenantIds|ClientApplicationTenantIds|System.Collections.Generic.List/System.String|System.String[]||
-|Permissions|Permissions|System.Collections.Generic.List/System.String|System.String[]||
-|ConditionSetType||System.String|||
-|ClientApplicationPublisherIds|ClientApplicationPublisherIds|System.Collections.Generic.List/System.String|System.String[]||
 |ClientApplicationIds|ClientApplicationIds|System.Collections.Generic.List/System.String|System.String[]||
-|PermissionType|PermissionType|System.String|System.String||
-|PermissionClassification|PermissionClassification|System.String|System.String||
-|ResourceApplication|ResourceApplication|System.String|System.String||
+|ClientApplicationPublisherIds|ClientApplicationPublisherIds|System.Collections.Generic.List/System.String|System.String[]||
 |ClientApplicationsFromVerifiedPublisherOnly|ClientApplicationsFromVerifiedPublisherOnly|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|ClientApplicationTenantIds|ClientApplicationTenantIds|System.Collections.Generic.List/System.String|System.String[]||
+|ConditionSetType||System.String|||
 |Id|Id|System.String|System.String||
+|PermissionClassification|PermissionClassification|System.String|System.String||
+|Permissions|Permissions|System.Collections.Generic.List/System.String|System.String[]||
+|PermissionType|PermissionType|System.String|System.String||
 |PolicyId||System.String|||
+|ResourceApplication|ResourceApplication|System.String|System.String||
 
 ## Set-AzureADMSPermissionGrantPolicy
 
@@ -7716,12 +7720,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|Schedule||Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedSchedule|||
+|AssignmentState||System.String|||
+|Decision||System.String|||
+|Id||System.String|||
 |ProviderId||System.String|||
 |Reason||System.String|||
-|Id||System.String|||
-|Decision||System.String|||
-|AssignmentState||System.String|||
+|Schedule||Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedSchedule|||
 
 ## Set-AzureADMSPrivilegedRoleSetting
 
@@ -7743,14 +7747,14 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RoleDefinitionId||System.String|||
-|AdminMemberSettings||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedRuleSetting|||
-|UserMemberSettings||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedRuleSetting|||
 |AdminEligibleSettings||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedRuleSetting|||
+|AdminMemberSettings||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedRuleSetting|||
 |Id||System.String|||
-|ResourceId||System.String|||
 |ProviderId||System.String|||
+|ResourceId||System.String|||
+|RoleDefinitionId||System.String|||
 |UserEligibleSettings||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedRuleSetting|||
+|UserMemberSettings||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.AzureADMSPrivilegedRuleSetting|||
 
 ## Set-AzureADMSRoleDefinition
 
@@ -7774,15 +7778,15 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName|DisplayName|System.String|System.String||
-|TemplateId|TemplateId|System.String|System.String||
-|IsEnabled|IsEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |Description|Description|System.String|System.String||
-|ResourceScopes|ResourceScopes|System.Collections.Generic.List/System.String|System.String[]||
-|Version|Version|System.String|System.String||
+|DisplayName|DisplayName|System.String|System.String||
 |Id|Id|System.String|System.String||
-|RolePermissions|RolePermissions|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.RolePermission|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphUnifiedRolePermission[]||
 |InheritsPermissionsFrom|InheritsPermissionsFrom|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.DirectoryRoleDefinition|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphUnifiedRoleDefinition1[]||
+|IsEnabled|IsEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|ResourceScopes|ResourceScopes|System.Collections.Generic.List/System.String|System.String[]||
+|RolePermissions|RolePermissions|System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.RolePermission|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphUnifiedRolePermission[]||
+|TemplateId|TemplateId|System.String|System.String||
+|Version|Version|System.String|System.String||
 
 ## Set-AzureADMSServicePrincipal
 
@@ -7804,24 +7808,24 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ErrorUrl||System.String|||
-|Tags||System.Collections.Generic.List/System.String|||
-|MicrosoftFirstParty||System.Nullable/System.Boolean|||
-|KeyCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.MsKeyCredential|||
-|Homepage||System.String|||
-|AppRoleAssignmentRequired||System.Nullable/System.Boolean|||
-|DisplayName||System.String|||
-|PreferredTokenSigningKeyThumbprint||System.String|||
 |AccountEnabled||System.String|||
-|ReplyUrls||System.Collections.Generic.List/System.String|||
 |AppId||System.String|||
-|PublisherName||System.String|||
-|Id||System.String|||
-|LogoutUrl||System.String|||
-|PasswordCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.MsPasswordCredential|||
+|AppRoleAssignmentRequired||System.Nullable/System.Boolean|||
 |CustomSecurityAttributes||System.Object|||
-|ServicePrincipalNames||System.Collections.Generic.List/System.String|||
+|DisplayName||System.String|||
+|ErrorUrl||System.String|||
+|Homepage||System.String|||
+|Id||System.String|||
+|KeyCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.MsKeyCredential|||
+|LogoutUrl||System.String|||
+|MicrosoftFirstParty||System.Nullable/System.Boolean|||
+|PasswordCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.MsPasswordCredential|||
+|PreferredTokenSigningKeyThumbprint||System.String|||
+|PublisherName||System.String|||
+|ReplyUrls||System.Collections.Generic.List/System.String|||
 |SamlMetadataUrl||System.String|||
+|ServicePrincipalNames||System.Collections.Generic.List/System.String|||
+|Tags||System.Collections.Generic.List/System.String|||
 
 ## Set-AzureADMSTrustFrameworkPolicy
 
@@ -7844,9 +7848,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |Content||System.String|||
-|OutputFilePath||System.String|||
-|InputFilePath||System.String|||
 |Id||System.String|||
+|InputFilePath||System.String|||
+|OutputFilePath||System.String|||
 
 ## Set-AzureADMSUser
 
@@ -7869,9 +7873,9 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |CustomSecurityAttributes||System.Object|||
-|UserPrincipalName||System.String|||
 |DisplayName||System.String|||
 |Id||System.String|||
+|UserPrincipalName||System.String|||
 
 ## Set-AzureADObjectSetting
 
@@ -7893,10 +7897,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|TargetType||System.String|||
-|TargetObjectId||System.String|||
 |DirectorySetting||Microsoft.Open.MSGraph.Model.DirectorySetting|||
 |Id||System.String|||
+|TargetObjectId||System.String|||
+|TargetType||System.String|||
 
 ## Set-AzureADPolicy
 
@@ -7918,12 +7922,12 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName||System.String|||
 |AlternativeIdentifier||System.String|||
-|KeyCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.KeyCredential|||
-|IsOrganizationDefault||System.Nullable/System.Boolean|||
 |Definition||System.Collections.Generic.List/System.String|||
+|DisplayName||System.String|||
 |Id||System.String|||
+|IsOrganizationDefault||System.Nullable/System.Boolean|||
+|KeyCredentials||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.KeyCredential|||
 |Type||System.String|||
 
 ## Set-AzureADServicePrincipal
@@ -7948,23 +7952,23 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ErrorUrl||System.String|||
-|Tags|Tags|System.Collections.Generic.List/System.String|System.String[]||
-|PasswordCredentials|PasswordCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.PasswordCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordCredential[]||
-|KeyCredentials|KeyCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.KeyCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphKeyCredential[]||
-|Homepage|Homepage|System.String|System.String||
-|ObjectId||System.String|||
-|ServicePrincipalType|ServicePrincipalType|System.String|System.String||
-|DisplayName|DisplayName|System.String|System.String||
-|AppRoleAssignmentRequired|AppRoleAssignmentRequired|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |AccountEnabled|AccountEnabled|System.String|System.Management.Automation.SwitchParameter||
-|ReplyUrls|ReplyUrls|System.Collections.Generic.List/System.String|System.String[]||
-|AppId|AppId|System.String|System.String||
-|PublisherName||System.String|||
 |AlternativeNames|AlternativeNames|System.Collections.Generic.List/System.String|System.String[]||
+|AppId|AppId|System.String|System.String||
+|AppRoleAssignmentRequired|AppRoleAssignmentRequired|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|DisplayName|DisplayName|System.String|System.String||
+|ErrorUrl||System.String|||
+|Homepage|Homepage|System.String|System.String||
+|KeyCredentials|KeyCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.KeyCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphKeyCredential[]||
 |LogoutUrl|LogoutUrl|System.String|System.String||
-|ServicePrincipalNames|ServicePrincipalNames|System.Collections.Generic.List/System.String|System.String[]||
+|ObjectId||System.String|||
+|PasswordCredentials|PasswordCredentials|System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.PasswordCredential|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordCredential[]||
+|PublisherName||System.String|||
+|ReplyUrls|ReplyUrls|System.Collections.Generic.List/System.String|System.String[]||
 |SamlMetadataUrl||System.String|||
+|ServicePrincipalNames|ServicePrincipalNames|System.Collections.Generic.List/System.String|System.String[]||
+|ServicePrincipalType|ServicePrincipalType|System.String|System.String||
+|Tags|Tags|System.Collections.Generic.List/System.String|System.String[]||
 
 ## Set-AzureADTenantDetail
 
@@ -7988,11 +7992,11 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|PrivacyProfile|PrivacyProfile|Microsoft.Open.AzureAD.Model.PrivacyProfile|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPrivacyProfile||
 |MarketingNotificationEmails|MarketingNotificationEmails|System.Collections.Generic.List/System.String|System.String[]||
+|PrivacyProfile|PrivacyProfile|Microsoft.Open.AzureAD.Model.PrivacyProfile|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPrivacyProfile||
 |SecurityComplianceNotificationMails|SecurityComplianceNotificationMails|System.Collections.Generic.List/System.String|System.String[]||
-|TechnicalNotificationMails|TechnicalNotificationMails|System.Collections.Generic.List/System.String|System.String[]||
 |SecurityComplianceNotificationPhones|SecurityComplianceNotificationPhones|System.Collections.Generic.List/System.String|System.String[]||
+|TechnicalNotificationMails|TechnicalNotificationMails|System.Collections.Generic.List/System.String|System.String[]||
 
 ## Set-AzureADTrustedCertificateAuthority
 
@@ -8038,41 +8042,41 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|State|State|System.String|System.String||
-|ShowInAddressList|ShowInAddressList|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|PasswordProfile|PasswordProfile|Microsoft.Open.AzureAD.Model.PasswordProfile|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordProfile||
-|Country|Country|System.String|System.String||
-|PhysicalDeliveryOfficeName||System.String|||
-|PreferredLanguage|PreferredLanguage|System.String|System.String||
-|OtherMails|OtherMails|System.Collections.Generic.List/System.String|System.String[]||
-|IsCompromised||System.Nullable/System.Boolean|||
-|MailNickName|MailNickname|System.String|System.String||
-|ConsentProvidedForMinor|ConsentProvidedForMinor|System.String|System.String||
-|Department|Department|System.String|System.String||
-|ObjectId||System.String|||
-|UserState||System.String|||
-|City|City|System.String|System.String||
-|UserType|UserType|System.String|System.String||
-|UserStateChangedOn||System.String|||
-|ImmutableId||System.String|||
+|AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
 |AgeGroup|AgeGroup|System.String|System.String||
+|City|City|System.String|System.String||
+|CompanyName|CompanyName|System.String|System.String||
+|ConsentProvidedForMinor|ConsentProvidedForMinor|System.String|System.String||
+|Country|Country|System.String|System.String||
+|CreationType|CreationType|System.String|System.String||
+|Department|Department|System.String|System.String||
 |DisplayName|DisplayName|System.String|System.String||
 |ExtensionProperty||System.Collections.Generic.Dictionary`2[[System.String|||
-|UserPrincipalName|UserPrincipalName|System.String|System.String||
-|Mobile||System.String|||
-|CreationType|CreationType|System.String|System.String||
-|StreetAddress|StreetAddress|System.String|System.String||
 |FacsimileTelephoneNumber||System.String|||
-|SignInNames||System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.SignInName|||
-|JobTitle|JobTitle|System.String|System.String||
-|PasswordPolicies|PasswordPolicies|System.String|System.String||
 |GivenName|GivenName|System.String|System.String||
-|AccountEnabled|AccountEnabled|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
-|TelephoneNumber||System.String|||
-|Surname|Surname|System.String|System.String||
-|CompanyName|CompanyName|System.String|System.String||
-|UsageLocation|UsageLocation|System.String|System.String||
+|ImmutableId||System.String|||
+|IsCompromised||System.Nullable/System.Boolean|||
+|JobTitle|JobTitle|System.String|System.String||
+|MailNickName|MailNickname|System.String|System.String||
+|Mobile||System.String|||
+|ObjectId||System.String|||
+|OtherMails|OtherMails|System.Collections.Generic.List/System.String|System.String[]||
+|PasswordPolicies|PasswordPolicies|System.String|System.String||
+|PasswordProfile|PasswordProfile|Microsoft.Open.AzureAD.Model.PasswordProfile|Microsoft.Graph.PowerShell.Models.IMicrosoftGraphPasswordProfile||
+|PhysicalDeliveryOfficeName||System.String|||
 |PostalCode|PostalCode|System.String|System.String||
+|PreferredLanguage|PreferredLanguage|System.String|System.String||
+|ShowInAddressList|ShowInAddressList|System.Nullable/System.Boolean|System.Management.Automation.SwitchParameter||
+|SignInNames||System.Collections.Generic.List/Microsoft.Open.AzureAD.Model.SignInName|||
+|State|State|System.String|System.String||
+|StreetAddress|StreetAddress|System.String|System.String||
+|Surname|Surname|System.String|System.String||
+|TelephoneNumber||System.String|||
+|UsageLocation|UsageLocation|System.String|System.String||
+|UserPrincipalName|UserPrincipalName|System.String|System.String||
+|UserState||System.String|||
+|UserStateChangedOn||System.String|||
+|UserType|UserType|System.String|System.String||
 
 ## Set-AzureADUserExtension
 
@@ -8096,9 +8100,9 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|ExtensionValue||System.String|||
 |ExtensionName||System.String|||
 |ExtensionNameValues||System.Collections.Generic.Dictionary`2[[System.String|||
+|ExtensionValue||System.String|||
 |ObjectId||System.String|||
 
 ## Set-AzureADUserLicense
@@ -8148,8 +8152,8 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|RefObjectId||System.String|||
 |ObjectId||System.String|||
+|RefObjectId||System.String|||
 
 ## Set-AzureADUserPassword
 
@@ -8173,10 +8177,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
+|EnforceChangePasswordPolicy||System.Boolean|||
 |ForceChangePasswordNextLogin||System.Boolean|||
 |ObjectId||System.String|||
 |Password||System.Security.SecureString|||
-|EnforceChangePasswordPolicy||System.Boolean|||
 
 ## Set-AzureADUserThumbnailPhoto
 
@@ -8200,10 +8204,10 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|FileStream||System.IO.Stream|||
-|ObjectId||System.String|||
 |FilePath||System.String|||
+|FileStream||System.IO.Stream|||
 |ImageByteArray||System.Byte[]|||
+|ObjectId||System.String|||
 
 ## Set-RbacApplicationRoleDefinition
 
@@ -8225,16 +8229,16 @@
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
-|DisplayName||System.String|||
 |AppId||System.String|||
-|TemplateId||System.String|||
-|IsEnabled||System.Nullable/System.Boolean|||
 |Description||System.String|||
-|ResourceScopes||System.Collections.Generic.List/System.String|||
-|Version||System.String|||
+|DisplayName||System.String|||
 |Id||System.String|||
-|RolePermissions||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.RolePermission|||
 |InheritsPermissionsFrom||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.DirectoryRoleDefinition|||
+|IsEnabled||System.Nullable/System.Boolean|||
+|ResourceScopes||System.Collections.Generic.List/System.String|||
+|RolePermissions||System.Collections.Generic.List/Microsoft.Open.MSGraph.Model.RolePermission|||
+|TemplateId||System.String|||
+|Version||System.String|||
 
 ## Update-AzureADSignedInUserPassword
 

@@ -21,10 +21,10 @@
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
 |---|---|---|---|---|
 |CustomKeyIdentifier||System.String|||
-|Type||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyType|||
-|Value||System.String|||
 |EndDate||System.Nullable/System.DateTime|||
-|Usage||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyUsage|||
 |ObjectId||System.String|||
 |StartDate||System.Nullable/System.DateTime|||
+|Type||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyType|||
+|Usage||System.Nullable/Microsoft.Open.AzureAD.Graph.PowerShell.Custom.KeyUsage|||
+|Value||System.String|||
 
