@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Remove-AzureADExternalDomainFederation](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADExternalDomainFederation)
++ AAD Command: [Remove-AzureADExternalDomainFederation](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADExternalDomainFederation?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

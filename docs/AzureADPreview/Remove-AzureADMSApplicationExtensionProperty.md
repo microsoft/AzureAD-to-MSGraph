@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Remove-AzureADMSApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSApplicationExtensionProperty)
++ AAD Command: [Remove-AzureADMSApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSApplicationExtensionProperty?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgApplicationExtensionProperty) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgApplicationExtensionProperty))
 + Graph Module: Microsoft.Graph.Applications

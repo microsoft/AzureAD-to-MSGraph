@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Remove-AzureADUserExtension](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADUserExtension)
++ AAD Command: [Remove-AzureADUserExtension](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADUserExtension?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgUserExtension](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Remove-MgUserExtension) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgUserExtension))
 + Graph Module: Microsoft.Graph.Users

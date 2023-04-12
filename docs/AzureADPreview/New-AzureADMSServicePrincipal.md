@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [New-AzureADMSServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSServicePrincipal)
++ AAD Command: [New-AzureADMSServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSServicePrincipal?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

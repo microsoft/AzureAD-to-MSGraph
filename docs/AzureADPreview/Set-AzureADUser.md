@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Set-AzureADUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADUser)
++ AAD Command: [Set-AzureADUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADUser?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgUser](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Update-MgUser) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgUser))
 + Graph Module: Microsoft.Graph.Users

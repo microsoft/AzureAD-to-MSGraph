@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADScopedRoleMembership](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADScopedRoleMembership)
++ AAD Command: [Get-AzureADScopedRoleMembership](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADScopedRoleMembership?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

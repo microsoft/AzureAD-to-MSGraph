@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADMSLifecyclePolicyGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSLifecyclePolicyGroup)
++ AAD Command: [Get-AzureADMSLifecyclePolicyGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSLifecyclePolicyGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgGroupLifecyclePolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Get-MgGroupLifecyclePolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgGroupLifecyclePolicy))
 + Graph Module: Microsoft.Graph.Groups

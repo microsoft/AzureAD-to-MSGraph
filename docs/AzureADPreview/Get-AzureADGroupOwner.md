@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADGroupOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADGroupOwner)
++ AAD Command: [Get-AzureADGroupOwner](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADGroupOwner?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgGroupOwner](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Get-MgGroupOwner) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgGroupOwner))
 + Graph Module: Microsoft.Graph.Groups

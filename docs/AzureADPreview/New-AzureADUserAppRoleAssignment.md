@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [New-AzureADUserAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADUserAppRoleAssignment)
++ AAD Command: [New-AzureADUserAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADUserAppRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgUserAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/New-MgUserAppRoleAssignment) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgUserAppRoleAssignment))
 + Graph Module: Microsoft.Graph.Applications

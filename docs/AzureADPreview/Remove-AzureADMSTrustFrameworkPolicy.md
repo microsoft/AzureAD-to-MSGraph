@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Remove-AzureADMSTrustFrameworkPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSTrustFrameworkPolicy)
++ AAD Command: [Remove-AzureADMSTrustFrameworkPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSTrustFrameworkPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

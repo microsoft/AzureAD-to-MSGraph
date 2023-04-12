@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADDirectoryRole](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDirectoryRole)
++ AAD Command: [Get-AzureADDirectoryRole](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADDirectoryRole?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDirectoryRole](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDirectoryRole) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDirectoryRole))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement

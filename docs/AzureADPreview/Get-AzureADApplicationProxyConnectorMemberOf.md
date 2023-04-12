@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADApplicationProxyConnectorMemberOf](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationProxyConnectorMemberOf)
++ AAD Command: [Get-AzureADApplicationProxyConnectorMemberOf](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationProxyConnectorMemberOf?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

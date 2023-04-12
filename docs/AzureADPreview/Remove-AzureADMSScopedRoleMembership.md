@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Remove-AzureADMSScopedRoleMembership](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSScopedRoleMembership)
++ AAD Command: [Remove-AzureADMSScopedRoleMembership](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSScopedRoleMembership?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgUserScopedRoleMemberOf](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Remove-MgUserScopedRoleMemberOf) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgUserScopedRoleMemberOf))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement

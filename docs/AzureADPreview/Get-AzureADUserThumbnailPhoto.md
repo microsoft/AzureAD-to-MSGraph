@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADUserThumbnailPhoto](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADUserThumbnailPhoto)
++ AAD Command: [Get-AzureADUserThumbnailPhoto](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADUserThumbnailPhoto?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgUserPhoto](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUserPhoto) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUserPhoto))
 + Graph Module: Microsoft.Graph.Users

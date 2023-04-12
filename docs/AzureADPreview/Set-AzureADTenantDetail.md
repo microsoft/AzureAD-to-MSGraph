@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Set-AzureADTenantDetail](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADTenantDetail)
++ AAD Command: [Set-AzureADTenantDetail](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADTenantDetail?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgOrganization](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Update-MgOrganization) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgOrganization))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement

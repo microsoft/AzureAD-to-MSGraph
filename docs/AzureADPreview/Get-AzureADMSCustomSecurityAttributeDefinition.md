@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADMSCustomSecurityAttributeDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSCustomSecurityAttributeDefinition)
++ AAD Command: [Get-AzureADMSCustomSecurityAttributeDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSCustomSecurityAttributeDefinition?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

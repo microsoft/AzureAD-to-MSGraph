@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [New-AzureADServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADServicePrincipal)
++ AAD Command: [New-AzureADServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADServicePrincipal?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/New-MgServicePrincipal) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgServicePrincipal))
 + Graph Module: Microsoft.Graph.Applications

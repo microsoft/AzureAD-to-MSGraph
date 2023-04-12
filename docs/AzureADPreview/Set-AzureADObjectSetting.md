@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Set-AzureADObjectSetting](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADObjectSetting)
++ AAD Command: [Set-AzureADObjectSetting](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADObjectSetting?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

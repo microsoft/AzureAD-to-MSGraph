@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADPolicyAppliedObject](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADPolicyAppliedObject)
++ AAD Command: [Get-AzureADPolicyAppliedObject](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADPolicyAppliedObject?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

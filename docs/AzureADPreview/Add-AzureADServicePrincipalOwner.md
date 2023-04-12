@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Add-AzureADServicePrincipalOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADServicePrincipalOwner)
++ AAD Command: [Add-AzureADServicePrincipalOwner](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADServicePrincipalOwner?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgServicePrincipalOwnerByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/New-MgServicePrincipalOwnerByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgServicePrincipalOwnerByRef))
 + Graph Module: Microsoft.Graph.Applications

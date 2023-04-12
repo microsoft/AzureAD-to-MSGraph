@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [New-AzureADUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADUser)
++ AAD Command: [New-AzureADUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADUser?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgUser](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/New-MgUser) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgUser))
 + Graph Module: Microsoft.Graph.Users

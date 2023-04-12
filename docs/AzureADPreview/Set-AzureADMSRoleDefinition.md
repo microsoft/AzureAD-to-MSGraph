@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Set-AzureADMSRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSRoleDefinition)
++ AAD Command: [Set-AzureADMSRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSRoleDefinition?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgRoleManagementDirectoryRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DeviceManagement.Enrolment/Update-MgRoleManagementDirectoryRoleDefinition) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgRoleManagementDirectoryRoleDefinition))
 + Graph Module: Microsoft.Graph.DeviceManagement.Enrolment

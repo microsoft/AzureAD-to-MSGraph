@@ -6092,7 +6092,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADAdministrativeUnitMember)
++ AAD Command: [Add-AzureADAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADAdministrativeUnitMember?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -6117,7 +6117,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADApplicationOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADApplicationOwner)
++ AAD Command: [Add-AzureADApplicationOwner](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADApplicationOwner?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgApplicationOwnerByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/New-MgApplicationOwnerByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgApplicationOwnerByRef))
 + Graph Module: Microsoft.Graph.Applications
@@ -6140,7 +6140,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADApplicationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADApplicationPolicy)
++ AAD Command: [Add-AzureADApplicationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADApplicationPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -6165,7 +6165,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADDeviceRegisteredOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADDeviceRegisteredOwner)
++ AAD Command: [Add-AzureADDeviceRegisteredOwner](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADDeviceRegisteredOwner?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgDeviceRegisteredOwnerByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/New-MgDeviceRegisteredOwnerByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgDeviceRegisteredOwnerByRef))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -6188,7 +6188,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADDeviceRegisteredUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADDeviceRegisteredUser)
++ AAD Command: [Add-AzureADDeviceRegisteredUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADDeviceRegisteredUser?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -6213,7 +6213,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADDirectoryRoleMember](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADDirectoryRoleMember)
++ AAD Command: [Add-AzureADDirectoryRoleMember](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADDirectoryRoleMember?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgDirectoryRoleMemberByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/New-MgDirectoryRoleMemberByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgDirectoryRoleMemberByRef))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -6236,7 +6236,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADGroupMember](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADGroupMember)
++ AAD Command: [Add-AzureADGroupMember](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADGroupMember?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgGroupMember](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/New-MgGroupMember) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgGroupMember))
 + Graph Module: Microsoft.Graph.Groups
@@ -6261,7 +6261,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADGroupOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADGroupOwner)
++ AAD Command: [Add-AzureADGroupOwner](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADGroupOwner?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgGroupOwnerByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/New-MgGroupOwnerByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgGroupOwnerByRef))
 + Graph Module: Microsoft.Graph.Groups
@@ -6286,7 +6286,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADMSAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADMSAdministrativeUnitMember)
++ AAD Command: [Add-AzureADMSAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADMSAdministrativeUnitMember?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgDirectoryAdministrativeUnitMemberByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/New-MgDirectoryAdministrativeUnitMemberByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgDirectoryAdministrativeUnitMemberByRef))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -6311,7 +6311,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADMSApplicationOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADMSApplicationOwner)
++ AAD Command: [Add-AzureADMSApplicationOwner](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADMSApplicationOwner?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgApplicationOwnerByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/New-MgApplicationOwnerByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgApplicationOwnerByRef))
 + Graph Module: Microsoft.Graph.Applications
@@ -6334,7 +6334,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADMScustomSecurityAttributeDefinitionAllowedValues](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADMScustomSecurityAttributeDefinitionAllowedValues)
++ AAD Command: [Add-AzureADMScustomSecurityAttributeDefinitionAllowedValues](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADMScustomSecurityAttributeDefinitionAllowedValues?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -6358,7 +6358,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADMSFeatureRolloutPolicyDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADMSFeatureRolloutPolicyDirectoryObject)
++ AAD Command: [Add-AzureADMSFeatureRolloutPolicyDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADMSFeatureRolloutPolicyDirectoryObject?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -6383,7 +6383,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADMSLifecyclePolicyGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADMSLifecyclePolicyGroup)
++ AAD Command: [Add-AzureADMSLifecyclePolicyGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADMSLifecyclePolicyGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgGroupLifecyclePolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/New-MgGroupLifecyclePolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgGroupLifecyclePolicy))
 + Graph Module: Microsoft.Graph.Groups
@@ -6406,7 +6406,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADMSPrivilegedResource](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADMSPrivilegedResource)
++ AAD Command: [Add-AzureADMSPrivilegedResource](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADMSPrivilegedResource?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -6431,7 +6431,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADMSScopedRoleMembership](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADMSScopedRoleMembership)
++ AAD Command: [Add-AzureADMSScopedRoleMembership](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADMSScopedRoleMembership?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgDirectoryRoleScopedMember](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/New-MgDirectoryRoleScopedMember) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgDirectoryRoleScopedMember))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -6458,7 +6458,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADMSServicePrincipalDelegatedPermissionClassification](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADMSServicePrincipalDelegatedPermissionClassification)
++ AAD Command: [Add-AzureADMSServicePrincipalDelegatedPermissionClassification](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADMSServicePrincipalDelegatedPermissionClassification?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgServicePrincipalDelegatedPermissionClassification](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/New-MgServicePrincipalDelegatedPermissionClassification) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgServicePrincipalDelegatedPermissionClassification))
 + Graph Module: Microsoft.Graph.Applications
@@ -6483,7 +6483,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADScopedRoleMembership](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADScopedRoleMembership)
++ AAD Command: [Add-AzureADScopedRoleMembership](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADScopedRoleMembership?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -6510,7 +6510,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADServicePrincipalOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADServicePrincipalOwner)
++ AAD Command: [Add-AzureADServicePrincipalOwner](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADServicePrincipalOwner?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgServicePrincipalOwnerByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/New-MgServicePrincipalOwnerByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgServicePrincipalOwnerByRef))
 + Graph Module: Microsoft.Graph.Applications
@@ -6533,7 +6533,7 @@
 
 ### Data
 
-+ AAD Command: [Add-AzureADServicePrincipalPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADServicePrincipalPolicy)
++ AAD Command: [Add-AzureADServicePrincipalPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADServicePrincipalPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -6556,7 +6556,7 @@
 
 ### Data
 
-+ AAD Command: [Close-AzureADMSPrivilegedRoleAssignmentRequest](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Close-AzureADMSPrivilegedRoleAssignmentRequest)
++ AAD Command: [Close-AzureADMSPrivilegedRoleAssignmentRequest](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Close-AzureADMSPrivilegedRoleAssignmentRequest?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -6581,7 +6581,7 @@
 
 ### Data
 
-+ AAD Command: [Confirm-AzureADDomain](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Confirm-AzureADDomain)
++ AAD Command: [Confirm-AzureADDomain](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Confirm-AzureADDomain?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Confirm-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Confirm-MgDomain) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Confirm-MgDomain))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -6604,7 +6604,7 @@
 
 ### Data
 
-+ AAD Command: [Connect-AzureAD](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Connect-AzureAD)
++ AAD Command: [Connect-AzureAD](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Connect-AzureAD?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Connect-MgGraph](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Authentication/Connect-MgGraph) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Connect-MgGraph))
 + Graph Module: Microsoft.Graph.Authentication
@@ -6635,7 +6635,7 @@
 
 ### Data
 
-+ AAD Command: [Disconnect-AzureAD](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Disconnect-AzureAD)
++ AAD Command: [Disconnect-AzureAD](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Disconnect-AzureAD?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Disconnect-MgGraph](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Authentication/Disconnect-MgGraph) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Disconnect-MgGraph))
 + Graph Module: Microsoft.Graph.Authentication
@@ -6653,7 +6653,7 @@
 
 ### Data
 
-+ AAD Command: [Enable-AzureADDirectoryRole](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Enable-AzureADDirectoryRole)
++ AAD Command: [Enable-AzureADDirectoryRole](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Enable-AzureADDirectoryRole?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgDirectoryRoleTemplate](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/New-MgDirectoryRoleTemplate) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgDirectoryRoleTemplate))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -6675,7 +6675,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADAdministrativeUnit)
++ AAD Command: [Get-AzureADAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADAdministrativeUnit?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -6700,7 +6700,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADAdministrativeUnitMember)
++ AAD Command: [Get-AzureADAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADAdministrativeUnitMember?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -6726,7 +6726,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplication)
++ AAD Command: [Get-AzureADApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplication?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgApplication](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgApplication) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgApplication))
 + Graph Module: Microsoft.Graph.Applications
@@ -6754,7 +6754,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationExtensionProperty)
++ AAD Command: [Get-AzureADApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationExtensionProperty?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgApplicationExtensionProperty) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgApplicationExtensionProperty))
 + Graph Module: Microsoft.Graph.Applications
@@ -6778,7 +6778,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADApplicationKeyCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationKeyCredential)
++ AAD Command: [Get-AzureADApplicationKeyCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationKeyCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgApplication](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgApplication) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgApplication))
 + Graph Module: Microsoft.Graph.Applications
@@ -6802,7 +6802,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADApplicationLogo](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationLogo)
++ AAD Command: [Get-AzureADApplicationLogo](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationLogo?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgApplicationLogo](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgApplicationLogo) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgApplicationLogo))
 + Graph Module: Microsoft.Graph.Applications
@@ -6829,7 +6829,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADApplicationOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationOwner)
++ AAD Command: [Get-AzureADApplicationOwner](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationOwner?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgApplicationOwner](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgApplicationOwner) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgApplicationOwner))
 + Graph Module: Microsoft.Graph.Applications
@@ -6855,7 +6855,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADApplicationPasswordCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationPasswordCredential)
++ AAD Command: [Get-AzureADApplicationPasswordCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationPasswordCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgApplication](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgApplication) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgApplication))
 + Graph Module: Microsoft.Graph.Applications
@@ -6877,7 +6877,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADApplicationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationPolicy)
++ AAD Command: [Get-AzureADApplicationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -6899,7 +6899,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADApplicationProxyApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationProxyApplication)
++ AAD Command: [Get-AzureADApplicationProxyApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationProxyApplication?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -6921,7 +6921,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADApplicationProxyApplicationConnectorGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationProxyApplicationConnectorGroup)
++ AAD Command: [Get-AzureADApplicationProxyApplicationConnectorGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationProxyApplicationConnectorGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -6943,7 +6943,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADApplicationProxyConnector](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationProxyConnector)
++ AAD Command: [Get-AzureADApplicationProxyConnector](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationProxyConnector?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -6969,7 +6969,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADApplicationProxyConnectorGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationProxyConnectorGroup)
++ AAD Command: [Get-AzureADApplicationProxyConnectorGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationProxyConnectorGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -6995,7 +6995,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADApplicationProxyConnectorGroupMembers](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationProxyConnectorGroupMembers)
++ AAD Command: [Get-AzureADApplicationProxyConnectorGroupMembers](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationProxyConnectorGroupMembers?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -7020,7 +7020,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADApplicationProxyConnectorMemberOf](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationProxyConnectorMemberOf)
++ AAD Command: [Get-AzureADApplicationProxyConnectorMemberOf](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationProxyConnectorMemberOf?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -7044,7 +7044,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADApplicationServiceEndpoint](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationServiceEndpoint)
++ AAD Command: [Get-AzureADApplicationServiceEndpoint](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationServiceEndpoint?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgServicePrincipalEndpoint](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipalEndpoint) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgServicePrincipalEndpoint))
 + Graph Module: Microsoft.Graph.Applications
@@ -7068,7 +7068,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADApplicationSignInDetailedSummary](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationSignInDetailedSummary)
++ AAD Command: [Get-AzureADApplicationSignInDetailedSummary](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationSignInDetailedSummary?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -7091,7 +7091,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADApplicationSignInSummary](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationSignInSummary)
++ AAD Command: [Get-AzureADApplicationSignInSummary](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationSignInSummary?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -7115,7 +7115,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADAuditDirectoryLogs](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADAuditDirectoryLogs)
++ AAD Command: [Get-AzureADAuditDirectoryLogs](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADAuditDirectoryLogs?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -7139,7 +7139,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADAuditSignInLogs](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADAuditSignInLogs)
++ AAD Command: [Get-AzureADAuditSignInLogs](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADAuditSignInLogs?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -7165,7 +7165,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADContact](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADContact)
++ AAD Command: [Get-AzureADContact](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADContact?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgContact](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgContact) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgContact))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -7192,7 +7192,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADContactDirectReport](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADContactDirectReport)
++ AAD Command: [Get-AzureADContactDirectReport](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADContactDirectReport?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgContactDirectReport](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgContactDirectReport) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgContactDirectReport))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -7218,7 +7218,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADContactManager](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADContactManager)
++ AAD Command: [Get-AzureADContactManager](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADContactManager?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgContactManager](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgContactManager) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgContactManager))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -7242,7 +7242,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADContactMembership](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADContactMembership)
++ AAD Command: [Get-AzureADContactMembership](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADContactMembership?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgContactMemberOf](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgContactMemberOf) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgContactMemberOf))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -7266,7 +7266,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADContactThumbnailPhoto](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADContactThumbnailPhoto)
++ AAD Command: [Get-AzureADContactThumbnailPhoto](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADContactThumbnailPhoto?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -7293,7 +7293,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADContract](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADContract)
++ AAD Command: [Get-AzureADContract](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADContract?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgContract](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgContract) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgContract))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -7318,7 +7318,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADCurrentSessionInfo](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADCurrentSessionInfo)
++ AAD Command: [Get-AzureADCurrentSessionInfo](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADCurrentSessionInfo?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgContext](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Authentication/Get-MgContext) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgContext))
 + Graph Module: Microsoft.Graph.Authentication
@@ -7336,7 +7336,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADDeletedApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDeletedApplication)
++ AAD Command: [Get-AzureADDeletedApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADDeletedApplication?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDirectoryDeletedItem](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDirectoryDeletedItem) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDirectoryDeletedItem))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -7363,7 +7363,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADDevice](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDevice)
++ AAD Command: [Get-AzureADDevice](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADDevice?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDevice](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDevice) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDevice))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -7391,7 +7391,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADDeviceConfiguration](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDeviceConfiguration)
++ AAD Command: [Get-AzureADDeviceConfiguration](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADDeviceConfiguration?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDeviceManagementDeviceConfiguration](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DeviceManagement/Get-MgDeviceManagementDeviceConfiguration) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDeviceManagementDeviceConfiguration))
 + Graph Module: Microsoft.Graph.DeviceManagement
@@ -7409,7 +7409,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADDeviceRegisteredOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDeviceRegisteredOwner)
++ AAD Command: [Get-AzureADDeviceRegisteredOwner](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADDeviceRegisteredOwner?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDeviceRegisteredOwner](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDeviceRegisteredOwner) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDeviceRegisteredOwner))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -7435,7 +7435,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADDeviceRegisteredUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDeviceRegisteredUser)
++ AAD Command: [Get-AzureADDeviceRegisteredUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADDeviceRegisteredUser?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDeviceRegisteredUser](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDeviceRegisteredUser) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDeviceRegisteredUser))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -7461,7 +7461,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADDirectoryRole](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDirectoryRole)
++ AAD Command: [Get-AzureADDirectoryRole](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADDirectoryRole?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDirectoryRole](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDirectoryRole) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDirectoryRole))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -7486,7 +7486,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADDirectoryRoleMember](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDirectoryRoleMember)
++ AAD Command: [Get-AzureADDirectoryRoleMember](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADDirectoryRoleMember?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDirectoryRoleMember](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDirectoryRoleMember) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDirectoryRoleMember))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -7510,7 +7510,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADDirectoryRoleTemplate](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDirectoryRoleTemplate)
++ AAD Command: [Get-AzureADDirectoryRoleTemplate](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADDirectoryRoleTemplate?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDirectoryRoleTemplate](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDirectoryRoleTemplate) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDirectoryRoleTemplate))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -7526,7 +7526,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADDirectorySetting](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDirectorySetting)
++ AAD Command: [Get-AzureADDirectorySetting](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADDirectorySetting?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -7550,7 +7550,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADDirectorySettingTemplate](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDirectorySettingTemplate)
++ AAD Command: [Get-AzureADDirectorySettingTemplate](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADDirectorySettingTemplate?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -7574,7 +7574,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADDomain](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDomain)
++ AAD Command: [Get-AzureADDomain](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADDomain?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDomain) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDomain))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -7596,7 +7596,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADDomainNameReference](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDomainNameReference)
++ AAD Command: [Get-AzureADDomainNameReference](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADDomainNameReference?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDomainDomainNameReferenceByRef](https://docs.microsoft.com/en-us/powershell/module//Get-MgDomainDomainNameReferenceByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDomainDomainNameReferenceByRef))
 + Graph Module: 
@@ -7620,7 +7620,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADDomainServiceConfigurationRecord](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDomainServiceConfigurationRecord)
++ AAD Command: [Get-AzureADDomainServiceConfigurationRecord](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADDomainServiceConfigurationRecord?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDomainServiceConfigurationRecord](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDomainServiceConfigurationRecord) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDomainServiceConfigurationRecord))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -7644,7 +7644,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADDomainVerificationDnsRecord](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDomainVerificationDnsRecord)
++ AAD Command: [Get-AzureADDomainVerificationDnsRecord](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADDomainVerificationDnsRecord?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDomainVerificationDnsRecord](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDomainVerificationDnsRecord) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDomainVerificationDnsRecord))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -7668,7 +7668,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADExtensionProperty)
++ AAD Command: [Get-AzureADExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADExtensionProperty?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDirectoryObjectAvailableExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DirectoryObjects/Get-MgDirectoryObjectAvailableExtensionProperty) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDirectoryObjectAvailableExtensionProperty))
 + Graph Module: Microsoft.Graph.DirectoryObjects
@@ -7690,7 +7690,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADExternalDomainFederation](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADExternalDomainFederation)
++ AAD Command: [Get-AzureADExternalDomainFederation](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADExternalDomainFederation?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -7717,7 +7717,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADGroup)
++ AAD Command: [Get-AzureADGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgGroup](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Get-MgGroup) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgGroup))
 + Graph Module: Microsoft.Graph.Groups
@@ -7745,7 +7745,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADGroupAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADGroupAppRoleAssignment)
++ AAD Command: [Get-AzureADGroupAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADGroupAppRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgGroupAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgGroupAppRoleAssignment) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgGroupAppRoleAssignment))
 + Graph Module: Microsoft.Graph.Applications
@@ -7771,7 +7771,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADGroupMember](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADGroupMember)
++ AAD Command: [Get-AzureADGroupMember](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADGroupMember?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgGroupMember](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Get-MgGroupMember) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgGroupMember))
 + Graph Module: Microsoft.Graph.Groups
@@ -7797,7 +7797,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADGroupOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADGroupOwner)
++ AAD Command: [Get-AzureADGroupOwner](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADGroupOwner?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgGroupOwner](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Get-MgGroupOwner) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgGroupOwner))
 + Graph Module: Microsoft.Graph.Groups
@@ -7823,7 +7823,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSAdministrativeUnit)
++ AAD Command: [Get-AzureADMSAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSAdministrativeUnit?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDirectoryAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDirectoryAdministrativeUnit) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDirectoryAdministrativeUnit))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -7850,7 +7850,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSAdministrativeUnitMember)
++ AAD Command: [Get-AzureADMSAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSAdministrativeUnitMember?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDirectoryAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDirectoryAdministrativeUnitMember) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDirectoryAdministrativeUnitMember))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -7876,7 +7876,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSApplication)
++ AAD Command: [Get-AzureADMSApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSApplication?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgApplication](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgApplication) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgApplication))
 + Graph Module: Microsoft.Graph.Applications
@@ -7904,7 +7904,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSApplicationExtensionProperty)
++ AAD Command: [Get-AzureADMSApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSApplicationExtensionProperty?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgApplicationExtensionProperty) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgApplicationExtensionProperty))
 + Graph Module: Microsoft.Graph.Applications
@@ -7928,7 +7928,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSApplicationOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSApplicationOwner)
++ AAD Command: [Get-AzureADMSApplicationOwner](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSApplicationOwner?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgApplicationOwner](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgApplicationOwner) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgApplicationOwner))
 + Graph Module: Microsoft.Graph.Applications
@@ -7952,7 +7952,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSApplicationTemplate](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSApplicationTemplate)
++ AAD Command: [Get-AzureADMSApplicationTemplate](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSApplicationTemplate?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -7974,7 +7974,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSAttributeSet](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSAttributeSet)
++ AAD Command: [Get-AzureADMSAttributeSet](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSAttributeSet?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -7998,7 +7998,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSAuthorizationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSAuthorizationPolicy)
++ AAD Command: [Get-AzureADMSAuthorizationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSAuthorizationPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgPolicyAuthorizationPolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Get-MgPolicyAuthorizationPolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgPolicyAuthorizationPolicy))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -8022,7 +8022,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSConditionalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSConditionalAccessPolicy)
++ AAD Command: [Get-AzureADMSConditionalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSConditionalAccessPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgIdentityConditionalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Get-MgIdentityConditionalAccessPolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgIdentityConditionalAccessPolicy))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -8044,7 +8044,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSCustomSecurityAttributeDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSCustomSecurityAttributeDefinition)
++ AAD Command: [Get-AzureADMSCustomSecurityAttributeDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSCustomSecurityAttributeDefinition?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8066,7 +8066,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSCustomSecurityAttributeDefinitionAllowedValue](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSCustomSecurityAttributeDefinitionAllowedValue)
++ AAD Command: [Get-AzureADMSCustomSecurityAttributeDefinitionAllowedValue](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSCustomSecurityAttributeDefinitionAllowedValue?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8092,7 +8092,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSDeletedDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSDeletedDirectoryObject)
++ AAD Command: [Get-AzureADMSDeletedDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSDeletedDirectoryObject?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDirectoryDeletedItem](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDirectoryDeletedItem) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDirectoryDeletedItem))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -8116,7 +8116,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSDeletedGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSDeletedGroup)
++ AAD Command: [Get-AzureADMSDeletedGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSDeletedGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDirectoryDeletedItem](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgDirectoryDeletedItem) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDirectoryDeletedItem))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -8142,7 +8142,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSFeatureRolloutPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSFeatureRolloutPolicy)
++ AAD Command: [Get-AzureADMSFeatureRolloutPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSFeatureRolloutPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8168,7 +8168,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSGroup)
++ AAD Command: [Get-AzureADMSGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgGroup](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Get-MgGroup) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgGroup))
 + Graph Module: Microsoft.Graph.Groups
@@ -8197,7 +8197,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSGroupLifecyclePolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSGroupLifecyclePolicy)
++ AAD Command: [Get-AzureADMSGroupLifecyclePolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSGroupLifecyclePolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgGroupLifecyclePolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Get-MgGroupLifecyclePolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgGroupLifecyclePolicy))
 + Graph Module: Microsoft.Graph.Groups
@@ -8221,7 +8221,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSGroupPermissionGrant](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSGroupPermissionGrant)
++ AAD Command: [Get-AzureADMSGroupPermissionGrant](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSGroupPermissionGrant?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgGroupPermissionGrant](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Get-MgGroupPermissionGrant) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgGroupPermissionGrant))
 + Graph Module: Microsoft.Graph.Groups
@@ -8245,7 +8245,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSIdentityProvider](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSIdentityProvider)
++ AAD Command: [Get-AzureADMSIdentityProvider](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSIdentityProvider?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgIdentityProvider](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Get-MgIdentityProvider) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgIdentityProvider))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -8269,7 +8269,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSLifecyclePolicyGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSLifecyclePolicyGroup)
++ AAD Command: [Get-AzureADMSLifecyclePolicyGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSLifecyclePolicyGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgGroupLifecyclePolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Get-MgGroupLifecyclePolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgGroupLifecyclePolicy))
 + Graph Module: Microsoft.Graph.Groups
@@ -8293,7 +8293,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSNamedLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSNamedLocationPolicy)
++ AAD Command: [Get-AzureADMSNamedLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSNamedLocationPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgIdentityConditionalAccessNamedLocation](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Get-MgIdentityConditionalAccessNamedLocation) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgIdentityConditionalAccessNamedLocation))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -8315,7 +8315,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSPasswordSingleSignOnCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSPasswordSingleSignOnCredential)
++ AAD Command: [Get-AzureADMSPasswordSingleSignOnCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSPasswordSingleSignOnCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8340,7 +8340,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSPermissionGrantConditionSet](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSPermissionGrantConditionSet)
++ AAD Command: [Get-AzureADMSPermissionGrantConditionSet](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSPermissionGrantConditionSet?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgPolicyPermissionGrantPolicyInclude](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Get-MgPolicyPermissionGrantPolicyInclude) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgPolicyPermissionGrantPolicyInclude)), [Get-MgPolicyPermissionGrantPolicyExclude](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Get-MgPolicyPermissionGrantPolicyExclude) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgPolicyPermissionGrantPolicyExclude))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -8366,7 +8366,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSPermissionGrantPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSPermissionGrantPolicy)
++ AAD Command: [Get-AzureADMSPermissionGrantPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSPermissionGrantPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgPolicyPermissionGrantPolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Get-MgPolicyPermissionGrantPolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgPolicyPermissionGrantPolicy))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -8388,7 +8388,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSPrivilegedResource](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSPrivilegedResource)
++ AAD Command: [Get-AzureADMSPrivilegedResource](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSPrivilegedResource?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8413,7 +8413,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSPrivilegedRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSPrivilegedRoleAssignment)
++ AAD Command: [Get-AzureADMSPrivilegedRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSPrivilegedRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8439,7 +8439,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSPrivilegedRoleAssignmentRequest](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSPrivilegedRoleAssignmentRequest)
++ AAD Command: [Get-AzureADMSPrivilegedRoleAssignmentRequest](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSPrivilegedRoleAssignmentRequest?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8464,7 +8464,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSPrivilegedRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSPrivilegedRoleDefinition)
++ AAD Command: [Get-AzureADMSPrivilegedRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSPrivilegedRoleDefinition?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8490,7 +8490,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSPrivilegedRoleSetting](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSPrivilegedRoleSetting)
++ AAD Command: [Get-AzureADMSPrivilegedRoleSetting](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSPrivilegedRoleSetting?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8517,7 +8517,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSRoleAssignment)
++ AAD Command: [Get-AzureADMSRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgRoleManagementDirectoryRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DeviceManagement.Enrolment/Get-MgRoleManagementDirectoryRoleAssignment) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgRoleManagementDirectoryRoleAssignment))
 + Graph Module: Microsoft.Graph.DeviceManagement.Enrolment
@@ -8545,7 +8545,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSRoleDefinition)
++ AAD Command: [Get-AzureADMSRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSRoleDefinition?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgRoleManagementDirectoryRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DeviceManagement.Enrolment/Get-MgRoleManagementDirectoryRoleDefinition) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgRoleManagementDirectoryRoleDefinition))
 + Graph Module: Microsoft.Graph.DeviceManagement.Enrolment
@@ -8573,7 +8573,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSScopedRoleMembership](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSScopedRoleMembership)
++ AAD Command: [Get-AzureADMSScopedRoleMembership](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSScopedRoleMembership?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgUserScopedRoleMemberOf](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgUserScopedRoleMemberOf) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUserScopedRoleMemberOf))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -8596,7 +8596,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSServicePrincipal)
++ AAD Command: [Get-AzureADMSServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSServicePrincipal?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8625,7 +8625,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSServicePrincipalDelegatedPermissionClassification](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSServicePrincipalDelegatedPermissionClassification)
++ AAD Command: [Get-AzureADMSServicePrincipalDelegatedPermissionClassification](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSServicePrincipalDelegatedPermissionClassification?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgServicePrincipalDelegatedPermissionClassification](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipalDelegatedPermissionClassification) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgServicePrincipalDelegatedPermissionClassification))
 + Graph Module: Microsoft.Graph.Applications
@@ -8649,7 +8649,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSTrustFrameworkPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSTrustFrameworkPolicy)
++ AAD Command: [Get-AzureADMSTrustFrameworkPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSTrustFrameworkPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8672,7 +8672,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADMSUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSUser)
++ AAD Command: [Get-AzureADMSUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSUser?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8701,7 +8701,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADOAuth2PermissionGrant](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADOAuth2PermissionGrant)
++ AAD Command: [Get-AzureADOAuth2PermissionGrant](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADOAuth2PermissionGrant?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgOauth2PermissionGrant](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Get-MgOauth2PermissionGrant) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgOauth2PermissionGrant))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -8726,7 +8726,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADObjectByObjectId](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADObjectByObjectId)
++ AAD Command: [Get-AzureADObjectByObjectId](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADObjectByObjectId?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgDirectoryObjectById](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DirectoryObjects/Get-MgDirectoryObjectById) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgDirectoryObjectById))
 + Graph Module: Microsoft.Graph.DirectoryObjects
@@ -8749,7 +8749,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADObjectSetting](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADObjectSetting)
++ AAD Command: [Get-AzureADObjectSetting](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADObjectSetting?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8775,7 +8775,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADPolicy)
++ AAD Command: [Get-AzureADPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8799,7 +8799,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADPolicyAppliedObject](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADPolicyAppliedObject)
++ AAD Command: [Get-AzureADPolicyAppliedObject](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADPolicyAppliedObject?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8821,7 +8821,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADPrivilegedRole](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADPrivilegedRole)
++ AAD Command: [Get-AzureADPrivilegedRole](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADPrivilegedRole?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8844,7 +8844,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADPrivilegedRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADPrivilegedRoleAssignment)
++ AAD Command: [Get-AzureADPrivilegedRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADPrivilegedRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8868,7 +8868,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADScopedRoleMembership](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADScopedRoleMembership)
++ AAD Command: [Get-AzureADScopedRoleMembership](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADScopedRoleMembership?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -8893,7 +8893,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADServiceAppRoleAssignedTo](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADServiceAppRoleAssignedTo)
++ AAD Command: [Get-AzureADServiceAppRoleAssignedTo](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADServiceAppRoleAssignedTo?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgServicePrincipalAppRoleAssignedTo](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipalAppRoleAssignedTo) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgServicePrincipalAppRoleAssignedTo))
 + Graph Module: Microsoft.Graph.Applications
@@ -8919,7 +8919,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADServiceAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADServiceAppRoleAssignment)
++ AAD Command: [Get-AzureADServiceAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADServiceAppRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgServicePrincipalAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipalAppRoleAssignment) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgServicePrincipalAppRoleAssignment))
 + Graph Module: Microsoft.Graph.Applications
@@ -8945,7 +8945,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADServicePrincipal)
++ AAD Command: [Get-AzureADServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADServicePrincipal?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipal) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgServicePrincipal))
 + Graph Module: Microsoft.Graph.Applications
@@ -8973,7 +8973,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADServicePrincipalCreatedObject](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADServicePrincipalCreatedObject)
++ AAD Command: [Get-AzureADServicePrincipalCreatedObject](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADServicePrincipalCreatedObject?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgServicePrincipalCreatedObject](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipalCreatedObject) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgServicePrincipalCreatedObject))
 + Graph Module: Microsoft.Graph.Applications
@@ -8999,7 +8999,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADServicePrincipalKeyCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADServicePrincipalKeyCredential)
++ AAD Command: [Get-AzureADServicePrincipalKeyCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADServicePrincipalKeyCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipal) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgServicePrincipal)), [Get-MgServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipal) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgServicePrincipal))
 + Graph Module: Microsoft.Graph.Applications
@@ -9023,7 +9023,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADServicePrincipalMembership](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADServicePrincipalMembership)
++ AAD Command: [Get-AzureADServicePrincipalMembership](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADServicePrincipalMembership?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgServicePrincipalTransitiveMemberOf](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipalTransitiveMemberOf) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgServicePrincipalTransitiveMemberOf))
 + Graph Module: Microsoft.Graph.Applications
@@ -9049,7 +9049,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADServicePrincipalOAuth2PermissionGrant](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADServicePrincipalOAuth2PermissionGrant)
++ AAD Command: [Get-AzureADServicePrincipalOAuth2PermissionGrant](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADServicePrincipalOAuth2PermissionGrant?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgServicePrincipalOauth2PermissionGrant](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipalOauth2PermissionGrant) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgServicePrincipalOauth2PermissionGrant))
 + Graph Module: Microsoft.Graph.Applications
@@ -9075,7 +9075,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADServicePrincipalOwnedObject](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADServicePrincipalOwnedObject)
++ AAD Command: [Get-AzureADServicePrincipalOwnedObject](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADServicePrincipalOwnedObject?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgServicePrincipalOwnedObject](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipalOwnedObject) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgServicePrincipalOwnedObject))
 + Graph Module: Microsoft.Graph.Applications
@@ -9101,7 +9101,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADServicePrincipalOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADServicePrincipalOwner)
++ AAD Command: [Get-AzureADServicePrincipalOwner](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADServicePrincipalOwner?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgServicePrincipalOwner](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipalOwner) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgServicePrincipalOwner))
 + Graph Module: Microsoft.Graph.Applications
@@ -9127,7 +9127,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADServicePrincipalPasswordCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADServicePrincipalPasswordCredential)
++ AAD Command: [Get-AzureADServicePrincipalPasswordCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADServicePrincipalPasswordCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipal) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgServicePrincipal))
 + Graph Module: Microsoft.Graph.Applications
@@ -9149,7 +9149,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADServicePrincipalPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADServicePrincipalPolicy)
++ AAD Command: [Get-AzureADServicePrincipalPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADServicePrincipalPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -9173,7 +9173,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADSubscribedSku](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADSubscribedSku)
++ AAD Command: [Get-AzureADSubscribedSku](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADSubscribedSku?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgSubscribedSku](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgSubscribedSku) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgSubscribedSku))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -9197,7 +9197,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADTenantDetail](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADTenantDetail)
++ AAD Command: [Get-AzureADTenantDetail](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADTenantDetail?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgOrganization](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgOrganization) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgOrganization))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -9222,7 +9222,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADTrustedCertificateAuthority](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADTrustedCertificateAuthority)
++ AAD Command: [Get-AzureADTrustedCertificateAuthority](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADTrustedCertificateAuthority?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgOrganizationCertificateBasedAuthConfiguration](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Get-MgOrganizationCertificateBasedAuthConfiguration) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgOrganizationCertificateBasedAuthConfiguration))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -9247,7 +9247,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADUser)
++ AAD Command: [Get-AzureADUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADUser?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgUser](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUser) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUser))
 + Graph Module: Microsoft.Graph.Users
@@ -9275,7 +9275,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADUserAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADUserAppRoleAssignment)
++ AAD Command: [Get-AzureADUserAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADUserAppRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgUserAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgUserAppRoleAssignment) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUserAppRoleAssignment))
 + Graph Module: Microsoft.Graph.Applications
@@ -9301,7 +9301,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADUserCreatedObject](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADUserCreatedObject)
++ AAD Command: [Get-AzureADUserCreatedObject](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADUserCreatedObject?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgUserCreatedObject](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUserCreatedObject) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUserCreatedObject))
 + Graph Module: Microsoft.Graph.Users
@@ -9327,7 +9327,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADUserDirectReport](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADUserDirectReport)
++ AAD Command: [Get-AzureADUserDirectReport](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADUserDirectReport?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgUserDirectReport](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUserDirectReport) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUserDirectReport))
 + Graph Module: Microsoft.Graph.Users
@@ -9353,7 +9353,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADUserExtension](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADUserExtension)
++ AAD Command: [Get-AzureADUserExtension](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADUserExtension?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgUserExtension](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUserExtension) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUserExtension))
 + Graph Module: Microsoft.Graph.Users
@@ -9377,7 +9377,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADUserLicenseDetail](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADUserLicenseDetail)
++ AAD Command: [Get-AzureADUserLicenseDetail](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADUserLicenseDetail?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgUserLicenseDetail](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUserLicenseDetail) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUserLicenseDetail))
 + Graph Module: Microsoft.Graph.Users
@@ -9401,7 +9401,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADUserManager](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADUserManager)
++ AAD Command: [Get-AzureADUserManager](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADUserManager?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgUserManager](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUserManager) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUserManager))
 + Graph Module: Microsoft.Graph.Users
@@ -9425,7 +9425,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADUserMembership](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADUserMembership)
++ AAD Command: [Get-AzureADUserMembership](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADUserMembership?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgUserMemberOf](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUserMemberOf) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUserMemberOf))
 + Graph Module: Microsoft.Graph.Users
@@ -9451,7 +9451,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADUserOAuth2PermissionGrant](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADUserOAuth2PermissionGrant)
++ AAD Command: [Get-AzureADUserOAuth2PermissionGrant](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADUserOAuth2PermissionGrant?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgUserOauth2PermissionGrant](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUserOauth2PermissionGrant) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUserOauth2PermissionGrant))
 + Graph Module: Microsoft.Graph.Users
@@ -9477,7 +9477,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADUserOwnedDevice](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADUserOwnedDevice)
++ AAD Command: [Get-AzureADUserOwnedDevice](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADUserOwnedDevice?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgUserOwnedDevice](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUserOwnedDevice) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUserOwnedDevice))
 + Graph Module: Microsoft.Graph.Users
@@ -9503,7 +9503,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADUserOwnedObject](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADUserOwnedObject)
++ AAD Command: [Get-AzureADUserOwnedObject](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADUserOwnedObject?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgUserOwnedObject](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUserOwnedObject) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUserOwnedObject))
 + Graph Module: Microsoft.Graph.Users
@@ -9529,7 +9529,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADUserRegisteredDevice](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADUserRegisteredDevice)
++ AAD Command: [Get-AzureADUserRegisteredDevice](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADUserRegisteredDevice?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgUserRegisteredDevice](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUserRegisteredDevice) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUserRegisteredDevice))
 + Graph Module: Microsoft.Graph.Users
@@ -9555,7 +9555,7 @@
 
 ### Data
 
-+ AAD Command: [Get-AzureADUserThumbnailPhoto](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADUserThumbnailPhoto)
++ AAD Command: [Get-AzureADUserThumbnailPhoto](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADUserThumbnailPhoto?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgUserPhoto](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUserPhoto) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUserPhoto))
 + Graph Module: Microsoft.Graph.Users
@@ -9582,7 +9582,7 @@
 
 ### Data
 
-+ AAD Command: [Get-CrossCloudVerificationCode](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-CrossCloudVerificationCode)
++ AAD Command: [Get-CrossCloudVerificationCode](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-CrossCloudVerificationCode?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Confirm-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Confirm-MgDomain) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Confirm-MgDomain))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -9604,7 +9604,7 @@
 
 ### Data
 
-+ AAD Command: [Get-RbacApplicationRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-RbacApplicationRoleAssignment)
++ AAD Command: [Get-RbacApplicationRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-RbacApplicationRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -9632,7 +9632,7 @@
 
 ### Data
 
-+ AAD Command: [Get-RbacApplicationRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-RbacApplicationRoleDefinition)
++ AAD Command: [Get-RbacApplicationRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-RbacApplicationRoleDefinition?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -9660,7 +9660,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADAdministrativeUnit)
++ AAD Command: [New-AzureADAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADAdministrativeUnit?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -9685,7 +9685,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADApplication)
++ AAD Command: [New-AzureADApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADApplication?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgApplication](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/New-MgApplication) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgApplication))
 + Graph Module: Microsoft.Graph.Applications
@@ -9742,7 +9742,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADApplicationExtensionProperty)
++ AAD Command: [New-AzureADApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADApplicationExtensionProperty?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/New-MgApplicationExtensionProperty) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgApplicationExtensionProperty))
 + Graph Module: Microsoft.Graph.Applications
@@ -9769,7 +9769,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADApplicationKeyCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADApplicationKeyCredential)
++ AAD Command: [New-AzureADApplicationKeyCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADApplicationKeyCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Add-MgApplicationKey](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Add-MgApplicationKey) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Add-MgApplicationKey))
 + Graph Module: Microsoft.Graph.Applications
@@ -9799,7 +9799,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADApplicationPasswordCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADApplicationPasswordCredential)
++ AAD Command: [New-AzureADApplicationPasswordCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADApplicationPasswordCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Add-MgApplicationPassword](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Add-MgApplicationPassword) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Add-MgApplicationPassword))
 + Graph Module: Microsoft.Graph.Applications
@@ -9825,7 +9825,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADApplicationProxyApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADApplicationProxyApplication)
++ AAD Command: [New-AzureADApplicationProxyApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADApplicationProxyApplication?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -9854,7 +9854,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADApplicationProxyConnectorGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADApplicationProxyConnectorGroup)
++ AAD Command: [New-AzureADApplicationProxyConnectorGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADApplicationProxyConnectorGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -9878,7 +9878,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADDevice](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADDevice)
++ AAD Command: [New-AzureADDevice](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADDevice?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgDevice](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/New-MgDevice) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgDevice))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -9914,7 +9914,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADDirectorySetting](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADDirectorySetting)
++ AAD Command: [New-AzureADDirectorySetting](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADDirectorySetting?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -9938,7 +9938,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADDomain](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADDomain)
++ AAD Command: [New-AzureADDomain](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADDomain?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/New-MgDomain) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgDomain))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -9963,7 +9963,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADExternalDomainFederation](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADExternalDomainFederation)
++ AAD Command: [New-AzureADExternalDomainFederation](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADExternalDomainFederation?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -9988,7 +9988,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADGroup)
++ AAD Command: [New-AzureADGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgGroup](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/New-MgGroup) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgGroup))
 + Graph Module: Microsoft.Graph.Groups
@@ -10016,7 +10016,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADGroupAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADGroupAppRoleAssignment)
++ AAD Command: [New-AzureADGroupAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADGroupAppRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgGroupAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/New-MgGroupAppRoleAssignment) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgGroupAppRoleAssignment))
 + Graph Module: Microsoft.Graph.Applications
@@ -10043,7 +10043,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSAdministrativeUnit)
++ AAD Command: [New-AzureADMSAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSAdministrativeUnit?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgDirectoryAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/New-MgDirectoryAdministrativeUnit) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgDirectoryAdministrativeUnit))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -10070,7 +10070,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSAdministrativeUnitMember)
++ AAD Command: [New-AzureADMSAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSAdministrativeUnitMember?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -10107,7 +10107,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSApplication)
++ AAD Command: [New-AzureADMSApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSApplication?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgApplication](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/New-MgApplication) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgApplication))
 + Graph Module: Microsoft.Graph.Applications
@@ -10151,7 +10151,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSApplicationExtensionProperty)
++ AAD Command: [New-AzureADMSApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSApplicationExtensionProperty?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/New-MgApplicationExtensionProperty) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgApplicationExtensionProperty))
 + Graph Module: Microsoft.Graph.Applications
@@ -10176,7 +10176,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSApplicationFromApplicationTemplate](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSApplicationFromApplicationTemplate)
++ AAD Command: [New-AzureADMSApplicationFromApplicationTemplate](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSApplicationFromApplicationTemplate?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -10201,7 +10201,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSApplicationKey](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSApplicationKey)
++ AAD Command: [New-AzureADMSApplicationKey](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSApplicationKey?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Add-MgApplicationKey](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Add-MgApplicationKey) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Add-MgApplicationKey))
 + Graph Module: Microsoft.Graph.Applications
@@ -10228,7 +10228,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSApplicationPassword](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSApplicationPassword)
++ AAD Command: [New-AzureADMSApplicationPassword](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSApplicationPassword?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Add-MgApplicationPassword](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Add-MgApplicationPassword) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Add-MgApplicationPassword))
 + Graph Module: Microsoft.Graph.Applications
@@ -10251,7 +10251,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSAttributeSet](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSAttributeSet)
++ AAD Command: [New-AzureADMSAttributeSet](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSAttributeSet?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -10277,7 +10277,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSConditionalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSConditionalAccessPolicy)
++ AAD Command: [New-AzureADMSConditionalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSConditionalAccessPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgIdentityConditionalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/New-MgIdentityConditionalAccessPolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgIdentityConditionalAccessPolicy))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -10306,7 +10306,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSCustomSecurityAttributeDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSCustomSecurityAttributeDefinition)
++ AAD Command: [New-AzureADMSCustomSecurityAttributeDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSCustomSecurityAttributeDefinition?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -10335,7 +10335,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSFeatureRolloutPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSFeatureRolloutPolicy)
++ AAD Command: [New-AzureADMSFeatureRolloutPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSFeatureRolloutPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -10364,7 +10364,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSGroup)
++ AAD Command: [New-AzureADMSGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgGroup](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/New-MgGroup) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgGroup))
 + Graph Module: Microsoft.Graph.Groups
@@ -10398,7 +10398,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSGroupLifecyclePolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSGroupLifecyclePolicy)
++ AAD Command: [New-AzureADMSGroupLifecyclePolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSGroupLifecyclePolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgGroupLifecyclePolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/New-MgGroupLifecyclePolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgGroupLifecyclePolicy))
 + Graph Module: Microsoft.Graph.Groups
@@ -10424,7 +10424,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSIdentityProvider](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSIdentityProvider)
++ AAD Command: [New-AzureADMSIdentityProvider](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSIdentityProvider?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgIdentityProvider](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/New-MgIdentityProvider) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgIdentityProvider))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -10451,7 +10451,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSInvitation](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSInvitation)
++ AAD Command: [New-AzureADMSInvitation](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSInvitation?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgInvitation](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/New-MgInvitation) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgInvitation))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -10482,7 +10482,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSNamedLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSNamedLocationPolicy)
++ AAD Command: [New-AzureADMSNamedLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSNamedLocationPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgIdentityConditionalAccessNamedLocation](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/New-MgIdentityConditionalAccessNamedLocation) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgIdentityConditionalAccessNamedLocation))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -10510,7 +10510,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSPasswordSingleSignOnCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSPasswordSingleSignOnCredential)
++ AAD Command: [New-AzureADMSPasswordSingleSignOnCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSPasswordSingleSignOnCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -10535,7 +10535,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSPermissionGrantConditionSet](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSPermissionGrantConditionSet)
++ AAD Command: [New-AzureADMSPermissionGrantConditionSet](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSPermissionGrantConditionSet?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgPolicyPermissionGrantPolicyInclude](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/New-MgPolicyPermissionGrantPolicyInclude) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgPolicyPermissionGrantPolicyInclude)), [New-MgPolicyPermissionGrantPolicyExclude](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/New-MgPolicyPermissionGrantPolicyExclude) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgPolicyPermissionGrantPolicyExclude))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -10568,7 +10568,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSPermissionGrantPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSPermissionGrantPolicy)
++ AAD Command: [New-AzureADMSPermissionGrantPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSPermissionGrantPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgPolicyPermissionGrantPolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/New-MgPolicyPermissionGrantPolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgPolicyPermissionGrantPolicy))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -10594,7 +10594,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSRoleAssignment)
++ AAD Command: [New-AzureADMSRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgRoleManagementDirectoryRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DeviceManagement.Enrolment/New-MgRoleManagementDirectoryRoleAssignment) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgRoleManagementDirectoryRoleAssignment))
 + Graph Module: Microsoft.Graph.DeviceManagement.Enrolment
@@ -10620,7 +10620,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSRoleDefinition)
++ AAD Command: [New-AzureADMSRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSRoleDefinition?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgRoleManagementDirectoryRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DeviceManagement.Enrolment/New-MgRoleManagementDirectoryRoleDefinition) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgRoleManagementDirectoryRoleDefinition))
 + Graph Module: Microsoft.Graph.DeviceManagement.Enrolment
@@ -10649,7 +10649,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSServicePrincipal)
++ AAD Command: [New-AzureADMSServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSServicePrincipal?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -10665,7 +10665,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSTrustFrameworkPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSTrustFrameworkPolicy)
++ AAD Command: [New-AzureADMSTrustFrameworkPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSTrustFrameworkPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -10689,7 +10689,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADMSUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSUser)
++ AAD Command: [New-AzureADMSUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSUser?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -10713,7 +10713,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADObjectSetting](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADObjectSetting)
++ AAD Command: [New-AzureADObjectSetting](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADObjectSetting?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -10737,7 +10737,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADPolicy)
++ AAD Command: [New-AzureADPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -10764,7 +10764,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADPrivilegedRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADPrivilegedRoleAssignment)
++ AAD Command: [New-AzureADPrivilegedRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADPrivilegedRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -10793,7 +10793,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADServiceAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADServiceAppRoleAssignment)
++ AAD Command: [New-AzureADServiceAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADServiceAppRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgServicePrincipalAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/New-MgServicePrincipalAppRoleAssignment) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgServicePrincipalAppRoleAssignment))
 + Graph Module: Microsoft.Graph.Applications
@@ -10820,7 +10820,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADServicePrincipal)
++ AAD Command: [New-AzureADServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADServicePrincipal?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/New-MgServicePrincipal) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgServicePrincipal))
 + Graph Module: Microsoft.Graph.Applications
@@ -10859,7 +10859,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADServicePrincipalKeyCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADServicePrincipalKeyCredential)
++ AAD Command: [New-AzureADServicePrincipalKeyCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADServicePrincipalKeyCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgPolicyPermissionGrantPolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/New-MgPolicyPermissionGrantPolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgPolicyPermissionGrantPolicy)), [Add-MgServicePrincipalKey](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Add-MgServicePrincipalKey) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Add-MgServicePrincipalKey))
 + Graph Module: Microsoft.Graph.Applications, Microsoft.Graph.Identity.SignIns
@@ -10889,7 +10889,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADServicePrincipalPasswordCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADServicePrincipalPasswordCredential)
++ AAD Command: [New-AzureADServicePrincipalPasswordCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADServicePrincipalPasswordCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Add-MgServicePrincipalPassword](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Add-MgServicePrincipalPassword) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Add-MgServicePrincipalPassword))
 + Graph Module: Microsoft.Graph.Applications
@@ -10915,7 +10915,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADTrustedCertificateAuthority](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADTrustedCertificateAuthority)
++ AAD Command: [New-AzureADTrustedCertificateAuthority](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADTrustedCertificateAuthority?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -10939,7 +10939,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADUser)
++ AAD Command: [New-AzureADUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADUser?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgUser](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/New-MgUser) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgUser))
 + Graph Module: Microsoft.Graph.Users
@@ -10996,7 +10996,7 @@
 
 ### Data
 
-+ AAD Command: [New-AzureADUserAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADUserAppRoleAssignment)
++ AAD Command: [New-AzureADUserAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADUserAppRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgUserAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/New-MgUserAppRoleAssignment) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgUserAppRoleAssignment))
 + Graph Module: Microsoft.Graph.Applications
@@ -11021,7 +11021,7 @@
 
 ### Data
 
-+ AAD Command: [New-RbacApplicationRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-RbacApplicationRoleAssignment)
++ AAD Command: [New-RbacApplicationRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-RbacApplicationRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -11047,7 +11047,7 @@
 
 ### Data
 
-+ AAD Command: [New-RbacApplicationRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-RbacApplicationRoleDefinition)
++ AAD Command: [New-RbacApplicationRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-RbacApplicationRoleDefinition?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -11077,7 +11077,7 @@
 
 ### Data
 
-+ AAD Command: [Open-AzureADMSPrivilegedRoleAssignmentRequest](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Open-AzureADMSPrivilegedRoleAssignmentRequest)
++ AAD Command: [Open-AzureADMSPrivilegedRoleAssignmentRequest](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Open-AzureADMSPrivilegedRoleAssignmentRequest?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -11106,7 +11106,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADAdministrativeUnit)
++ AAD Command: [Remove-AzureADAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADAdministrativeUnit?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -11128,7 +11128,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADAdministrativeUnitMember)
++ AAD Command: [Remove-AzureADAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADAdministrativeUnitMember?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -11153,7 +11153,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADApplication)
++ AAD Command: [Remove-AzureADApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADApplication?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgApplication](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgApplication) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgApplication))
 + Graph Module: Microsoft.Graph.Applications
@@ -11177,7 +11177,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADApplicationExtensionProperty)
++ AAD Command: [Remove-AzureADApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADApplicationExtensionProperty?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgApplicationExtensionProperty) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgApplicationExtensionProperty))
 + Graph Module: Microsoft.Graph.Applications
@@ -11202,7 +11202,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADApplicationKeyCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADApplicationKeyCredential)
++ AAD Command: [Remove-AzureADApplicationKeyCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADApplicationKeyCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgApplicationKey](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgApplicationKey) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgApplicationKey))
 + Graph Module: Microsoft.Graph.Applications
@@ -11227,7 +11227,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADApplicationOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADApplicationOwner)
++ AAD Command: [Remove-AzureADApplicationOwner](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADApplicationOwner?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgApplicationOwnerByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgApplicationOwnerByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgApplicationOwnerByRef))
 + Graph Module: Microsoft.Graph.Applications
@@ -11252,7 +11252,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADApplicationPasswordCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADApplicationPasswordCredential)
++ AAD Command: [Remove-AzureADApplicationPasswordCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADApplicationPasswordCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgApplicationPassword](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgApplicationPassword) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgApplicationPassword))
 + Graph Module: Microsoft.Graph.Applications
@@ -11275,7 +11275,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADApplicationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADApplicationPolicy)
++ AAD Command: [Remove-AzureADApplicationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADApplicationPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -11298,7 +11298,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADApplicationProxyApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADApplicationProxyApplication)
++ AAD Command: [Remove-AzureADApplicationProxyApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADApplicationProxyApplication?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -11321,7 +11321,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADApplicationProxyApplicationConnectorGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADApplicationProxyApplicationConnectorGroup)
++ AAD Command: [Remove-AzureADApplicationProxyApplicationConnectorGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADApplicationProxyApplicationConnectorGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -11343,7 +11343,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADApplicationProxyConnectorGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADApplicationProxyConnectorGroup)
++ AAD Command: [Remove-AzureADApplicationProxyConnectorGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADApplicationProxyConnectorGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -11367,7 +11367,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADContact](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADContact)
++ AAD Command: [Remove-AzureADContact](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADContact?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgContact](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Remove-MgContact) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgContact))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -11389,7 +11389,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADContactManager](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADContactManager)
++ AAD Command: [Remove-AzureADContactManager](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADContactManager?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -11413,7 +11413,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADDeletedApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADDeletedApplication)
++ AAD Command: [Remove-AzureADDeletedApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADDeletedApplication?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgDirectoryDeletedItem](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Remove-MgDirectoryDeletedItem) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgDirectoryDeletedItem))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -11437,7 +11437,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADDevice](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADDevice)
++ AAD Command: [Remove-AzureADDevice](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADDevice?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgDevice](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Remove-MgDevice) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgDevice))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -11461,7 +11461,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADDeviceRegisteredOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADDeviceRegisteredOwner)
++ AAD Command: [Remove-AzureADDeviceRegisteredOwner](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADDeviceRegisteredOwner?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgDeviceRegisteredOwnerByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Remove-MgDeviceRegisteredOwnerByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgDeviceRegisteredOwnerByRef))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -11484,7 +11484,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADDeviceRegisteredUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADDeviceRegisteredUser)
++ AAD Command: [Remove-AzureADDeviceRegisteredUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADDeviceRegisteredUser?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -11509,7 +11509,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADDirectoryRoleMember](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADDirectoryRoleMember)
++ AAD Command: [Remove-AzureADDirectoryRoleMember](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADDirectoryRoleMember?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgDirectoryRoleScopedMember](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Remove-MgDirectoryRoleScopedMember) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgDirectoryRoleScopedMember))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -11532,7 +11532,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADDirectorySetting](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADDirectorySetting)
++ AAD Command: [Remove-AzureADDirectorySetting](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADDirectorySetting?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -11556,7 +11556,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADDomain](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADDomain)
++ AAD Command: [Remove-AzureADDomain](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADDomain?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Remove-MgDomain) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgDomain))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -11578,7 +11578,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADExternalDomainFederation](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADExternalDomainFederation)
++ AAD Command: [Remove-AzureADExternalDomainFederation](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADExternalDomainFederation?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -11602,7 +11602,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADGroup)
++ AAD Command: [Remove-AzureADGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgGroup](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Remove-MgGroup) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgGroup))
 + Graph Module: Microsoft.Graph.Groups
@@ -11626,7 +11626,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADGroupAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADGroupAppRoleAssignment)
++ AAD Command: [Remove-AzureADGroupAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADGroupAppRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgGroupAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgGroupAppRoleAssignment) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgGroupAppRoleAssignment))
 + Graph Module: Microsoft.Graph.Applications
@@ -11651,7 +11651,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADGroupMember](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADGroupMember)
++ AAD Command: [Remove-AzureADGroupMember](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADGroupMember?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgGroupMemberByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Remove-MgGroupMemberByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgGroupMemberByRef))
 + Graph Module: Microsoft.Graph.Groups
@@ -11676,7 +11676,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADGroupOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADGroupOwner)
++ AAD Command: [Remove-AzureADGroupOwner](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADGroupOwner?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgGroupOwnerByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Remove-MgGroupOwnerByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgGroupOwnerByRef))
 + Graph Module: Microsoft.Graph.Groups
@@ -11701,7 +11701,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSAdministrativeUnit)
++ AAD Command: [Remove-AzureADMSAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSAdministrativeUnit?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgDirectoryAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Remove-MgDirectoryAdministrativeUnit) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgDirectoryAdministrativeUnit))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -11725,7 +11725,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSAdministrativeUnitMember)
++ AAD Command: [Remove-AzureADMSAdministrativeUnitMember](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSAdministrativeUnitMember?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgDirectoryAdministrativeUnitScopedRoleMember](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Remove-MgDirectoryAdministrativeUnitScopedRoleMember) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgDirectoryAdministrativeUnitScopedRoleMember))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -11750,7 +11750,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSApplication)
++ AAD Command: [Remove-AzureADMSApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSApplication?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgApplication](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgApplication) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgApplication))
 + Graph Module: Microsoft.Graph.Applications
@@ -11774,7 +11774,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSApplicationExtensionProperty)
++ AAD Command: [Remove-AzureADMSApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSApplicationExtensionProperty?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgApplicationExtensionProperty](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgApplicationExtensionProperty) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgApplicationExtensionProperty))
 + Graph Module: Microsoft.Graph.Applications
@@ -11799,7 +11799,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSApplicationKey](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSApplicationKey)
++ AAD Command: [Remove-AzureADMSApplicationKey](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSApplicationKey?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgApplicationKey](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgApplicationKey) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgApplicationKey))
 + Graph Module: Microsoft.Graph.Applications
@@ -11825,7 +11825,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSApplicationOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSApplicationOwner)
++ AAD Command: [Remove-AzureADMSApplicationOwner](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSApplicationOwner?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgApplicationOwnerByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgApplicationOwnerByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgApplicationOwnerByRef))
 + Graph Module: Microsoft.Graph.Applications
@@ -11850,7 +11850,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSApplicationPassword](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSApplicationPassword)
++ AAD Command: [Remove-AzureADMSApplicationPassword](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSApplicationPassword?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgApplicationPassword](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgApplicationPassword) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgApplicationPassword))
 + Graph Module: Microsoft.Graph.Applications
@@ -11875,7 +11875,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSApplicationVerifiedPublisher](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSApplicationVerifiedPublisher)
++ AAD Command: [Remove-AzureADMSApplicationVerifiedPublisher](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSApplicationVerifiedPublisher?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Clear-MgApplicationVerifiedPublisher](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Clear-MgApplicationVerifiedPublisher) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Clear-MgApplicationVerifiedPublisher))
 + Graph Module: Microsoft.Graph.Applications
@@ -11899,7 +11899,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSConditionalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSConditionalAccessPolicy)
++ AAD Command: [Remove-AzureADMSConditionalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSConditionalAccessPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgIdentityConditionalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Remove-MgIdentityConditionalAccessPolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgIdentityConditionalAccessPolicy))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -11923,7 +11923,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSDeletedDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSDeletedDirectoryObject)
++ AAD Command: [Remove-AzureADMSDeletedDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSDeletedDirectoryObject?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DirectoryObjects/Remove-MgDirectoryObject) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgDirectoryObject))
 + Graph Module: Microsoft.Graph.DirectoryObjects
@@ -11945,7 +11945,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSFeatureRolloutPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSFeatureRolloutPolicy)
++ AAD Command: [Remove-AzureADMSFeatureRolloutPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSFeatureRolloutPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -11967,7 +11967,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSFeatureRolloutPolicyDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSFeatureRolloutPolicyDirectoryObject)
++ AAD Command: [Remove-AzureADMSFeatureRolloutPolicyDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSFeatureRolloutPolicyDirectoryObject?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -11992,7 +11992,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSGroup)
++ AAD Command: [Remove-AzureADMSGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgGroup](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Remove-MgGroup) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgGroup))
 + Graph Module: Microsoft.Graph.Groups
@@ -12016,7 +12016,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSGroupLifecyclePolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSGroupLifecyclePolicy)
++ AAD Command: [Remove-AzureADMSGroupLifecyclePolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSGroupLifecyclePolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgGroupLifecyclePolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Remove-MgGroupLifecyclePolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgGroupLifecyclePolicy))
 + Graph Module: Microsoft.Graph.Groups
@@ -12040,7 +12040,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSIdentityProvider](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSIdentityProvider)
++ AAD Command: [Remove-AzureADMSIdentityProvider](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSIdentityProvider?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgIdentityProvider](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Remove-MgIdentityProvider) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgIdentityProvider))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -12064,7 +12064,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSLifecyclePolicyGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSLifecyclePolicyGroup)
++ AAD Command: [Remove-AzureADMSLifecyclePolicyGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSLifecyclePolicyGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgGroupFromLifecyclePolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Remove-MgGroupFromLifecyclePolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgGroupFromLifecyclePolicy))
 + Graph Module: Microsoft.Graph.Groups
@@ -12089,7 +12089,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSNamedLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSNamedLocationPolicy)
++ AAD Command: [Remove-AzureADMSNamedLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSNamedLocationPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgIdentityConditionalAccessNamedLocation](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Remove-MgIdentityConditionalAccessNamedLocation) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgIdentityConditionalAccessNamedLocation))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -12111,7 +12111,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSPasswordSingleSignOnCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSPasswordSingleSignOnCredential)
++ AAD Command: [Remove-AzureADMSPasswordSingleSignOnCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSPasswordSingleSignOnCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -12136,7 +12136,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSPermissionGrantConditionSet](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSPermissionGrantConditionSet)
++ AAD Command: [Remove-AzureADMSPermissionGrantConditionSet](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSPermissionGrantConditionSet?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgPolicyPermissionGrantPolicyInclude](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Remove-MgPolicyPermissionGrantPolicyInclude) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgPolicyPermissionGrantPolicyInclude)), [Remove-MgPolicyPermissionGrantPolicyExclude](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Remove-MgPolicyPermissionGrantPolicyExclude) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgPolicyPermissionGrantPolicyExclude))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -12162,7 +12162,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSPermissionGrantPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSPermissionGrantPolicy)
++ AAD Command: [Remove-AzureADMSPermissionGrantPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSPermissionGrantPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgPolicyPermissionGrantPolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Remove-MgPolicyPermissionGrantPolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgPolicyPermissionGrantPolicy))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -12186,7 +12186,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSRoleAssignment)
++ AAD Command: [Remove-AzureADMSRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgRoleManagementDirectoryRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DeviceManagement.Enrolment/Remove-MgRoleManagementDirectoryRoleAssignment) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgRoleManagementDirectoryRoleAssignment))
 + Graph Module: Microsoft.Graph.DeviceManagement.Enrolment
@@ -12210,7 +12210,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSRoleDefinition)
++ AAD Command: [Remove-AzureADMSRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSRoleDefinition?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgRoleManagementDirectoryRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DeviceManagement.Enrolment/Remove-MgRoleManagementDirectoryRoleDefinition) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgRoleManagementDirectoryRoleDefinition))
 + Graph Module: Microsoft.Graph.DeviceManagement.Enrolment
@@ -12234,7 +12234,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSScopedRoleMembership](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSScopedRoleMembership)
++ AAD Command: [Remove-AzureADMSScopedRoleMembership](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSScopedRoleMembership?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgUserScopedRoleMemberOf](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Remove-MgUserScopedRoleMemberOf) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgUserScopedRoleMemberOf))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -12259,7 +12259,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSServicePrincipalDelegatedPermissionClassification](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSServicePrincipalDelegatedPermissionClassification)
++ AAD Command: [Remove-AzureADMSServicePrincipalDelegatedPermissionClassification](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSServicePrincipalDelegatedPermissionClassification?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgServicePrincipalDelegatedPermissionClassification](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgServicePrincipalDelegatedPermissionClassification) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgServicePrincipalDelegatedPermissionClassification))
 + Graph Module: Microsoft.Graph.Applications
@@ -12282,7 +12282,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADMSTrustFrameworkPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADMSTrustFrameworkPolicy)
++ AAD Command: [Remove-AzureADMSTrustFrameworkPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADMSTrustFrameworkPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -12306,7 +12306,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADOAuth2PermissionGrant](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADOAuth2PermissionGrant)
++ AAD Command: [Remove-AzureADOAuth2PermissionGrant](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADOAuth2PermissionGrant?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgOauth2PermissionGrant](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Remove-MgOauth2PermissionGrant) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgOauth2PermissionGrant))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -12328,7 +12328,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADObjectSetting](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADObjectSetting)
++ AAD Command: [Remove-AzureADObjectSetting](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADObjectSetting?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -12352,7 +12352,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADPolicy)
++ AAD Command: [Remove-AzureADPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -12374,7 +12374,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADScopedRoleMembership](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADScopedRoleMembership)
++ AAD Command: [Remove-AzureADScopedRoleMembership](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADScopedRoleMembership?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -12399,7 +12399,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADServiceAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADServiceAppRoleAssignment)
++ AAD Command: [Remove-AzureADServiceAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADServiceAppRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgServicePrincipalAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgServicePrincipalAppRoleAssignment) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgServicePrincipalAppRoleAssignment))
 + Graph Module: Microsoft.Graph.Applications
@@ -12424,7 +12424,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADServicePrincipal)
++ AAD Command: [Remove-AzureADServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADServicePrincipal?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgServicePrincipal) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgServicePrincipal))
 + Graph Module: Microsoft.Graph.Applications
@@ -12448,7 +12448,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADServicePrincipalKeyCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADServicePrincipalKeyCredential)
++ AAD Command: [Remove-AzureADServicePrincipalKeyCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADServicePrincipalKeyCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgServicePrincipalKey](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgServicePrincipalKey) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgServicePrincipalKey))
 + Graph Module: Microsoft.Graph.Applications
@@ -12473,7 +12473,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADServicePrincipalOwner](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADServicePrincipalOwner)
++ AAD Command: [Remove-AzureADServicePrincipalOwner](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADServicePrincipalOwner?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgServicePrincipalOwnerByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgServicePrincipalOwnerByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgServicePrincipalOwnerByRef))
 + Graph Module: Microsoft.Graph.Applications
@@ -12498,7 +12498,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADServicePrincipalPasswordCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADServicePrincipalPasswordCredential)
++ AAD Command: [Remove-AzureADServicePrincipalPasswordCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADServicePrincipalPasswordCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgServicePrincipalPassword](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgServicePrincipalPassword) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgServicePrincipalPassword))
 + Graph Module: Microsoft.Graph.Applications
@@ -12521,7 +12521,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADServicePrincipalPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADServicePrincipalPolicy)
++ AAD Command: [Remove-AzureADServicePrincipalPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADServicePrincipalPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -12544,7 +12544,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADTrustedCertificateAuthority](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADTrustedCertificateAuthority)
++ AAD Command: [Remove-AzureADTrustedCertificateAuthority](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADTrustedCertificateAuthority?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -12568,7 +12568,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADUser)
++ AAD Command: [Remove-AzureADUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADUser?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgUser](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Remove-MgUser) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgUser))
 + Graph Module: Microsoft.Graph.Users
@@ -12592,7 +12592,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADUserAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADUserAppRoleAssignment)
++ AAD Command: [Remove-AzureADUserAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADUserAppRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgUserAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Remove-MgUserAppRoleAssignment) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgUserAppRoleAssignment))
 + Graph Module: Microsoft.Graph.Applications
@@ -12617,7 +12617,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADUserExtension](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADUserExtension)
++ AAD Command: [Remove-AzureADUserExtension](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADUserExtension?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgUserExtension](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Remove-MgUserExtension) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgUserExtension))
 + Graph Module: Microsoft.Graph.Users
@@ -12643,7 +12643,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-AzureADUserManager](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADUserManager)
++ AAD Command: [Remove-AzureADUserManager](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADUserManager?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Remove-MgUserManagerByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Remove-MgUserManagerByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Remove-MgUserManagerByRef))
 + Graph Module: Microsoft.Graph.Users
@@ -12665,7 +12665,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-RbacApplicationRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-RbacApplicationRoleAssignment)
++ AAD Command: [Remove-RbacApplicationRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-RbacApplicationRoleAssignment?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -12688,7 +12688,7 @@
 
 ### Data
 
-+ AAD Command: [Remove-RbacApplicationRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-RbacApplicationRoleDefinition)
++ AAD Command: [Remove-RbacApplicationRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-RbacApplicationRoleDefinition?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -12713,7 +12713,7 @@
 
 ### Data
 
-+ AAD Command: [Reset-AzureADMSLifeCycleGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Reset-AzureADMSLifeCycleGroup)
++ AAD Command: [Reset-AzureADMSLifeCycleGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Reset-AzureADMSLifeCycleGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Invoke-MgRenewGroup](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Invoke-MgRenewGroup) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Invoke-MgRenewGroup))
 + Graph Module: Microsoft.Graph.Groups
@@ -12737,7 +12737,7 @@
 
 ### Data
 
-+ AAD Command: [Restore-AzureADDeletedApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Restore-AzureADDeletedApplication)
++ AAD Command: [Restore-AzureADDeletedApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Restore-AzureADDeletedApplication?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Restore-MgDirectoryDeletedItem](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Restore-MgDirectoryDeletedItem) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Restore-MgDirectoryDeletedItem))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -12762,7 +12762,7 @@
 
 ### Data
 
-+ AAD Command: [Restore-AzureADMSDeletedDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Restore-AzureADMSDeletedDirectoryObject)
++ AAD Command: [Restore-AzureADMSDeletedDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Restore-AzureADMSDeletedDirectoryObject?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Restore-MgDirectoryDeletedItem](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Restore-MgDirectoryDeletedItem) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Restore-MgDirectoryDeletedItem))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -12786,7 +12786,7 @@
 
 ### Data
 
-+ AAD Command: [Revoke-AzureADSignedInUserAllRefreshToken](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Revoke-AzureADSignedInUserAllRefreshToken)
++ AAD Command: [Revoke-AzureADSignedInUserAllRefreshToken](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Revoke-AzureADSignedInUserAllRefreshToken?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Invoke-MgInvalidateUserRefreshToken](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Invoke-MgInvalidateUserRefreshToken) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Invoke-MgInvalidateUserRefreshToken))
 + Graph Module: Microsoft.Graph.Users.Actions
@@ -12804,7 +12804,7 @@
 
 ### Data
 
-+ AAD Command: [Revoke-AzureADUserAllRefreshToken](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Revoke-AzureADUserAllRefreshToken)
++ AAD Command: [Revoke-AzureADUserAllRefreshToken](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Revoke-AzureADUserAllRefreshToken?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Invoke-MgInvalidateUserRefreshToken](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Invoke-MgInvalidateUserRefreshToken) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Invoke-MgInvalidateUserRefreshToken))
 + Graph Module: Microsoft.Graph.Users.Actions
@@ -12828,7 +12828,7 @@
 
 ### Data
 
-+ AAD Command: [Select-AzureADGroupIdsContactIsMemberOf](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Select-AzureADGroupIdsContactIsMemberOf)
++ AAD Command: [Select-AzureADGroupIdsContactIsMemberOf](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Select-AzureADGroupIdsContactIsMemberOf?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgContactMemberOf](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgContactMemberOf) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgContactMemberOf))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -12853,7 +12853,7 @@
 
 ### Data
 
-+ AAD Command: [Select-AzureADGroupIdsGroupIsMemberOf](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Select-AzureADGroupIdsGroupIsMemberOf)
++ AAD Command: [Select-AzureADGroupIdsGroupIsMemberOf](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Select-AzureADGroupIdsGroupIsMemberOf?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgGroupMemberOf](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Get-MgGroupMemberOf) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgGroupMemberOf))
 + Graph Module: Microsoft.Graph.Groups
@@ -12878,7 +12878,7 @@
 
 ### Data
 
-+ AAD Command: [Select-AzureADGroupIdsServicePrincipalIsMemberOf](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Select-AzureADGroupIdsServicePrincipalIsMemberOf)
++ AAD Command: [Select-AzureADGroupIdsServicePrincipalIsMemberOf](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Select-AzureADGroupIdsServicePrincipalIsMemberOf?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgServicePrincipalMemberOf](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Get-MgServicePrincipalMemberOf) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgServicePrincipalMemberOf))
 + Graph Module: Microsoft.Graph.Applications
@@ -12903,7 +12903,7 @@
 
 ### Data
 
-+ AAD Command: [Select-AzureADGroupIdsUserIsMemberOf](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Select-AzureADGroupIdsUserIsMemberOf)
++ AAD Command: [Select-AzureADGroupIdsUserIsMemberOf](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Select-AzureADGroupIdsUserIsMemberOf?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgUserMemberOf](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUserMemberOf) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUserMemberOf))
 + Graph Module: Microsoft.Graph.Users
@@ -12926,7 +12926,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADAdministrativeUnit)
++ AAD Command: [Set-AzureADAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADAdministrativeUnit?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -12952,7 +12952,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADApplication)
++ AAD Command: [Set-AzureADApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADApplication?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgApplication](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Update-MgApplication) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgApplication))
 + Graph Module: Microsoft.Graph.Applications
@@ -13010,7 +13010,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADApplicationLogo](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADApplicationLogo)
++ AAD Command: [Set-AzureADApplicationLogo](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADApplicationLogo?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Set-MgApplicationLogo](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Set-MgApplicationLogo) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Set-MgApplicationLogo))
 + Graph Module: Microsoft.Graph.Applications
@@ -13035,7 +13035,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADApplicationProxyApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADApplicationProxyApplication)
++ AAD Command: [Set-AzureADApplicationProxyApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADApplicationProxyApplication?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13064,7 +13064,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADApplicationProxyApplicationConnectorGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADApplicationProxyApplicationConnectorGroup)
++ AAD Command: [Set-AzureADApplicationProxyApplicationConnectorGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADApplicationProxyApplicationConnectorGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13087,7 +13087,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADApplicationProxyApplicationCustomDomainCertificate](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADApplicationProxyApplicationCustomDomainCertificate)
++ AAD Command: [Set-AzureADApplicationProxyApplicationCustomDomainCertificate](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADApplicationProxyApplicationCustomDomainCertificate?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13111,7 +13111,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADApplicationProxyApplicationSingleSignOn](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADApplicationProxyApplicationSingleSignOn)
++ AAD Command: [Set-AzureADApplicationProxyApplicationSingleSignOn](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADApplicationProxyApplicationSingleSignOn?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13136,7 +13136,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADApplicationProxyConnector](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADApplicationProxyConnector)
++ AAD Command: [Set-AzureADApplicationProxyConnector](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADApplicationProxyConnector?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13159,7 +13159,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADApplicationProxyConnectorGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADApplicationProxyConnectorGroup)
++ AAD Command: [Set-AzureADApplicationProxyConnectorGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADApplicationProxyConnectorGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13184,7 +13184,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADDevice](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADDevice)
++ AAD Command: [Set-AzureADDevice](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADDevice?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgDevice](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Update-MgDevice) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgDevice))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -13221,7 +13221,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADDirectorySetting](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADDirectorySetting)
++ AAD Command: [Set-AzureADDirectorySetting](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADDirectorySetting?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13246,7 +13246,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADDomain](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADDomain)
++ AAD Command: [Set-AzureADDomain](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADDomain?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Update-MgDomain) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgDomain))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -13273,7 +13273,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADGroup)
++ AAD Command: [Set-AzureADGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgGroup](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Update-MgGroup) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgGroup))
 + Graph Module: Microsoft.Graph.Groups
@@ -13302,7 +13302,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSAdministrativeUnit)
++ AAD Command: [Set-AzureADMSAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSAdministrativeUnit?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgDirectoryAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Update-MgDirectoryAdministrativeUnit) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgDirectoryAdministrativeUnit))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -13332,7 +13332,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSApplication)
++ AAD Command: [Set-AzureADMSApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSApplication?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgApplication](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Update-MgApplication) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgApplication))
 + Graph Module: Microsoft.Graph.Applications
@@ -13377,7 +13377,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSApplicationLogo](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSApplicationLogo)
++ AAD Command: [Set-AzureADMSApplicationLogo](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSApplicationLogo?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Set-MgApplicationLogo](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Set-MgApplicationLogo) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Set-MgApplicationLogo))
 + Graph Module: Microsoft.Graph.Applications
@@ -13402,7 +13402,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSApplicationVerifiedPublisher](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSApplicationVerifiedPublisher)
++ AAD Command: [Set-AzureADMSApplicationVerifiedPublisher](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSApplicationVerifiedPublisher?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Set-MgApplicationVerifiedPublisher](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Set-MgApplicationVerifiedPublisher) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Set-MgApplicationVerifiedPublisher))
 + Graph Module: Microsoft.Graph.Applications
@@ -13425,7 +13425,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSAttributeSet](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSAttributeSet)
++ AAD Command: [Set-AzureADMSAttributeSet](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSAttributeSet?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13451,7 +13451,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSAuthorizationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSAuthorizationPolicy)
++ AAD Command: [Set-AzureADMSAuthorizationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSAuthorizationPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgPolicyAuthorizationPolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Update-MgPolicyAuthorizationPolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgPolicyAuthorizationPolicy))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -13485,7 +13485,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSConditionalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSConditionalAccessPolicy)
++ AAD Command: [Set-AzureADMSConditionalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSConditionalAccessPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgIdentityConditionalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Update-MgIdentityConditionalAccessPolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgIdentityConditionalAccessPolicy))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -13515,7 +13515,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSCustomSecurityAttributeDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSCustomSecurityAttributeDefinition)
++ AAD Command: [Set-AzureADMSCustomSecurityAttributeDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSCustomSecurityAttributeDefinition?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13540,7 +13540,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSCustomSecurityAttributeDefinitionAllowedValue](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSCustomSecurityAttributeDefinitionAllowedValue)
++ AAD Command: [Set-AzureADMSCustomSecurityAttributeDefinitionAllowedValue](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSCustomSecurityAttributeDefinitionAllowedValue?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13564,7 +13564,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSFeatureRolloutPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSFeatureRolloutPolicy)
++ AAD Command: [Set-AzureADMSFeatureRolloutPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSFeatureRolloutPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13594,7 +13594,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSGroup)
++ AAD Command: [Set-AzureADMSGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgGroup](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Update-MgGroup) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgGroup))
 + Graph Module: Microsoft.Graph.Groups
@@ -13629,7 +13629,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSGroupLifecyclePolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSGroupLifecyclePolicy)
++ AAD Command: [Set-AzureADMSGroupLifecyclePolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSGroupLifecyclePolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgGroupLifecyclePolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/Update-MgGroupLifecyclePolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgGroupLifecyclePolicy))
 + Graph Module: Microsoft.Graph.Groups
@@ -13656,7 +13656,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSIdentityProvider](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSIdentityProvider)
++ AAD Command: [Set-AzureADMSIdentityProvider](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSIdentityProvider?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgIdentityProvider](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Update-MgIdentityProvider) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgIdentityProvider))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -13684,7 +13684,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSNamedLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSNamedLocationPolicy)
++ AAD Command: [Set-AzureADMSNamedLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSNamedLocationPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgIdentityConditionalAccessNamedLocation](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Update-MgIdentityConditionalAccessNamedLocation) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgIdentityConditionalAccessNamedLocation))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -13713,7 +13713,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSPasswordSingleSignOnCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSPasswordSingleSignOnCredential)
++ AAD Command: [Set-AzureADMSPasswordSingleSignOnCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSPasswordSingleSignOnCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13738,7 +13738,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSPermissionGrantConditionSet](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSPermissionGrantConditionSet)
++ AAD Command: [Set-AzureADMSPermissionGrantConditionSet](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSPermissionGrantConditionSet?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgPolicyPermissionGrantPolicyInclude](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Update-MgPolicyPermissionGrantPolicyInclude) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgPolicyPermissionGrantPolicyInclude)), [Update-MgPolicyPermissionGrantPolicyExclude](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Update-MgPolicyPermissionGrantPolicyExclude) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgPolicyPermissionGrantPolicyExclude))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -13772,7 +13772,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSPermissionGrantPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSPermissionGrantPolicy)
++ AAD Command: [Set-AzureADMSPermissionGrantPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSPermissionGrantPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgPolicyPermissionGrantPolicy](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.SignIns/Update-MgPolicyPermissionGrantPolicy) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgPolicyPermissionGrantPolicy))
 + Graph Module: Microsoft.Graph.Identity.SignIns
@@ -13796,7 +13796,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSPrivilegedRoleAssignmentRequest](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSPrivilegedRoleAssignmentRequest)
++ AAD Command: [Set-AzureADMSPrivilegedRoleAssignmentRequest](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSPrivilegedRoleAssignmentRequest?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13823,7 +13823,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSPrivilegedRoleSetting](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSPrivilegedRoleSetting)
++ AAD Command: [Set-AzureADMSPrivilegedRoleSetting](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSPrivilegedRoleSetting?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13854,7 +13854,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSRoleDefinition)
++ AAD Command: [Set-AzureADMSRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSRoleDefinition?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgRoleManagementDirectoryRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.DeviceManagement.Enrolment/Update-MgRoleManagementDirectoryRoleDefinition) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgRoleManagementDirectoryRoleDefinition))
 + Graph Module: Microsoft.Graph.DeviceManagement.Enrolment
@@ -13884,7 +13884,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSServicePrincipal)
++ AAD Command: [Set-AzureADMSServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSServicePrincipal?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13923,7 +13923,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSTrustFrameworkPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSTrustFrameworkPolicy)
++ AAD Command: [Set-AzureADMSTrustFrameworkPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSTrustFrameworkPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13948,7 +13948,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADMSUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSUser)
++ AAD Command: [Set-AzureADMSUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSUser?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13973,7 +13973,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADObjectSetting](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADObjectSetting)
++ AAD Command: [Set-AzureADObjectSetting](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADObjectSetting?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -13998,7 +13998,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADPolicy)
++ AAD Command: [Set-AzureADPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -14028,7 +14028,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADServicePrincipal)
++ AAD Command: [Set-AzureADServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADServicePrincipal?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Update-MgServicePrincipal) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgServicePrincipal))
 + Graph Module: Microsoft.Graph.Applications
@@ -14068,7 +14068,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADTenantDetail](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADTenantDetail)
++ AAD Command: [Set-AzureADTenantDetail](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADTenantDetail?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgOrganization](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Update-MgOrganization) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgOrganization))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement
@@ -14094,7 +14094,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADTrustedCertificateAuthority](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADTrustedCertificateAuthority)
++ AAD Command: [Set-AzureADTrustedCertificateAuthority](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADTrustedCertificateAuthority?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -14118,7 +14118,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADUser)
++ AAD Command: [Set-AzureADUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADUser?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgUser](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Update-MgUser) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgUser))
 + Graph Module: Microsoft.Graph.Users
@@ -14176,7 +14176,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADUserExtension](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADUserExtension)
++ AAD Command: [Set-AzureADUserExtension](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADUserExtension?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgUserExtension](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Update-MgUserExtension) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgUserExtension))
 + Graph Module: Microsoft.Graph.Users
@@ -14203,7 +14203,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADUserLicense](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADUserLicense)
++ AAD Command: [Set-AzureADUserLicense](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADUserLicense?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Set-MgUserLicense](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Set-MgUserLicense) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Set-MgUserLicense))
 + Graph Module: Microsoft.Graph.Users.Actions
@@ -14228,7 +14228,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADUserManager](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADUserManager)
++ AAD Command: [Set-AzureADUserManager](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADUserManager?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Set-MgUserManagerByRef](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Set-MgUserManagerByRef) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Set-MgUserManagerByRef))
 + Graph Module: Microsoft.Graph.Users
@@ -14253,7 +14253,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADUserPassword](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADUserPassword)
++ AAD Command: [Set-AzureADUserPassword](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADUserPassword?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgUserPassword](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Update-MgUserPassword) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgUserPassword))
 + Graph Module: Microsoft.Graph.Users.Actions
@@ -14280,7 +14280,7 @@
 
 ### Data
 
-+ AAD Command: [Set-AzureADUserThumbnailPhoto](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADUserThumbnailPhoto)
++ AAD Command: [Set-AzureADUserThumbnailPhoto](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADUserThumbnailPhoto?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Set-MgUserPhotoContent](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Set-MgUserPhotoContent) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Set-MgUserPhotoContent))
 + Graph Module: Microsoft.Graph.Users
@@ -14305,7 +14305,7 @@
 
 ### Data
 
-+ AAD Command: [Set-RbacApplicationRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-RbacApplicationRoleDefinition)
++ AAD Command: [Set-RbacApplicationRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-RbacApplicationRoleDefinition?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
@@ -14338,7 +14338,7 @@
 
 ### Data
 
-+ AAD Command: [Update-AzureADSignedInUserPassword](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Update-AzureADSignedInUserPassword)
++ AAD Command: [Update-AzureADSignedInUserPassword](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Update-AzureADSignedInUserPassword?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Update-MgUserPassword](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Update-MgUserPassword) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Update-MgUserPassword))
 + Graph Module: Microsoft.Graph.Users.Actions

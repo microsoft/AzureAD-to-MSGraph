@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [New-AzureADApplicationProxyApplication](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADApplicationProxyApplication)
++ AAD Command: [New-AzureADApplicationProxyApplication](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADApplicationProxyApplication?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [New-AzureADGroup](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADGroup)
++ AAD Command: [New-AzureADGroup](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADGroup?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgGroup](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Groups/New-MgGroup) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgGroup))
 + Graph Module: Microsoft.Graph.Groups

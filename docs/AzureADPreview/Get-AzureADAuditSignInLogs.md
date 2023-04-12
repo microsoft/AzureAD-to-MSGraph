@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADAuditSignInLogs](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADAuditSignInLogs)
++ AAD Command: [Get-AzureADAuditSignInLogs](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADAuditSignInLogs?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

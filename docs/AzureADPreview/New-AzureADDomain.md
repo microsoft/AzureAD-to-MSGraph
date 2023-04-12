@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [New-AzureADDomain](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADDomain)
++ AAD Command: [New-AzureADDomain](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADDomain?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [New-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/New-MgDomain) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=New-MgDomain))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement

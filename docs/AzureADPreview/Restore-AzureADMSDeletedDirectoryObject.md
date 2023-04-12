@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Restore-AzureADMSDeletedDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Restore-AzureADMSDeletedDirectoryObject)
++ AAD Command: [Restore-AzureADMSDeletedDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Restore-AzureADMSDeletedDirectoryObject?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Restore-MgDirectoryDeletedItem](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Restore-MgDirectoryDeletedItem) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Restore-MgDirectoryDeletedItem))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement

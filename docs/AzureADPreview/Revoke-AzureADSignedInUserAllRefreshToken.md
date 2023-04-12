@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Revoke-AzureADSignedInUserAllRefreshToken](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Revoke-AzureADSignedInUserAllRefreshToken)
++ AAD Command: [Revoke-AzureADSignedInUserAllRefreshToken](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Revoke-AzureADSignedInUserAllRefreshToken?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Invoke-MgInvalidateUserRefreshToken](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Invoke-MgInvalidateUserRefreshToken) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Invoke-MgInvalidateUserRefreshToken))
 + Graph Module: Microsoft.Graph.Users.Actions

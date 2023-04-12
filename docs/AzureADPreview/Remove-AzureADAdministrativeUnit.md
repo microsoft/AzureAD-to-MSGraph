@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Remove-AzureADAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADAdministrativeUnit)
++ AAD Command: [Remove-AzureADAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADAdministrativeUnit?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Set-AzureADMSPasswordSingleSignOnCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSPasswordSingleSignOnCredential)
++ AAD Command: [Set-AzureADMSPasswordSingleSignOnCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSPasswordSingleSignOnCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

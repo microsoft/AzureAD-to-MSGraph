@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADMSPrivilegedResource](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSPrivilegedResource)
++ AAD Command: [Get-AzureADMSPrivilegedResource](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSPrivilegedResource?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

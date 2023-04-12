@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Add-AzureADApplicationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADApplicationPolicy)
++ AAD Command: [Add-AzureADApplicationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADApplicationPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

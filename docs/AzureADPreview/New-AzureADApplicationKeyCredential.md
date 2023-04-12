@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [New-AzureADApplicationKeyCredential](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADApplicationKeyCredential)
++ AAD Command: [New-AzureADApplicationKeyCredential](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADApplicationKeyCredential?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Add-MgApplicationKey](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Add-MgApplicationKey) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Add-MgApplicationKey))
 + Graph Module: Microsoft.Graph.Applications

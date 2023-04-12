@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADApplicationSignInDetailedSummary](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADApplicationSignInDetailedSummary)
++ AAD Command: [Get-AzureADApplicationSignInDetailedSummary](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADApplicationSignInDetailedSummary?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

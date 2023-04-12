@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Set-AzureADUserLicense](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADUserLicense)
++ AAD Command: [Set-AzureADUserLicense](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADUserLicense?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Set-MgUserLicense](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users.Actions/Set-MgUserLicense) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Set-MgUserLicense))
 + Graph Module: Microsoft.Graph.Users.Actions

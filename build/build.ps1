@@ -332,6 +332,9 @@ function Add-CalculatedCommandData {
 			}
 			'CommandUrl' {
 				$commandItem.LinkOldCommand = 'https://docs.microsoft.com/en-us/powershell/module/{0}/{1}' -f $commandItem.Module, $commandItem.Name
+				if ('AzureADPreview' -eq $commandItem.Module) {
+					$commandItem.LinkOldCommand = 'https://docs.microsoft.com/en-us/powershell/module/AzureAD/{0}?view=azureadps-2.0-preview' -f $commandItem.Name
+				}
 				$commandItem.LinkNewCommand = foreach ($number in 0..(@($commandItem.NewCommand).Count)) {
 					if (-not @($commandItem.NewCommand)[$number]) { continue }
 					'https://docs.microsoft.com/en-us/powershell/module/{0}/{1}' -f @($commandItem.NewCommandModule)[$number], @($commandItem.NewCommand)[$number]

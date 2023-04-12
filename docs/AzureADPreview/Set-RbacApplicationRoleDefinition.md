@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Set-RbacApplicationRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-RbacApplicationRoleDefinition)
++ AAD Command: [Set-RbacApplicationRoleDefinition](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-RbacApplicationRoleDefinition?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Set-AzureADMSApplicationVerifiedPublisher](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSApplicationVerifiedPublisher)
++ AAD Command: [Set-AzureADMSApplicationVerifiedPublisher](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSApplicationVerifiedPublisher?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Set-MgApplicationVerifiedPublisher](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Set-MgApplicationVerifiedPublisher) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Set-MgApplicationVerifiedPublisher))
 + Graph Module: Microsoft.Graph.Applications

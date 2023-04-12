@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [New-AzureADMSUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSUser)
++ AAD Command: [New-AzureADMSUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSUser?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

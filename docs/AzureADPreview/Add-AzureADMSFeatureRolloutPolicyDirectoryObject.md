@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Add-AzureADMSFeatureRolloutPolicyDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADMSFeatureRolloutPolicyDirectoryObject)
++ AAD Command: [Add-AzureADMSFeatureRolloutPolicyDirectoryObject](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADMSFeatureRolloutPolicyDirectoryObject?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

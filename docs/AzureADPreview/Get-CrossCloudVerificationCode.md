@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Get-CrossCloudVerificationCode](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-CrossCloudVerificationCode)
++ AAD Command: [Get-CrossCloudVerificationCode](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-CrossCloudVerificationCode?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Confirm-MgDomain](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Confirm-MgDomain) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Confirm-MgDomain))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement

@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Remove-AzureADTrustedCertificateAuthority](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADTrustedCertificateAuthority)
++ AAD Command: [Remove-AzureADTrustedCertificateAuthority](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADTrustedCertificateAuthority?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

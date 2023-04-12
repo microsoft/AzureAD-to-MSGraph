@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADDirectorySetting](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADDirectorySetting)
++ AAD Command: [Get-AzureADDirectorySetting](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADDirectorySetting?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

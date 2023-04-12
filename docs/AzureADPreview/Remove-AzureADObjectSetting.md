@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Remove-AzureADObjectSetting](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADObjectSetting)
++ AAD Command: [Remove-AzureADObjectSetting](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADObjectSetting?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

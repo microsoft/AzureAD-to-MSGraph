@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADUser)
++ AAD Command: [Get-AzureADUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADUser?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgUser](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Get-MgUser) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgUser))
 + Graph Module: Microsoft.Graph.Users

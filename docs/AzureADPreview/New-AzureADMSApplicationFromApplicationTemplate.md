@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [New-AzureADMSApplicationFromApplicationTemplate](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSApplicationFromApplicationTemplate)
++ AAD Command: [New-AzureADMSApplicationFromApplicationTemplate](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSApplicationFromApplicationTemplate?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

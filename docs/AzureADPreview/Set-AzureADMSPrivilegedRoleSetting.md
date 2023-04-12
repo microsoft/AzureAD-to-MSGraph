@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Set-AzureADMSPrivilegedRoleSetting](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSPrivilegedRoleSetting)
++ AAD Command: [Set-AzureADMSPrivilegedRoleSetting](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSPrivilegedRoleSetting?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

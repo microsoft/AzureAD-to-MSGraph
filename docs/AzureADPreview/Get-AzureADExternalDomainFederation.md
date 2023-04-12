@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADExternalDomainFederation](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADExternalDomainFederation)
++ AAD Command: [Get-AzureADExternalDomainFederation](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADExternalDomainFederation?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

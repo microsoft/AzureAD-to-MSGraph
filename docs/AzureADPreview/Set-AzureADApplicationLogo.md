@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Set-AzureADApplicationLogo](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADApplicationLogo)
++ AAD Command: [Set-AzureADApplicationLogo](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADApplicationLogo?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Set-MgApplicationLogo](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Applications/Set-MgApplicationLogo) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Set-MgApplicationLogo))
 + Graph Module: Microsoft.Graph.Applications

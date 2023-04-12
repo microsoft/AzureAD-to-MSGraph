@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Open-AzureADMSPrivilegedRoleAssignmentRequest](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Open-AzureADMSPrivilegedRoleAssignmentRequest)
++ AAD Command: [Open-AzureADMSPrivilegedRoleAssignmentRequest](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Open-AzureADMSPrivilegedRoleAssignmentRequest?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

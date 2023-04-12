@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Set-AzureADAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADAdministrativeUnit)
++ AAD Command: [Set-AzureADAdministrativeUnit](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADAdministrativeUnit?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

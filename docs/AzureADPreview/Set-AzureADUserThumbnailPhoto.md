@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Set-AzureADUserThumbnailPhoto](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADUserThumbnailPhoto)
++ AAD Command: [Set-AzureADUserThumbnailPhoto](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADUserThumbnailPhoto?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Set-MgUserPhotoContent](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Users/Set-MgUserPhotoContent) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Set-MgUserPhotoContent))
 + Graph Module: Microsoft.Graph.Users

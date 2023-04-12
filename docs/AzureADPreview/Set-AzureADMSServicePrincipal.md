@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Set-AzureADMSServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Set-AzureADMSServicePrincipal)
++ AAD Command: [Set-AzureADMSServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Set-AzureADMSServicePrincipal?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

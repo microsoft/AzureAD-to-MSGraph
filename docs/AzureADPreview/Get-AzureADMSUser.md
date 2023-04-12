@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADMSUser](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADMSUser)
++ AAD Command: [Get-AzureADMSUser](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADMSUser?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

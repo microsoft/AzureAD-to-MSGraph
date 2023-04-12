@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADAuditDirectoryLogs](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADAuditDirectoryLogs)
++ AAD Command: [Get-AzureADAuditDirectoryLogs](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADAuditDirectoryLogs?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Remove-AzureADApplicationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADApplicationPolicy)
++ AAD Command: [Remove-AzureADApplicationPolicy](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADApplicationPolicy?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

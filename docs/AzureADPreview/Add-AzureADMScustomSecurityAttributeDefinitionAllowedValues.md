@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Add-AzureADMScustomSecurityAttributeDefinitionAllowedValues](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Add-AzureADMScustomSecurityAttributeDefinitionAllowedValues)
++ AAD Command: [Add-AzureADMScustomSecurityAttributeDefinitionAllowedValues](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Add-AzureADMScustomSecurityAttributeDefinitionAllowedValues?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

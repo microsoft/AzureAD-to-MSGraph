@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADPrivilegedRole](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADPrivilegedRole)
++ AAD Command: [Get-AzureADPrivilegedRole](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADPrivilegedRole?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

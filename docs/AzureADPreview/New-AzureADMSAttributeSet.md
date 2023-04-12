@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [New-AzureADMSAttributeSet](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/New-AzureADMSAttributeSet)
++ AAD Command: [New-AzureADMSAttributeSet](https://docs.microsoft.com/en-us/powershell/module/AzureAD/New-AzureADMSAttributeSet?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 

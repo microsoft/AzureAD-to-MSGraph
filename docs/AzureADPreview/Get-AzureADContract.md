@@ -4,7 +4,7 @@
 
 ## Data
 
-+ AAD Command: [Get-AzureADContract](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Get-AzureADContract)
++ AAD Command: [Get-AzureADContract](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Get-AzureADContract?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: [Get-MgContract](https://docs.microsoft.com/en-us/powershell/module/Microsoft.Graph.Identity.DirectoryManagement/Get-MgContract) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q=Get-MgContract))
 + Graph Module: Microsoft.Graph.Identity.DirectoryManagement

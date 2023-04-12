@@ -2,7 +2,7 @@
 
 ## Data
 
-+ AAD Command: [Remove-AzureADDirectorySetting](https://docs.microsoft.com/en-us/powershell/module/AzureADPreview/Remove-AzureADDirectorySetting)
++ AAD Command: [Remove-AzureADDirectorySetting](https://docs.microsoft.com/en-us/powershell/module/AzureAD/Remove-AzureADDirectorySetting?view=azureadps-2.0-preview)
 + AAD Module: AzureADPreview
 + Graph Command: 
 + Graph Module: 
