@@ -324,7 +324,11 @@ function Add-CalculatedCommandData {
 	foreach ($commandItem in $CommandData) {
 		switch ($Type) {
 			'ExampleUrl' {
-				#TODO: Implement
+				# https://github.com/orgs/msgraph/discussions?discussions_q={0}
+				$commandItem.LinkExamples = foreach ($number in 0..(@($commandItem.NewCommand).Count)) {
+					if (-not @($commandItem.NewCommand)[$number]) { continue }
+					'https://github.com/orgs/msgraph/discussions?discussions_q={0}' -f @($commandItem.NewCommand)[$number]
+				}
 			}
 			'CommandUrl' {
 				$commandItem.LinkOldCommand = 'https://docs.microsoft.com/en-us/powershell/module/{0}/{1}' -f $commandItem.Module, $commandItem.Name
@@ -441,7 +445,7 @@ function Export-CommandDocumentation {
 			#region Data
 			$destinationEntry = foreach ($number in 0..(@($commandItem.NewCommand).Count - 1)) {
 				if (-not @($commandItem.NewCommand)[$number]) { continue }
-				'[{0}]({1}) ([Examples](https://github.com/orgs/msgraph/discussions?discussions_q={0}))' -f @($commandItem.NewCommand)[$number], @($commandItem.LinkNewCommand)[$number]
+				'[{0}]({1}) ([Examples]({2}))' -f @($commandItem.NewCommand)[$number], @($commandItem.LinkNewCommand)[$number], @($commandItem.LinkExamples)[$number]
 			}
 
 			$text += @'
@@ -462,13 +466,6 @@ function Export-CommandDocumentation {
 > [Api Reference]({0})
 
 '@ -f $commandItem.LinkApiDocs
-			}
-			if ($commandItem.LinkExamples) {
-				$text += @'
-
-> [Examples for {0}]({1})
-
-'@ -f $commandItem.NewCommandName, $commandItem.LinkExamples
 			}
 	
 			$text += @'
