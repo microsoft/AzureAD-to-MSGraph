@@ -14929,7 +14929,7 @@
 |Type|Scopes|
 |---|---|
 |Application||
-|Delegate||
+|Delegate|OnPremDirectorySynchronization.Read.All, OnPremDirectorySynchronization.ReadWrite.All|
 
 ### Parameters
 
@@ -15436,6 +15436,12 @@
 |Application|DeviceManagementApps.Read.All, DeviceManagementApps.ReadWrite.All, DeviceManagementConfiguration.Read.All, DeviceManagementConfiguration.ReadWrite.All, DeviceManagementManagedDevices.Read.All, DeviceManagementManagedDevices.ReadWrite.All, DeviceManagementServiceConfig.Read.All, DeviceManagementServiceConfig.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All, User.Read.All, User.ReadWrite.All|
 |Delegate|DeviceManagementApps.Read.All, DeviceManagementApps.ReadWrite.All, DeviceManagementConfiguration.Read.All, DeviceManagementConfiguration.ReadWrite.All, DeviceManagementManagedDevices.Read.All, DeviceManagementManagedDevices.ReadWrite.All, DeviceManagementServiceConfig.Read.All, DeviceManagementServiceConfig.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All, User.Read.All, User.ReadBasic.All, User.ReadWrite.All, User.Read, User.ReadWrite|
 
+### Notes
+
+|Type|Message|
+|---|---|
+|Info|To read authentication method information for a user, use Get-MgUserAuthenticationMethod for a list (check the AdditionalProperties property in the results, the default display is quite useless).|
+
 ### Parameters
 
 |AAD Name|Graph Name|AAD Type|Graph Type|Infos|
@@ -15475,7 +15481,7 @@
 
 |Type|Scopes|
 |---|---|
-|Application|RoleManagement.Read.All, RoleManagement.Read.Directory, RoleManagement.ReadWrite.Directory|
+|Application|RoleAssignmentSchedule.Read.Directory, RoleAssignmentSchedule.ReadWrite.Directory, RoleManagement.Read.All, RoleManagement.Read.Directory, RoleManagement.ReadWrite.Directory|
 |Delegate|RoleAssignmentSchedule.Read.Directory, RoleAssignmentSchedule.ReadWrite.Directory, RoleManagement.Read.All, RoleManagement.Read.Directory, RoleManagement.ReadWrite.Directory|
 
 ### Parameters

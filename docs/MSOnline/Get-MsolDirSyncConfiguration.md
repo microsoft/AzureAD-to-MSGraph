@@ -14,7 +14,7 @@
 |Type|Scopes|
 |---|---|
 |Application||
-|Delegate||
+|Delegate|OnPremDirectorySynchronization.Read.All, OnPremDirectorySynchronization.ReadWrite.All|
 
 ## Parameters
 

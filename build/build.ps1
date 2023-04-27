@@ -494,19 +494,19 @@ function Export-CommandDocumentation {
 
 '@
 				if ($commandItem.MsgInfo) {
-					$text = @'
+					$text += @'
 |Info|{0}|
 
 '@ -f $commandItem.MsgInfo
 				}
 				if ($commandItem.MsgWarning) {
-					$text = @'
+					$text += @'
 |Warning|{0}|
 
 '@ -f $commandItem.MsgWarning
 				}
 				if ($commandItem.MsgError) {
-					$text = @'
+					$text += @'
 |Error|{0}|
 
 '@ -f $commandItem.MsgError
