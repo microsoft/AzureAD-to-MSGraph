@@ -234,7 +234,7 @@ Confirm-MsolEmailVerifiedDomain,
 Connect-MsolService,Connect-MgGraph
 Convert-MsolDomainToFederated, New-MgDomainFederationConfiguration
 Convert-MsolDomainToStandard,Remove-MgDomainFederationConfiguration
-Convert-MsolFederatedUser,
+Convert-MsolFederatedUser,Update-MgUserPassword
 Disable-MsolDevice,Update-MgDevice
 Enable-MsolDevice,Update-MgDevice
 Get-MsolAccountSku,Get-MgSubscribedSku
@@ -277,9 +277,9 @@ New-MsolServicePrincipalAddresses,New-MgServicePrincipal
 New-MsolServicePrincipalCredential,Add-MgServicePrincipalKey
 New-MsolUser,New-MgUser
 New-MsolWellKnownGroup,
-Redo-MsolProvisionContact,
-Redo-MsolProvisionGroup,
-Redo-MsolProvisionUser,
+Redo-MsolProvisionContact,Get-MgGroup
+Redo-MsolProvisionGroup,Get-MgGroup
+Redo-MsolProvisionUser,Get-MgUser
 Remove-MsolAdministrativeUnit,Remove-MgDirectoryAdministrativeUnit
 Remove-MsolAdministrativeUnitMember,Remove-MgDirectoryAdministrativeUnitScopedRoleMember
 Remove-MsolApplicationPassword,Remove-MgApplicationPassword
@@ -290,7 +290,7 @@ Remove-MsolFederatedDomain,
 Remove-MsolForeignGroupFromRole,
 Remove-MsolGroup,Remove-MgGroup
 Remove-MsolGroupMember,Remove-MgGroupMemberByRef
-Remove-MsolRoleMember,
+Remove-MsolRoleMember,Remove-MgDirectoryRoleMemberByRef
 Remove-MsolScopedRoleMember,Remove-MgDirectoryRoleScopedMember
 Remove-MsolServicePrincipal,Remove-MgServicePrincipal
 Remove-MsolServicePrincipalCredential,Remove-MgServicePrincipalKey
@@ -304,7 +304,7 @@ Set-MsolCompanyContactInformation,Update-MgOrganization
 Set-MsolCompanyMultiNationalEnabled,
 Set-MsolCompanySecurityComplianceContactInformation,Update-MgOrganization
 Set-MsolCompanySettings,Update-MgOrganization
-Set-MsolDeviceRegistrationServicePolicy,
+Set-MsolDeviceRegistrationServicePolicy,Get-MgPolicyDeviceRegistrationPolicy
 Set-MsolDirSyncConfiguration,
 Set-MsolDirSyncEnabled,Update-MgOrganization
 Set-MsolDirSyncFeature,
@@ -313,7 +313,7 @@ Set-MsolDomainAuthentication,New-MgDomainFederationConfiguration
 Set-MsolDomainFederationSettings,New-MgDomainFederationConfiguration
 Set-MsolGroup,Update-MgGroup
 Set-MsolPartnerInformation,
-Set-MsolPasswordPolicy,
+Set-MsolPasswordPolicy,Update-MgDomain
 Set-MsolServicePrincipal,Update-MgServicePrincipal
 Set-MsolUser,Update-MgUser
 Set-MsolUserLicense,Set-MgUserLicense
